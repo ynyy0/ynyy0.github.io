@@ -7,193 +7,102 @@
   <meta name="description" content="于你有·源 — iOS 越狱软件源。复制源地址，或在 Sileo 中添加。">
   <title>于你有·源</title>
   <style>
-    :root{color-scheme:dark;--page:#101225;--text:#f8f7ff;--muted:#c4c6dc;--card:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.045) 52%,rgba(255,255,255,.085));--edge:rgba(255,255,255,.25);--soft-bg:rgba(255,255,255,.085);--address-bg:rgba(8,10,27,.28);--note:#b0b2ca;--footer:#a0a2bd;--code:#f0eaff}
+    :root{color-scheme:dark;--page:#101225;--text:#f8f7ff;--muted:#c4c6dc;--card:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.045) 52%,rgba(255,255,255,.085));--edge:rgba(255,255,255,.25);--soft:rgba(255,255,255,.085);--address:rgba(8,10,27,.28);--note:#b0b2ca;--footer:#a0a2bd;--code:#f0eaff}
     *{box-sizing:border-box}
-    body{min-height:100vh;margin:0;padding:32px 20px;display:grid;place-items:center;overflow-x:hidden;color:var(--text);background:var(--page);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;transition:background .55s ease,color .4s ease}
+    body{min-height:100vh;margin:0;padding:32px 20px;display:grid;place-items:center;overflow-x:hidden;color:var(--text);background:var(--page);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;transition:background .6s,color .4s}
     .ambient{position:fixed;inset:0;overflow:hidden;pointer-events:none}
-    .orb{position:absolute;width:min(62vw,520px);aspect-ratio:1;border-radius:50%;filter:blur(2px);opacity:.8;animation:drift 16s ease-in-out infinite alternate;transition:filter .6s ease,opacity .6s ease}
-    .orb-one{top:-18%;left:-12%;background:radial-gradient(circle at 35% 35%,#c4b5fd 0,#7866ec 23%,rgba(120,102,236,.05) 68%,transparent 72%)}
-    .orb-two{right:-15%;bottom:-27%;background:radial-gradient(circle at 40% 40%,#8de9df 0,#398bb0 25%,rgba(57,139,176,.04) 68%,transparent 72%);animation-delay:-7s}
-    .orb-three{top:28%;right:12%;width:min(35vw,270px);background:radial-gradient(circle at 35% 35%,#ffc7e9 0,#bb72cc 24%,rgba(187,114,204,.04) 70%,transparent 74%);animation-delay:-3s}
+    .orb{position:absolute;width:min(62vw,520px);aspect-ratio:1;border-radius:50%;filter:blur(2px);opacity:.8;animation:drift 16s ease-in-out infinite alternate}
+    .orb-one{top:-18%;left:-12%;background:radial-gradient(circle at 35% 35%,#c4b5fd 0,#7866ec 23%,transparent 72%)}
+    .orb-two{right:-15%;bottom:-27%;background:radial-gradient(circle at 40% 40%,#8de9df 0,#398bb0 25%,transparent 72%);animation-delay:-7s}
+    .orb-three{top:28%;right:12%;width:min(35vw,270px);background:radial-gradient(circle at 35% 35%,#ffc7e9 0,#bb72cc 24%,transparent 74%);animation-delay:-3s}
     @keyframes drift{to{transform:translate3d(22px,-28px,0) scale(1.06)}}
-    /* Liquid-glass theme: occasional diagonal meteor and continuous full-screen snowfall. */
+    .theme-toggle{position:fixed;z-index:5;top:22px;right:22px;width:54px;height:54px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.3);border-radius:50%;color:#fff3bd;background:rgba(255,255,255,.12);box-shadow:0 8px 28px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.28);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);cursor:pointer;transition:transform .25s,background .4s,border-color .4s}
+    .theme-toggle:hover{transform:scale(1.08)}
+    .sun-icon{width:28px;height:28px;display:block;overflow:visible;animation:sun-turn 14s linear infinite;filter:drop-shadow(0 0 8px rgba(255,213,94,.8))}
+    .sun-icon .sun-core{transform-origin:12px 12px;animation:sun-pulse 2.4s ease-in-out infinite alternate}
+    .moon-icon{display:none;width:25px;height:25px;filter:drop-shadow(0 0 7px rgba(255,207,111,.65))}
+    body.fresh .sun-icon{display:none}body.fresh .moon-icon{display:block}
+    @keyframes sun-turn{to{transform:rotate(360deg)}}@keyframes sun-pulse{to{transform:scale(1.13)}}
+    main{position:relative;z-index:1;width:min(100%,680px)}
+    .card{position:relative;overflow:hidden;padding:clamp(28px,7vw,58px);border:1px solid var(--edge);border-radius:32px;background:var(--card);box-shadow:0 30px 100px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.22);-webkit-backdrop-filter:blur(28px) saturate(155%);backdrop-filter:blur(28px) saturate(155%);transition:background .5s,border-color .5s,box-shadow .5s}
+    .card:before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);pointer-events:none}
+    .card:after{content:"";position:absolute;width:240px;height:240px;top:-155px;right:-100px;border-radius:50%;background:rgba(198,187,255,.28);filter:blur(34px);pointer-events:none;transition:background .5s}
+    .eyebrow{display:flex;justify-content:center;align-items:center;gap:9px;color:#d7ceff;font-size:.76rem;font-weight:750;letter-spacing:.15em}
+    .spark{width:8px;height:8px;border-radius:50%;background:#8df0dc;box-shadow:0 0 17px #8df0dc}
+    h1{display:flex;align-items:center;justify-content:flex-start;gap:.11em;margin:22px 0 16px;text-align:left;font-size:clamp(2.2rem,8vw,4rem);line-height:1.12;letter-spacing:-.055em}
+    .title-dot{display:inline-block;color:#b8a5ff;font-size:1.22em;line-height:.7;text-shadow:0 0 22px rgba(191,169,255,.8)}
+    .intro{max-width:470px;margin:0;color:var(--muted);font-size:1.05rem;line-height:1.8;text-align:left}
+    .actions{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:12px;margin-top:32px}
+    .button{position:relative;isolation:isolate;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 19px;border:1px solid rgba(255,255,255,.23);border-radius:15px;color:var(--text);background:var(--soft);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 8px 24px rgba(0,0,0,.12);font:inherit;font-weight:650;text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);transition:transform .2s,background .3s,border-color .3s,color .3s}
+    .button:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.15)}
+    .button-primary{color:#201735;border-color:rgba(255,255,255,.52);background:linear-gradient(115deg,rgba(229,218,255,.96),rgba(163,239,231,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 9px 28px rgba(131,115,220,.25)}
+    .button-primary:hover{background:linear-gradient(115deg,#f0e9ff,#c0f6ee)}
+    .snow-cap{position:absolute;z-index:2;top:-4px;left:8%;width:84%;height:8px;border-radius:60% 70% 45% 45%;background:linear-gradient(#fff 0%,#e5f5ff 68%,rgba(215,239,255,.55));box-shadow:0 2px 6px rgba(205,235,255,.55);opacity:0;transform:scaleX(.12);transform-origin:center;pointer-events:none;transition:opacity 1.4s ease,transform 2.4s ease}
+    body.snow-built .button .snow-cap{opacity:.94;transform:scaleX(1)}
+    .address-label{margin:34px 0 10px;color:var(--muted);font-size:.82rem;font-weight:650;letter-spacing:.04em;text-align:left}
+    .address{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 12px 12px 16px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:var(--address);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+    code{overflow-wrap:anywhere;color:var(--code);font:.95rem ui-monospace,SFMono-Regular,Menlo,monospace}
+    .copy{flex:0 0 auto;min-height:38px;padding:0 13px;border-radius:11px;font-size:.85rem}
+    .note{margin:19px 0 0;color:var(--note);font-size:.87rem;line-height:1.7;text-align:left}
+    footer{padding:18px 8px 0;color:var(--footer);text-align:left;font-size:.78rem}
     .meteor{position:fixed;z-index:0;top:-15vh;left:-30vw;width:190px;height:2px;opacity:0;pointer-events:none;transform:rotate(42deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.95));filter:drop-shadow(0 0 6px #bdeaff)}
-    .meteor::after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#fff;box-shadow:0 0 12px 4px #bdeaff}
+    .meteor:after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#fff;box-shadow:0 0 12px 4px #bdeaff}
     .meteor.go{animation:meteor-fall 1.5s cubic-bezier(.2,.6,.35,1) forwards}
     @keyframes meteor-fall{0%{opacity:0;translate:0 0}8%{opacity:1}100%{opacity:0;translate:120vw 115vh}}
     .snow-layer{position:fixed;z-index:2;inset:0;overflow:hidden;pointer-events:none}
     .flake{position:absolute;top:-12px;border-radius:50%;background:rgba(255,255,255,.92);box-shadow:0 0 7px rgba(220,242,255,.8);animation:snow-fall linear infinite;will-change:transform}
     @keyframes snow-fall{to{transform:translate3d(var(--sway),110vh,0) rotate(360deg)}}
-    .rainbow{position:fixed;z-index:0;left:50%;top:12%;width:min(90vw,850px);height:min(45vw,430px);border:20px solid transparent;border-bottom:0;border-radius:850px 850px 0 0;background:linear-gradient(transparent,transparent) padding-box,linear-gradient(90deg,#ff7285,#ffc86d,#fff29a,#8ee3a2,#83dff5,#a99aff,#f28bdb) border-box;opacity:0;filter:blur(3px);transform:translateX(-50%) scale(.96);pointer-events:none;transition:opacity 1.8s ease,transform 2s ease}
+    .rainbow{position:fixed;z-index:0;left:50%;top:12%;width:min(90vw,850px);height:min(45vw,430px);border:20px solid transparent;border-bottom:0;border-radius:850px 850px 0 0;background:linear-gradient(transparent,transparent) padding-box,linear-gradient(90deg,#ff7285,#ffc86d,#fff29a,#8ee3a2,#83dff5,#a99aff,#f28bdb) border-box;opacity:0;filter:blur(3px);transform:translateX(-50%) scale(.96);pointer-events:none;transition:opacity 1.8s,transform 2s}
     body.fresh .rainbow{opacity:.22;transform:translateX(-50%) scale(1);animation:rainbow-glow 7s ease-in-out infinite alternate}
     @keyframes rainbow-glow{to{opacity:.38;filter:blur(7px)}}
-    .theme-toggle{position:fixed;z-index:5;top:22px;right:22px;width:54px;height:54px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.3);border-radius:50%;color:#fff3bd;background:rgba(255,255,255,.12);box-shadow:0 8px 28px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.28);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);cursor:pointer;transition:transform .25s ease,background .4s ease,border-color .4s ease}
-    .theme-toggle:hover{transform:scale(1.08)}
-    .sun{display:block;font-size:27px;line-height:1;animation:sun-turn 12s linear infinite,sun-pulse 2.4s ease-in-out infinite alternate;filter:drop-shadow(0 0 9px rgba(255,213,94,.8))}
-    @keyframes sun-turn{to{transform:rotate(360deg)}}@keyframes sun-pulse{to{filter:drop-shadow(0 0 17px rgba(255,223,119,1))}}
-    main{position:relative;z-index:1;width:min(100%,680px)}
-    .card{position:relative;overflow:hidden;padding:clamp(28px,7vw,58px);border:1px solid var(--edge);border-radius:32px;background:var(--card);box-shadow:0 30px 100px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.22);-webkit-backdrop-filter:blur(28px) saturate(155%);backdrop-filter:blur(28px) saturate(155%);transition:background .5s ease,border-color .5s ease,box-shadow .5s ease}
-    .card::before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);pointer-events:none}
-    .card::after{content:"";position:absolute;width:240px;height:240px;top:-155px;right:-100px;border-radius:50%;background:rgba(198,187,255,.28);filter:blur(34px);pointer-events:none;transition:background .5s ease}
-    .eyebrow{display:flex;justify-content:center;align-items:center;gap:9px;color:#d7ceff;font-size:.76rem;font-weight:750;letter-spacing:.15em}
-    .spark{width:8px;height:8px;border-radius:50%;background:#8df0dc;box-shadow:0 0 17px #8df0dc}
-    h1{display:flex;align-items:center;justify-content:flex-start;gap:.11em;margin:22px 0 16px;text-align:left;font-size:clamp(2.2rem,8vw,4rem);line-height:1.12;letter-spacing:-.055em;text-shadow:0 4px 24px rgba(15,10,40,.22)}
-    .title-placeholder{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
-    .title-dot{display:inline-block;margin:0 .02em;color:#b8a5ff;font-size:1.22em;line-height:.7;text-shadow:0 0 22px rgba(191,169,255,.8)}
-    .intro{max-width:470px;margin:0;color:var(--muted);font-size:1.05rem;line-height:1.8;text-align:left}
-    .actions{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:12px;margin-top:32px}
-    .button{position:relative;overflow:visible;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 19px;border:1px solid rgba(255,255,255,.23);border-radius:15px;color:var(--text);background:var(--soft-bg);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 8px 24px rgba(0,0,0,.12);font:inherit;font-weight:650;text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);transition:transform .2s ease,background .3s ease,border-color .3s ease,color .3s ease}
-    .button:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.15)}
-    .button-primary{color:#201735;border-color:rgba(255,255,255,.52);background:linear-gradient(115deg,rgba(229,218,255,.96),rgba(163,239,231,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 9px 28px rgba(131,115,220,.25)}
-    .button-primary:hover{background:linear-gradient(115deg,#f0e9ff,#c0f6ee)}
-    .snow-cap{position:absolute;top:-4px;left:10%;width:80%;height:8px;border-radius:100% 100% 45% 45%;background:linear-gradient(#fff 0%,#e5f5ff 65%,rgba(215,239,255,.65));box-shadow:0 2px 6px rgba(205,235,255,.55);opacity:0;transform:scaleX(.2);transform-origin:center;pointer-events:none;transition:opacity 1.5s ease,transform 2.5s ease}
-    body.snow-built .button .snow-cap{opacity:.93;transform:scaleX(1)}
-    .address-label{margin:34px 0 10px;color:var(--muted);font-size:.82rem;font-weight:650;letter-spacing:.04em;text-align:left}
-    .address{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 12px 12px 16px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:var(--address-bg);box-shadow:inset 0 1px 0 rgba(255,255,255,.08);transition:background .4s ease,border-color .4s ease}
-    code{overflow-wrap:anywhere;color:var(--code);font:.95rem ui-monospace,SFMono-Regular,Menlo,monospace}
-    .copy{flex:0 0 auto;min-height:38px;padding:0 13px;border-radius:11px;font-size:.85rem}
-    .note{margin:19px 0 0;color:var(--note);font-size:.87rem;line-height:1.7;text-align:left}
-    footer{padding:18px 8px 0;color:var(--footer);text-align:left;font-size:.78rem}
-    #toast{position:fixed;z-index:6;left:50%;bottom:24px;padding:11px 16px;border:1px solid rgba(255,255,255,.22);border-radius:13px;background:rgba(35,36,57,.8);color:var(--text);box-shadow:0 12px 34px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);opacity:0;transform:translate(-50%,10px);transition:.2s ease;pointer-events:none}
-    #toast.show{opacity:1;transform:translate(-50%,0)}
-    .bird{position:fixed;z-index:4;left:0;top:0;font-size:27px;line-height:1;opacity:0;pointer-events:none;filter:drop-shadow(0 2px 3px rgba(38,87,73,.2));transition:left 2.2s ease-in-out,top 2.2s ease-in-out,transform .35s ease,opacity .5s ease}
-    .bird.flying{opacity:.95;animation:bird-flap .42s ease-in-out infinite alternate}
-    .bird.perched{opacity:1;animation:bird-bob 2s ease-in-out infinite}
+    .bird{position:fixed;z-index:4;left:0;top:0;font-size:27px;line-height:1;opacity:0;pointer-events:none;filter:drop-shadow(0 2px 3px rgba(38,87,73,.2));transition:left 2.2s ease-in-out,top 2.2s ease-in-out,transform .35s,opacity .5s}
+    .bird.flying{opacity:.95;animation:bird-flap .42s ease-in-out infinite alternate}.bird.perched{opacity:1;animation:bird-bob 2s ease-in-out infinite}
     @keyframes bird-flap{to{translate:0 -5px;rotate:-5deg}}@keyframes bird-bob{50%{translate:0 -2px}}
-    body.fresh{color-scheme:light;--page:#eaf8f3;--text:#28443e;--muted:#55766d;--card:linear-gradient(135deg,rgba(255,255,255,.76),rgba(255,255,255,.43));--edge:rgba(255,255,255,.82);--soft-bg:rgba(255,255,255,.48);--address-bg:rgba(255,255,255,.48);--note:#668078;--footer:#718b83;--code:#345b50}
-    body.fresh .orb-one{background:radial-gradient(circle at 35% 35%,#ffe5ad 0,#ffc877 24%,rgba(255,200,119,.06) 68%,transparent 72%)}
-    body.fresh .orb-two{background:radial-gradient(circle at 40% 40%,#9de8d1 0,#8bcfc6 25%,rgba(139,207,198,.05) 68%,transparent 72%)}
-    body.fresh .orb-three{background:radial-gradient(circle at 35% 35%,#ffd4e5 0,#f3a8c9 24%,rgba(243,168,201,.05) 70%,transparent 74%)}
-    body.fresh .card{box-shadow:0 30px 90px rgba(74,132,115,.17),inset 0 1px 0 rgba(255,255,255,.9)}
-    body.fresh .card::after{background:rgba(255,218,154,.4)}
-    body.fresh .eyebrow{color:#588879}
-    body.fresh .title-dot{color:#e89d57;text-shadow:0 0 20px rgba(255,189,111,.65)}
-    body.fresh .button{border-color:rgba(94,147,131,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.85),0 8px 22px rgba(71,130,113,.1)}
-    body.fresh .button:not(.button-primary){color:#365c51}
-    body.fresh .button-primary{color:#254a40;border-color:rgba(255,255,255,.8);background:linear-gradient(115deg,#fff0c8,#bcebdc)}
-    body.fresh .theme-toggle{color:#e6a638;border-color:rgba(99,151,134,.25);background:rgba(255,255,255,.62);box-shadow:0 8px 24px rgba(68,124,109,.15),inset 0 1px 0 #fff}
-    body.fresh .sun{filter:drop-shadow(0 0 9px rgba(255,190,69,.65))}
-    body.fresh #toast{color:var(--text);background:rgba(255,255,255,.82);border-color:rgba(94,147,131,.2)}
+    #toast{position:fixed;z-index:6;left:50%;bottom:24px;padding:11px 16px;border:1px solid rgba(255,255,255,.22);border-radius:13px;background:rgba(35,36,57,.8);color:var(--text);box-shadow:0 12px 34px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);opacity:0;transform:translate(-50%,10px);transition:.2s;pointer-events:none}
+    #toast.show{opacity:1;transform:translate(-50%,0)}
+    body.fresh{color-scheme:light;--page:#eaf8f3;--text:#28443e;--muted:#55766d;--card:linear-gradient(135deg,rgba(255,255,255,.76),rgba(255,255,255,.43));--edge:rgba(255,255,255,.82);--soft:rgba(255,255,255,.48);--address:rgba(255,255,255,.48);--note:#668078;--footer:#718b83;--code:#345b50}
+    body.fresh .orb-one{background:radial-gradient(circle at 35% 35%,#ffe5ad 0,#ffc877 24%,transparent 72%)}body.fresh .orb-two{background:radial-gradient(circle at 40% 40%,#9de8d1 0,#8bcfc6 25%,transparent 72%)}body.fresh .orb-three{background:radial-gradient(circle at 35% 35%,#ffd4e5 0,#f3a8c9 24%,transparent 74%)}
+    body.fresh .card{box-shadow:0 30px 90px rgba(74,132,115,.17),inset 0 1px 0 rgba(255,255,255,.9)}body.fresh .card:after{background:rgba(255,218,154,.4)}body.fresh .eyebrow{color:#588879}body.fresh .title-dot{color:#e89d57;text-shadow:0 0 20px rgba(255,189,111,.65)}
+    body.fresh .button{border-color:rgba(94,147,131,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.85),0 8px 22px rgba(71,130,113,.1)}body.fresh .button:not(.button-primary){color:#365c51}body.fresh .button-primary{color:#254a40;border-color:rgba(255,255,255,.8);background:linear-gradient(115deg,#fff0c8,#bcebdc)}
+    body.fresh .theme-toggle{color:#e6a638;border-color:rgba(99,151,134,.25);background:rgba(255,255,255,.62);box-shadow:0 8px 24px rgba(68,124,109,.15),inset 0 1px 0 #fff}body.fresh #toast{color:var(--text);background:rgba(255,255,255,.82);border-color:rgba(94,147,131,.2)}
     body.fresh .meteor,body.fresh .snow-layer{display:none}
     @media(max-width:440px){.theme-toggle{top:14px;right:14px;width:48px;height:48px}.card{padding-top:64px}.address{align-items:stretch;flex-direction:column}.copy{width:100%}.actions .button{flex:1 1 100%}.rainbow{top:10%;border-width:12px}}
-    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.meteor,.snow-layer,.bird{display:none!important}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.meteor,.snow-layer,.bird{display:none!important}}
   </style>
 </head>
 <body>
   <div class="ambient" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div></div>
-  <div class="rainbow" aria-hidden="true"></div>
-  <div class="meteor" id="meteor" aria-hidden="true"></div>
-  <div class="snow-layer" id="snow-layer" aria-hidden="true"></div>
-  <span class="bird" id="bird" aria-hidden="true">🐦</span>
-  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换清新主题" aria-pressed="false" title="切换清新主题"><span class="sun" aria-hidden="true">☼</span></button>
-  <main>
-    <section class="card" aria-labelledby="title">
-      <div class="eyebrow"><span class="spark" aria-hidden="true"></span> iOS PACKAGE SOURCE</div>
-      <h1 id="title"><span class="title-placeholder" aria-hidden="true">ㅤㅤㅤㅤㅤㅤㅤㅤ</span><span>于你有</span><span class="title-dot" aria-hidden="true">·</span><span>源</span></h1>
-      <p class="intro">欢迎来到我的软件源。通过 Sileo 添加源地址，发现并管理适用于你的越狱环境的软件包。</p>
-      <div class="actions">
-        <a class="button button-primary" href="sileo://source/https://ynyy0.github.io/" aria-label="在 Sileo 中添加于你有源"><span aria-hidden="true">＋</span> 添加到 Sileo<span class="snow-cap" aria-hidden="true"></span></a>
-        <a class="button" href="https://qm.qq.com/q/r781ixQ16q" target="_blank" rel="noopener noreferrer">加入交流群 <span aria-hidden="true">↗</span><span class="snow-cap" aria-hidden="true"></span></a>
-      </div>
-      <p class="address-label">软件源地址</p>
-      <div class="address"><code id="source-url">https://ynyy0.github.io/</code><button class="button copy" id="copy-button" type="button">复制地址<span class="snow-cap" aria-hidden="true"></span></button></div>
-      <p class="note">在兼容的软件包管理器中添加此地址即可。软件包是否可用，取决于源中已发布的兼容软件包。</p>
-    </section>
-    <footer>ㅤㅤㅤㅤㅤㅤㅤㅤ于你有·源 · 个人软件源</footer>
-  </main>
+  <div class="rainbow" aria-hidden="true"></div><div class="meteor" id="meteor" aria-hidden="true"></div><div class="snow-layer" id="snow-layer" aria-hidden="true"></div><span class="bird" id="bird" aria-hidden="true">🐦</span>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换清新主题" aria-pressed="false" title="切换清新主题">
+    <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><g class="sun-core" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"><circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"/><path d="M12 1.8v2.1M12 20.1v2.1M1.8 12h2.1M20.1 12h2.1M4.78 4.78l1.48 1.48m11.48 11.48 1.48 1.48m0-14.44-1.48 1.48M6.26 17.74l-1.48 1.48"/></g></svg>
+    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.3 15.1A8.8 8.8 0 0 1 8.9 3.7 8.9 8.9 0 1 0 20.3 15.1Z" fill="currentColor"/><path d="m17.5 4 .5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5.5-1.5Z" fill="currentColor"/></svg>
+  </button>
+  <main><section class="card" aria-labelledby="title">
+    <div class="eyebrow"><span class="spark" aria-hidden="true"></span> iOS PACKAGE SOURCE</div>
+    <h1 id="title"><span>于你有</span><span class="title-dot" aria-hidden="true">·</span><span>源</span></h1>
+    <p class="intro">欢迎来到我的软件源。通过 Sileo 添加源地址，发现并管理适用于你的越狱环境的软件包。</p>
+    <div class="actions">
+      <a class="button button-primary" href="sileo://source/https://ynyy0.github.io/" aria-label="在 Sileo 中添加于你有源"><span aria-hidden="true">＋</span> 添加到 Sileo<span class="snow-cap" aria-hidden="true"></span></a>
+      <a class="button" href="https://qm.qq.com/q/r781ixQ16q" target="_blank" rel="noopener noreferrer">加入交流群 <span aria-hidden="true">↗</span><span class="snow-cap" aria-hidden="true"></span></a>
+    </div>
+    <p class="address-label">软件源地址</p>
+    <div class="address"><code id="source-url">https://ynyy0.github.io/</code><button class="button copy" id="copy-button" type="button">复制地址<span class="snow-cap" aria-hidden="true"></span></button></div>
+    <p class="note">在兼容的软件包管理器中添加此地址即可。软件包是否可用，取决于源中已发布的兼容软件包。</p>
+  </section><footer>于你有·源 · 个人软件源</footer></main>
   <div id="toast" role="status" aria-live="polite"></div>
   <script>
-    const copyButton=document.getElementById('copy-button');
-    const themeToggle=document.getElementById('theme-toggle');
-    const toast=document.getElementById('toast');
-    const snowLayer=document.getElementById('snow-layer');
-    const meteor=document.getElementById('meteor');
-    const bird=document.getElementById('bird');
+    const copyButton=document.getElementById('copy-button'),themeToggle=document.getElementById('theme-toggle'),toast=document.getElementById('toast'),snowLayer=document.getElementById('snow-layer'),meteor=document.getElementById('meteor'),bird=document.getElementById('bird');
     let toastTimer,meteorTimer,birdTimer;
     const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
     if(!reducedMotion){
-      for(let i=0;i<42;i++){
-        const flake=document.createElement('i');
-        flake.className='flake';
-        const size=2+Math.random()*5;
-        flake.style.left=(Math.random()*100)+'%';
-        flake.style.width=size+'px';
-        flake.style.height=size+'px';
-        flake.style.opacity=(.35+Math.random()*.6).toFixed(2);
-        flake.style.setProperty('--sway',((Math.random()-.5)*140)+'px');
-        flake.style.animationDuration=(7+Math.random()*11)+'s';
-        flake.style.animationDelay=(-Math.random()*18)+'s';
-        snowLayer.appendChild(flake);
-      }
-      const launchMeteor=()=>{
-        if(!document.body.classList.contains('fresh')){
-          meteor.classList.remove('go');
-          void meteor.offsetWidth;
-          meteor.classList.add('go');
-        }
-        meteorTimer=setTimeout(launchMeteor,6500+Math.random()*7000);
-      };
+      for(let i=0;i<42;i++){const flake=document.createElement('i');flake.className='flake';const size=2+Math.random()*5;flake.style.left=Math.random()*100+'%';flake.style.width=size+'px';flake.style.height=size+'px';flake.style.opacity=(.35+Math.random()*.6).toFixed(2);flake.style.setProperty('--sway',((Math.random()-.5)*140)+'px');flake.style.animationDuration=7+Math.random()*11+'s';flake.style.animationDelay=-Math.random()*18+'s';snowLayer.appendChild(flake)}
+      const launchMeteor=()=>{if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}meteorTimer=setTimeout(launchMeteor,6500+Math.random()*7000)};
       meteorTimer=setTimeout(launchMeteor,1800);
-
-      const moveBird=()=>{
-        if(!document.body.classList.contains('fresh')){birdTimer=setTimeout(moveBird,4500);return;}
-        const buttons=[...document.querySelectorAll('.button')];
-        const target=buttons[Math.floor(Math.random()*buttons.length)];
-        const rect=target.getBoundingClientRect();
-        const fromLeft=Math.random()>.5;
-        bird.classList.remove('perched');
-        bird.classList.add('flying');
-        bird.style.transitionDuration='2.2s';
-        bird.style.left=(fromLeft?-40:innerWidth+10)+'px';
-        bird.style.top=(Math.max(28,Math.random()*(innerHeight*.55)))+'px';
-        bird.style.transform=fromLeft?'scaleX(1)':'scaleX(-1)';
-        requestAnimationFrame(()=>requestAnimationFrame(()=>{
-          bird.style.left=(rect.left+rect.width*.68-8)+'px';
-          bird.style.top=(rect.top-25)+'px';
-        }));
-        birdTimer=setTimeout(()=>{
-          bird.classList.remove('flying');
-          bird.classList.add('perched');
-          birdTimer=setTimeout(()=>{
-            bird.classList.remove('perched');
-            bird.classList.add('flying');
-            bird.style.left=(Math.random()>.5?innerWidth+20:-50)+'px';
-            bird.style.top=Math.max(24,Math.random()*(innerHeight*.65))+'px';
-            birdTimer=setTimeout(()=>{bird.classList.remove('flying');bird.style.opacity='0';birdTimer=setTimeout(moveBird,1800)},2300);
-          },1800+Math.random()*1800);
-        },2300);
-      };
-      birdTimer=setTimeout(moveBird,1600);
     }
-
-    themeToggle.addEventListener('click',()=>{
-      const isFresh=document.body.classList.toggle('fresh');
-      document.body.classList.remove('snow-built');
-      if(!isFresh){
-        bird.classList.remove('perched','flying');
-        bird.style.opacity='0';
-        clearTimeout(birdTimer);
-      }else if(!reducedMotion){
-        clearTimeout(birdTimer);
-        birdTimer=setTimeout(()=>{bird.style.opacity='';moveBird()},900);
-      }
-      themeToggle.setAttribute('aria-pressed',String(isFresh));
-      themeToggle.setAttribute('aria-label',isFresh?'切换回玻璃液态深色主题':'切换清新主题');
-      themeToggle.title=isFresh?'切换回玻璃液态深色主题':'切换清新主题';
-      document.querySelector('meta[name="theme-color"]').content=isFresh?'#eaf8f3':'#101225';
-    });
-
-    copyButton.addEventListener('click',async()=>{
-      const url=document.getElementById('source-url').textContent;
-      try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}
-      catch{
-        const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();
-        const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制';
-      }
-      if(!document.body.classList.contains('fresh'))document.body.classList.add('snow-built');
-      toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
-    });
+    function moveBird(){if(reducedMotion||!document.body.classList.contains('fresh'))return;const buttons=[...document.querySelectorAll('.button')];const target=buttons[Math.floor(Math.random()*buttons.length)];const rect=target.getBoundingClientRect();const fromLeft=Math.random()>.5;bird.classList.remove('perched');bird.classList.add('flying');bird.style.opacity='';bird.style.transitionDuration='2.2s';bird.style.left=(fromLeft?-40:innerWidth+10)+'px';bird.style.top=Math.max(28,Math.random()*innerHeight*.55)+'px';bird.style.transform=fromLeft?'scaleX(1)':'scaleX(-1)';requestAnimationFrame(()=>requestAnimationFrame(()=>{bird.style.left=rect.left+rect.width*.68-8+'px';bird.style.top=rect.top-25+'px'}));birdTimer=setTimeout(()=>{bird.classList.remove('flying');bird.classList.add('perched');birdTimer=setTimeout(()=>{bird.classList.remove('perched');bird.classList.add('flying');bird.style.left=(Math.random()>.5?innerWidth+20:-50)+'px';bird.style.top=Math.max(24,Math.random()*innerHeight*.65)+'px';birdTimer=setTimeout(()=>{bird.classList.remove('flying');bird.style.opacity='0';birdTimer=setTimeout(moveBird,1800)},2300)},1800+Math.random()*1800)},2300)}
+    if(!reducedMotion)birdTimer=setTimeout(moveBird,1600);
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.body.classList.remove('snow-built');clearTimeout(birdTimer);bird.classList.remove('flying','perched');bird.style.opacity='0';if(fresh&&!reducedMotion)birdTimer=setTimeout(moveBird,900);themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换回玻璃液态深色主题':'切换清新主题');themeToggle.title=fresh?'切换回玻璃液态深色主题':'切换清新主题';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225'});
+    copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}if(!document.body.classList.contains('fresh'))document.body.classList.add('snow-built');toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
 </html>
