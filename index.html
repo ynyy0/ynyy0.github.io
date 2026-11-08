@@ -3,17 +3,155 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101225">
+  <meta name="description" content="于你有源 — iOS 越狱软件源。复制源地址，或在 Sileo 中添加。">
   <title>ㅤㅤㅤㅤㅤㅤㅤㅤ于你有源</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1rem; color: #222; }
-    a { display: inline-block; margin: .5rem; padding: .8rem 1.2rem; background: #3478f6; color: white; text-decoration: none; border-radius: 10px; }
+    :root {
+      color-scheme: dark;
+      --bg: #101225;
+      --text: #f7f7ff;
+      --muted: #b6b8d0;
+      --accent: #c5b8ff;
+      --line: rgba(255,255,255,.13);
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 32px 20px;
+      display: grid;
+      place-items: center;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse at 18% 15%, rgba(114,91,224,.3), transparent 38%),
+        radial-gradient(ellipse at 88% 82%, rgba(42,185,187,.17), transparent 34%),
+        var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(100%, 680px); }
+    .card {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(28px, 7vw, 58px);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035));
+      box-shadow: 0 28px 90px rgba(0,0,0,.32);
+      backdrop-filter: blur(18px);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      top: -130px;
+      right: -80px;
+      border-radius: 50%;
+      background: rgba(197,184,255,.16);
+      filter: blur(4px);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .spark { width: 8px; height: 8px; border-radius: 50%; background: #79e2ce; box-shadow: 0 0 15px #79e2ce; }
+    h1 { margin: 22px 0 12px; font-size: clamp(2.2rem, 8vw, 4rem); line-height: 1.12; letter-spacing: -.055em; }
+    .intro { max-width: 470px; margin: 0; color: var(--muted); font-size: 1.05rem; line-height: 1.8; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 0 19px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      color: var(--text);
+      font: inherit;
+      font-weight: 650;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); border-color: rgba(255,255,255,.3); }
+    .button-primary { color: #18142a; border-color: transparent; background: linear-gradient(110deg, #d6caff, #9be4df); }
+    .button-primary:hover { background: linear-gradient(110deg, #e1d8ff, #b3f1e9); }
+    .address-label { margin: 34px 0 10px; color: var(--muted); font-size: .82rem; font-weight: 650; letter-spacing: .04em; }
+    .address {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 12px 12px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(7,8,20,.32);
+    }
+    code { overflow-wrap: anywhere; color: #e6e1ff; font: .95rem ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .copy { flex: 0 0 auto; min-height: 38px; padding: 0 13px; border-radius: 10px; font-size: .85rem; }
+    .note { margin: 19px 0 0; color: #9699b4; font-size: .87rem; line-height: 1.7; }
+    footer { padding: 18px 8px 0; color: #82859f; text-align: center; font-size: .78rem; }
+    #toast { position: fixed; left: 50%; bottom: 24px; padding: 11px 16px; border: 1px solid var(--line); border-radius: 12px; background: #24253a; color: var(--text); opacity: 0; transform: translate(-50%, 10px); transition: .2s ease; pointer-events: none; }
+    #toast.show { opacity: 1; transform: translate(-50%, 0); }
+    @media (max-width: 440px) { .address { align-items: stretch; flex-direction: column; } .copy { width: 100%; } .actions .button { flex: 1 1 100%; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
   </style>
 </head>
 <body>
-  <h1>ㅤㅤㅤㅤㅤㅤㅤㅤ于你有源</h1>
-  <p>添加此源到支持的越狱软件包管理器：</p>
-  <a href="sileo://source/https://ynyy0.github.io/">添加到 Sileo</a>
-  <p>源地址：<code>https://ynyy0.github.io/</code></p>
-  <p>上传有权发布的 .deb 文件并生成 APT 索引后，即可通过此源安装软件包。</p>
+  <main>
+    <section class="card" aria-labelledby="title">
+      <div class="eyebrow"><span class="spark" aria-hidden="true"></span> iOS PACKAGE SOURCE</div>
+      <h1 id="title">ㅤㅤㅤㅤㅤㅤㅤㅤ于你有源</h1>
+      <p class="intro">欢迎来到我的软件源。通过 Sileo 添加源地址，发现并管理适用于你的越狱环境的软件包。</p>
+      <div class="actions">
+        <a class="button button-primary" href="sileo://source/https://ynyy0.github.io/" aria-label="在 Sileo 中添加于你有源">
+          <span aria-hidden="true">＋</span> 添加到 Sileo
+        </a>
+        <a class="button" href="https://github.com/ynyy0/ynyy0.github.io">查看 GitHub 仓库 <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="address-label">软件源地址</p>
+      <div class="address">
+        <code id="source-url">https://ynyy0.github.io/</code>
+        <button class="button copy" id="copy-button" type="button">复制地址</button>
+      </div>
+      <p class="note">在兼容的软件包管理器中添加此地址即可。软件包是否可用，取决于源中已发布的兼容软件包。</p>
+    </section>
+    <footer>ㅤㅤㅤㅤㅤㅤㅤㅤ于你有源 · 个人软件源</footer>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const button = document.getElementById('copy-button');
+    const toast = document.getElementById('toast');
+    let toastTimer;
+    button.addEventListener('click', async () => {
+      const url = document.getElementById('source-url').textContent;
+      try {
+        await navigator.clipboard.writeText(url);
+        toast.textContent = '源地址已复制';
+      } catch {
+        const field = document.createElement('textarea');
+        field.value = url;
+        field.style.position = 'fixed';
+        field.style.opacity = '0';
+        document.body.appendChild(field);
+        field.select();
+        const copied = document.execCommand('copy');
+        field.remove();
+        toast.textContent = copied ? '源地址已复制' : '请长按地址手动复制';
+      }
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+    });
+  </script>
 </body>
 </html>
