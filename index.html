@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101225">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="description" content="于你有·源 — iOS 越狱软件源。复制源地址，或在 Sileo 中添加。">
@@ -10,8 +11,8 @@
   <style>
     :root{color-scheme:dark;--page:#101225;--text:#f8f7ff;--muted:#c4c6dc;--card:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.045) 52%,rgba(255,255,255,.085));--edge:rgba(255,255,255,.25);--soft:rgba(255,255,255,.085);--address:rgba(8,10,27,.28);--note:#b0b2ca;--footer:#a0a2bd;--code:#f0eaff}
     *{box-sizing:border-box}
-    html{min-height:100%;background:transparent}
-    body{min-height:100vh;min-height:100svh;margin:0;padding:calc(32px + env(safe-area-inset-top)) 20px 32px;display:grid;place-items:center;overflow-x:hidden;color:var(--text);background:linear-gradient(to bottom,transparent 0,transparent env(safe-area-inset-top),var(--page) env(safe-area-inset-top));font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    html{min-height:100%;background:#101225}
+    body{min-height:100vh;min-height:100svh;margin:0;padding:calc(32px + env(safe-area-inset-top)) 20px 32px;display:grid;place-items:center;overflow-x:hidden;color:var(--text);background:var(--page);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     .ambient{position:fixed;inset:0;overflow:hidden;pointer-events:none}.orb{position:absolute;width:min(62vw,520px);aspect-ratio:1;border-radius:50%;filter:blur(2px);opacity:.8}.orb-one{top:-18%;left:-12%;background:radial-gradient(circle at 35% 35%,#c4b5fd 0,#7866ec 23%,transparent 72%)}.orb-two{right:-15%;bottom:-27%;background:radial-gradient(circle at 40% 40%,#8de9df 0,#398bb0 25%,transparent 72%)}.orb-three{top:28%;right:12%;width:min(35vw,270px);background:radial-gradient(circle at 35% 35%,#ffc7e9 0,#bb72cc 24%,transparent 74%)}
     .theme-toggle{position:fixed;z-index:3;top:calc(22px + env(safe-area-inset-top));right:22px;width:54px;height:54px;padding:0;display:grid;place-items:center;border:1px solid rgba(255,255,255,.3);border-radius:50%;color:#ffd76b;background:rgba(255,255,255,.12);box-shadow:0 8px 24px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.2);cursor:pointer;line-height:0}.theme-toggle:hover{background:rgba(255,255,255,.18)}.sun-mark{position:relative;width:28px;height:28px;display:block;border-radius:50%;background:repeating-conic-gradient(#ffd76b 0deg 7deg,transparent 7deg 45deg)}.sun-mark:after{content:"";position:absolute;inset:7px;border-radius:50%;background:#ffe895}.moon-mark{display:none;width:25px;height:25px;fill:#efa94b}
     main{position:relative;z-index:1;width:min(100%,680px)}.card{position:relative;overflow:hidden;padding:clamp(28px,7vw,58px);border:1px solid var(--edge);border-radius:32px;background:var(--card);box-shadow:0 30px 100px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.22);-webkit-backdrop-filter:blur(28px) saturate(155%);backdrop-filter:blur(28px) saturate(155%)}.card:before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);pointer-events:none}.card:after{content:"";position:absolute;width:240px;height:240px;top:-155px;right:-100px;border-radius:50%;background:rgba(198,187,255,.28);filter:blur(34px);pointer-events:none}
@@ -43,7 +44,7 @@
   <script>
     const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),leafLayer=document.getElementById('leaf-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(!reducedMotion){for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换回玻璃液态深色主题':'切换清新主题');themeToggle.title=fresh?'切换回玻璃液态深色主题':'切换清新主题'});
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换回玻璃液态深色主题':'切换清新主题');themeToggle.title=fresh?'切换回玻璃液态深色主题':'切换清新主题'});
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
