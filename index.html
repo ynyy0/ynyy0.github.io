@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#101225">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="于你有·源 — iOS 越狱软件源。复制源地址，或在 Sileo 中添加。">
   <title>于你有·源</title>
   <style>
@@ -45,7 +45,7 @@
   <script>
     const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),meteor=document.getElementById('meteor'),leafLayer=document.getElementById('leaf-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(!reducedMotion){function launchMeteor(){if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}setTimeout(launchMeteor,6000+Math.random()*6000)}setTimeout(launchMeteor,1800);for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'transparent';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'transparent';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换回玻璃液态深色主题':'切换清新主题');themeToggle.title=fresh?'切换回玻璃液态深色主题':'切换清新主题'});
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换回玻璃液态深色主题':'切换清新主题');themeToggle.title=fresh?'切换回玻璃液态深色主题':'切换清新主题'});
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
