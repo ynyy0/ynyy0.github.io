@@ -37,11 +37,11 @@ jobs:
               lines = stanza.splitlines()
               if any(line == 'Package: iya.banana.ios27animation' for line in lines):
                   lines = [
-                      'Section: 免费公益' if line.startswith('Section: ') else line
+                      'Section: 公益插件' if line.startswith('Section: ') else line
                       for line in lines
                   ]
                   if not any(line.startswith('Section: ') for line in lines):
-                      lines.append('Section: 免费公益')
+                      lines.append('Section: 公益插件')
               updated.append('\n'.join(lines))
           path.write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
           PY
