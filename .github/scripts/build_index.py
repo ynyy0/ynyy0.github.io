@@ -4,6 +4,7 @@
 Shared by .github/workflows/release.yml (commits the result back to the repo)
 and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
+import hashlib
 import json
 import re
 import subprocess
@@ -24,6 +25,24 @@ def load_meta():
         return json.loads(META_FILE.read_text(encoding='utf-8')).get('plugins', {})
     except Exception:
         return {}
+
+
+def find_override(overrides, package):
+    """精确匹配优先，再兼容 deb control 大小写差异。"""
+    if package in overrides:
+        return overrides[package]
+    for key, value in overrides.items():
+        if key.lower() == package.lower():
+            return value
+    return {}
+
+
+def icon_version(path):
+    """图标内容哈希：换图后 URL 变化，客户端不会拿旧缓存。"""
+    try:
+        return hashlib.sha256(path.read_bytes()).hexdigest()[:8]
+    except Exception:
+        return '0'
 
 
 def main():
@@ -58,7 +77,7 @@ def main():
                     icon_path = matches[0]
             if icon_path.is_file():
                 lines = [line for line in lines if not line.startswith('Icon: ')]
-                lines.append(f'Icon: {ICON_BASE}{icon_path.name}')
+                lines.append(f'Icon: {ICON_BASE}{icon_path.name}?v={icon_version(icon_path)}')
             elif not any(line.startswith('Icon: ') for line in lines):
                 lines.append(f'Icon: {DEFAULT_ICON}')
 
@@ -75,7 +94,7 @@ def main():
                 lines.append('Section: 公益插件')
 
         # 管理台写入的显示名 / 描述覆盖，优先级最高
-        ov = overrides.get(package, {})
+        ov = find_override(overrides, package)
         if ov.get('name'):
             lines = [line for line in lines if not line.startswith('Name: ')]
             lines.append('Name: ' + str(ov['name']))
