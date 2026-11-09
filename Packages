@@ -68,7 +68,7 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.copyvault.png?v=3de88819
-Section: 测试
+Section: 测试 1
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
@@ -599,10 +599,10 @@ MD5sum: fe55bfd09a850c363052c192ef1fea16
 SHA1: 7501163aa4d4a048b46c7caaacc413b91e7451c8
 SHA256: 5877d8f7d34816534d619cd2207b01bf5ce8a7b6312447ce0d3c82c2777b0621
 Section: 分屏插件
+Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
 Author: go
+Name: 芒果分屏1.0-Beta7-6
 Icon: https://ynyy0.github.io/icons/com.go.mango.png?v=b88616e2
-Name: 芒果测试
-Description: 测试
 
 Package: com.mallin.tunnelsharevpn
 Version: 1.2.6
@@ -741,5 +741,5 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/icons/iya.banana.ios27animation.png?v=203f9d18
-Section: 测试
+Section: 测试 1
 
