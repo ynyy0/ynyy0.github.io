@@ -26,6 +26,25 @@ jobs:
       - name: Generate APT indexes
         run: |
           dpkg-scanpackages -m debs /dev/null > Packages
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('Packages')
+          text = path.read_text(encoding='utf-8')
+          stanzas = text.rstrip('\n').split('\n\n')
+          updated = []
+          for stanza in stanzas:
+              lines = stanza.splitlines()
+              if any(line == 'Package: iya.banana.ios27animation' for line in lines):
+                  lines = [
+                      'Section: 免费公益' if line.startswith('Section: ') else line
+                      for line in lines
+                  ]
+                  if not any(line.startswith('Section: ') for line in lines):
+                      lines.append('Section: 免费公益')
+              updated.append('\n'.join(lines))
+          path.write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
+          PY
           bzip2 -9 -k -f Packages
           xz -9 -e -k -f Packages
           zstd --ultra -22 -k -f Packages -o Packages.zst
