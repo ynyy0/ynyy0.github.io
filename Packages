@@ -344,9 +344,9 @@ SHA256: 1fa090a837b2c4d059e4e8136275bbfeaafd66d58c981e320ed7893e4ddd2d5d
 Section: Tweaks
 Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
 Author: Jonathan Winger-lang
-Icon: https://axs66.github.io/pro/icon/snapper.png
 Name: snapper3
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
+Icon: https://ynyy0.github.io/icons/com.axs.snapper3.png
 
 Package: com.Axs.xmzs
 Version: 1.1-4C
