@@ -52,7 +52,7 @@
     createStars();
     function clearSnow(){if(!snowStarted)return;snowStarted=false;cancelAnimationFrame(snowFrameId);snowflakes=[];snowLayer.innerHTML=''}
     function startSnow(){
-      if(snowStarted || document.body.classList.contains('fresh')) return;
+      if(snowStarted || !document.body.classList.contains('fresh')) return;
       snowStarted=true;
       const buttons=[...document.querySelectorAll('.button')];
       snowflakes=[];snowLayer.innerHTML='';
@@ -81,7 +81,8 @@
       snowFrameId=requestAnimationFrame(tick);
     }
     if(!reducedMotion){function launchMeteor(){if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}setTimeout(launchMeteor,6000+Math.random()*6000)}setTimeout(launchMeteor,1800);for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格';if(fresh){clearSnow()}else{startSnow()}});
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格';if(fresh){startSnow()}else{clearSnow()}});
+    if(document.body.classList.contains('fresh')) startSnow();
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
