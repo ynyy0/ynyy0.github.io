@@ -15,24 +15,26 @@
     body{min-height:100vh;min-height:100svh;margin:0;padding:calc(32px + env(safe-area-inset-top)) 20px calc(32px + env(safe-area-inset-bottom));display:grid;place-items:center;overflow-x:hidden;color:var(--text);background:var(--page);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     .ambient{position:fixed;z-index:0;inset:0;overflow:hidden;pointer-events:none}.orb{position:absolute;width:min(62vw,520px);aspect-ratio:1;border-radius:50%;filter:blur(2px);opacity:.8}.orb-one{top:-18%;left:-12%;background:radial-gradient(circle at 35% 35%,#c4b5fd 0,#7866ec 23%,transparent 72%)}.orb-two{right:-15%;bottom:-27%;background:radial-gradient(circle at 40% 40%,#8de9df 0,#398bb0 25%,transparent 72%)}.orb-three{top:28%;right:12%;width:min(35vw,270px);background:radial-gradient(circle at 35% 35%,#ffc7e9 0,#bb72cc 24%,transparent 74%)}
     .star-layer{position:fixed;z-index:0;inset:0;overflow:hidden;pointer-events:none;display:none}.star{position:absolute;left:var(--x);top:var(--y);width:var(--size);height:var(--size);border-radius:50%;background:#fff;opacity:.34;box-shadow:0 0 calc(var(--size)*2.8) calc(var(--size)*.65) rgba(213,229,255,.9),0 0 calc(var(--size)*5) rgba(169,200,255,.55);animation:star-twinkle var(--duration) var(--delay) ease-in-out infinite alternate}body:not(.fresh) .star-layer{display:block}@keyframes star-twinkle{0%{opacity:.24;transform:scale(.72)}50%{opacity:.78}100%{opacity:var(--bright);transform:scale(1.55)}}
+    .snow-layer{position:fixed;z-index:6;inset:0;overflow:hidden;pointer-events:none;display:none}.snow{position:absolute;width:var(--size);height:var(--size);border-radius:50%;background:rgba(255,255,255,.9);box-shadow:0 0 12px rgba(255,255,255,.7),0 0 20px rgba(174,205,255,.5);opacity:.95}body:not(.fresh) .snow-layer{display:block}
     .theme-toggle{position:fixed;z-index:3;top:calc(22px + env(safe-area-inset-top));right:calc(22px + env(safe-area-inset-right));width:54px;height:54px;padding:0;display:grid;place-items:center;border:1px solid rgba(255,255,255,.3);border-radius:50%;color:#ffd76b;background:rgba(255,255,255,.12);box-shadow:0 8px 24px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.2);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);cursor:pointer;line-height:0}.theme-toggle:hover{background:rgba(255,255,255,.18)}.sun-mark{position:relative;width:28px;height:28px;display:none;border-radius:50%;background:repeating-conic-gradient(#ffd76b 0deg 7deg,transparent 7deg 45deg)}.sun-mark:after{content:"";position:absolute;inset:7px;border-radius:50%;background:#ffe895}.moon-mark{display:block;width:25px;height:25px;fill:#efa94b}
     main{position:relative;z-index:1;width:min(100%,680px)}.card{position:relative;overflow:hidden;padding:clamp(28px,7vw,58px);border:1px solid var(--edge);border-radius:32px;background:var(--card);box-shadow:0 30px 90px rgba(0,0,0,.16),inset 0 1px 0 rgba(255,255,255,.055);-webkit-backdrop-filter:blur(32px) saturate(145%);backdrop-filter:blur(32px) saturate(145%)}.card:before{content:"";position:absolute;inset:0 0 auto;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.22),transparent);pointer-events:none}.card:after{content:"";position:absolute;width:240px;height:240px;top:-155px;right:-100px;border-radius:50%;background:rgba(166,151,232,.075);filter:blur(40px);pointer-events:none}
     .eyebrow{display:flex;justify-content:flex-start;align-items:center;gap:9px;color:#d7ceff;font-size:.76rem;font-weight:750;letter-spacing:.15em}.spark{width:8px;height:8px;border-radius:50%;background:#8df0dc;box-shadow:0 0 17px #8df0dc}
     h1{display:flex;align-items:center;justify-content:flex-start;gap:.11em;margin:22px 0 16px;text-align:left;font-size:clamp(2.2rem,8vw,4rem);line-height:1.12;letter-spacing:-.055em}.title-dot{display:inline-block;color:#b8a5ff;font-size:1.22em;line-height:.7;text-shadow:0 0 22px rgba(191,169,255,.8)}
     .intro{max-width:470px;margin:0;color:var(--muted);font-size:1.05rem;line-height:1.8;text-align:left}.actions{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:12px;margin-top:32px}
-    .button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 19px;border:1px solid rgba(255,255,255,.23);border-radius:15px;color:var(--text);background:var(--soft);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 8px 24px rgba(0,0,0,.12);font:inherit;font-weight:650;text-decoration:none;cursor:pointer;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}.button:hover{border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.15)}.button-primary{color:#201735;border-color:rgba(255,255,255,.52);background:linear-gradient(115deg,rgba(229,218,255,.96),rgba(163,239,231,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 9px 28px rgba(131,115,220,.25)}.button-primary:hover{background:linear-gradient(115deg,#f0e9ff,#c0f6ee)}
+    .button{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:0 19px;border:1px solid rgba(255,255,255,.23);border-radius:15px;color:var(--text);background:var(--soft);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 8px 24px rgba(0,0,0,.12);font:inherit;font-weight:650;text-decoration:none;cursor:pointer;position:relative;overflow:hidden;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}.button:hover{border-color:rgba(255,255,255,.42);background:rgba(255,255,255,.15)}.button-primary{color:#201735;border-color:rgba(255,255,255,.52);background:linear-gradient(115deg,rgba(229,218,255,.96),rgba(163,239,231,.92));box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 9px 28px rgba(131,115,220,.25)}.button-primary:hover{background:linear-gradient(115deg,#f0e9ff,#c0f6ee)}
     .address-label{margin:34px 0 10px;color:var(--muted);font-size:.82rem;font-weight:650;letter-spacing:.04em;text-align:left}.address{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 12px 12px 16px;border:1px solid rgba(255,255,255,.17);border-radius:16px;background:var(--address);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}code{overflow-wrap:anywhere;color:var(--code);font:.95rem ui-monospace,SFMono-Regular,Menlo,monospace}.copy{flex:0 0 auto;min-height:38px;padding:0 13px;border-radius:11px;font-size:.85rem}.note{margin:19px 0 0;color:var(--note);font-size:.87rem;line-height:1.7;text-align:left}footer{padding:18px 8px 0;color:var(--footer);text-align:center;font-size:.78rem}
     #toast{position:fixed;z-index:12;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));padding:11px 16px;border:1px solid rgba(255,255,255,.22);border-radius:13px;background:rgba(35,36,57,.8);color:var(--text);box-shadow:0 12px 34px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);opacity:0;transform:translate(-50%,10px);pointer-events:none}#toast.show{opacity:1;transform:translate(-50%,0)}
     body.fresh{color-scheme:light;--page:#eaf8f3;--text:#28443e;--muted:#55766d;--card:linear-gradient(135deg,rgba(255,255,255,.76),rgba(255,255,255,.43));--edge:rgba(255,255,255,.82);--soft:rgba(255,255,255,.48);--address:rgba(255,255,255,.48);--note:#668078;--footer:#718b83;--code:#345b50}body.fresh{background:var(--page)}body.fresh .orb-one{background:radial-gradient(circle at 35% 35%,#ffe5ad 0,#ffc877 24%,transparent 72%);filter:blur(2px);opacity:.8}body.fresh .orb-two{background:radial-gradient(circle at 40% 40%,#9de8d1 0,#8bcfc6 25%,transparent 72%);filter:blur(2px);opacity:.8}body.fresh .orb-three{background:radial-gradient(circle at 35% 35%,#ffd4e5 0,#f3a8c9 24%,transparent 74%);filter:blur(2px);opacity:.8}body.fresh .card{background:linear-gradient(135deg,rgba(255,255,255,.76),rgba(255,255,255,.43));border-color:rgba(255,255,255,.82);box-shadow:0 30px 90px rgba(74,132,115,.17),inset 0 1px 0 rgba(255,255,255,.9)}body.fresh .card:after{background:rgba(255,218,154,.4)}body.fresh .eyebrow{color:#588879}body.fresh .title-dot{color:#e89d57;text-shadow:0 0 20px rgba(255,189,111,.65)}body.fresh .button{border-color:rgba(94,147,131,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.85),0 8px 22px rgba(71,130,113,.1);background:rgba(255,255,255,.48)}body.fresh .button:not(.button-primary){color:#365c51}body.fresh .button-primary{color:#254a40;border-color:rgba(255,255,255,.8);background:linear-gradient(115deg,#fff0c8,#bcebdc)}body.fresh .theme-toggle{color:#e6a638;border-color:rgba(99,151,134,.25);background:#fff9e8;box-shadow:0 6px 18px rgba(68,124,109,.14)}body.fresh .sun-mark{display:block}body.fresh .moon-mark{display:none}body.fresh #toast{color:var(--text);background:rgba(255,255,255,.9);border-color:rgba(94,147,131,.2)}
     .meteor{position:fixed;z-index:8;top:-15vh;left:-30vw;width:250px;height:3px;opacity:0;pointer-events:none;transform:rotate(42deg);transform-origin:left center;background:linear-gradient(90deg,transparent 0%,rgba(160,220,255,.15) 48%,#fff 100%);filter:drop-shadow(0 0 5px #8edaff) drop-shadow(0 0 14px #fff)}.meteor:after{content:"";position:absolute;right:-2px;top:-3px;width:9px;height:9px;border-radius:50%;background:#fff;box-shadow:0 0 9px 4px #bdeaff,0 0 24px 10px rgba(120,210,255,.9)}.meteor.go{animation:meteor-flight 1.8s ease-in forwards,meteor-flicker .22s ease-in-out 4 alternate}@keyframes meteor-flight{0%{opacity:0;translate:0 0}7%{opacity:1}90%{opacity:1}100%{opacity:0;translate:125vw 120vh}}@keyframes meteor-flicker{from{filter:drop-shadow(0 0 4px #8edaff) drop-shadow(0 0 10px #fff);opacity:.72}to{filter:drop-shadow(0 0 10px #8edaff) drop-shadow(0 0 26px #fff);opacity:1}}
     .leaf-layer{position:fixed;z-index:6;inset:0;overflow:hidden;pointer-events:none;display:none}body.fresh .leaf-layer{display:block}.leaf{position:absolute;left:-10vw;top:var(--top);width:var(--size);height:calc(var(--size)*.62);border-radius:100% 0 100% 0;background:linear-gradient(135deg,#d9f28a,#76bd69 62%,#438b55);box-shadow:0 2px 8px rgba(57,107,59,.22);opacity:0;transform:rotate(var(--angle));animation:leaf-breeze var(--duration) var(--delay) ease-in-out infinite}.leaf:after{content:"";position:absolute;width:75%;height:1px;left:10%;top:52%;background:rgba(255,255,255,.6);transform:rotate(-18deg);transform-origin:left center}@keyframes leaf-breeze{0%{translate:-8vw 0;rotate:0deg;opacity:0}10%{opacity:.82}50%{translate:55vw 26px;rotate:150deg}90%{opacity:.75}100%{translate:115vw -12px;rotate:330deg;opacity:0}}
     @media(max-width:440px){.theme-toggle{top:calc(14px + env(safe-area-inset-top));right:calc(14px + env(safe-area-inset-right));width:48px;height:48px}.card{padding-top:64px}.address{align-items:stretch;flex-direction:column}.copy{width:100%}.actions .button{flex:1 1 100%}}
-    @media(prefers-reduced-motion:reduce){.meteor,.leaf-layer{display:none!important}.star{animation:none!important;opacity:.6}}
+    @media(prefers-reduced-motion:reduce){.meteor,.leaf-layer{display:none!important}.star{animation:none!important;opacity:.6}.snow{animation:none!important}}
   </style>
 </head>
 <body class="fresh">
   <div class="ambient" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div></div>
   <div class="star-layer" id="star-layer" aria-hidden="true"></div>
+  <div class="snow-layer" id="snow-layer" aria-hidden="true"></div>
   <div class="meteor" id="meteor" aria-hidden="true"></div><div class="leaf-layer" id="leaf-layer" aria-hidden="true"></div>
   <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换液态风格" aria-pressed="true" title="切换液态风格"><span class="sun-mark" aria-hidden="true"></span><svg class="moon-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.8 8.8 0 0 1 8.9 3.8 8.9 8.9 0 1 0 20.2 15.1Z"/></svg></button>
   <main><section class="card" aria-labelledby="title">
@@ -45,10 +47,95 @@
   </section><footer>于你有·源 · 个人软件源</footer></main>
   <div id="toast" role="status" aria-live="polite"></div>
   <script>
-    const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),meteor=document.getElementById('meteor'),leafLayer=document.getElementById('leaf-layer'),starLayer=document.getElementById('star-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
-    for(let i=0;i<76;i++){const star=document.createElement('i');star.className='star';star.style.setProperty('--x',(Math.random()*100)+'%');star.style.setProperty('--y',(Math.random()*100)+'%');star.style.setProperty('--size',(2+Math.random()*2.6)+'px');star.style.setProperty('--duration',(1.8+Math.random()*4.5)+'s');star.style.setProperty('--delay',(-Math.random()*6)+'s');star.style.setProperty('--bright',(0.78+Math.random()*.22));starLayer.appendChild(star)}
+    const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),meteor=document.getElementById('meteor'),leafLayer=document.getElementById('leaf-layer'),starLayer=document.getElementById('star-layer'),snowLayer=document.getElementById('snow-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;let snowStarted=false;let snowFrameId=null;let snowflakes=[];
+
+    function createStars(){for(let i=0;i<76;i++){const star=document.createElement('i');star.className='star';star.style.setProperty('--x',(Math.random()*100)+'%');star.style.setProperty('--y',(Math.random()*100)+'%');star.style.setProperty('--size',(2+Math.random()*2.6)+'px');star.style.setProperty('--duration',(1.8+Math.random()*4.5)+'s');star.style.setProperty('--delay',(-Math.random()*6)+'s');star.style.setProperty('--bright',(0.78+Math.random()*.22));starLayer.appendChild(star)}}
+    createStars();
+
+    function clearSnow(){if(!snowStarted)return;snowStarted=false;cancelAnimationFrame(snowFrameId);snowflakes=[];snowLayer.innerHTML=''}
+
+    function startSnow(){
+      if(snowStarted || document.body.classList.contains('fresh')) return;
+      snowStarted=true;
+      const buttons=[...document.querySelectorAll('.button')];
+      snowflakes=[];
+      snowLayer.innerHTML='';
+      const count=120;
+      for(let i=0;i<count;i++){
+        const flake=document.createElement('span');
+        flake.className='snow';
+        const size=(2.5+Math.random()*5.4)+'px';
+        flake.style.setProperty('--size',size);
+        const x=(Math.random()*window.innerWidth)+'px';
+        const y=(-20-Math.random()*window.innerHeight)+'px';
+        flake.style.left=x;flake.style.top=y;flake.style.opacity=(0.75+Math.random()*0.25).toString();
+        flake.dataset.size = size;
+        flake._state={x:parseFloat(x),y:parseFloat(y),size:parseFloat(size),vx:(Math.random()*.7)-.35,vy:(0.9+Math.random()*1.2),stuck:false,button:null,baseX:0,baseY:0};
+        snowLayer.appendChild(flake);
+        snowflakes.push({el:flake,state:flake._state,button:null});
+      }
+
+      function tick(){
+        if(!snowStarted) return;
+        for(let i=0;i<snowflakes.length;i++){
+          const item=snowflakes[i];
+          if(item.state.stuck) continue;
+          item.state.x += item.state.vx;
+          item.state.y += item.state.vy;
+          item.el.style.left=item.state.x+'px';
+          item.el.style.top=item.state.y+'px';
+
+          if(item.state.y > window.innerHeight + 30){
+            item.state.x = Math.random()*window.innerWidth;
+            item.state.y = -20;
+            item.el.style.left=item.state.x+'px';
+            item.el.style.top=item.state.y+'px';
+            continue;
+          }
+
+          const centerX=item.state.x + item.state.size/2;
+          const centerY=item.state.y + item.state.size/2;
+          for(const btn of buttons){
+            const rect=btn.getBoundingClientRect();
+            const inButton =
+              centerX >= rect.left &&
+              centerX <= rect.right &&
+              centerY >= rect.top &&
+              centerY <= rect.bottom;
+            if(inButton){
+              item.state.stuck=true;
+              item.state.button=btn;
+              const localX = centerX - rect.left;
+              const localY = centerY - rect.top;
+              item.el.style.position='absolute';
+              item.el.style.left=localX+'px';
+              item.el.style.top=localY+'px';
+              item.el.style.zIndex='2';
+              item.el.style.opacity='1';
+              btn.appendChild(item.el);
+              break;
+            }
+          }
+        }
+        snowFrameId=requestAnimationFrame(tick);
+      }
+      snowFrameId=requestAnimationFrame(tick);
+    }
+
     if(!reducedMotion){function launchMeteor(){if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}setTimeout(launchMeteor,6000+Math.random()*6000)}setTimeout(launchMeteor,1800);for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格'});
+
+    themeToggle.addEventListener('click',()=>{
+      const fresh=document.body.classList.toggle('fresh');
+      document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';
+      document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';
+      themeToggle.setAttribute('aria-pressed',String(fresh));
+      themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');
+      themeToggle.title=fresh?'切换液态风格':'切换清新风格';
+      if(fresh){clearSnow();}else{startSnow();}
+    });
+
+    if(!document.body.classList.contains('fresh')) startSnow();
+
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
