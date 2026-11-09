@@ -48,8 +48,7 @@ def icon_version(path):
 def main():
     meta = load_meta()
     overrides = meta.get('plugins', {}) or {}
-    # 全局设置：所有插件统一使用源图标
-    use_source_icon = bool(meta.get('useSourceIcon', False))
+    # 源图标内容哈希，用于单插件「使用源图标」和默认兜底图标的版本号
     source_icon_file = ROOT / 'CydiaIcon.png'
     source_v = icon_version(source_icon_file) if source_icon_file.is_file() else '0'
     result = subprocess.run(
@@ -111,11 +110,8 @@ def main():
             lines = [line for line in lines if not line.startswith('Section: ')]
             lines.append('Section: ' + str(ov['section']))
 
-        # 图标设置：全局「使用源图标」优先，其次单插件的 icon 覆盖
-        if use_source_icon:
-            lines = [line for line in lines if not line.startswith('Icon: ')]
-            lines.append(f'Icon: {DEFAULT_ICON}?v={source_v}')
-        elif ov.get('icon'):
+        # 单插件「使用源图标」：只把这一个插件的 Icon 换成源图标
+        if ov.get('icon'):
             icon_url = str(ov['icon'])
             if 'CydiaIcon.png' in icon_url:
                 icon_url = f'{DEFAULT_ICON}?v={source_v}'
