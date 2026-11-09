@@ -37,6 +37,14 @@ jobs:
           updated = []
           for stanza in stanzas:
               lines = stanza.splitlines()
+              # 去掉所有插件名称里残留的「（免授权）」标记
+              import re
+              clean_name = re.compile(r'[（(]\s*免授权\s*[)）]')
+              lines = [
+                  'Name: ' + clean_name.sub('', line[6:]).strip()
+                  if line.startswith('Name: ') else line
+                  for line in lines
+              ]
               package = next(
                   (line.split(':', 1)[1].strip() for line in lines if line.startswith('Package: ')),
                   None,
