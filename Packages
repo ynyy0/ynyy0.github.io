@@ -63,12 +63,12 @@ Size: 1852780
 MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
 SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
 SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
+Section: 工具
 Description: 正版乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.copyvault.png
-Section: 杂七杂八
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
@@ -323,12 +323,12 @@ Size: 336980
 MD5sum: 165846e289de27614390df65340d308f
 SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
 SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
-Section: 系统美化
 Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 Icon: https://ynyy0.github.io/icons/com.Axs.qjsy.png
+Section: 杂七杂八
 
 Package: com.Axs.snapper3
 Version: 1.2.1
@@ -395,7 +395,6 @@ Size: 123852
 MD5sum: a6afccdd55d2c3bef075c5c68d2ec66f
 SHA1: bf70f204f60dd942da4bef9faca3e1c47b8038b2
 SHA256: b9379918ac40c02c003a8c1292309481d7f1c7f7e3f8b28794e6f2721ea95823
-Section: 系统美化
 Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
  * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
  * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
@@ -406,6 +405,7 @@ Author: Axs
 Name: A狗150动态岛
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.png
+Section: 美化
 
 Package: com.axs.ios16dao.keygen
 Version: 1.0.0
@@ -439,12 +439,12 @@ Size: 46368
 MD5sum: fa659abcef7c2536ff160a87392dad57
 SHA1: 7f64e272c9c4a1d5d001fa7b1278533ca3b8dfe3
 SHA256: f059c29d6644a715a1bb0058dfd01c5246c6e1927df91615b3ee5e5c5df399bd
-Section: 系统美化
 Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
 Author: Axs
 Name: A狗截图套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
 Icon: https://ynyy0.github.io/icons/com.axs.screenrecording.png
+Section: 美化
 
 Package: com.binglan.dynamicfx
 Version: 1.0.7
@@ -457,11 +457,11 @@ Size: 115776
 MD5sum: 0da67c62ffd42d0b476436f7415b419a
 SHA1: 5ebb648d4dd7e0f49e5de4139b97c74268cdd8d2
 SHA256: 61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1
-Section: 系统美化
 Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
 Icon: https://ynyy0.github.io/icons/com.binglan.dynamicfx.png
+Section: 美化
 
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
@@ -491,11 +491,11 @@ Size: 164700
 MD5sum: 7b8c58cb8a72be2619d24206150ec195
 SHA1: 906f4452fecc7b97c088a4dab5badde54635ae75
 SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
-Section: 系统美化
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
 Author: 冰蓝
 Name: 冰蓝全局水印套壳
 Icon: https://ynyy0.github.io/icons/com.binglanqjsy.deb.png
+Section: 美化
 
 Package: com.bvm.wuzeililiang
 Version: 1.0.1-1
@@ -563,11 +563,11 @@ Size: 10756068
 MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
 SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
 SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
-Section: 系统美化
 Description: 液态玻璃
 Author: 一刀
 Name: 88液态玻璃
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.png
+Section: 美化
 
 Package: com.charlieleung.liquidify.roothide
 Version: 1.3.7-4
@@ -581,11 +581,11 @@ Size: 15421002
 MD5sum: 6a873a609434b5b3773bcaa8171c9c81
 SHA1: 806fe4d35c837a4b7f6cf3b77522942ac9502188
 SHA256: 0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc
-Section: 系统美化
 Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
 Author: 一刀
 Name: 88液态玻璃隐根版
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.roothide.png
+Section: 美化
 
 Package: com.go.mango
 Version: 1.0-Beta7-6
