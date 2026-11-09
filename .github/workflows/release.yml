@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'debs/**'
+      - 'index.html'
       - '.github/workflows/release.yml'
   workflow_dispatch:
 
@@ -40,21 +41,31 @@ jobs:
                       'Section: 公益插件' if line.startswith('Section: ') else line
                       for line in lines
                   ]
+                  lines = [
+                      'Description: 与你有源 / 已公益' if line.startswith('Description: ') else line
+                      for line in lines
+                  ]
                   if not any(line.startswith('Section: ') for line in lines):
                       lines.append('Section: 公益插件')
               updated.append('\n'.join(lines))
           path.write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
+
+          homepage = Path('index.html')
+          if homepage.exists():
+              html = homepage.read_text(encoding='utf-8')
+              html = html.replace('于你有·源', '与你有源')
+              homepage.write_text(html, encoding='utf-8')
           PY
           bzip2 -9 -k -f Packages
           xz -9 -e -k -f Packages
           zstd --ultra -22 -k -f Packages -o Packages.zst
 
-      - name: Commit refreshed indexes
+      - name: Commit refreshed indexes and naming
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+users.noreply.github.com'
-          git add Packages Packages.bz2 Packages.xz Packages.zst
+          git add Packages Packages.bz2 Packages.xz Packages.zst index.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh APT package indexes'
+            git commit -m 'Rename source to 与你有源 and refresh indexes'
             git push
           fi
