@@ -63,12 +63,12 @@ Size: 1852780
 MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
 SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
 SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
-Section: 工具
 Description: 正版乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.copyvault.png?v=97056edd
+Section: 测试
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
