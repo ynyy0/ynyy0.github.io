@@ -18,11 +18,11 @@ META_FILE = ROOT / 'repo-meta.json'
 
 
 def load_meta():
-    """Per-package display overrides written by the web console."""
+    """完整读取管理台写入的元数据（plugins 覆盖 + 全局设置）。"""
     if not META_FILE.exists():
         return {}
     try:
-        return json.loads(META_FILE.read_text(encoding='utf-8')).get('plugins', {})
+        return json.loads(META_FILE.read_text(encoding='utf-8'))
     except Exception:
         return {}
 
@@ -46,7 +46,12 @@ def icon_version(path):
 
 
 def main():
-    overrides = load_meta()
+    meta = load_meta()
+    overrides = meta.get('plugins', {}) or {}
+    # 全局设置：所有插件统一使用源图标
+    use_source_icon = bool(meta.get('useSourceIcon', False))
+    source_icon_file = ROOT / 'CydiaIcon.png'
+    source_v = icon_version(source_icon_file) if source_icon_file.is_file() else '0'
     result = subprocess.run(
         ['dpkg-scanpackages', '-m', 'debs', '/dev/null'],
         cwd=ROOT, capture_output=True, text=True, check=True,
@@ -79,7 +84,7 @@ def main():
                 lines = [line for line in lines if not line.startswith('Icon: ')]
                 lines.append(f'Icon: {ICON_BASE}{icon_path.name}?v={icon_version(icon_path)}')
             elif not any(line.startswith('Icon: ') for line in lines):
-                lines.append(f'Icon: {DEFAULT_ICON}')
+                lines.append(f'Icon: {DEFAULT_ICON}?v={source_v}')
 
         if package == 'iya.banana.ios27animation':
             lines = [
@@ -105,6 +110,17 @@ def main():
         if ov.get('section'):
             lines = [line for line in lines if not line.startswith('Section: ')]
             lines.append('Section: ' + str(ov['section']))
+
+        # 图标设置：全局「使用源图标」优先，其次单插件的 icon 覆盖
+        if use_source_icon:
+            lines = [line for line in lines if not line.startswith('Icon: ')]
+            lines.append(f'Icon: {DEFAULT_ICON}?v={source_v}')
+        elif ov.get('icon'):
+            icon_url = str(ov['icon'])
+            if 'CydiaIcon.png' in icon_url:
+                icon_url = f'{DEFAULT_ICON}?v={source_v}'
+            lines = [line for line in lines if not line.startswith('Icon: ')]
+            lines.append('Icon: ' + icon_url)
 
         updated.append('\n'.join(lines))
 
