@@ -36,6 +36,9 @@ jobs:
           updated = []
           for stanza in stanzas:
               lines = stanza.splitlines()
+              if any(line.startswith('Icon: ') for line in lines):
+                  lines = [line for line in lines if not line.startswith('Icon: ')]
+              lines.append('Icon: https://ynyy0.github.io/CydiaIcon.png')
               if any(line == 'Package: iya.banana.ios27animation' for line in lines):
                   lines = [
                       'Section: 公益插件' if line.startswith('Section: ') else line
@@ -66,6 +69,6 @@ jobs:
           git config user.email '41898282+users.noreply.github.com'
           git add Packages Packages.bz2 Packages.xz Packages.zst index.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Rename source to 与你有源 and refresh indexes'
+            git commit -m 'Add default source icon to package metadata'
             git push
           fi
