@@ -122,6 +122,8 @@
       "cats" : [
         "测试 1"
       ],
+      "description" : "测试",
+      "name" : "测试",
       "section" : "测试 1"
     }
   }
