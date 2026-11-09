@@ -157,11 +157,11 @@ Size: 44096
 MD5sum: 5007a856a3ae908531c271c629e380ca
 SHA1: a910279f68472ef29d919aff50706dcb48c1093e
 SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
-Section: Tweaks
 Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png
+Section: 杂七杂八
 
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
