@@ -8,6 +8,7 @@ on:
       - 'icons/**'
       - 'index.html'
       - '.github/workflows/release.yml'
+      - '.github/scripts/build_index.py'
   workflow_dispatch:
 
 permissions:
@@ -27,62 +28,7 @@ jobs:
 
       - name: Generate APT indexes
         run: |
-          dpkg-scanpackages -m debs /dev/null > Packages
-          python3 - <<'PY'
-          from pathlib import Path
-
-          path = Path('Packages')
-          text = path.read_text(encoding='utf-8')
-          stanzas = text.rstrip('\n').split('\n\n')
-          updated = []
-          for stanza in stanzas:
-              lines = stanza.splitlines()
-              # 去掉所有插件名称里残留的「（免授权）」标记
-              import re
-              clean_name = re.compile(r'[（(]\s*免授权\s*[)）]')
-              lines = [
-                  'Name: ' + clean_name.sub('', line[6:]).strip()
-                  if line.startswith('Name: ') else line
-                  for line in lines
-              ]
-              package = next(
-                  (line.split(':', 1)[1].strip() for line in lines if line.startswith('Package: ')),
-                  None,
-              )
-              if package:
-                  icon_path = Path('icons') / f'{package}.png'
-                  if not icon_path.is_file():
-                      # deb control 里的包名大小写可能与索引不一致，做一次不敏感匹配
-                      matches = [p for p in Path('icons').glob('*.png')
-                                 if p.stem.lower() == package.lower()]
-                      if matches:
-                          icon_path = matches[0]
-                  if icon_path.is_file():
-                      icon_url = f'https://ynyy0.github.io/icons/{icon_path.name}'
-                      lines = [line for line in lines if not line.startswith('Icon: ')]
-                      lines.append(f'Icon: {icon_url}')
-                  elif not any(line.startswith('Icon: ') for line in lines):
-                      lines.append('Icon: https://ynyy0.github.io/CydiaIcon.png')
-              if package == 'iya.banana.ios27animation':
-                  lines = [
-                      'Section: 公益插件' if line.startswith('Section: ') else line
-                      for line in lines
-                  ]
-                  lines = [
-                      'Description: 与你有源 / 已公益' if line.startswith('Description: ') else line
-                      for line in lines
-                  ]
-                  if not any(line.startswith('Section: ') for line in lines):
-                      lines.append('Section: 公益插件')
-              updated.append('\n'.join(lines))
-          path.write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
-
-          homepage = Path('index.html')
-          if homepage.exists():
-              html = homepage.read_text(encoding='utf-8')
-              html = html.replace('于你有·源', '与你有源')
-              homepage.write_text(html, encoding='utf-8')
-          PY
+          python3 .github/scripts/build_index.py
           bzip2 -9 -k -f Packages
           xz -9 -e -k -f Packages
           zstd --ultra -22 -k -f Packages -o Packages.zst
