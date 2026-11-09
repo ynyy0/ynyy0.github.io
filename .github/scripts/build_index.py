@@ -4,6 +4,7 @@
 Shared by .github/workflows/release.yml (commits the result back to the repo)
 and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
+import json
 import re
 import subprocess
 from pathlib import Path
@@ -12,9 +13,21 @@ ROOT = Path(__file__).resolve().parents[2]
 CLEAN_NAME = re.compile(r'[（(]\s*免授权\s*[)）]')
 ICON_BASE = 'https://ynyy0.github.io/icons/'
 DEFAULT_ICON = 'https://ynyy0.github.io/CydiaIcon.png'
+META_FILE = ROOT / 'repo-meta.json'
+
+
+def load_meta():
+    """Per-package display overrides written by the web console."""
+    if not META_FILE.exists():
+        return {}
+    try:
+        return json.loads(META_FILE.read_text(encoding='utf-8')).get('plugins', {})
+    except Exception:
+        return {}
 
 
 def main():
+    overrides = load_meta()
     result = subprocess.run(
         ['dpkg-scanpackages', '-m', 'debs', '/dev/null'],
         cwd=ROOT, capture_output=True, text=True, check=True,
@@ -60,6 +73,15 @@ def main():
             ]
             if not any(line.startswith('Section: ') for line in lines):
                 lines.append('Section: 公益插件')
+
+        # 管理台写入的显示名 / 描述覆盖，优先级最高
+        ov = overrides.get(package, {})
+        if ov.get('name'):
+            lines = [line for line in lines if not line.startswith('Name: ')]
+            lines.append('Name: ' + str(ov['name']))
+        if ov.get('description'):
+            lines = [line for line in lines if not line.startswith('Description: ')]
+            lines.append('Description: ' + str(ov['description']))
 
         updated.append('\n'.join(lines))
 
