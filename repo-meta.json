@@ -1,18 +1,18 @@
 {
   "categories" : [
-    "Tweaks",
-    "美化",
-    "工具",
-    "zqbb Tweaks",
-    "手势键盘",
-    "微信插件",
-    "分屏插件",
-    "控制中心",
-    "公益插件",
-    "杂七杂八",
     "Hello系列",
+    "Tweaks",
+    "zqbb Tweaks",
+    "公益插件",
+    "分屏插件",
+    "工具",
+    "微信插件",
+    "手势键盘",
     "抖音插件",
-    "测试"
+    "控制中心",
+    "杂七杂八",
+    "测试 1",
+    "美化"
   ],
   "plugins" : {
     "byg.iosios.net.autotouch" : {
@@ -26,9 +26,9 @@
     },
     "cn.octoforce.copyvault" : {
       "cats" : [
-        "测试"
+        "测试 1"
       ],
-      "section" : "测试"
+      "section" : "测试 1"
     },
     "cn.octoforce.squidgesturepro.roothide" : {
       "cats" : [
@@ -112,10 +112,6 @@
       ],
       "section" : "美化"
     },
-    "com.go.mango" : {
-      "description" : "测试",
-      "name" : "芒果测试"
-    },
     "com.rain.120hzstable" : {
       "cats" : [
         "手势键盘"
@@ -124,9 +120,9 @@
     },
     "iya.banana.ios27animation" : {
       "cats" : [
-        "测试"
+        "测试 1"
       ],
-      "section" : "测试"
+      "section" : "测试 1"
     }
   }
 }
