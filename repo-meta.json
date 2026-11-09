@@ -3,101 +3,23 @@
     "byg.iosios.net.autotouch": {
       "name": "按键精灵"
     },
-    "27 动画破解+优化": {
+    "RainFlow_120Hz_1.3.0": {
       "cats": [
-        "测试"
+        "手势键盘"
       ],
-      "section": "测试"
+      "section": "手势键盘"
     },
-    "com.Axs.qjsy": {
-      "cats": [
-        "杂七杂八"
-      ],
-      "section": "杂七杂八"
-    },
-    "com.axs.ios16dao": {
-      "cats": [
-        "美化",
-        "杂七杂八"
-      ],
-      "section": "美化"
-    },
-    "com.axs.screenrecording": {
-      "cats": [
-        "美化",
-        "杂七杂八"
-      ],
-      "section": "美化"
-    },
-    "com.binglan.dynamicfx": {
-      "cats": [
-        "杂七杂八"
-      ],
-      "section": "杂七杂八"
-    },
-    "com.binglanqjsy.deb": {
-      "cats": [
-        "美化",
-        "杂七杂八"
-      ],
-      "section": "美化"
-    },
-    "com.charlieleung.liquidify.roothide": {
-      "cats": [
-        "美化"
-      ],
-      "section": "美化"
-    },
-    "com.charlieleung.liquidify": {
-      "cats": [
-        "美化"
-      ],
-      "section": "美化"
-    },
-    "com.bvm.wuzeililiang": {
-      "cats": [
-        "杂七杂八"
-      ],
-      "section": "杂七杂八"
-    },
-    "byg.iosios.net.mango": {
-      "cats": [
-        "杂七杂八"
-      ],
-      "section": "杂七杂八"
-    },
-    "cn.octoforce.squidgesturepro.roothide": {
-      "cats": [
-        "杂七杂八"
-      ],
-      "section": "杂七杂八"
-    },
-    "com.bvn.copyvault.rl": {
+    "cn.zqbb.fix120hz": {
       "cats": [
         "Hello系列"
       ],
       "section": "Hello系列"
     },
-    "cn.zqbb.hello.keyboard.ai": {
+    "cn.zqbb.hello.qactions": {
       "cats": [
-        "zqbb Tweaks",
-        "杂七杂八"
-      ]
+        "Hello系列"
+      ],
+      "section": "Hello系列"
     }
-  },
-  "categories": [
-    "Tweaks",
-    "美化",
-    "工具",
-    "zqbb Tweaks",
-    "手势键盘",
-    "微信插件",
-    "分屏插件",
-    "控制中心",
-    "公益插件",
-    "杂七杂八",
-    "Hello系列",
-    "抖音插件",
-    "测试"
-  ]
+  }
 }
