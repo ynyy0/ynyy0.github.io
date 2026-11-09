@@ -1,8 +1,8 @@
-Origin:                与你有源
-Label:                与你有源
+Origin:                于你有源
+Label:                于你有源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 与你有源
+Description: 于你有源

@@ -91,7 +91,7 @@ def main():
                 for line in lines
             ]
             lines = [
-                'Description: 与你有源 / 已公益' if line.startswith('Description: ') else line
+                'Description: 于你有源 / 已公益' if line.startswith('Description: ') else line
                 for line in lines
             ]
             if not any(line.startswith('Section: ') for line in lines):
@@ -122,12 +122,7 @@ def main():
 
     (ROOT / 'Packages').write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
 
-    homepage = ROOT / 'index.html'
-    if homepage.exists():
-        html = homepage.read_text(encoding='utf-8')
-        html = html.replace('于你有·源', '与你有源')
-        homepage.write_text(html, encoding='utf-8')
-
+    # 主页由仓库直接维护，索引脚本不再改写其中的名称
     print(f'Indexed {len(updated)} packages')
 
 
