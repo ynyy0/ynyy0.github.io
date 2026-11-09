@@ -443,8 +443,8 @@ Description: 全局录屏自动添加你预先放好的水印和套壳素材，�
 Author: Axs
 Name: A狗截图套壳
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
-Icon: https://ynyy0.github.io/icons/com.axs.screenrecording.png?v=fa359a98
 Section: 美化
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
 Package: com.binglan.dynamicfx
 Version: 1.0.7
