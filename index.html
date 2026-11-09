@@ -48,94 +48,40 @@
   <div id="toast" role="status" aria-live="polite"></div>
   <script>
     const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),meteor=document.getElementById('meteor'),leafLayer=document.getElementById('leaf-layer'),starLayer=document.getElementById('star-layer'),snowLayer=document.getElementById('snow-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;let snowStarted=false;let snowFrameId=null;let snowflakes=[];
-
     function createStars(){for(let i=0;i<76;i++){const star=document.createElement('i');star.className='star';star.style.setProperty('--x',(Math.random()*100)+'%');star.style.setProperty('--y',(Math.random()*100)+'%');star.style.setProperty('--size',(2+Math.random()*2.6)+'px');star.style.setProperty('--duration',(1.8+Math.random()*4.5)+'s');star.style.setProperty('--delay',(-Math.random()*6)+'s');star.style.setProperty('--bright',(0.78+Math.random()*.22));starLayer.appendChild(star)}}
     createStars();
-
     function clearSnow(){if(!snowStarted)return;snowStarted=false;cancelAnimationFrame(snowFrameId);snowflakes=[];snowLayer.innerHTML=''}
-
     function startSnow(){
       if(snowStarted || document.body.classList.contains('fresh')) return;
       snowStarted=true;
       const buttons=[...document.querySelectorAll('.button')];
-      snowflakes=[];
-      snowLayer.innerHTML='';
-      const count=180;
+      snowflakes=[];snowLayer.innerHTML='';
+      const count=120;
       for(let i=0;i<count;i++){
-        const flake=document.createElement('span');
-        flake.className='snow';
-        const size=(5.5+Math.random()*8)+'px';
-        flake.style.setProperty('--size',size);
-        const x=(Math.random()*window.innerWidth)+'px';
-        const y=(-20-Math.random()*window.innerHeight)+'px';
-        flake.style.left=x;flake.style.top=y;flake.style.opacity=(0.82+Math.random()*0.18).toString();
-        flake.dataset.size = size;
-        flake._state={x:parseFloat(x),y:parseFloat(y),size:parseFloat(size),vx:(Math.random()*.9)-.45,vy:(1.4+Math.random()*1.8),stuck:false,button:null};
-        snowLayer.appendChild(flake);
-        snowflakes.push({el:flake,state:flake._state,button:null});
+        const flake=document.createElement('span');flake.className='snow';
+        const size=(2.5+Math.random()*5.4)+'px';flake.style.setProperty('--size',size);
+        const x=Math.random()*window.innerWidth,y=-20-Math.random()*window.innerHeight;
+        flake.style.left=x+'px';flake.style.top=y+'px';flake.style.opacity=(0.75+Math.random()*0.25).toString();
+        const state={x,y,size:parseFloat(size),vx:Math.random()*.7-.35,vy:.9+Math.random()*1.2,stuck:false,button:null};
+        snowLayer.appendChild(flake);snowflakes.push({el:flake,state});
       }
-
       function tick(){
-        if(!snowStarted) return;
-        for(let i=0;i<snowflakes.length;i++){
-          const item=snowflakes[i];
-          if(item.state.stuck) continue;
-          item.state.x += item.state.vx;
-          item.state.y += item.state.vy;
-          item.el.style.left=item.state.x+'px';
-          item.el.style.top=item.state.y+'px';
-
-          if(item.state.y > window.innerHeight + 30){
-            item.state.x = Math.random()*window.innerWidth;
-            item.state.y = -20;
-            item.el.style.left=item.state.x+'px';
-            item.el.style.top=item.state.y+'px';
-            continue;
-          }
-
-          const centerX=item.state.x + item.state.size/2;
-          const centerY=item.state.y + item.state.size/2;
-          for(const btn of buttons){
-            const rect=btn.getBoundingClientRect();
-            const inButton =
-              centerX >= rect.left &&
-              centerX <= rect.right &&
-              centerY >= rect.top &&
-              centerY <= rect.bottom;
-            if(inButton){
-              item.state.stuck=true;
-              item.state.button=btn;
-              const localX = centerX - rect.left;
-              const localY = centerY - rect.top;
-              item.el.style.position='absolute';
-              item.el.style.left=localX+'px';
-              item.el.style.top=localY+'px';
-              item.el.style.zIndex='2';
-              item.el.style.opacity='1';
-              btn.appendChild(item.el);
-              break;
-            }
-          }
+        if(!snowStarted)return;
+        for(const item of snowflakes){
+          const s=item.state;if(s.stuck)continue;
+          s.x+=s.vx;s.y+=s.vy;item.el.style.left=s.x+'px';item.el.style.top=s.y+'px';
+          if(s.y>window.innerHeight+30){s.x=Math.random()*window.innerWidth;s.y=-20;continue}
+          const cx=s.x+s.size/2,cy=s.y+s.size/2;
+          for(const btn of buttons){const r=btn.getBoundingClientRect();if(cx>=r.left&&cx<=r.right&&cy>=r.top&&cy<=r.bottom){
+            s.stuck=true;s.button=btn;item.el.style.position='absolute';item.el.style.left=(cx-r.left)+'px';item.el.style.top=(cy-r.top)+'px';item.el.style.zIndex='2';item.el.style.opacity='1';btn.appendChild(item.el);break;
+          }}
         }
         snowFrameId=requestAnimationFrame(tick);
       }
       snowFrameId=requestAnimationFrame(tick);
     }
-
     if(!reducedMotion){function launchMeteor(){if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}setTimeout(launchMeteor,6000+Math.random()*6000)}setTimeout(launchMeteor,1800);for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-
-    themeToggle.addEventListener('click',()=>{
-      const fresh=document.body.classList.toggle('fresh');
-      document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';
-      document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';
-      themeToggle.setAttribute('aria-pressed',String(fresh));
-      themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');
-      themeToggle.title=fresh?'切换液态风格':'切换清新风格';
-      if(fresh){clearSnow();}else{startSnow();}
-    });
-
-    if(!document.body.classList.contains('fresh')) startSnow();
-
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格';if(fresh){clearSnow()}else{startSnow()}});
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
