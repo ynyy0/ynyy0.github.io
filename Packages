@@ -157,11 +157,11 @@ Size: 44096
 MD5sum: 5007a856a3ae908531c271c629e380ca
 SHA1: a910279f68472ef29d919aff50706dcb48c1093e
 SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
-Section: Tweaks
 Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png
+Section: Hello系列
 
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
@@ -250,12 +250,12 @@ Size: 667242
 MD5sum: d1c2eed2cf3ade05ff843098f4c4083b
 SHA1: c982092856fc14b17c174e7eb522322979baac6c
 SHA256: 89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f
-Section: Tweaks
 Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
 Author: zqbb
 Name: Hello QActions
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.qactions.png
+Section: Hello系列
 
 Package: cn.zqbb.hello.quick.panel
 Version: 1.0.0-5
