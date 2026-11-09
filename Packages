@@ -508,11 +508,11 @@ Size: 38092
 MD5sum: edbdb03513b16f3880b7acd7cd0554d9
 SHA1: c5f46ce1816793ee2fc7ca995cb98b92e6e61289
 SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
-Section: 工具
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
 Author: BVN
 Name: 乌贼本地离线授权
 Icon: https://ynyy0.github.io/icons/com.bvm.wuzeililiang.png
+Section: 杂七杂八
 
 Package: com.bvn.copyvault.rl
 Version: 1.9.0k
