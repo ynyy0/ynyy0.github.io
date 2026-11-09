@@ -51,8 +51,14 @@ jobs:
               )
               if package:
                   icon_path = Path('icons') / f'{package}.png'
+                  if not icon_path.is_file():
+                      # deb control 里的包名大小写可能与索引不一致，做一次不敏感匹配
+                      matches = [p for p in Path('icons').glob('*.png')
+                                 if p.stem.lower() == package.lower()]
+                      if matches:
+                          icon_path = matches[0]
                   if icon_path.is_file():
-                      icon_url = f'https://ynyy0.github.io/icons/{package}.png'
+                      icon_url = f'https://ynyy0.github.io/icons/{icon_path.name}'
                       lines = [line for line in lines if not line.startswith('Icon: ')]
                       lines.append(f'Icon: {icon_url}')
                   elif not any(line.startswith('Icon: ') for line in lines):
