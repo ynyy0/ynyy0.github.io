@@ -47,6 +47,8 @@ jobs:
                       icon_url = f'https://ynyy0.github.io/icons/{package}.png'
                       lines = [line for line in lines if not line.startswith('Icon: ')]
                       lines.append(f'Icon: {icon_url}')
+                  elif not any(line.startswith('Icon: ') for line in lines):
+                      lines.append('Icon: https://ynyy0.github.io/CydiaIcon.png')
               if package == 'iya.banana.ios27animation':
                   lines = [
                       'Section: 公益插件' if line.startswith('Section: ') else line
