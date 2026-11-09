@@ -44,12 +44,12 @@ Size: 904652
 MD5sum: dc6b62ce6af67123b6f45db3cf894052
 SHA1: 8e1d7c19d02ab3061960e78e68322b0b99cd4a0b
 SHA256: fbea8ead09d1ec02991d9ba004aa85d8c55f8ef1d5a12b73940fd0c8003aacee
-Section: 分屏插件
 Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
 Author: go
 Name: 芒果分屏1.0-Beta4-2
 Sponsor: 搬运工
 Icon: https://ynyy0.github.io/icons/byg.iosios.net.mango.png
+Section: 杂七杂八
 
 Package: cn.octoforce.copyvault
 Version: 1.9.0-1
@@ -63,12 +63,12 @@ Size: 1852780
 MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
 SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
 SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
+Section: 工具
 Description: 正版乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.copyvault.png
-Section: 杂七杂八
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
@@ -138,12 +138,12 @@ Size: 1795550
 MD5sum: 5d6527bd945e2f170e73db037852ea7e
 SHA1: 095879de267251b99d34cf3d5d6dac9753c5ff8b
 SHA256: 24c6797b59235393b85713338b1364595f95c49d14de713343a0c1bc5a26850a
-Section: 手势键盘
 Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
 Author: 刀哥
 Name: 乌贼手势隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.squidgesturepro.roothide.png
+Section: 杂七杂八
 
 Package: cn.zqbb.fix120hz
 Version: 3.3.3-3
@@ -157,11 +157,11 @@ Size: 44096
 MD5sum: 5007a856a3ae908531c271c629e380ca
 SHA1: a910279f68472ef29d919aff50706dcb48c1093e
 SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
+Section: Tweaks
 Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png
-Section: 杂七杂八
 
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
@@ -416,6 +416,7 @@ Size: 5516
 MD5sum: 5311513c947c1e5934ea204ab4b6d3ae
 SHA1: 1fc704a23cddaeefd251c3afad6bd589dbeb9960
 SHA256: 6ebaabd7312c250b02543d0703d891d75ae281c7a51a6b42765a723eaf7e7912
+Section: 工具
 Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
  使用说明：
  1. 打开 A狗动态岛 的授权弹窗，记下 12 位十六进制设备码（如 B67E31825990）；
@@ -426,7 +427,6 @@ Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活
 Author: personal
 Name: A狗动态岛激活码生成器
 Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.keygen.png
-Section: 杂七杂八
 
 Package: com.axs.screenrecording
 Version: 5.2.0-35
@@ -461,7 +461,7 @@ Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
 Icon: https://ynyy0.github.io/icons/com.binglan.dynamicfx.png
-Section: 美化
+Section: 杂七杂八
 
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
@@ -567,7 +567,7 @@ Description: 液态玻璃
 Author: 一刀
 Name: 88液态玻璃
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.png
-Section: 杂七杂八
+Section: 美化
 
 Package: com.charlieleung.liquidify.roothide
 Version: 1.3.7-4
