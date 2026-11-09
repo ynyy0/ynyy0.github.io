@@ -1,3 +1,7 @@
 {
-  "plugins": {}
+  "plugins": {
+    "byg.iosios.net.autotouch": {
+      "name": "按键精灵"
+    }
+  }
 }
