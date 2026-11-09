@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#eaf8f3">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="于你有·源 — iOS 越狱软件源。复制源地址，或在 Sileo 中添加。">
+  <meta name="description" content="于你有·源 — iOS 越狱源。复制源地址，或在 Sileo 中添加。">
   <title>于你有·源</title>
   <style>
     :root{color-scheme:dark;--page:#101225;--text:#f8f7ff;--muted:#c4c6dc;--card:linear-gradient(135deg,rgba(160,166,220,.105),rgba(47,51,82,.12) 52%,rgba(128,108,177,.075));--edge:rgba(207,211,255,.14);--soft:rgba(255,255,255,.085);--address:rgba(8,10,27,.28);--note:#b0b2ca;--footer:#a0a2bd;--code:#f0eaff}
@@ -40,11 +40,11 @@
   <main><section class="card" aria-labelledby="title">
     <div class="eyebrow"><span class="spark" aria-hidden="true"></span> iOS PACKAGE SOURCE</div>
     <h1 id="title"><span>于你有</span><span class="title-dot" aria-hidden="true">·</span><span>源</span></h1>
-    <p class="intro">欢迎来到我的软件源。通过 Sileo 添加源地址，发现并管理适用于你的越狱环境的软件包。</p>
-    <div class="actions"><a class="button button-primary" href="sileo://source/https://ynyy0.github.io/" aria-label="在 Sileo 中添加于你有源"><span aria-hidden="true">＋</span> 添加到 Sileo</a><a class="button" href="https://qm.qq.com/q/r781ixQ16q" target="_blank" rel="noopener noreferrer">加入交流群 <span aria-hidden="true">↗</span></a></div>
-    <p class="address-label">软件源地址</p><div class="address"><code id="source-url">https://ynyy0.github.io/</code><button class="button copy" id="copy-button" type="button">复制地址</button></div>
+    <p class="intro">欢迎来到我的越狱源。通过 Sileo 添加源地址，发现并管理适用于你的越狱环境的软件包。</p>
+    <div class="actions"><a class="button button-primary" href="sileo://source/https://ynyy0.github.io/" aria-label="在 Sileo 中添加于你有越狱源"><span aria-hidden="true">＋</span> 添加到 Sileo</a><a class="button" href="https://qm.qq.com/q/r781ixQ16q" target="_blank" rel="noopener noreferrer">加入交流群 <span aria-hidden="true">↗</span></a></div>
+    <p class="address-label">越狱源地址</p><div class="address"><code id="source-url">https://ynyy0.github.io/</code><button class="button copy" id="copy-button" type="button">复制地址</button></div>
     <p class="note">在兼容的软件包管理器中添加此地址即可。软件包是否可用，取决于源中已发布的兼容软件包。</p>
-  </section><footer>于你有·源 · 个人软件源</footer></main>
+  </section><footer>于你有·源 · 个人越狱源</footer></main>
   <div id="toast" role="status" aria-live="polite"></div>
   <script>
     const themeToggle=document.getElementById('theme-toggle'),copyButton=document.getElementById('copy-button'),toast=document.getElementById('toast'),meteor=document.getElementById('meteor'),leafLayer=document.getElementById('leaf-layer'),starLayer=document.getElementById('star-layer'),snowLayer=document.getElementById('snow-layer');let toastTimer;const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;let snowStarted=false;let snowFrameId=null;let snowflakes=[];
@@ -52,7 +52,7 @@
     createStars();
     function clearSnow(){if(!snowStarted)return;snowStarted=false;cancelAnimationFrame(snowFrameId);snowflakes=[];snowLayer.innerHTML=''}
     function startSnow(){
-      if(snowStarted || !document.body.classList.contains('fresh')) return;
+      if(snowStarted || document.body.classList.contains('fresh')) return;
       snowStarted=true;
       const buttons=[...document.querySelectorAll('.button')];
       snowflakes=[];snowLayer.innerHTML='';
@@ -81,8 +81,8 @@
       snowFrameId=requestAnimationFrame(tick);
     }
     if(!reducedMotion){function launchMeteor(){if(!document.body.classList.contains('fresh')){meteor.classList.remove('go');void meteor.offsetWidth;meteor.classList.add('go')}setTimeout(launchMeteor,6000+Math.random()*6000)}setTimeout(launchMeteor,1800);for(let i=0;i<16;i++){const leaf=document.createElement('i');leaf.className='leaf';leaf.style.setProperty('--top',(Math.random()*92)+'vh');leaf.style.setProperty('--size',(12+Math.random()*14)+'px');leaf.style.setProperty('--duration',(9+Math.random()*11)+'s');leaf.style.setProperty('--delay',(-Math.random()*18)+'s');leaf.style.setProperty('--angle',(Math.random()*360)+'deg');leafLayer.appendChild(leaf)}}
-    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格';if(fresh){startSnow()}else{clearSnow()}});
-    if(document.body.classList.contains('fresh')) startSnow();
+    themeToggle.addEventListener('click',()=>{const fresh=document.body.classList.toggle('fresh');document.documentElement.style.backgroundColor=fresh?'#eaf8f3':'#101225';document.querySelector('meta[name="theme-color"]').content=fresh?'#eaf8f3':'#101225';themeToggle.setAttribute('aria-pressed',String(fresh));themeToggle.setAttribute('aria-label',fresh?'切换液态风格':'切换清新风格');themeToggle.title=fresh?'切换液态风格':'切换清新风格';if(fresh){clearSnow()}else{startSnow()}});
+    if(!document.body.classList.contains('fresh')) startSnow();
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
 </body>
