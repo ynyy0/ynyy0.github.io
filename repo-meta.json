@@ -101,6 +101,12 @@
         "Hello系列"
       ],
       "section": "Hello系列"
+    },
+    "cn.octoforce.copyvault": {
+      "cats": [
+        "测试"
+      ],
+      "section": "测试"
     }
   },
   "categories": [
