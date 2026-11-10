@@ -135,6 +135,9 @@
       ],
       "section" : "杂七杂八"
     },
+    "debs\/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb" : {
+      "name" : "88液态"
+    },
     "debs\/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb" : {
       "cats" : [
         "关于美化"
