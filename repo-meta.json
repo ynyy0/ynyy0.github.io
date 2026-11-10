@@ -137,9 +137,9 @@
     },
     "debs\/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb" : {
       "cats" : [
-        "测试"
+        "关于美化"
       ],
-      "section" : "测试"
+      "section" : "关于美化"
     },
     "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
       "cats" : [
