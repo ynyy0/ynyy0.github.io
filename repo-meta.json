@@ -166,6 +166,7 @@
       "section" : "工具"
     },
     "debs\/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb" : {
+      "author" : "小菜",
       "cats" : [
         "工具"
       ],
