@@ -36,6 +36,9 @@ jobs:
           xz -9 -e -k -f Packages
           zstd --ultra -22 -k -f Packages -o Packages.zst
 
+      - name: Refresh Release checksums
+        run: python3 .github/scripts/build_index.py --release-only
+
       - name: Stage static site
         run: |
           mkdir -p _site
