@@ -45,6 +45,31 @@ def icon_version(path):
         return '0'
 
 
+def write_release():
+    """重建 Release 的校验字段；头部（Origin/Label/Architectures 等）原样保留。"""
+    release_file = ROOT / 'Release'
+    header = []
+    if release_file.is_file():
+        for line in release_file.read_text(encoding='utf-8').splitlines():
+            if line.rstrip() in ('MD5Sum:', 'SHA1:', 'SHA256:'):
+                break
+            header.append(line)
+    def hash_section(title, algo):
+        lines = [title + ':']
+        for name in ('Packages', 'Packages.bz2', 'Packages.xz', 'Packages.zst'):
+            f = ROOT / name
+            if f.is_file():
+                digest = hashlib.new(algo, f.read_bytes()).hexdigest()
+                lines.append(' %s %d %s' % (digest, f.stat().st_size, name))
+        return lines
+    NL = chr(10)
+    text = (NL.join(header).rstrip(NL) + NL + NL
+            + NL.join(hash_section('MD5Sum', 'md5')) + NL + NL
+            + NL.join(hash_section('SHA1', 'sha1')) + NL + NL
+            + NL.join(hash_section('SHA256', 'sha256')) + NL)
+    release_file.write_text(text, encoding='utf-8')
+
+
 def main():
     meta = load_meta()
     overrides = meta.get('plugins', {}) or {}
@@ -53,8 +78,12 @@ def main():
     source_v = icon_version(source_icon_file) if source_icon_file.is_file() else '0'
     result = subprocess.run(
         ['dpkg-scanpackages', '-m', 'debs', '/dev/null'],
-        cwd=ROOT, capture_output=True, text=True, check=True,
+        cwd=ROOT, capture_output=True, text=True, check=False,
     )
+    if result.returncode != 0:
+        # 单个损坏的 deb 只会被跳过，不再导致整个部署失败
+        print('dpkg-scanpackages reported issues (bad debs are skipped):')
+        print(result.stderr.strip()[:2000])
     stanzas = [s for s in result.stdout.rstrip('\n').split('\n\n') if s.strip()]
     updated = []
 
@@ -132,8 +161,14 @@ def main():
     (ROOT / 'Packages').write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
 
     # 主页由仓库直接维护，索引脚本不再改写其中的名称
+    write_release()
     print(f'Indexed {len(updated)} packages')
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    if '--release-only' in sys.argv:
+        write_release()
+        print('Release hashes refreshed')
+    else:
+        main()
