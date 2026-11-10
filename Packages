@@ -428,24 +428,6 @@ Author: personal
 Name: A狗动态岛激活码生成器
 Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.keygen.png?v=97056edd
 
-Package: com.axs.screenrecording
-Version: 5.2.0-35
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 508
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.axs.screenrecording_5.2.0-35_iphoneos-arm64.deb
-Size: 46368
-MD5sum: fa659abcef7c2536ff160a87392dad57
-SHA1: 7f64e272c9c4a1d5d001fa7b1278533ca3b8dfe3
-SHA256: f059c29d6644a715a1bb0058dfd01c5246c6e1927df91615b3ee5e5c5df399bd
-Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
-Author: Axs
-Name: A狗截图套壳
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
-Section: 美化
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
-
 Package: com.binglan.dynamicfx
 Version: 1.0.7
 Architecture: iphoneos-arm64
