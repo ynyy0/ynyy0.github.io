@@ -587,6 +587,38 @@ Name: 88液态玻璃隐根版
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.roothide.png?v=97056edd
 Section: 美化
 
+Package: com.eswick.harbor16
+Version: 2.0.0-alpha100+ci.8
+Architecture: iphoneos-arm64
+Maintainer: 小菜
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit (>= 1.0), preferenceloader
+Filename: debs/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb
+Size: 154784
+MD5sum: c40c41b741a02da32b5b498f1c2ab3e9
+SHA1: 467957805e553bdcea540ba190b3461b911ff3ce
+SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
+Description: 已汉化
+Author: 小菜
+Name: MaxDock
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Section: 关于美化
+
+Package: com.eswick.harbor16
+Version: 2.0.0-alpha100+ci.8
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit (>= 1.0), preferenceloader
+Filename: debs/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64e_已汉化.deb
+Size: 117572
+MD5sum: f55694856e667600107640650873ca03
+SHA1: 5dac4ee7b6bc3654546269bd1d939fb6a9355720
+SHA256: ebcb5d4718725df8684a643c692dc498e02eaedc82958ea01220a7e176295f93
+Description: 已汉化
+Author: 小菜
+Name: MaxDock
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Section: 关于美化
+
 Package: com.go.mango
 Version: 1.0-Beta7-6
 Architecture: iphoneos-arm64
