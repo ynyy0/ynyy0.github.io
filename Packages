@@ -600,7 +600,7 @@ SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
 Description: 已汉化
 Author: 小菜
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
-Name: MaxDock 汉化
+Name: MaxDock已汉化 无根
 Section: 关于美化
 
 Package: com.eswick.harbor16
@@ -616,7 +616,7 @@ SHA256: ebcb5d4718725df8684a643c692dc498e02eaedc82958ea01220a7e176295f93
 Description: 已汉化
 Author: 小菜
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
-Name: MaxDock 汉化
+Name: MaxDock已汉化 无根
 Section: 关于美化
 
 Package: com.go.mango
