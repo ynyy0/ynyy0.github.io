@@ -143,6 +143,9 @@ def main():
         if ov.get('description'):
             lines = [line for line in lines if not line.startswith('Description: ')]
             lines.append('Description: ' + str(ov['description']))
+        if ov.get('author'):
+            lines = [line for line in lines if not line.startswith('Author: ')]
+            lines.append('Author: ' + str(ov['author']))
         # 管理台里把插件移动到某个分类目录后，源索引的 Section 同步改成该分类
         if ov.get('section'):
             lines = [line for line in lines if not line.startswith('Section: ')]
