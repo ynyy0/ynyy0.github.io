@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-indexes
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -34,11 +38,14 @@ jobs:
           xz -9 -e -k -f Packages
           zstd --ultra -22 -k -f Packages -o Packages.zst
 
+      - name: Refresh Release checksums
+        run: python3 .github/scripts/build_index.py --release-only
+
       - name: Commit refreshed indexes and naming
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+users.noreply.github.com'
-          git add Packages Packages.bz2 Packages.xz Packages.zst index.html
+          git add Packages Packages.bz2 Packages.xz Packages.zst Release index.html
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh package indexes and icons'
             git push
