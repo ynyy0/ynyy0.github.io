@@ -71,6 +71,11 @@ def main():
              if line.startswith('Package: ')),
             None,
         )
+        filename = next(
+            (line.split(':', 1)[1].strip().lstrip('./') for line in lines
+             if line.startswith('Filename: ')),
+            None,
+        )
         if package:
             icon_path = ROOT / 'icons' / f'{package}.png'
             if not icon_path.is_file():
@@ -97,8 +102,12 @@ def main():
             if not any(line.startswith('Section: ') for line in lines):
                 lines.append('Section: 公益插件')
 
-        # 管理台写入的显示名 / 描述覆盖，优先级最高
-        ov = find_override(overrides, package)
+        # 管理台写入的显示名 / 描述 / 分类覆盖，按文件路径优先（同包名多变体互不影响），其次包名
+        ov = {}
+        if filename:
+            ov = find_override(overrides, filename)
+        if not ov:
+            ov = find_override(overrides, package)
         if ov.get('name'):
             lines = [line for line in lines if not line.startswith('Name: ')]
             lines.append('Name: ' + str(ov['name']))
