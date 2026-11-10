@@ -569,24 +569,6 @@ Author: 一刀
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.png?v=97056edd
 Name: 88液态
 
-Package: com.charlieleung.liquidify.roothide
-Version: 1.3.7-4
-Architecture: iphoneos-arm64e
-Maintainer: 一刀
-Installed-Size: 40967
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb
-Size: 15421002
-MD5sum: 6a873a609434b5b3773bcaa8171c9c81
-SHA1: 806fe4d35c837a4b7f6cf3b77522942ac9502188
-SHA256: 0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc
-Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
-Author: 一刀
-Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.roothide.png?v=b88616e2
-Name: 88液态玻璃 隐根版
-Section: 关于美化
-
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
 Architecture: iphoneos-arm64
