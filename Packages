@@ -603,6 +603,22 @@ Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: MaxDock已汉化 无根
 Section: 关于美化
 
+Package: com.eswick.harbor16.roothide
+Version: 2.0.0-alpha100+ci.8
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit (>= 1.0), preferenceloader
+Filename: debs/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb
+Size: 117556
+MD5sum: 6ddd46499948471027c2c54cc420bb12
+SHA1: 7713c6dced795588fe4a3a67671bb4b5256e6f17
+SHA256: e23c71b79c0515600a0d94b66cef8d13cbee9187033fb05f3b80179f38953320
+Description: 已公益
+Author: 小菜
+Name: MaxDock
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Section: 关于美化
+
 Package: com.go.mango
 Version: 1.0-Beta7-6
 Architecture: iphoneos-arm64
