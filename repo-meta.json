@@ -145,6 +145,9 @@
       "name" : "88液态玻璃 隐根版",
       "section" : "关于美化"
     },
+    "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb" : {
+      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
+    },
     "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
       "cats" : [
         "关于美化"
@@ -174,6 +177,12 @@
         "工具"
       ],
       "section" : "工具"
+    },
+    "TrollOpenJB_v2.0.2" : {
+      "cats" : [
+        "分屏插件"
+      ],
+      "section" : "分屏插件"
     }
   }
 }
