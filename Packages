@@ -143,7 +143,7 @@ Author: 刀哥
 Name: 乌贼手势隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
-Section: 杂七杂八
+Section: 公益插件
 
 Package: cn.zqbb.fix120hz
 Version: 3.3.3-3
@@ -305,7 +305,7 @@ Size: 674340
 MD5sum: 666e7676fdc00eb84385165fde65a776
 SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
 SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
-Section: 控制中心
+Section: 关于美化
 Description: 这是一个简单的控制中心美化插件。
 Author: binglan
 Name: 冰蓝控制中心2.3.3-end
@@ -328,7 +328,7 @@ Author: 冰蓝
 Name: 全局水印Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 Icon: https://ynyy0.github.io/icons/com.Axs.qjsy.png?v=fa359a98
-Section: 杂七杂八
+Section: 公益插件
 
 Package: com.Axs.snapper3
 Version: 1.2.1
@@ -384,29 +384,6 @@ Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 Icon: https://ynyy0.github.io/icons/com.Axs.yuanjiao.png?v=97056edd
 
-Package: com.axs.ios16dao
-Version: 5.2.0-244
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 704
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/com.axs.ios16dao_5.2.0-244_iphoneos-arm64.deb
-Size: 123852
-MD5sum: a6afccdd55d2c3bef075c5c68d2ec66f
-SHA1: bf70f204f60dd942da4bef9faca3e1c47b8038b2
-SHA256: b9379918ac40c02c003a8c1292309481d7f1c7f7e3f8b28794e6f2721ea95823
-Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
- * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
- * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
- * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
- * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
- * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Author: Axs
-Name: A狗150动态岛
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.png?v=00cdd565
-Section: 美化
-
 Package: com.binglan.dynamicfx
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -422,7 +399,7 @@ Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
 Icon: https://ynyy0.github.io/icons/com.binglan.dynamicfx.png?v=97056edd
-Section: 杂七杂八
+Section: 公益插件
 
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
@@ -473,7 +450,7 @@ Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地�
 Author: BVN
 Name: 乌贼本地离线授权
 Icon: https://ynyy0.github.io/icons/com.bvm.wuzeililiang.png?v=88b7b536
-Section: 杂七杂八
+Section: 公益插件
 
 Package: com.bvn.copyvault.rl
 Version: 1.9.0k
@@ -783,4 +760,3 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
-

@@ -9,7 +9,6 @@
     "微信插件",
     "手势键盘",
     "抖音插件",
-    "控制中心",
     "杂七杂八",
     "测试",
     "系统美化",
@@ -130,6 +129,12 @@
       "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827",
       "section" : "公益插件"
     },
+    "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
         "zqbb Tweaks"
@@ -142,17 +147,47 @@
       ],
       "section" : "zqbb Tweaks"
     },
+    "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "zqbb Tweaks"
+      ],
+      "section" : "zqbb Tweaks"
+    },
     "debs\/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb" : {
       "cats" : [
         "zqbb Tweaks"
       ],
       "section" : "zqbb Tweaks"
     },
+    "debs\/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb" : {
+      "cats" : [
+        "关于美化"
+      ],
+      "section" : "关于美化"
+    },
+    "debs\/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
+    "debs\/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
       "cats" : [
         "杂七杂八"
       ],
       "section" : "杂七杂八"
+    },
+    "debs\/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
     },
     "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
       "cats" : [
