@@ -67,8 +67,8 @@ Description: 正版乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-Icon: https://ynyy0.github.io/icons/cn.octoforce.copyvault.png?v=3de88819
 Section: 公益插件
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
@@ -175,7 +175,6 @@ Size: 413006
 MD5sum: 07c4b1dcb8857c8ecb4e3eb375c40b2a
 SHA1: 8e82bf5f92d983762673e3ebc7a7bc21f7ed5d71
 SHA256: a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b
-Section: zqbb Tweaks
 Description:
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -184,6 +183,7 @@ Author: zqbb
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
+Section: zqbb Tweaks
 
 Package: cn.zqbb.hello.bundleid
 Version: 1.6.1-5
@@ -507,11 +507,11 @@ Size: 36936
 MD5sum: 3a817babf0231da296be4d9ae76b6573
 SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
 SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
-Section: 公益插件
 Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
 Author: BVN
 Name: SquidForce VIP
 Icon: https://ynyy0.github.io/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
+Section: 公益插件
 
 Package: com.charlieleung.liquidify
 Version: 1.3.7-4+dao88.1
@@ -711,12 +711,12 @@ Size: 165460
 MD5sum: 5de2a2be3032a85da4055fd3e6082472
 SHA1: de86786f7ca88cddc7841bbdd112883e66d658af
 SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
-Section: 公益插件
 Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
 Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
+Section: 公益插件
 
 Package: com.wkk.shuffle
 Version: 1.6.2
@@ -783,3 +783,4 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
+
