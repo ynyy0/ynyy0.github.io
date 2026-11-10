@@ -517,10 +517,10 @@ Size: 154784
 MD5sum: c40c41b741a02da32b5b498f1c2ab3e9
 SHA1: 467957805e553bdcea540ba190b3461b911ff3ce
 SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
-Section: 关于美化
 Description: 已汉化
 Author: 小菜
 Name: MaxDock 无根 汉化版
+Section: 关于美化
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
 Package: com.eswick.harbor16.roothide
@@ -760,3 +760,4 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
+
