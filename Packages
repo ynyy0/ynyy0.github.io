@@ -581,7 +581,7 @@ Author: 小菜
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 隐根
 Description: 已汉化
-Section: 关于美化
+Section: 测试
 
 Package: com.go.mango
 Version: 1.0-Beta7-6
@@ -805,4 +805,3 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
-
