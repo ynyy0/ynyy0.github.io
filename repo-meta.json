@@ -16,6 +16,12 @@
     "测试 2"
   ],
   "plugins" : {
+    "27 动画破解+优化" : {
+      "cats" : [
+        "测试 2"
+      ],
+      "section" : "测试 2"
+    },
     "byg.iosios.net.autotouch" : {
       "name" : "按键精灵"
     },
