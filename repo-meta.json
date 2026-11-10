@@ -11,7 +11,8 @@
     "抖音插件",
     "杂七杂八",
     "系统美化",
-    "美化"
+    "美化",
+    "汉化包"
   ],
   "plugins" : {
     "byg.iosios.net.autotouch" : {
@@ -211,7 +212,12 @@
       "section" : "关于美化"
     },
     "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb" : {
-      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
+      "cats" : [
+        "关于美化"
+      ],
+      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827",
+      "name" : "MaxDock 无根 汉化版",
+      "section" : "关于美化"
     },
     "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
       "cats" : [
