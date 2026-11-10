@@ -4,6 +4,7 @@
     "Tweaks",
     "zqbb Tweaks",
     "公益插件",
+    "关于美化",
     "分屏插件",
     "工具",
     "微信插件",
@@ -11,10 +12,8 @@
     "抖音插件",
     "控制中心",
     "杂七杂八",
-    "测试 1",
     "测试 2",
-    "美化",
-    "关于美化"
+    "美化"
   ],
   "plugins" : {
     "27 动画破解+优化" : {
@@ -141,6 +140,12 @@
     },
     "com.siwenjiajia.tweak.comm" : {
       "name" : "抖音优化"
+    },
+    "debs\/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb" : {
+      "cats" : [
+        "未分类"
+      ],
+      "section" : "未分类"
     },
     "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64e_已汉化.deb" : {
       "name" : "MaxDock已汉化 隐根"
