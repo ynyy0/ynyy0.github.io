@@ -585,7 +585,7 @@ Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液�
 Author: 一刀
 Name: 88液态玻璃隐根版
 Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.roothide.png?v=97056edd
-Section: 美化
+Section: 测试 3
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -757,4 +757,3 @@ Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
 Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
-
