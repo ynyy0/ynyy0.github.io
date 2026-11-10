@@ -148,6 +148,12 @@
       ],
       "section" : "公益插件"
     },
+    "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
+      "cats" : [
+        "杂七杂八"
+      ],
+      "section" : "杂七杂八"
+    },
     "debs\/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb" : {
       "cats" : [
         "美化"
