@@ -584,8 +584,8 @@ SHA256: 0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc
 Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
 Author: 一刀
 Name: 88液态玻璃隐根版
-Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.roothide.png?v=b88616e2
 Section: 关于美化
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -757,3 +757,4 @@ Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
 Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
+
