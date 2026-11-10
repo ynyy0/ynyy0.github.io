@@ -149,6 +149,9 @@
       "name" : "MacDock 已汉化 隐根",
       "section" : "关于美化"
     },
+    "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
+      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
+    },
     "debs\/com.xybp888.callassist16.dopamine.roothide_3.4.3_iphoneos-arm64e.deb" : {
       "cats" : [
         "工具"
