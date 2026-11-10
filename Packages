@@ -161,7 +161,7 @@ Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png?v=97056edd
-Section: Hello系列
+Section: zqbb Tweaks
 
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
@@ -175,7 +175,7 @@ Size: 413006
 MD5sum: 07c4b1dcb8857c8ecb4e3eb375c40b2a
 SHA1: 8e82bf5f92d983762673e3ebc7a7bc21f7ed5d71
 SHA256: a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b
-Section: Hello系列
+Section: zqbb Tweaks
 Description:
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -255,7 +255,7 @@ Author: zqbb
 Name: Hello QActions
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
-Section: Hello系列
+Section: zqbb Tweaks
 
 Package: cn.zqbb.hello.quick.panel
 Version: 1.0.0-5
@@ -407,27 +407,6 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.png?v=00cdd565
 Section: 美化
 
-Package: com.axs.ios16dao.keygen
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: personal
-Filename: debs/com.axs.ios16dao.keygen_1.0.0_iphoneos-arm64.deb
-Size: 5516
-MD5sum: 5311513c947c1e5934ea204ab4b6d3ae
-SHA1: 1fc704a23cddaeefd251c3afad6bd589dbeb9960
-SHA256: 6ebaabd7312c250b02543d0703d891d75ae281c7a51a6b42765a723eaf7e7912
-Section: 工具
-Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
- 使用说明：
- 1. 打开 A狗动态岛 的授权弹窗，记下 12 位十六进制设备码（如 B67E31825990）；
- 2. 用 Filza 进入 /var/jb/Library/，打开「A狗动态岛激活码生成器.html」；
- 3. 输入设备码，自动生成 18 位激活码，点「复制激活码」；
- 4. 把激活码粘贴回插件弹窗，完成激活；
- 5. 也可在电脑浏览器打开 https://tlzypjy.github.io/jb-repo/A狗动态岛激活码生成器.html 生成，效果一样。
-Author: personal
-Name: A狗动态岛激活码生成器
-Icon: https://ynyy0.github.io/icons/com.axs.ios16dao.keygen.png?v=97056edd
-
 Package: com.binglan.dynamicfx
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -514,7 +493,7 @@ Description: 乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault
 Icon: https://ynyy0.github.io/icons/com.bvn.copyvault.rl.png?v=c9085c26
-Section: Hello系列
+Section: zqbb Tweaks
 
 Package: com.bvn.squidforcecrack.rl
 Version: 1.0.1-1
@@ -528,7 +507,7 @@ Size: 36936
 MD5sum: 3a817babf0231da296be4d9ae76b6573
 SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
 SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
-Section: 工具
+Section: 公益插件
 Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
 Author: BVN
 Name: SquidForce VIP
@@ -732,7 +711,7 @@ Size: 165460
 MD5sum: 5de2a2be3032a85da4055fd3e6082472
 SHA1: de86786f7ca88cddc7841bbdd112883e66d658af
 SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
-Section: 工具
+Section: 公益插件
 Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
@@ -754,24 +733,6 @@ Description: 插件设置归类，已汉化。
 Author: CreatureSurvive <support@creaturecoding.com>
 Name: Shuffle
 Icon: https://ynyy0.github.io/icons/com.wkk.shuffle.png?v=eb4862dd
-Section: 工具
-
-Package: com.xybp888.callassist16.dopamine.roothide
-Version: 3.4.3
-Architecture: iphoneos-arm64e
-Maintainer: xybp888
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.4.3_iphoneos-arm64e.deb
-Size: 3688144
-MD5sum: aabb0f1e2b400c7f5705a49df4100489
-SHA1: 86db97834042f9e80115b4aa55f85d8294b08e49
-SHA256: 69b52705485afbb4495e6b0fe7f7808fa3e83ce23470de309a4ec894db700077
-Priority: optional
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888
-Dev: xybp888
-Name: 电话助手iOS16-正式版(Roothide)
-Icon: https://ynyy0.github.io/icons/com.xybp888.callassist16.dopamine.roothide.png?v=775bb115
 Section: 工具
 
 Package: dev.owngoal.settingsorganizer
@@ -822,4 +783,3 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
-

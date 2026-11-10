@@ -1,6 +1,5 @@
 {
   "categories" : [
-    "Hello系列",
     "Tweaks",
     "zqbb Tweaks",
     "公益插件",
@@ -12,8 +11,9 @@
     "抖音插件",
     "控制中心",
     "杂七杂八",
-    "美化",
-    "测试"
+    "测试",
+    "系统美化",
+    "美化"
   ],
   "plugins" : {
     "byg.iosios.net.autotouch" : {
@@ -127,13 +127,44 @@
       "cats" : [
         "公益插件"
       ],
+      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827",
       "section" : "公益插件"
+    },
+    "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "zqbb Tweaks"
+      ],
+      "section" : "zqbb Tweaks"
+    },
+    "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "zqbb Tweaks"
+      ],
+      "section" : "zqbb Tweaks"
+    },
+    "debs\/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "zqbb Tweaks"
+      ],
+      "section" : "zqbb Tweaks"
     },
     "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
       "cats" : [
         "杂七杂八"
       ],
       "section" : "杂七杂八"
+    },
+    "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "zqbb Tweaks"
+      ],
+      "section" : "zqbb Tweaks"
+    },
+    "debs\/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
     },
     "debs\/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb" : {
       "name" : "88液态"
@@ -158,6 +189,12 @@
     },
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
       "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
+    },
+    "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
     },
     "debs\/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb" : {
       "cats" : [
