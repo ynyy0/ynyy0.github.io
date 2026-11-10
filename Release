@@ -6,3 +6,21 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 于你有源
+
+MD5Sum:
+ fabe574d8a2fbb966a246c863029453a 32253 Packages
+ ae8ffa9f8d94b30199ee19a97c394803 10114 Packages.bz2
+ d6e041285e89de6006b7fa6107a0c0ef 10128 Packages.xz
+ fb4baaa83f91419963dfdb51762ee692 10913 Packages.zst
+
+SHA1:
+ c1905223ead56bdaa588e43b74e5faa14821173a 32253 Packages
+ 2d676d4df4fde444df337f845940264fc71f86a0 10114 Packages.bz2
+ 8ae547cc6e501822a69bf4315e9b68e554b577a8 10128 Packages.xz
+ 5e29cc948c5b272bf5ecd6236104eb183d4e0ddc 10913 Packages.zst
+
+SHA256:
+ 3919a498de13a0afa4c59491e989cf24a82ca3412a504658f652e5d785fc7fcc 32253 Packages
+ d4ddd4d5890fb107245dfa998a27491478f45201307bc6d134e7dec9fb341ef6 10114 Packages.bz2
+ ddfc942ace383ec64aa18458e370a21620b4207785fcc36eafab7d673e794b41 10128 Packages.xz
+ 61d0fd51a70e31a57bcf87e6ff4d06f8b6274cae3620651b438ddb19acf5f287 10913 Packages.zst
