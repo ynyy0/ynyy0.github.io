@@ -214,12 +214,12 @@ Size: 2811520
 MD5sum: cc726eded2c84cf5d0ef7809d2b9a926
 SHA1: 50a4cb6801dbd77c832c89750fa454c4d74829a7
 SHA256: 10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507
-Section: zqbb Tweaks
 Description: Quickly activate AI mode.
 Author: zqbb
 Name: Hello 键盘侠
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
+Section: zqbb Tweaks
 
 Package: cn.zqbb.hello.memorystatus
 Version: 3.9.0-6
@@ -305,12 +305,12 @@ Size: 674340
 MD5sum: 666e7676fdc00eb84385165fde65a776
 SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
 SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
-Section: 关于美化
 Description: 这是一个简单的控制中心美化插件。
 Author: binglan
 Name: 冰蓝控制中心2.3.3-end
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 Icon: https://ynyy0.github.io/icons/com.Axs.kongzhidiy.png?v=99a28125
+Section: 关于美化
 
 Package: com.Axs.qjsy
 Version: 4.1.6
@@ -760,3 +760,4 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
+
