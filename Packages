@@ -758,6 +758,23 @@ Description: 鱿鱼三件套通杀插件
 Name: 鱿鱼三件套通杀
 Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
 
+Package: com.wkk.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Depends: com.creaturecoding.libcspreferences
+Filename: debs/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 261260
+MD5sum: 5e1c035c03255f86c182e9576376e060
+SHA1: a0f8ad934d0386a8fa9cb097876aeef100209065
+SHA256: dca28e9effe883f855ce29eec297d0cb1f63aaa1d3967ba27da822c7da1a9551
+Description: 插件设置归类，已汉化。
+Author: CreatureSurvive <support@creaturecoding.com>
+Name: Shuffle
+Icon: https://ynyy0.github.io/icons/com.wkk.shuffle.png?v=eb4862dd
+Section: 工具
+
 Package: com.xybp888.callassist16.dopamine.roothide
 Version: 3.4.3
 Architecture: iphoneos-arm64e
@@ -824,3 +841,4 @@ Author: MoWang
 Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Section: 工具
+
