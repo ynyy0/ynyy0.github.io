@@ -664,11 +664,11 @@ Size: 69954
 MD5sum: 910949d1355f856f05ede306965f4f61
 SHA1: a9a765a8c0773fb009afed7fed8acee2c62881fe
 SHA256: fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba
+Section: Tweaks
 Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
 Author: Rain
 Name: RainFlow 120Hz
 Icon: https://ynyy0.github.io/icons/com.rain.120hzstable.png?v=97056edd
-Section: 手势键盘
 
 Package: com.rain.dock
 Version: 3.6.2-1
