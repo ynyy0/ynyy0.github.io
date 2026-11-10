@@ -474,11 +474,11 @@ Size: 3740156
 MD5sum: d013692bdeedab422b38ad5d1a373149
 SHA1: daef32141d5e97102fdb5d9ffd65a4ad3ef5f756
 SHA256: 0707fdaf56ccdfe284afcfdd5f9bafab6726d0dd1f32bf99a06a3e8b52d2744e
-Section: 控制中心
 Description: 控制中心中心美化？
 Author: binglan
 Name: 冰蓝控制中心2.3.6-end
 Icon: https://ynyy0.github.io/icons/com.binglan.kongzhidiy.png?v=e808b5b3
+Section: 杂七杂八
 
 Package: com.binglanqjsy.deb
 Version: 3.0.0
