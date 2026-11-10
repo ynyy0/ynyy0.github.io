@@ -634,7 +634,7 @@ Section: 分屏插件
 Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
 Author: go
 Name: 芒果分屏1.0-Beta7-6
-Icon: https://ynyy0.github.io/icons/com.go.mango.png?v=b88616e2
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
 Package: com.mallin.tunnelsharevpn
 Version: 1.2.6
@@ -824,3 +824,4 @@ Author: MoWang
 Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Section: 工具
+
