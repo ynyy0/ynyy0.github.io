@@ -758,3 +758,21 @@ Description: 鱿鱼三件套通杀插件
 Name: 鱿鱼三件套通杀
 Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
 
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 3.4.3
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.4.3_iphoneos-arm64e.deb
+Size: 3688144
+MD5sum: aabb0f1e2b400c7f5705a49df4100489
+SHA1: 86db97834042f9e80115b4aa55f85d8294b08e49
+SHA256: 69b52705485afbb4495e6b0fe7f7808fa3e83ce23470de309a4ec894db700077
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Dev: xybp888
+Name: 电话助手iOS16-正式版(Roothide)
+Icon: https://ynyy0.github.io/icons/com.xybp888.callassist16.dopamine.roothide.png?v=775bb115
+Section: 工具
+
