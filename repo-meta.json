@@ -145,6 +145,9 @@
     "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64e_已汉化.deb" : {
       "name" : "MaxDock已汉化 隐根"
     },
+    "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
+      "name" : "MacDock.隐根"
+    },
     "iya.banana.ios27animation" : {
       "cats" : [
         "测试 1"
