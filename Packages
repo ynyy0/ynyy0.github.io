@@ -760,3 +760,21 @@ Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Author: 小菜
 Section: 工具
+
+Package: iya.banana.ios27animation
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 3208
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/27 动画破解+优化.deb
+Size: 1251268
+MD5sum: 9e65b18fedf16391eb2b3e61f46c0a4d
+SHA1: c07425366446db604988f02eb42c8d01fc4438a3
+SHA256: ef6fa79a7b3ca94c990fbe8d6943d45d478d56d06afadb5b878a00d787f5da88
+Section: 公益插件
+Description: 于你有源 / 已公益
+Author: 小菜
+Name: iOS27 Animation
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+
