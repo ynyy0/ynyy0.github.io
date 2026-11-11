@@ -572,6 +572,25 @@ Author: Mallin
 Name: VPN 共享
 Icon: https://ynyy0.github.io/icons/com.mallin.tunnelsharevpn.png?v=e462c325
 
+Package: com.muzi.mutool
+Version: 2.2.59
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 2532
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/com.muzi.mutool_arm64e_roothide (6).deb
+Size: 542956
+MD5sum: f9b22ba0ff8bb6bd6eecda85791b98b8
+SHA1: 4e627a083b260963fe830b583c638cfec29955f8
+SHA256: 62accc305fbe851570bf956a3e1acae5979680e0188c1137446ccdb8c14eea6c
+Section: Tweaks
+Description: 已公益
+Author: 小菜
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
 Package: com.rain.120hzstable
 Version: 1.3.0
 Architecture: iphoneos-arm64
@@ -777,3 +796,4 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+
