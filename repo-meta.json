@@ -131,6 +131,12 @@
       ],
       "section" : "工具"
     },
+    "com.muzi.mutool_arm64e" : {
+      "cats" : [
+        "工具"
+      ],
+      "section" : "工具"
+    },
     "com.siwenjiajia.tweak.comm" : {
       "name" : "抖音优化"
     },
