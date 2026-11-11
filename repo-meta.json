@@ -125,6 +125,12 @@
       ],
       "section" : "测试"
     },
+    "com.muzi.mutool_2.2.59_arm64e" : {
+      "cats" : [
+        "分屏插件"
+      ],
+      "section" : "分屏插件"
+    },
     "com.siwenjiajia.tweak.comm" : {
       "name" : "抖音优化"
     },
