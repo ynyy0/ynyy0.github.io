@@ -125,13 +125,7 @@
       ],
       "section" : "测试"
     },
-    "com.muzi.mutool_2.2.59_arm64e" : {
-      "cats" : [
-        "工具"
-      ],
-      "section" : "工具"
-    },
-    "com.muzi.mutool_arm64e" : {
+    "com.muzi.mutool" : {
       "cats" : [
         "工具"
       ],
