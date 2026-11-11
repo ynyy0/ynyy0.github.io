@@ -276,6 +276,9 @@
       ],
       "section" : "工具"
     },
+    "dev.owngoal.settingsorganizer" : {
+      "description" : "设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。"
+    },
     "TrollOpenJB_v2.0.2" : {
       "cats" : [
         "分屏插件"
