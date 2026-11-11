@@ -140,6 +140,9 @@
       ],
       "section" : "分屏插件"
     },
+    "com.wkk.shuffle" : {
+      "author" : "小菜"
+    },
     "debs\/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb" : {
       "cats" : [
         "公益插件"
