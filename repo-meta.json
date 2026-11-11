@@ -122,6 +122,12 @@
     "com.siwenjiajia.tweak.comm" : {
       "name" : "抖音优化"
     },
+    "com.trollopenjb.patched.roothide" : {
+      "cats" : [
+        "分屏插件"
+      ],
+      "section" : "分屏插件"
+    },
     "debs\/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb" : {
       "cats" : [
         "公益插件"
