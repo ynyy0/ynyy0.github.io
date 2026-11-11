@@ -15,6 +15,12 @@
     "汉化包"
   ],
   "plugins" : {
+    "27 动画破解+优化" : {
+      "cats" : [
+        "分屏插件"
+      ],
+      "section" : "分屏插件"
+    },
     "byg.iosios.net.autotouch" : {
       "name" : "按键精灵"
     },
