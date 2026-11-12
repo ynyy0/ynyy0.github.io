@@ -146,6 +146,12 @@
       ],
       "section" : "分屏插件"
     },
+    "com.unknown.wuzeililiang" : {
+      "cats" : [
+        "工具"
+      ],
+      "section" : "工具"
+    },
     "com.wkk.shuffle" : {
       "author" : "小菜"
     },
@@ -271,9 +277,9 @@
     },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "工具"
       ],
-      "section" : "公益插件"
+      "section" : "工具"
     },
     "debs\/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb" : {
       "cats" : [
