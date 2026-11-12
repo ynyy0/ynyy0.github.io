@@ -15,12 +15,6 @@
     "汉化包"
   ],
   "plugins" : {
-    "cn.zqbb.fix120hz.obf" : {
-      "cats" : [
-        "工具"
-      ],
-      "section" : "工具"
-    },
     "27 动画破解+优化" : {
       "cats" : [
         "分屏插件"
@@ -43,6 +37,12 @@
       "section" : "杂七杂八"
     },
     "cn.zqbb.fix120hz" : {
+      "cats" : [
+        "工具"
+      ],
+      "section" : "工具"
+    },
+    "cn.zqbb.fix120hz.obf" : {
       "cats" : [
         "工具"
       ],
@@ -292,6 +292,7 @@
       "cats" : [
         "工具"
       ],
+      "name" : "设置插件",
       "section" : "工具"
     },
     "dev.owngoal.settingsorganizer" : {
