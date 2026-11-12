@@ -776,7 +776,7 @@ SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: 设置插件
-Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+Description: 设置分类收纳、
 Author: 小菜
 Section: 工具
 
@@ -796,4 +796,3 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
-

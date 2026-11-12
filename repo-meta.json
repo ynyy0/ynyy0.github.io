@@ -292,12 +292,12 @@
       "cats" : [
         "工具"
       ],
-      "description" : "设置分类收纳",
+      "description" : "设置分类收纳、",
       "name" : "设置插件",
       "section" : "工具"
     },
     "dev.owngoal.settingsorganizer" : {
-      "description" : "设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。"
+      "description" : "设置分类收纳、"
     },
     "TrollOpenJB_v2.0.2" : {
       "cats" : [
