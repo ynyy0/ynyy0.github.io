@@ -504,25 +504,8 @@ SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
 Section: 系统美化
 Description: 液态玻璃
 Author: 一刀
-Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.png?v=97056edd
+Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
-
-Package: com.charlieleung.liquidify
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: Charlie Leung
-Installed-Size: 2164
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.charlieleung.liquidify_1.4.1_iphoneos-arm64.deb
-Size: 415072
-MD5sum: 5f48fda92a4380431184787f16347f67
-SHA1: b14f51fceba48564ea6ed2382ec705e78df7bbb4
-SHA256: 690092e418c985064766fa085d1fe8d798b4c57235cce40182facbdc0f63266d
-Description: 为 iOS 界面注入液态玻璃质感。
-Author: Charlie Leung
-Name: Liquidify
-Icon: https://ynyy0.github.io/icons/com.charlieleung.liquidify.png?v=97056edd
-Section: 工具
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
