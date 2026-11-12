@@ -12,8 +12,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CLEAN_NAME = re.compile(r'[（(]\s*免授权\s*[)）]')
-ICON_BASE = 'https://ynyy0.github.io/icons/'
-DEFAULT_ICON = 'https://ynyy0.github.io/CydiaIcon.png'
+ICON_BASE = 'https://ynyy.xbcxbc.cn/icons/'
+DEFAULT_ICON = 'https://ynyy.xbcxbc.cn/CydiaIcon.png'
 META_FILE = ROOT / 'repo-meta.json'
 
 

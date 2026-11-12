@@ -78,7 +78,7 @@
         "美化",
         "杂七杂八"
       ],
-      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png",
       "section" : "美化"
     },
     "com.binglan.dynamicfx" : {
@@ -159,7 +159,7 @@
       "cats" : [
         "公益插件"
       ],
-      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
@@ -254,7 +254,7 @@
       "cats" : [
         "关于美化"
       ],
-      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
       "name" : "MaxDock 无根 汉化版",
       "section" : "关于美化"
     },
@@ -267,7 +267,7 @@
       "section" : "关于美化"
     },
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
-      "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827"
     },
     "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
       "cats" : [
