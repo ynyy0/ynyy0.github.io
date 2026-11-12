@@ -292,6 +292,7 @@
       "cats" : [
         "工具"
       ],
+      "description" : "设置分类收纳",
       "name" : "设置插件",
       "section" : "工具"
     },
