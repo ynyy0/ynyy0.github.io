@@ -281,6 +281,12 @@
       ],
       "section" : "工具"
     },
+    "debs\/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "debs\/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb" : {
       "cats" : [
         "工具"
