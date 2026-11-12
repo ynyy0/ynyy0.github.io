@@ -133,9 +133,9 @@
     },
     "com.muzi.mutool" : {
       "cats" : [
-        "工具"
+        "Tweaks"
       ],
-      "section" : "工具"
+      "section" : "Tweaks"
     },
     "com.siwenjiajia.tweak.comm" : {
       "name" : "抖音优化"
@@ -265,9 +265,9 @@
     },
     "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
       "cats" : [
-        "工具"
+        "Tweaks"
       ],
-      "section" : "工具"
+      "section" : "Tweaks"
     },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
