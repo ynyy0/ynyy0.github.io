@@ -15,6 +15,12 @@
     "汉化包"
   ],
   "plugins" : {
+    "cn.zqbb.fix120hz.obf" : {
+      "cats" : [
+        "工具"
+      ],
+      "section" : "工具"
+    },
     "27 动画破解+优化" : {
       "cats" : [
         "分屏插件"
@@ -158,15 +164,15 @@
     },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "zqbb Tweaks"
+        "工具"
       ],
-      "section" : "zqbb Tweaks"
+      "section" : "工具"
     },
     "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "zqbb Tweaks"
+        "工具"
       ],
-      "section" : "zqbb Tweaks"
+      "section" : "工具"
     },
     "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
       "cats" : [
