@@ -131,12 +131,15 @@ def main():
             if not any(line.startswith('Section: ') for line in lines):
                 lines.append('Section: 公益插件')
 
-        # 管理台写入的显示名 / 描述 / 分类覆盖，按文件路径优先（同包名多变体互不影响），其次包名
+        # 管理台写入的显示名 / 描述 / 分类覆盖：
+        # 路径键保存「同包名多变体」各自的设置，包名键是用户在管理台编辑后的最新意图。
+        # 两者合并，同名字段由包名键覆盖——否则编辑分类/作者会被旧的路径键永久盖住。
         ov = {}
         if filename:
-            ov = find_override(overrides, filename)
-        if not ov:
-            ov = find_override(overrides, package)
+            ov = dict(find_override(overrides, filename) or {})
+        name_ov = find_override(overrides, package) or {}
+        if name_ov:
+            ov.update(name_ov)
         if ov.get('name'):
             lines = [line for line in lines if not line.startswith('Name: ')]
             lines.append('Name: ' + str(ov['name']))
