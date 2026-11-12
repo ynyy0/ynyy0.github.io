@@ -257,6 +257,12 @@
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
       "icon" : "https:\/\/ynyy0.github.io\/CydiaIcon.png?v=cfa5c827"
     },
+    "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
+      "cats" : [
+        "分屏插件"
+      ],
+      "section" : "分屏插件"
+    },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
         "公益插件"
