@@ -572,6 +572,24 @@ Author: Mallin
 Name: VPN 共享
 Icon: https://ynyy.xbcxbc.cn/icons/com.mallin.tunnelsharevpn.png?v=e462c325
 
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.2_iphoneos-arm64e.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+Description: 手势与事件自动化工具
+Author: mlgm
+Name: Actra
+Icon: https://ynyy.xbcxbc.cn/icons/com.mlgm.actra.png?v=529a4c55
+Section: 公益插件
+
 Package: com.muzi.mutool
 Version: 2.2.59
 Architecture: iphoneos-arm64e
@@ -714,6 +732,22 @@ Name: 鱿鱼三件套通杀
 Icon: https://ynyy.xbcxbc.cn/icons/com.unknown.wuzeililiang.png?v=b88616e2
 Section: 工具
 
+Package: com.wcliquidglass.free
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: TLzypjy
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Filename: debs/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb
+Size: 731228
+MD5sum: 65ca2e958bb6ff1f440839fe48634dfa
+SHA1: f35a2baf73b052d224984cf929a668c6c2a3de24
+SHA256: f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281
+Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
+Author: TLzypjy
+Name: 58微信液态玻璃
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: 公益插件
+
 Package: com.wkk.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64
@@ -796,3 +830,4 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+
