@@ -161,7 +161,7 @@ Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png?v=97056edd
-Section: zqbb Tweaks
+Section: 工具
 
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
@@ -815,4 +815,3 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
-
