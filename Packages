@@ -13,7 +13,7 @@ Section: 微信插件
 Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
 Author: JJ
 Name: 微信全局圆角
-Icon: https://ynyy0.github.io/icons/axssb666.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/axssb666.png?v=97056edd
 
 Package: byg.iosios.net.autotouch
 Version: 8.0.11
@@ -30,7 +30,7 @@ Section: 杂七杂八
 Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
 Author: Kent Krantz
 Sponsor: 搬运工
-Icon: https://ynyy0.github.io/icons/byg.iosios.net.autotouch.png?v=aa4b33be
+Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.autotouch.png?v=aa4b33be
 Name: 按键精灵
 
 Package: byg.iosios.net.mango
@@ -48,7 +48,7 @@ Description: 一款非常不错的分屏插件，需要授权才能使用，但�
 Author: go
 Name: 芒果分屏1.0-Beta4-2
 Sponsor: 搬运工
-Icon: https://ynyy0.github.io/icons/byg.iosios.net.mango.png?v=aa4b33be
+Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.mango.png?v=aa4b33be
 Section: 杂七杂八
 
 Package: cn.octoforce.copyvault
@@ -68,7 +68,7 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Section: 公益插件
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
@@ -86,7 +86,7 @@ Description: SquidExtender + PCrack 离线授权（本地生成合法授权，�
 Author: SquidForce, Backup
 Name: 乌贼键盘无根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-Icon: https://ynyy0.github.io/icons/cn.octoforce.squidextender.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.png?v=97056edd
 
 Package: cn.octoforce.squidextender.roothide
 Version: 3.7.4+offline.1
@@ -105,7 +105,7 @@ Description: Local device-bound license recovery for SquidExtender 3.7.4. No act
 Author: SquidForce, Backup
 Name: 乌贼键盘隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-Icon: https://ynyy0.github.io/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
 
 Package: cn.octoforce.squidgesturepro
 Version: 2.7.6-2
@@ -124,7 +124,7 @@ Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需�
 Author: SquidForce, Backup
 Name: 乌贼手势无根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-Icon: https://ynyy0.github.io/icons/cn.octoforce.squidgesturepro.png?v=3de88819
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.png?v=3de88819
 
 Package: cn.octoforce.squidgesturepro.roothide
 Version: 2.7.6-1
@@ -142,7 +142,7 @@ Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No
 Author: 刀哥
 Name: 乌贼手势隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-Icon: https://ynyy0.github.io/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
 Section: 杂七杂八
 
 Package: cn.zqbb.fix120hz
@@ -160,7 +160,7 @@ SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
 Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
-Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.png?v=97056edd
 Section: 工具
 
 Package: cn.zqbb.fix120hz.obf
@@ -182,7 +182,7 @@ Description:
 Author: zqbb
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
-Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
 Section: 工具
 
 Package: cn.zqbb.hello.bundleid
@@ -200,7 +200,7 @@ Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
 Author: zqbb
 Name: Hello BundleID
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
-Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.bundleid.png?v=42e601bb
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.bundleid.png?v=42e601bb
 
 Package: cn.zqbb.hello.keyboard.ai
 Version: 6.6.6-3
@@ -218,7 +218,7 @@ Description: Quickly activate AI mode.
 Author: zqbb
 Name: Hello 键盘侠
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
-Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
 Section: zqbb Tweaks
 
 Package: cn.zqbb.hello.memorystatus
@@ -237,7 +237,7 @@ Description: Set memorystatus to avoid being killed by the system
 Author: zqbb
 Name: Hello Memory Status
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
-Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.memorystatus.png?v=f143008a
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.memorystatus.png?v=f143008a
 
 Package: cn.zqbb.hello.qactions
 Version: 1.3.0-1
@@ -254,7 +254,7 @@ Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷�
 Author: zqbb
 Name: Hello QActions
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
-Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
 Section: Hello系列
 
 Package: cn.zqbb.hello.quick.panel
@@ -273,7 +273,7 @@ Description: 快捷面板~
 Author: zqbb
 Name: Hello QuickPanel
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
-Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.quick.panel.png?v=458e9f59
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.quick.panel.png?v=458e9f59
 
 Package: cn.zqbb.holdcpu
 Version: 2.3.5-5.mg1
@@ -292,7 +292,7 @@ Description: (解除温控) (锁定低电量CPU频率)
 Author: zqbb
 Name: Hello CPU
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-Icon: https://ynyy0.github.io/icons/cn.zqbb.holdcpu.png?v=c03024ac
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.holdcpu.png?v=c03024ac
 
 Package: com.Axs.kongzhidiy
 Version: 2.3.3-end
@@ -309,7 +309,7 @@ Description: 这是一个简单的控制中心美化插件。
 Author: binglan
 Name: 冰蓝控制中心2.3.3-end
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
-Icon: https://ynyy0.github.io/icons/com.Axs.kongzhidiy.png?v=99a28125
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.kongzhidiy.png?v=99a28125
 Section: 关于美化
 
 Package: com.Axs.qjsy
@@ -327,7 +327,7 @@ Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
-Icon: https://ynyy0.github.io/icons/com.Axs.qjsy.png?v=fa359a98
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.qjsy.png?v=fa359a98
 Section: 杂七杂八
 
 Package: com.Axs.snapper3
@@ -346,7 +346,7 @@ Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
 Author: Jonathan Winger-lang
 Name: snapper3
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
-Icon: https://ynyy0.github.io/icons/com.axs.snapper3.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.axs.snapper3.png?v=97056edd
 
 Package: com.Axs.xmzs
 Version: 1.1-4C
@@ -365,7 +365,7 @@ Description: 微信功能扩展
 Author: xmmm
 Name: 熊猫助手
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
-Icon: https://ynyy0.github.io/icons/com.Axs.xmzs.png?v=31a5701c
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
 
 Package: com.Axs.yuanjiao
 Version: 1.8.6
@@ -382,7 +382,7 @@ Description: A狗的微信全局圆角插件原版 1.8.6-END 下载源里全局�
 Author: A
 Name: 微信全局圆角
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
-Icon: https://ynyy0.github.io/icons/com.Axs.yuanjiao.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.yuanjiao.png?v=97056edd
 
 Package: com.binglan.dynamicfx
 Version: 1.0.7
@@ -398,7 +398,7 @@ SHA256: 61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1
 Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
-Icon: https://ynyy0.github.io/icons/com.binglan.dynamicfx.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.dynamicfx.png?v=97056edd
 Section: 杂七杂八
 
 Package: com.binglan.kongzhidiy
@@ -415,7 +415,7 @@ SHA256: 0707fdaf56ccdfe284afcfdd5f9bafab6726d0dd1f32bf99a06a3e8b52d2744e
 Description: 控制中心中心美化？
 Author: binglan
 Name: 冰蓝控制中心2.3.6-end
-Icon: https://ynyy0.github.io/icons/com.binglan.kongzhidiy.png?v=e808b5b3
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.kongzhidiy.png?v=e808b5b3
 Section: 杂七杂八
 
 Package: com.binglanqjsy.deb
@@ -432,7 +432,7 @@ SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
 Author: 冰蓝
 Name: 冰蓝全局水印套壳
-Icon: https://ynyy0.github.io/icons/com.binglanqjsy.deb.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglanqjsy.deb.png?v=97056edd
 Section: 美化
 
 Package: com.bvm.wuzeililiang
@@ -449,7 +449,7 @@ SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
 Author: BVN
 Name: 乌贼本地离线授权
-Icon: https://ynyy0.github.io/icons/com.bvm.wuzeililiang.png?v=88b7b536
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvm.wuzeililiang.png?v=88b7b536
 Section: 杂七杂八
 
 Package: com.bvn.copyvault.rl
@@ -469,7 +469,7 @@ Description: 乌贼剪贴板
  先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
 Author: SquidForce, Backup
 Name: CopyVault
-Icon: https://ynyy0.github.io/icons/com.bvn.copyvault.rl.png?v=c9085c26
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
 Section: Hello系列
 
 Package: com.bvn.squidforcecrack.rl
@@ -487,7 +487,7 @@ SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
 Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
 Author: BVN
 Name: SquidForce VIP
-Icon: https://ynyy0.github.io/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
 Section: 公益插件
 
 Package: com.charlieleung.liquidify
@@ -503,7 +503,7 @@ SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
 SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
 Description: 液态玻璃
 Author: 一刀
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
 Section: 美化
 
@@ -521,7 +521,7 @@ Description: 已汉化
 Author: 小菜
 Name: MaxDock已汉化 无根
 Section: 关于美化
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: com.eswick.harbor16.roothide
 Version: 2.0.0-alpha100+ci.8
@@ -534,7 +534,7 @@ MD5sum: 6ddd46499948471027c2c54cc420bb12
 SHA1: 7713c6dced795588fe4a3a67671bb4b5256e6f17
 SHA256: e23c71b79c0515600a0d94b66cef8d13cbee9187033fb05f3b80179f38953320
 Author: 小菜
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 隐根
 Description: 已汉化
 Section: 测试
@@ -554,7 +554,7 @@ Section: 分屏插件
 Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
 Author: go
 Name: 芒果分屏1.0-Beta7-6
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: com.mallin.tunnelsharevpn
 Version: 1.2.6
@@ -570,7 +570,7 @@ Section: Tweaks
 Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
 Author: Mallin
 Name: VPN 共享
-Icon: https://ynyy0.github.io/icons/com.mallin.tunnelsharevpn.png?v=e462c325
+Icon: https://ynyy.xbcxbc.cn/icons/com.mallin.tunnelsharevpn.png?v=e462c325
 
 Package: com.muzi.mutool
 Version: 2.2.59
@@ -607,7 +607,7 @@ Section: Tweaks
 Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
 Author: Rain
 Name: RainFlow 120Hz
-Icon: https://ynyy0.github.io/icons/com.rain.120hzstable.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.120hzstable.png?v=97056edd
 
 Package: com.rain.dock
 Version: 3.6.2-1
@@ -624,7 +624,7 @@ Section: Tweaks
 Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
 Author: Rain
 Name: Rain 的 Dock
-Icon: https://ynyy0.github.io/icons/com.rain.dock.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.dock.png?v=97056edd
 
 Package: com.rain.processmonitor
 Version: 1.1.1-14+unlocked
@@ -641,7 +641,7 @@ Section: Tweaks
 Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知、应用冷冻、依赖关系分析、进程关系图谱、应用DNA分析、网络流量监控、A/B对比测试、Tweak热加载、剪贴板监控、发热追踪、沙盒检查、Hook探测、进程快照对比等。
 Author: Rain
 Name: Rain 的应用
-Icon: https://ynyy0.github.io/icons/com.rain.processmonitor.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.processmonitor.png?v=97056edd
 
 Package: com.rain.rainmhz
 Version: 6.14.1-1
@@ -661,7 +661,7 @@ Description: Rain的CPU性能与稳帧控制插件
 Tag: role::hacker, purpose::extension
 Author: Rain
 Name: Rain 的 Mhz
-Icon: https://ynyy0.github.io/icons/com.rain.rainmhz.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.rainmhz.png?v=97056edd
 
 Package: com.siwenjiajia.tweak.comm
 Version: 28.35
@@ -677,7 +677,7 @@ SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
 Section: 抖音插件
 Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
 Author: siwenjiajia
-Icon: https://ynyy0.github.io/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
 Name: 抖音优化
 
 Package: com.trollopenjb.patched.roothide
@@ -694,7 +694,7 @@ SHA256: 4e86c509aea1467105165595bb6003ce62ea73e4a0a428b2f5eaac9bcfa3ec30
 Description: TrollOpenJB 破解版（授权校验已绕过，恒为已授权）。含完整设置面板。
 Author: 小菜
 Name: TrollOpenJB最新破解版
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 分屏插件
 
 Package: com.unknown.wuzeililiang
@@ -711,7 +711,7 @@ Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
-Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=b88616e2
+Icon: https://ynyy.xbcxbc.cn/icons/com.unknown.wuzeililiang.png?v=b88616e2
 Section: 工具
 
 Package: com.wkk.shuffle
@@ -727,7 +727,7 @@ SHA1: a0f8ad934d0386a8fa9cb097876aeef100209065
 SHA256: dca28e9effe883f855ce29eec297d0cb1f63aaa1d3967ba27da822c7da1a9551
 Description: 插件设置归类，已汉化。
 Name: Shuffle
-Icon: https://ynyy0.github.io/icons/com.wkk.shuffle.png?v=eb4862dd
+Icon: https://ynyy.xbcxbc.cn/icons/com.wkk.shuffle.png?v=eb4862dd
 Author: 小菜
 Section: 工具
 
@@ -774,7 +774,7 @@ SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
  【适用范围】
  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 设置插件
 Description: 设置分类收纳、
 Author: 小菜
@@ -795,5 +795,5 @@ Section: 公益插件
 Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
-Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
