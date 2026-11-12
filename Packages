@@ -183,7 +183,7 @@ Author: zqbb
 Name: Hello 120Hz
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 Icon: https://ynyy0.github.io/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
-Section: zqbb Tweaks
+Section: 工具
 
 Package: cn.zqbb.hello.bundleid
 Version: 1.6.1-5
