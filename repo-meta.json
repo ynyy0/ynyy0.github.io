@@ -326,6 +326,12 @@
       ],
       "section" : "Tweaks"
     },
+    "debs\/iOS27Animation_2.0_arm64e_公益.deb" : {
+      "cats" : [
+        "Tweaks"
+      ],
+      "section" : "Tweaks"
+    },
     "dev.owngoal.settingsorganizer" : {
       "description" : "设置分类收纳、"
     },
