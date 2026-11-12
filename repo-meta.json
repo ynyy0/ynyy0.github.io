@@ -265,9 +265,9 @@
     },
     "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
       "cats" : [
-        "分屏插件"
+        "工具"
       ],
-      "section" : "分屏插件"
+      "section" : "工具"
     },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
