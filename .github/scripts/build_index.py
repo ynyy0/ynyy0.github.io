@@ -6,6 +6,7 @@ and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
 import hashlib
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -76,9 +77,12 @@ def main():
     # 源图标内容哈希，用于单插件「使用源图标」和默认兜底图标的版本号
     source_icon_file = ROOT / 'CydiaIcon.png'
     source_v = icon_version(source_icon_file) if source_icon_file.is_file() else '0'
+    # 固定 UTF-8 locale：runner 的 LANG=C 会让中文控制字段出现非 UTF-8 字节
+    scan_env = dict(os.environ, LC_ALL='C.UTF-8', LANG='C.UTF-8')
     result = subprocess.run(
         ['dpkg-scanpackages', '-m', 'debs', '/dev/null'],
-        cwd=ROOT, capture_output=True, text=True, check=False,
+        cwd=ROOT, capture_output=True, check=False, env=scan_env,
+        encoding='utf-8', errors='replace',
     )
     if result.returncode != 0:
         # 单个损坏的 deb 只会被跳过，不再导致整个部署失败
@@ -130,6 +134,15 @@ def main():
             ]
             if not any(line.startswith('Section: ') for line in lines):
                 lines.append('Section: 公益插件')
+
+        # deb control 里没写 Section 时补一个中性分类，避免 sileo 里出现空白分组
+        if not any(line.startswith('Section: ') for line in lines):
+            lines.append('Section: 未分类')
+
+        # 索引必须带 Architecture：管理台的架构兼容过滤（与 Sileo 同规则）依赖这个字段。
+        # dpkg-scanpackages 正常会输出；缺失时按当前主流 64 位补齐，避免整包被误判为不可安装。
+        if not any(line.startswith('Architecture: ') for line in lines):
+            lines.append('Architecture: iphoneos-arm64')
 
         # 管理台写入的显示名 / 描述 / 分类覆盖：
         # 路径键保存「同包名多变体」各自的设置，包名键是用户在管理台编辑后的最新意图。
