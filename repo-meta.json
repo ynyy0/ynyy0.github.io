@@ -287,6 +287,12 @@
       ],
       "section" : "工具"
     },
+    "debs\/com.muzi.mutool_2.2.59_arm64e_roothide (6).deb" : {
+      "cats" : [
+        "关于美化"
+      ],
+      "section" : "关于美化"
+    },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
         "工具"
