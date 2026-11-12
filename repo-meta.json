@@ -269,6 +269,12 @@
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
       "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827"
     },
+    "debs\/com.mlgm.actra_1.2_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
       "cats" : [
         "工具"
