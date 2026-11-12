@@ -711,7 +711,7 @@ Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
-Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=97056edd
+Icon: https://ynyy0.github.io/icons/com.unknown.wuzeililiang.png?v=b88616e2
 Section: 工具
 
 Package: com.wkk.shuffle
@@ -796,3 +796,4 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+
