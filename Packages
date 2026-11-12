@@ -143,7 +143,7 @@ Author: 刀哥
 Name: 乌贼手势隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 Icon: https://ynyy0.github.io/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
-Section: 公益插件
+Section: 杂七杂八
 
 Package: cn.zqbb.fix120hz
 Version: 3.3.3-3
@@ -255,7 +255,7 @@ Author: zqbb
 Name: Hello QActions
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 Icon: https://ynyy0.github.io/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
-Section: zqbb Tweaks
+Section: Hello系列
 
 Package: cn.zqbb.hello.quick.panel
 Version: 1.0.0-5
@@ -328,7 +328,7 @@ Author: 冰蓝
 Name: 全局水印Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 Icon: https://ynyy0.github.io/icons/com.Axs.qjsy.png?v=fa359a98
-Section: 公益插件
+Section: 杂七杂八
 
 Package: com.Axs.snapper3
 Version: 1.2.1
@@ -399,7 +399,7 @@ Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
 Icon: https://ynyy0.github.io/icons/com.binglan.dynamicfx.png?v=97056edd
-Section: 公益插件
+Section: 杂七杂八
 
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
@@ -450,7 +450,7 @@ Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地�
 Author: BVN
 Name: 乌贼本地离线授权
 Icon: https://ynyy0.github.io/icons/com.bvm.wuzeililiang.png?v=88b7b536
-Section: 公益插件
+Section: 杂七杂八
 
 Package: com.bvn.copyvault.rl
 Version: 1.9.0k
@@ -470,7 +470,7 @@ Description: 乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault
 Icon: https://ynyy0.github.io/icons/com.bvn.copyvault.rl.png?v=c9085c26
-Section: zqbb Tweaks
+Section: Hello系列
 
 Package: com.bvn.squidforcecrack.rl
 Version: 1.0.1-1
@@ -501,11 +501,11 @@ Size: 10756068
 MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
 SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
 SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
-Section: 系统美化
 Description: 液态玻璃
 Author: 一刀
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
+Section: 美化
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -519,7 +519,7 @@ SHA1: 467957805e553bdcea540ba190b3461b911ff3ce
 SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
 Description: 已汉化
 Author: 小菜
-Name: MaxDock 无根 汉化版
+Name: MaxDock已汉化 无根
 Section: 关于美化
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 
@@ -537,7 +537,7 @@ Author: 小菜
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 隐根
 Description: 已汉化
-Section: 关于美化
+Section: 测试
 
 Package: com.go.mango
 Version: 1.0-Beta7-6
@@ -589,7 +589,7 @@ Author: 小菜
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool
 Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
-Section: 分屏插件
+Section: 工具
 
 Package: com.rain.120hzstable
 Version: 1.3.0
@@ -726,9 +726,9 @@ MD5sum: 5e1c035c03255f86c182e9576376e060
 SHA1: a0f8ad934d0386a8fa9cb097876aeef100209065
 SHA256: dca28e9effe883f855ce29eec297d0cb1f63aaa1d3967ba27da822c7da1a9551
 Description: 插件设置归类，已汉化。
-Author: 小菜
 Name: Shuffle
 Icon: https://ynyy0.github.io/icons/com.wkk.shuffle.png?v=eb4862dd
+Author: 小菜
 Section: 工具
 
 Package: dev.owngoal.settingsorganizer
@@ -742,7 +742,6 @@ Size: 96606
 MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
 SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
 SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
-Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
  【插件介绍】
  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
  .
@@ -777,6 +776,7 @@ Description: 设置分类收纳、首页与二级菜单布局、自定义名称�
  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
 Name: 设置插件收纳
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
 Author: 小菜
 Section: 工具
 
@@ -796,3 +796,4 @@ Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
+
