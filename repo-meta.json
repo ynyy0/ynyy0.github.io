@@ -328,9 +328,9 @@
     },
     "debs\/iOS27Animation_2.0_arm64e_公益.deb" : {
       "cats" : [
-        "Tweaks"
+        "关于美化"
       ],
-      "section" : "Tweaks"
+      "section" : "关于美化"
     },
     "dev.owngoal.settingsorganizer" : {
       "description" : "设置分类收纳、"
