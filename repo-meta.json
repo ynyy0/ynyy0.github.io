@@ -320,6 +320,12 @@
       ],
       "section" : "Tweaks"
     },
+    "debs\/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "Tweaks"
+      ],
+      "section" : "Tweaks"
+    },
     "dev.owngoal.settingsorganizer" : {
       "description" : "设置分类收纳、"
     },
