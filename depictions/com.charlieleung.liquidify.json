@@ -11,9 +11,10 @@
           "class": "DepictionImageView",
           "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794572161-0.png",
           "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794572161-0.png",
-          "width": 402,
+          "width": 390,
           "height": 69,
-          "cornerRadius": 0
+          "cornerRadius": 0,
+          "alignment": 1
         },
         {
           "class": "DepictionSpacerView"

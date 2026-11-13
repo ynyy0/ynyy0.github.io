@@ -13,9 +13,10 @@
           "class": "DepictionImageView",
           "URL": "https://ynyy.xbcxbc.cn/depictions/img/cn-zqbb-orzfolder-btn-1794582932-576.png",
           "url": "https://ynyy.xbcxbc.cn/depictions/img/cn-zqbb-orzfolder-btn-1794582932-576.png",
-          "width": 402,
+          "width": 390,
           "height": 96,
-          "cornerRadius": 0
+          "cornerRadius": 0,
+          "alignment": 1
         },
         {
           "class": "DepictionScreenshotsView",
