@@ -27,12 +27,12 @@ Size: 23805646
 MD5sum: b48aa7ae9cd55698e001d80d702fb48d
 SHA1: 274d227c23b815dc90f1a4c62c40373d2b5be568
 SHA256: 7d8adc79ce59f35cd3792ac15eca87b17d1ce0d3215915fba7711a6abc702333
-Section: 工具
 Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
 Author: Kent Krantz
 Sponsor: 搬运工
 Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.autotouch.png?v=aa4b33be
 Name: 按键精灵
+Section: 工具
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.autotouch.json?v=b631dcaar2
 
 Package: byg.iosios.net.mango
