@@ -177,6 +177,15 @@ def main():
                         {"class": "DepictionSpacerView"},
                         {"class": "DepictionSeparatorView"}
                     ]
+                }, {
+                    "class": "DepictionStackView",
+                    "tabname": "更新日志",
+                    "views": [
+                        {"class": "DepictionMarkdownView", "markdown": "暂无更新日志",
+                         "useSpacing": True},
+                        {"class": "DepictionSpacerView"},
+                        {"class": "DepictionSeparatorView"}
+                    ]
                 }]
             }
             dep_file.write_text(json.dumps(auto, ensure_ascii=False, indent=2), encoding='utf-8')

@@ -21,8 +21,21 @@
       ]
     },
     {
-      "class": "DepictionChangelogView",
-      "changelog": []
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "暂无更新日志",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
     }
   ]
 }
