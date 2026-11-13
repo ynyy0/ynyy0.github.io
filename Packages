@@ -595,6 +595,23 @@ Author: go
 Name: 芒果分屏1.0-Beta7-6
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
+Package: com.hang.douyinclockdock
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 航
+Installed-Size: 2760
+Depends: mobilesubstrate
+Filename: debs/com.hang.douyinclockdock_1.2_iphoneos-arm64.deb
+Size: 621716
+MD5sum: 924e03b0b78ce63bf43c5b7e3936958c
+SHA1: 59d36992f5490f91ca5b215dd77028aa0e858fb8
+SHA256: 5d16ea63ac06822c79b2f01915ef93f96780932f473c8d3dd0efa2077d2d2f18
+Description: dyyy魔改版
+Author: 航
+Name: 抖音Pro
+Icon: https://ynyy.xbcxbc.cn/icons/com.hang.douyinclockdock.png?v=1e9f7a01
+Section: Hello系列
+
 Package: com.mallin.tunnelsharevpn
 Version: 1.2.6
 Architecture: iphoneos-arm64
@@ -911,3 +928,4 @@ Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
+
