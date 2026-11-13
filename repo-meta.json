@@ -67,6 +67,9 @@
       ],
       "section" : "美化"
     },
+    "com.Axs.kongzhidiy" : {
+      "name" : "冰蓝控制中心2.3.3-en"
+    },
     "com.Axs.qjsy" : {
       "cats" : [
         "杂七杂八"
@@ -202,6 +205,7 @@
       "cats" : [
         "关于美化"
       ],
+      "name" : "冰蓝控制中心2.3.3-en",
       "section" : "关于美化"
     },
     "debs\/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb" : {

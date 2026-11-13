@@ -307,7 +307,7 @@ SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
 SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
 Description: 这是一个简单的控制中心美化插件。
 Author: binglan
-Name: 冰蓝控制中心2.3.3-end
+Name: 冰蓝控制中心2.3.3-en
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.kongzhidiy.png?v=99a28125
 Section: 关于美化
@@ -872,4 +872,3 @@ Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
-
