@@ -110,11 +110,15 @@ def desc_views(md):
     单图用 DepictionImageView（同样 370×456），两张及以上用 DepictionScreenshotsView
     横向从左到右排列，不再上下堆叠。
     Sileo 的 DepictionMarkdownView 不渲染图片，也没有 DepictionScreenshotView 这个类。"""
-    segs = re.split(r'(!\[[^\]]*\]\([^)]*\))', md or '')
-    parts = []  # [(kind, value)]，kind = 'text' | 'img'
+    segs = re.split(r'(!\[[^\]]*\]\([^)]*\)|@@RCBTN\{.*?\}@@)', md or '')
+    parts = []  # [(kind, value)]，kind = 'text' | 'img' | 'btn'
     for seg in segs:
         seg = seg.strip('\n').strip()
         if not seg:
+            continue
+        bm = re.match(r'@@RCBTN(\{.*\})@@$', seg, re.S)
+        if bm:
+            parts.append(('btn', bm.group(1)))
             continue
         m = re.match(r'!\[([^\]]*)\]\(([^)]+)\)', seg)
         if m:
@@ -145,6 +149,32 @@ def desc_views(md):
         if kind == 'text':
             views.append({"class": "DepictionMarkdownView",
                           "markdown": val, "useSpacing": True})
+        elif kind == 'btn':
+            try:
+                sp = json.loads(val)
+            except Exception:
+                continue
+            img_rel = str(sp.get('img') or '')
+            if not img_rel:
+                continue
+            img_url = SITE_BASE + '/' + img_rel
+            h = int(sp.get('h', 96) or 96)
+            link = str(sp.get('url') or '').strip()
+            if link:
+                # 带链接：用原生按钮包住按钮图（图片本身不透明，整宽 402）
+                views.append({
+                    "class": "DepictionButtonView",
+                    "action": link,
+                    "openExternal": True,
+                    "tintColor": "#FFFFFF",
+                    "yPadding": 6,
+                    "view": {"class": "DepictionImageView", "URL": img_url,
+                             "width": 402, "height": h, "cornerRadius": 0},
+                })
+            else:
+                views.append({"class": "DepictionImageView",
+                              "URL": img_url, "url": img_url,
+                              "width": 402, "height": h, "cornerRadius": 0})
         elif len(imgs) >= 2:
             if not placed:
                 views.append(carousel)
