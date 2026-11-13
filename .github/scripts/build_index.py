@@ -180,8 +180,10 @@ def main():
                 }]
             }
             dep_file.write_text(json.dumps(auto, ensure_ascii=False, indent=2), encoding='utf-8')
+        # 版本参数 = 内容哈希 + 全局修订号：修订号变了所有包的详情页地址都变，
+        # Sileo 即使按 URL 缓存也必须重新拉取（一次性解决历史缓存残留）
         dep_url = SITE_BASE + '/depictions/' + dep_name + '?v=' + \
-            hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8]
+            hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8] + 'r2'
         lines = [line for line in lines
                  if not line.lower().startswith(('sileodepiction: ', 'depiction: '))]
         lines.append('SileoDepiction: ' + dep_url)
