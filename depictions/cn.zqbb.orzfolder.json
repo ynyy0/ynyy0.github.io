@@ -6,11 +6,17 @@
       "views": [
         {
           "class": "DepictionButtonView",
-          "text": "我直接看这个插件显示效果",
           "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735",
           "openExternal": true,
-          "tintColor": "#6366F1",
-          "yPadding": 12
+          "tintColor": "rgba(0,0,0,0)",
+          "yPadding": 6,
+          "view": {
+            "class": "DepictionImageView",
+            "URL": "https://ynyy.xbcxbc.cn/depictions/img/hello-folder-btn.png",
+            "width": 370,
+            "height": 76,
+            "cornerRadius": 0
+          }
         },
         {
           "class": "DepictionMarkdownView",
