@@ -473,11 +473,11 @@ Size: 1640920
 MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
 SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
 SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
-Description: 你好
  先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
 Author: SquidForce, Backup
 Name: CopyVault
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
+Description: 你好
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json?v=feb01238r2
 
@@ -960,3 +960,4 @@ Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=f9c31c12r2
+
