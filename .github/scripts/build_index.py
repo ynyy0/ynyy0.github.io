@@ -167,11 +167,28 @@ def desc_views(md):
             except Exception:
                 continue
             img_rel = str(sp.get('img') or '')
+            link = str(sp.get('url') or '').strip()
+            h = int(sp.get('h', 96) or 96)
             if not img_rel:
+                # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
+                if link:
+                    views.append({
+                        "class": "DepictionButtonView",
+                        "action": link,
+                        "openExternal": True,
+                        "tintColor": str(sp.get('color') or '#6366F1'),
+                        "yPadding": 6,
+                        "text": str(sp.get('text') or '按钮'),
+                    })
+                else:
+                    views.append({
+                        "class": "DepictionButtonView",
+                        "tintColor": str(sp.get('color') or '#6366F1'),
+                        "yPadding": 6,
+                        "text": str(sp.get('text') or '按钮'),
+                    })
                 continue
             img_url = SITE_BASE + '/' + img_rel
-            h = int(sp.get('h', 96) or 96)
-            link = str(sp.get('url') or '').strip()
             if link:
                 # 带链接：用原生按钮包住按钮图（图片本身不透明，整宽 402）
                 views.append({
@@ -323,10 +340,12 @@ def main():
             try:
                 cur = json.loads(dep_file.read_text(encoding='utf-8'))
                 changed = False
-                for tab in cur.get('tabs', []):
-                    if tab.get('tabname') in ('详情', '描述'):
-                        if tab['tabname'] != '详情':
-                            tab['tabname'] = '详情'
+                for ti, tab in enumerate(cur.get('tabs', [])):
+                    # 源详情页的页签名五花八门（详情/描述/插件简介…），
+                    # 一律认「第一个页签 + 常见名」，否则用户的排序永远写不进去
+                    if ti == 0 or tab.get('tabname') in ('详情', '描述', '插件简介'):
+                        if tab['tabname'] != '插件简介':
+                            tab['tabname'] = '插件简介'
                             changed = True
                         if override_desc:
                             new_views = desc_views(desc_line) + \
