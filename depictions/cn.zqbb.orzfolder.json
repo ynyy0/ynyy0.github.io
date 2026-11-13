@@ -5,65 +5,68 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "网格布局\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionButtonView",
-          "text": "获取授权码(需国内IP)",
+          "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735",
           "openExternal": true,
-          "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735"
+          "tintColor": "#2AC7A8",
+          "yPadding": 6,
+          "text": "获取授权码(需国内IP)"
         },
         {
           "class": "DepictionMarkdownView",
-          "useSpacing": false,
-          "useBottomMargin": false,
-          "fontSize": 16,
-          "markdown": "\n\n网格布局\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。\n\n# 15.0~17.3.1所有设备，所有越狱工具均可使用"
+          "markdown": "# 15.0~17.3.1所有设备，所有越狱工具均可使用",
+          "useSpacing": true
         },
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 14,
+          "itemSize": "{370, 456}",
           "screenshots": [
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_1.jpg",
-              "accessibilityText": "1.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_1.jpg",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_2.jpg",
-              "accessibilityText": "2.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_2.jpg",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_3.jpg",
-              "accessibilityText": "3.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_3.jpg",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_4.jpg",
-              "accessibilityText": "4.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_4.jpg",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_5.jpg",
-              "accessibilityText": "5.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_5.jpg",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_6.png",
-              "accessibilityText": "6.png"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_6.png",
+              "accessibilityText": "配图"
             },
             {
-              "url": "https://ynyy0.github.io/screenshots/cn.zqbb.orzfolder_7.jpg",
-              "accessibilityText": "7.jpg"
+              "url": "https://ynyy0.github.io//screenshots/cn.zqbb.orzfolder_7.jpg",
+              "accessibilityText": "配图"
             }
-          ],
-          "itemSize": "{370,456}"
+          ]
         },
         {
           "class": "DepictionMarkdownView",
-          "useSpacing": false,
-          "useBottomMargin": false,
-          "fontSize": 16,
-          "markdown": "\n\n*感谢QQ491419215(J.z)制作的图标"
+          "markdown": "*感谢QQ491419215(J.z)制作的图标\n\n© 2023-2026 zqbb",
+          "useSpacing": true
         },
         {
-          "useSpacing": true,
-          "class": "DepictionMarkdownView",
-          "useRawFormat": true,
-          "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">&copy; 2023-2026 zqbb</small><style>body { text-align: center; }</style>"
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
         }
       ],
       "class": "DepictionStackView"
