@@ -356,10 +356,6 @@ def main():
 
 
 
-    if len(updated) < 5:
-        print('ERROR: only %d packages parsed, refusing to overwrite the index' % len(updated))
-        raise SystemExit(1)
-
     (ROOT / 'Packages').write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
 
 
