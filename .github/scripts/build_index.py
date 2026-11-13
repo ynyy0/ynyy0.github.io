@@ -61,6 +61,32 @@ def write_release():
             + NL.join(hash_section('SHA1', 'sha1')) + NL + NL
             + NL.join(hash_section('SHA256', 'sha256')) + NL)
     release_file.write_text(text, encoding='utf-8')
+
+
+def desc_views(md):
+    """把含 ![alt](url) 的 Markdown 拆成 Sileo 视图列表：正文 -> DepictionMarkdownView，
+    图片 -> DepictionScreenshotView。Sileo 的 DepictionMarkdownView 不渲染 Markdown 图片，
+    图片必须独立成 DepictionScreenshotView 才能显示。"""
+    segs = re.split(r'(!\[[^\]]*\]\([^)]*\))', md or '')
+    views = []
+    for seg in segs:
+        seg = seg.strip('\n').strip()
+        if not seg:
+            continue
+        m = re.match(r'!\[([^\]]*)\]\(([^)]+)\)', seg)
+        if m:
+            url = m.group(2).strip()
+            if url:
+                views.append({"class": "DepictionScreenshotView",
+                              "url": url, "cornerRadius": 12})
+        else:
+            views.append({"class": "DepictionMarkdownView",
+                          "markdown": seg, "useSpacing": True})
+    if not views:
+        views.append({"class": "DepictionMarkdownView",
+                      "markdown": md or '', "useSpacing": True})
+    return views
+
 def main():
     meta = load_meta()
     overrides = meta.get('plugins', {}) or {}
@@ -180,12 +206,12 @@ def main():
                             tab['tabname'] = '详情'
                             changed = True
                         if override_desc:
-                            for v in tab.get('views', []):
-                                if v.get('class') == 'DepictionMarkdownView':
-                                    if v.get('markdown') != desc_line:
-                                        v['markdown'] = desc_line
-                                        changed = True
-                                    break
+                            new_views = desc_views(desc_line) + \
+                                [{"class": "DepictionSpacerView"},
+                                 {"class": "DepictionSeparatorView"}]
+                            if tab.get('views') != new_views:
+                                tab['views'] = new_views
+                                changed = True
                 if changed:
                     dep_file.write_text(json.dumps(cur, ensure_ascii=False, indent=2), encoding='utf-8')
             except Exception:
@@ -200,9 +226,7 @@ def main():
                 "tabs": [{
                     "class": "DepictionStackView",
                     "tabname": "详情",
-                    "views": [
-                        {"class": "DepictionMarkdownView", "markdown": desc_line or name,
-                         "useSpacing": True},
+                    "views": desc_views(desc_line or name) + [
                         {"class": "DepictionSpacerView"},
                         {"class": "DepictionSeparatorView"}
                     ]
