@@ -590,7 +590,7 @@ Author: 小菜
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 隐根
 Description: 已汉化
-Section: 测试
+Section: 工具
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=3a64551ar2
 
 Package: com.go.mango
@@ -960,4 +960,3 @@ Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=5edc9d1er2
-

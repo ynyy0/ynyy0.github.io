@@ -206,10 +206,10 @@
     },
     "com.eswick.harbor16.roothide" : {
       "cats" : [
-        "测试"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
-      "section" : "测试"
+      "section" : "工具"
     },
     "com.go.mango" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json"
@@ -467,12 +467,12 @@
     },
     "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
       "cats" : [
-        "关于美化"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
       "description" : "已汉化",
       "name" : "MacDock 已汉化 隐根",
-      "section" : "关于美化"
+      "section" : "工具"
     },
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json",
