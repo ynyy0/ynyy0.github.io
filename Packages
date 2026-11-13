@@ -69,7 +69,6 @@ SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
 Description: 正版乌贼剪贴板
 Author: SquidForce, Backup
 Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.copyvault.json?v=0945e160
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
@@ -89,7 +88,6 @@ Section: 手势键盘
 Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
 Author: SquidForce, Backup
 Name: 乌贼键盘无根
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.json?v=e162672d
 
@@ -109,7 +107,6 @@ Section: 手势键盘
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Author: SquidForce, Backup
 Name: 乌贼键盘隐根
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.roothide.json?v=225ac6de
 
@@ -129,7 +126,6 @@ Section: 手势键盘
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
 Name: 乌贼手势无根
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.png?v=3de88819
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.json?v=89cb6256
 
@@ -148,7 +144,6 @@ SHA256: 24c6797b59235393b85713338b1364595f95c49d14de713343a0c1bc5a26850a
 Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
 Author: 刀哥
 Name: 乌贼手势隐根
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
 Section: 杂七杂八
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json?v=4ee21b8f
@@ -190,7 +185,6 @@ Description:
  - 解锁动态刷新率80hz到120hz.
 Author: zqbb
 Name: Hello 120Hz
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
 Section: 工具
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.obf.json?v=ac41f661
@@ -209,7 +203,6 @@ Section: zqbb Tweaks
 Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
 Author: zqbb
 Name: Hello BundleID
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.bundleid.png?v=42e601bb
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.bundleid.json?v=8ddc1ebd
 
@@ -228,7 +221,6 @@ SHA256: 10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507
 Description: Quickly activate AI mode.
 Author: zqbb
 Name: Hello 键盘侠
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
 Section: zqbb Tweaks
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.keyboard.ai.json?v=300a5d85
@@ -248,7 +240,6 @@ Section: zqbb Tweaks
 Description: Set memorystatus to avoid being killed by the system
 Author: zqbb
 Name: Hello Memory Status
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.memorystatus.png?v=f143008a
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.memorystatus.json?v=960c0ef6
 
@@ -266,7 +257,6 @@ SHA256: 89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f
 Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
 Author: zqbb
 Name: Hello QActions
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.qactions.json?v=f7c9a380
@@ -286,7 +276,6 @@ Section: zqbb Tweaks
 Description: 快捷面板~
 Author: zqbb
 Name: Hello QuickPanel
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.quick.panel.png?v=458e9f59
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.quick.panel.json?v=23233f90
 
@@ -306,7 +295,6 @@ Section: zqbb Tweaks
 Description: (解除温控) (锁定低电量CPU频率)
 Author: zqbb
 Name: Hello CPU
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.holdcpu.png?v=c03024ac
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.holdcpu.json?v=cece7d14
 
@@ -323,7 +311,6 @@ SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
 SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
 Description: 这是一个简单的控制中心美化插件。
 Author: binglan
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.kongzhidiy.png?v=99a28125
 Name: 冰蓝控制中心2.3.3-en
 Section: 关于美化
@@ -343,7 +330,6 @@ SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
 Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.qjsy.png?v=fa359a98
 Section: 杂七杂八
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.qjsy.json?v=881e5b17
@@ -363,7 +349,6 @@ Section: Tweaks
 Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
 Author: Jonathan Winger-lang
 Name: snapper3
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.axs.snapper3.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.snapper3.json?v=a422dad3
 
@@ -383,7 +368,6 @@ Priority: optional
 Description: 微信功能扩展
 Author: xmmm
 Name: 熊猫助手
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=29e30f7e
 
@@ -401,7 +385,6 @@ Section: 微信插件
 Description: A狗的微信全局圆角插件原版 1.8.6-END 下载源里全局圆角（免授权）插件即可解锁授权
 Author: A
 Name: 微信全局圆角
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.yuanjiao.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.yuanjiao.json?v=ee9b2415
 
@@ -698,7 +681,6 @@ Description: 已公益
 Author: 小菜
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool
-Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 Section: 工具
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.muzi.mutool.json?v=1333be4a
 
