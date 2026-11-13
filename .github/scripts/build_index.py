@@ -106,11 +106,11 @@ def image_size(path):
 
 def desc_views(md):
     """把含 ![alt](url) 的 Markdown 拆成 Sileo 视图列表：
-    正文 -> DepictionMarkdownView，图片 -> DepictionImageView。
-    Sileo 的 DepictionMarkdownView 不渲染图片，也不存在 DepictionScreenshotView
-    这个类；单张图片必须用 DepictionImageView 并带上 width/height 才会显示。"""
+    正文 -> DepictionMarkdownView；单图 -> DepictionImageView（整宽）；
+    两张及以上 -> 一个 DepictionScreenshotsView 横向从左到右排列，不再上下堆叠。
+    Sileo 的 DepictionMarkdownView 不渲染图片，也没有 DepictionScreenshotView 这个类。"""
     segs = re.split(r'(!\[[^\]]*\]\([^)]*\))', md or '')
-    views = []
+    parts = []  # [(kind, value)]，kind = 'text' | 'img'
     for seg in segs:
         seg = seg.strip('\n').strip()
         if not seg:
@@ -118,25 +118,58 @@ def desc_views(md):
         m = re.match(r'!\[([^\]]*)\]\(([^)]+)\)', seg)
         if m:
             url = m.group(2).strip()
-            if not url:
-                continue
-            # 从仓库里的实际文件读尺寸，按正文宽度等比缩放
-            rel = url
-            if SITE_BASE and rel.startswith(SITE_BASE + '/'):
-                rel = rel[len(SITE_BASE) + 1:]
-            sz = image_size(ROOT / rel) if rel and '://' not in rel else None
-            if sz and sz[0] > 0 and sz[1] > 0:
-                w, h = sz
-                disp_w = min(343, w)
-                disp_h = max(1, int(round(disp_w * h / w)))
-            else:
-                disp_w, disp_h = 343, 228
-            views.append({"class": "DepictionImageView",
-                          "URL": url, "url": url,
-                          "width": disp_w, "height": disp_h, "cornerRadius": 12})
+            if url:
+                parts.append(('img', url))
         else:
+            parts.append(('text', seg))
+    imgs = [v for k, v in parts if k == 'img']
+
+    def repo_rel(url):
+        rel = url
+        if SITE_BASE and rel.startswith(SITE_BASE + '/'):
+            rel = rel[len(SITE_BASE) + 1:]
+        return rel if rel and '://' not in rel else ''
+
+    def one_image(url):
+        rel = repo_rel(url)
+        sz = image_size(ROOT / rel) if rel else None
+        if sz and sz[0] > 0 and sz[1] > 0:
+            w, h = sz
+            disp_w = min(343, w)
+            disp_h = max(1, int(round(disp_w * h / w)))
+        else:
+            disp_w, disp_h = 343, 228
+        return {"class": "DepictionImageView",
+                "URL": url, "url": url,
+                "width": disp_w, "height": disp_h, "cornerRadius": 12}
+
+    # 多图：按第一张的宽高比定 itemSize，横向一排从左到右
+    item_w, item_h = 200, 260
+    if len(imgs) >= 2:
+        rel = repo_rel(imgs[0])
+        sz = image_size(ROOT / rel) if rel else None
+        if sz and sz[0] > 0 and sz[1] > 0:
+            w, h = sz
+            item_h = 240
+            item_w = max(120, min(300, int(round(item_h * w / h))))
+    carousel = {"class": "DepictionScreenshotsView",
+                "itemCornerRadius": 12,
+                "itemSize": "{%d, %d}" % (item_w, item_h),
+                "screenshots": [{"url": u, "accessibilityText": "配图"}
+                                for u in imgs]}
+
+    views = []
+    placed = False
+    for kind, val in parts:
+        if kind == 'text':
             views.append({"class": "DepictionMarkdownView",
-                          "markdown": seg, "useSpacing": True})
+                          "markdown": val, "useSpacing": True})
+        elif len(imgs) >= 2:
+            if not placed:
+                views.append(carousel)
+                placed = True
+        else:
+            views.append(one_image(val))
     if not views:
         views.append({"class": "DepictionMarkdownView",
                       "markdown": md or '', "useSpacing": True})
