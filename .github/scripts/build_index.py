@@ -152,8 +152,14 @@ def main():
 
         # 拉取时本地化的详情页（含截图）：Sileo 详情页直接显示截图
         if ov.get('depiction'):
+            dep_url = str(ov['depiction'])
+            # 版本参数取 depiction 内容哈希：内容一变，Sileo 就会重新拉取详情页
+            dep_name = dep_url.rsplit('/', 1)[-1].split('?')[0]
+            dep_file = ROOT / 'depictions' / dep_name
+            if dep_file.is_file():
+                dep_url += '?v=' + hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8]
             lines = [line for line in lines if not line.startswith('SileoDepiction: ')]
-            lines.append('SileoDepiction: ' + str(ov['depiction']))
+            lines.append('SileoDepiction: ' + dep_url)
         # 单插件「使用源图标」：只把这一个插件的 Icon 换成源图标
         if ov.get('icon'):
             icon_url = str(ov['icon'])
