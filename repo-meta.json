@@ -457,6 +457,13 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabbc.airdrop-roothide.json",
       "section" : "Hello系列"
     },
+    "debs\/com.cydiabc.appdata-rootless_1.4.7_iphoneos-arm64.deb" : {
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/com.cydiabc.appdata-rootless.json",
+      "section" : "Hello系列"
+    },
     "debs\/com.cydiabc.hbwechathelper-rootless_2.1.9_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabc.hbwechathelper-rootless.json"
     },
