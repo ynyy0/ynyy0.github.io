@@ -159,6 +159,8 @@
         "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
+      "description" : "你好",
+      "rich_description" : "**你好**",
       "section" : "Hello系列"
     },
     "com.bvn.squidforcecrack.rl" : {
@@ -395,6 +397,8 @@
         "zqbb Tweaks"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
+      "description" : "你好",
+      "rich_description" : "**你好**",
       "section" : "zqbb Tweaks"
     },
     "debs\/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb" : {
