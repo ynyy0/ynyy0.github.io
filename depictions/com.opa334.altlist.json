@@ -3,7 +3,7 @@
 
 {
   "minVersion": "0.1",
-  "headerImage": "https://ynyy0.github.io/depiction-bg.jpg?v=1"",
+  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
   "tabs": [
     {
       "tabname": "插件介绍",
@@ -59,7 +59,7 @@
 			"itemCornerRadius": true,
 			"itemSize": "{127, 275}",
 			"screenshots": [
-			  {"accessibilityText": "Screenshot","url": "https://ynyy0.github.io/screenshots/com.opa334.altlist_2.png"}
+			  {"accessibilityText": "Screenshot","url": "https://ynyy.xbcxbc.cn/screenshots/com.opa334.altlist_2.png"}
 			],
 			"class": "DepictionScreenshotsView"
 		}, {
@@ -139,7 +139,7 @@
              "usePadding": false
             }
            ]
-          },
+          }
          ]
         },
                {
@@ -181,7 +181,7 @@
              "usePadding": false
             }
            ]
-          },
+          }
          ]
         },
         {
@@ -206,7 +206,7 @@
           "class": "DepictionMarkdownView",
 		  "useRawFormat": true,
 		   "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">搬运工源<BR />搬运工源专注于收集精品插件分享，我们不生产插件，只做插件的搬运工，不添加任何广告，只为用户提供便捷！<BR />嘀哩科技©2018 - 2024</small><style>body { text-align: center; }</style>"
-        },
+        }
         ],
       "class": "DepictionStackView"
     },
@@ -277,7 +277,7 @@
           "class": "DepictionMarkdownView",
 		  "useRawFormat": true,
 		   "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">搬运工源<BR />搬运工源专注于收集精品插件分享，我们不生产插件，只做插件的搬运工，不添加任何广告，只为用户提供便捷！<BR />嘀哩科技©2018 - 2024</small><style>body { text-align: center; }</style>"
-        },
+        }
         ],
       "class": "DepictionStackView"
     },
