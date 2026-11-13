@@ -1,0 +1,24 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

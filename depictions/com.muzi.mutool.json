@@ -1,0 +1,24 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "已公益",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}
