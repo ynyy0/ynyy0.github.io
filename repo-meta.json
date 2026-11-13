@@ -361,6 +361,13 @@
     "debs\/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json"
     },
+    "debs\/cn.zqbb.orzfolder_1.3.3-2_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/cn.zqbb.orzfolder.json",
+      "section" : "Hello系列"
+    },
     "debs\/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb" : {
       "cats" : [
         "关于美化"
