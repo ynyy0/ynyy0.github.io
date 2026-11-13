@@ -201,9 +201,13 @@ def desc_views(md):
                              "width": 402, "height": h, "cornerRadius": 0},
                 })
             else:
+                # Sileo 的 DepictionImageView 默认 alignment=0 / xPadding=0（左对齐），
+                # 独立按钮图会从视图左边缘起画，比带内边距的 MarkdownView 正文左移约 20pt。
+                # 收窄到 390 并居中：430pt 屏左右各留 20pt，与 App 面板里的按钮一致。
                 views.append({"class": "DepictionImageView",
                               "URL": img_url, "url": img_url,
-                              "width": 402, "height": h, "cornerRadius": 0})
+                              "width": 390, "height": h,
+                              "cornerRadius": 0, "alignment": 1})
         elif len(imgs) >= 2:
             if not placed:
                 views.append(carousel)
