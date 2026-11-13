@@ -6,9 +6,17 @@
       "views": [
         {
           "class": "DepictionButtonView",
-          "text": "获取授权码(需国内IP)",
+          "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735",
           "openExternal": true,
-          "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735"
+          "tintColor": "#F7F7FA",
+          "yPadding": 8,
+          "view": {
+            "class": "DepictionImageView",
+            "URL": "https://ynyy.xbcxbc.cn/depictions/img/hello-folder-card-r32.png",
+            "width": 402,
+            "height": 112,
+            "cornerRadius": 32
+          }
         },
         {
           "class": "DepictionMarkdownView",
