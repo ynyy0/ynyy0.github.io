@@ -27,15 +27,19 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
     },
     "byg.iosios.net.autotouch" : {
+      "cats" : [
+        "工具"
+      ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.autotouch.json",
-      "name" : "按键精灵"
+      "name" : "按键精灵",
+      "section" : "工具"
     },
     "byg.iosios.net.mango" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.mango.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "cn.octoforce.copyvault" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.copyvault.json"
@@ -51,10 +55,10 @@
     },
     "cn.octoforce.squidgesturepro.roothide" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "cn.zqbb.fix120hz" : {
       "cats" : [
@@ -75,10 +79,10 @@
     },
     "cn.zqbb.hello.keyboard.ai" : {
       "cats" : [
-        "zqbb Tweaks",
-        "杂七杂八"
+        "工具"
       ],
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
+      "section" : "工具"
     },
     "cn.zqbb.hello.memorystatus" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
@@ -109,10 +113,10 @@
     },
     "com.Axs.qjsy" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "com.axs.screenrecording" : {
       "cats" : [
@@ -133,28 +137,31 @@
     },
     "com.binglan.dynamicfx" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "com.binglan.kongzhidiy" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json"
+      "cats" : [
+        "工具"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
+      "section" : "工具"
     },
     "com.binglanqjsy.deb" : {
       "cats" : [
-        "美化",
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
-      "section" : "美化"
+      "section" : "工具"
     },
     "com.bvm.wuzeililiang" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "com.bvn.copyvault.rl" : {
       "cats" : [
@@ -277,10 +284,18 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
     },
     "debs\/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.autotouch.json"
+      "cats" : [
+        "工具"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.autotouch.json",
+      "section" : "工具"
     },
     "debs\/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.mango.json"
+      "cats" : [
+        "工具"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.mango.json",
+      "section" : "工具"
     },
     "debs\/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb" : {
       "cats" : [
@@ -301,10 +316,10 @@
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
-      "section" : "公益插件"
+      "section" : "工具"
     },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -325,10 +340,10 @@
     },
     "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "zqbb Tweaks"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
-      "section" : "zqbb Tweaks"
+      "section" : "工具"
     },
     "debs\/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
@@ -356,10 +371,10 @@
     },
     "debs\/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb" : {
       "cats" : [
-        "公益插件"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
-      "section" : "公益插件"
+      "section" : "工具"
     },
     "debs\/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json"
@@ -372,27 +387,31 @@
     },
     "debs\/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb" : {
       "cats" : [
-        "公益插件"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
-      "section" : "公益插件"
+      "section" : "工具"
     },
     "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
       "cats" : [
-        "杂七杂八"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
-      "section" : "杂七杂八"
+      "section" : "工具"
     },
     "debs\/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json"
+      "cats" : [
+        "工具"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
+      "section" : "工具"
     },
     "debs\/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "工具"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
-      "section" : "公益插件"
+      "section" : "工具"
     },
     "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
       "cats" : [
