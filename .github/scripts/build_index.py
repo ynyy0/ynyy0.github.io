@@ -312,6 +312,11 @@ def main():
             lines = [line for line in lines if not line.startswith('Icon: ')]
             lines.append('Icon: ' + icon_url)
         updated.append('\n'.join(lines))
+    if len(updated) < 5:
+        # 重建结果异常（坏 deb 把扫描打挂/目录为空）：拒绝写空索引，
+        # 保留上一版索引——否则整源插件名变包名、分组全乱
+        print('ERROR: only %d packages parsed, refusing to overwrite the index' % len(updated))
+        raise SystemExit(1)
     (ROOT / 'Packages').write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
     # 主页由仓库直接维护，索引脚本不再改写其中的名称
     write_release()
