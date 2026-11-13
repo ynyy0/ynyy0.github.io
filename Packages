@@ -914,10 +914,10 @@ MD5sum: 72bdd4beb464ce6a8c6c842cb74f9016
 SHA1: 13f95db0beb6e22387c220f33a69c06329594b6c
 SHA256: 3de01a27cb7671aef35bf7f91995f64494ffae7fd432a1e447e457fae4c1f9fb
 Homepage: https://fanqie.goforit.si
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Author: junhong
 Name: 番茄净化
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=f910fa33
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Section: Tweaks
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=731ddb22r2
 
@@ -960,3 +960,4 @@ Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=f9c31c12r2
+
