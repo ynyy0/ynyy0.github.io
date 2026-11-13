@@ -283,6 +283,18 @@ def main():
             lines = [line for line in lines if not line.startswith('Section: ')]
             lines.append('Section: ' + str(ov['section']))
 
+        # 兜底：早期版本把 @@RCBTN{...}@@ 按钮标记写进了纯文本摘要，索引里可能还残留一行。
+        # 重建时统一清掉；清空后就是空描述，直接删掉该行，别让列表页显示一段 JSON。
+        polished = []
+        for line in lines:
+            if line.startswith('Description: '):
+                t = strip_btn_tokens(line[len('Description: '):])
+                if not t:
+                    continue
+                line = 'Description: ' + t
+            polished.append(line)
+        lines = polished
+
         # 拉取时本地化的详情页（含截图）：Sileo 详情页直接显示截图
         # 本地详情页：不存在时自动生成（白菜背景头图 + 描述），任何方式进来的包全覆盖。
         # meta 里有 depiction（App 拉取的截图版）时使用已有文件，不覆盖。
