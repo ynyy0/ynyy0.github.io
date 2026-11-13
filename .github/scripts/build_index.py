@@ -116,6 +116,19 @@ def image_size(path):
     return None
 
 
+def sileo_text(s):
+    """把 App 面板的纯文本行转成 Sileo DepictionMarkdownView 能等价显示的 Markdown。
+    App 里一个回车就是换行；Markdown 里单换行会被合并成空格，所以行尾补两个空格
+    （CommonMark 硬换行）。行首 '* ' 在 Markdown 里会变成无序列表符号，转义成字面星号。"""
+    out = []
+    for line in (s or '').split('\n'):
+        line = line.rstrip()
+        if line.startswith('* '):
+            line = '\\* ' + line[2:]
+        out.append(line + '  ' if line else '')
+    return '\n'.join(out).rstrip()
+
+
 def desc_views(md):
     """把含 ![alt](url) 的 Markdown 拆成 Sileo 视图列表：
     正文 -> DepictionMarkdownView；图片 -> 统一按 {370,456} 的卡片尺寸显示。
@@ -160,7 +173,7 @@ def desc_views(md):
     for kind, val in parts:
         if kind == 'text':
             views.append({"class": "DepictionMarkdownView",
-                          "markdown": val, "useSpacing": True})
+                          "markdown": sileo_text(val), "useSpacing": True})
         elif kind == 'btn':
             try:
                 sp = json.loads(val)
@@ -220,7 +233,7 @@ def desc_views(md):
             views.append(one_image(val))
     if not views:
         views.append({"class": "DepictionMarkdownView",
-                      "markdown": md or '', "useSpacing": True})
+                      "markdown": sileo_text(md or ''), "useSpacing": True})
     return views
 
 def main():
