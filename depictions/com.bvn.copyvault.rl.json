@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "乌贼剪贴板",
+          "markdown": "**你好**",
           "useSpacing": true
         },
         {

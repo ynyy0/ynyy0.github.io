@@ -159,9 +159,34 @@ def main():
         dep_dir = ROOT / 'depictions'
         dep_dir.mkdir(exist_ok=True)
         dep_file = dep_dir / dep_name
+        # App 改过的描述（富文本优先，其次普通描述）必须同步进详情页正文：
+        # 列表页读 Packages 的 Description，详情页读这里的 markdown，是两份副本。
+        rich = str(ov.get('rich_description') or '')
+        if rich:
+            rich = rich.replace('__RC_SITE__', SITE_BASE)
+        desc_line = rich or next((l.split(':', 1)[1].strip() for l in lines
+                                  if l.lower().startswith('description: ')), '')
+        if dep_file.is_file():
+            try:
+                cur = json.loads(dep_file.read_text(encoding='utf-8'))
+                changed = False
+                for tab in cur.get('tabs', []):
+                    if tab.get('tabname') in ('详情', '描述'):
+                        if tab['tabname'] != '详情':
+                            tab['tabname'] = '详情'
+                            changed = True
+                        if desc_line:
+                            for v in tab.get('views', []):
+                                if v.get('class') == 'DepictionMarkdownView':
+                                    if v.get('markdown') != desc_line:
+                                        v['markdown'] = desc_line
+                                        changed = True
+                                    break
+                if changed:
+                    dep_file.write_text(json.dumps(cur, ensure_ascii=False, indent=2), encoding='utf-8')
+            except Exception:
+                pass
         if not dep_file.is_file():
-            desc_line = next((l.split(':', 1)[1].strip() for l in lines
-                              if l.lower().startswith('description: ')), '')
             bg = SITE_BASE + '/depiction-bg.jpg' if (ROOT / 'depiction-bg.jpg').is_file() \
                 else ICON_BASE + 'CydiaIcon.png'
             auto = {
