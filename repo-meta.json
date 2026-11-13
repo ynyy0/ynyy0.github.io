@@ -176,7 +176,7 @@
         "关于美化"
       ],
       "depiction": "https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json",
-      "description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":",
+      "description": null,
       "rich_description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
       "section": "关于美化"
     },
@@ -443,7 +443,7 @@
         "关于美化"
       ],
       "depiction": "https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json",
-      "description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":",
+      "description": null,
       "name": "88液态",
       "rich_description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
       "section": "关于美化"
