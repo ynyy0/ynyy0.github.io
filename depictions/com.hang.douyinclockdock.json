@@ -1,6 +1,6 @@
 {
   "class": "DepictionTabView",
-  "headerImage": "https://ynyy.xbcxbc.cn/banner.jpg?v=1",
+  "headerImage": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=1",
   "minVersion": "0.3",
   "tabs": [
     {
@@ -12,15 +12,11 @@
           "markdown": "dyyy魔改版",
           "useRawFormat": true
         },
-                {
+                        {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
           "itemSize": "{160, 315}",
           "screenshots": [
-            {
-              "accessibilityText": "图 1",
-              "url": "https://ynyy.xbcxbc.cn/screenshots/com.hang.douyinclockdock_1.jpg"
-            },
             {
               "accessibilityText": "图 2",
               "url": "https://ynyy.xbcxbc.cn/screenshots/com.hang.douyinclockdock_2.jpg"
