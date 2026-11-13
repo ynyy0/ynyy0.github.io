@@ -1,20 +1,23 @@
 # -*- coding: utf-8 -*-
 """Build the APT Packages index from debs/.
+
 Shared by .github/workflows/release.yml (commits the result back to the repo)
 and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
 import hashlib
 import json
 import os
-import re
 import subprocess
+import re
 from pathlib import Path
+
 ROOT = Path(__file__).resolve().parents[2]
-CLEAN_NAME = re.compile(r'[（(]\s*免授权\s*[)）]')
-ICON_BASE = 'https://ynyy.xbcxbc.cn/icons/'
-DEFAULT_ICON = 'https://ynyy.xbcxbc.cn/CydiaIcon.png'
+ICON_BASE = 'https://ynyy0.github.io/icons/'
+DEFAULT_ICON = 'https://ynyy0.github.io/CydiaIcon.png'
 META_FILE = ROOT / 'repo-meta.json'
 SITE_BASE = ICON_BASE[:-len('/icons/')] if ICON_BASE.endswith('/icons/') else ICON_BASE
+
+
 
 def load_meta():
     """完整读取管理台写入的元数据（plugins 覆盖 + 全局设置）。"""
@@ -24,6 +27,8 @@ def load_meta():
         return json.loads(META_FILE.read_text(encoding='utf-8'))
     except Exception:
         return {}
+
+
 def find_override(overrides, package):
     """精确匹配优先，再兼容 deb control 大小写差异。"""
     if package in overrides:
@@ -32,12 +37,16 @@ def find_override(overrides, package):
         if key.lower() == package.lower():
             return value
     return {}
+
+
 def icon_version(path):
     """图标内容哈希：换图后 URL 变化，客户端不会拿旧缓存。"""
     try:
         return hashlib.sha256(path.read_bytes()).hexdigest()[:8]
     except Exception:
         return '0'
+
+
 def write_release():
     """重建 Release 的校验字段；头部（Origin/Label/Architectures 等）原样保留。"""
     release_file = ROOT / 'Release'
@@ -61,6 +70,8 @@ def write_release():
             + NL.join(hash_section('SHA1', 'sha1')) + NL + NL
             + NL.join(hash_section('SHA256', 'sha256')) + NL)
     release_file.write_text(text, encoding='utf-8')
+
+
 
 
 def desc_views(md):
@@ -106,14 +117,9 @@ def main():
         print(result.stderr.strip()[:2000])
     stanzas = [s for s in result.stdout.rstrip('\n').split('\n\n') if s.strip()]
     updated = []
+
     for stanza in stanzas:
         lines = stanza.splitlines()
-        # 去掉所有插件名称里残留的「（免授权）」标记
-        lines = [
-            'Name: ' + CLEAN_NAME.sub('', line[6:]).strip()
-            if line.startswith('Name: ') else line
-            for line in lines
-        ]
         package = next(
             (line.split(':', 1)[1].strip() for line in lines
              if line.startswith('Package: ')),
@@ -137,24 +143,16 @@ def main():
                 lines.append(f'Icon: {ICON_BASE}{icon_path.name}?v={icon_version(icon_path)}')
             elif not any(line.startswith('Icon: ') for line in lines):
                 lines.append(f'Icon: {DEFAULT_ICON}?v={source_v}')
-        if package == 'iya.banana.ios27animation':
-            lines = [
-                'Section: 公益插件' if line.startswith('Section: ') else line
-                for line in lines
-            ]
-            lines = [
-                'Description: 于你有源 / 已公益' if line.startswith('Description: ') else line
-                for line in lines
-            ]
-            if not any(line.startswith('Section: ') for line in lines):
-                lines.append('Section: 公益插件')
+
         # deb control 里没写 Section 时补一个中性分类，避免 sileo 里出现空白分组
         if not any(line.startswith('Section: ') for line in lines):
             lines.append('Section: 未分类')
+
         # 索引必须带 Architecture：管理台的架构兼容过滤（与 Sileo 同规则）依赖这个字段。
         # dpkg-scanpackages 正常会输出；缺失时按当前主流 64 位补齐，避免整包被误判为不可安装。
         if not any(line.startswith('Architecture: ') for line in lines):
             lines.append('Architecture: iphoneos-arm64')
+
         # 管理台写入的显示名 / 描述 / 分类覆盖：
         # 路径键保存「同包名多变体」各自的设置，包名键是用户在管理台编辑后的最新意图。
         # 两者合并，同名字段由包名键覆盖——否则编辑分类/作者会被旧的路径键永久盖住。
@@ -178,18 +176,17 @@ def main():
             lines = [line for line in lines if not line.startswith('Section: ')]
             lines.append('Section: ' + str(ov['section']))
 
-        # 拉取时本地化的详情页（含截图）：Sileo 详情页直接显示截图
         # 本地详情页：不存在时自动生成（白菜背景头图 + 描述），任何方式进来的包全覆盖。
-        # meta 里有 depiction（App 拉取的截图版）时使用已有文件，不覆盖。
+        # v2.2 富文本描述：管理台写的是 Markdown（# 大标题 / **加粗** / ![](图片)），
+        # 图片链接里的 __RC_SITE__ 在这里替换成本仓库自己的站点，
+        # 所以这份 App 分发给别人、连到任意源，配图都能指向对方仓库。
         dep_name = package + '.json'
         dep_dir = ROOT / 'depictions'
         dep_dir.mkdir(exist_ok=True)
         dep_file = dep_dir / dep_name
-        # App 改过的描述（富文本优先，其次普通描述）必须同步进详情页正文：
-        # 列表页读 Packages 的 Description，详情页读这里的 markdown，是两份副本。
         rich = str(ov.get('rich_description') or '')
         plain = str(ov.get('description') or '')
-        # 只有 App 里明确改过描述的包才同步详情页正文；
+        # 只有 App 里明确改过描述的包才同步详情页正文（列表页与详情页是两份副本）；
         # 否则 desc_line 会回退成索引里的一行摘要，把原有长介绍覆盖掉。
         override_desc = rich or plain
         if override_desc:
@@ -197,6 +194,9 @@ def main():
         desc_line = override_desc or next((l.split(':', 1)[1].strip() for l in lines
                                            if l.lower().startswith('description: ')), '')
         if dep_file.is_file():
+            # v2.3 已有详情页：把「描述」标签统一恢复为「详情」；
+            # 有富文本描述时只更新该标签里的 markdown，保留别人自定义的其它标签与头图。
+            # 只在内容真的变化时写盘，避免无关包产生大 diff。
             try:
                 cur = json.loads(dep_file.read_text(encoding='utf-8'))
                 changed = False
@@ -243,12 +243,13 @@ def main():
             }
             dep_file.write_text(json.dumps(auto, ensure_ascii=False, indent=2), encoding='utf-8')
         # 版本参数 = 内容哈希 + 全局修订号：修订号变了所有包的详情页地址都变，
-        # Sileo 即使按 URL 缓存也必须重新拉取（一次性解决历史缓存残留）
+        # Sileo 即使按 URL 缓存也必须重新拉取
         dep_url = SITE_BASE + '/depictions/' + dep_name + '?v=' + \
             hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8] + 'r2'
         lines = [line for line in lines
                  if not line.lower().startswith(('sileodepiction: ', 'depiction: '))]
         lines.append('SileoDepiction: ' + dep_url)
+
         # 单插件「使用源图标」：只把这一个插件的 Icon 换成源图标
         if ov.get('icon'):
             icon_url = str(ov['icon'])
@@ -256,11 +257,22 @@ def main():
                 icon_url = f'{DEFAULT_ICON}?v={source_v}'
             lines = [line for line in lines if not line.startswith('Icon: ')]
             lines.append('Icon: ' + icon_url)
+
         updated.append('\n'.join(lines))
+
+    if len(updated) < 5:
+        # 重建结果异常（坏 deb 把扫描打挂/目录为空）：拒绝写空索引，
+        # 保留上一版索引——否则整源插件名变包名、分组全乱
+        print('ERROR: only %d packages parsed, refusing to overwrite the index' % len(updated))
+        raise SystemExit(1)
+
     (ROOT / 'Packages').write_text('\n\n'.join(updated) + '\n\n', encoding='utf-8')
+
     # 主页由仓库直接维护，索引脚本不再改写其中的名称
     write_release()
     print(f'Indexed {len(updated)} packages')
+
+
 if __name__ == '__main__':
     import sys
     if '--release-only' in sys.argv:
