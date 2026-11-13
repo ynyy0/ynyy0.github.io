@@ -202,11 +202,15 @@ def desc_views(md):
                 })
             else:
                 # Sileo 的 DepictionImageView 默认 alignment=0 / xPadding=0（左对齐），
-                # 独立按钮图会从视图左边缘起画，比带内边距的 MarkdownView 正文左移约 20pt。
-                # 收窄到 390 并居中：430pt 屏左右各留 20pt，与 App 面板里的按钮一致。
+                # 独立按钮图会从视图左边缘起画，比带内边距的 MarkdownView 正文左移约 20pt；
+                # 它又是 scaleAspectFill + clipsToBounds，按钮 PNG 自带圆角，
+                # 渲染框宽高比一变就会把左右圆角裁掉（「边缘缺少」）。
+                # 收窄到 390 并居中（430pt 屏左右各 20pt），高度按同一比例缩放，保证不裁角。
+                bw = 390
+                bh = round(h * bw / 402, 2)
                 views.append({"class": "DepictionImageView",
                               "URL": img_url, "url": img_url,
-                              "width": 390, "height": h,
+                              "width": bw, "height": bh,
                               "cornerRadius": 0, "alignment": 1})
         elif len(imgs) >= 2:
             if not placed:
