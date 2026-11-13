@@ -170,7 +170,7 @@ def main():
                 "minVersion": "0.3",
                 "tabs": [{
                     "class": "DepictionStackView",
-                    "tabname": "描述",
+                    "tabname": "详情",
                     "views": [
                         {"class": "DepictionMarkdownView", "markdown": desc_line or name,
                          "useSpacing": True},

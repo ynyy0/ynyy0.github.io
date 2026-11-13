@@ -5,7 +5,7 @@
   "tabs": [
     {
       "class": "DepictionStackView",
-      "tabname": "描述",
+      "tabname": "详情",
       "views": [
         {
           "class": "DepictionMarkdownView",
