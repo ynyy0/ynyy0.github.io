@@ -172,7 +172,7 @@ def main():
                     "class": "DepictionStackView",
                     "tabname": "描述",
                     "views": [
-                        {"class": "DepictionMarkdownView", "markdown": desc_line or package,
+                        {"class": "DepictionMarkdownView", "markdown": desc_line or name,
                          "useSpacing": True},
                         {"class": "DepictionSpacerView"},
                         {"class": "DepictionSeparatorView"}
