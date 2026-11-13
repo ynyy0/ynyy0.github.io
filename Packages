@@ -16,25 +16,6 @@ Name: 微信全局圆角
 Icon: https://ynyy.xbcxbc.cn/icons/axssb666.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/axssb666.json?v=c80a14aar2
 
-Package: byg.iosios.net.autotouch
-Version: 8.0.11
-Architecture: iphoneos-arm64e
-Maintainer: 搬运工
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0)
-Filename: debs/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e.deb
-Size: 23805646
-MD5sum: b48aa7ae9cd55698e001d80d702fb48d
-SHA1: 274d227c23b815dc90f1a4c62c40373d2b5be568
-SHA256: 7d8adc79ce59f35cd3792ac15eca87b17d1ce0d3215915fba7711a6abc702333
-Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
-Author: Kent Krantz
-Sponsor: 搬运工
-Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.autotouch.png?v=aa4b33be
-Name: 按键精灵
-Section: 工具
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.autotouch.json?v=57d9add4r2
-
 Package: byg.iosios.net.mango
 Version: 1.0-Beta4-2
 Architecture: iphoneos-arm64
@@ -537,48 +518,6 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
 Section: 关于美化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=b0ef8bc1r2
-
-Package: com.cydiabbc.airdrop-roothide
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb
-Size: 11892
-MD5sum: d9ec99a00e6df067589e70f20d122054
-SHA1: 6ffa4ac76ae05c4ae6161641ab126f6a3d19e3b7
-SHA256: 297e98cfda98a940c627a2048357c288a7beef2e7a925bdc7ac637b2144ccb41
-Description: 移除隔空投送十分钟限制，支持iOS16+，支持设置自定义关闭时间，4 秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗
-A12: 1
-Author: iosdump
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Icon2: 17.png
-Name: AirDrop解除隔空投送限制-Roothide
-Sponsor: Ai-小苹果™
-Section: Hello系列
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabbc.airdrop-roothide.json?v=6dad6581r2
-
-Package: com.cydiabc.appdata-rootless
-Version: 1.4.7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 5156
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.cydiabc.appdata-rootless_1.4.7_iphoneos-arm64.deb
-Size: 1500960
-MD5sum: 5a8f3a4f588e48384d5da253d87f5586
-SHA1: 2b9330a005e04ff563476121ee8dffbb104b87c1
-SHA256: f7d43b7e76c583da41e7737536f84af8058fdd9e79b8b1f8d8b571dc18b591ab
-Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
-A12: 1
-Author: Fouad Raheb
-Icon2: 5.png
-Name: AppData应用数据-Rootless
-Sponsor: Ai-小苹果™
-Icon: https://ynyy.xbcxbc.cn/icons/com.cydiabc.appdata-rootless.png?v=12e0c9e6
-Section: Hello系列
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabc.appdata-rootless.json?v=e761f7acr2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
