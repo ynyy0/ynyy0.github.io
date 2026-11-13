@@ -539,6 +539,27 @@ Sponsor: Ai-小苹果™
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabbc.airdrop-roothide.json?v=df6ea19cr2
 
+Package: com.cydiabc.appdata-rootless
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5156
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.cydiabc.appdata-rootless_1.4.7_iphoneos-arm64.deb
+Size: 1500960
+MD5sum: 5a8f3a4f588e48384d5da253d87f5586
+SHA1: 2b9330a005e04ff563476121ee8dffbb104b87c1
+SHA256: f7d43b7e76c583da41e7737536f84af8058fdd9e79b8b1f8d8b571dc18b591ab
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+A12: 1
+Author: Fouad Raheb
+Icon2: 5.png
+Name: AppData应用数据-Rootless
+Sponsor: Ai-小苹果™
+Icon: https://ynyy.xbcxbc.cn/icons/com.cydiabc.appdata-rootless.png?v=12e0c9e6
+Section: Hello系列
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabc.appdata-rootless.json?v=e761f7acr2
+
 Package: com.cydiabc.hbwechathelper-rootless
 Version: 2.1.9
 Architecture: iphoneos-arm64
@@ -960,3 +981,4 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=e05f4802r2
+
