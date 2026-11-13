@@ -250,7 +250,9 @@
     },
     "com.siwenjiajia.tweak.comm" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
-      "name" : "抖音优化"
+      "description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
+      "name" : "抖音优化",
+      "rich_description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__\/depictions\/img\/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
     },
     "com.trollopenjb.patched.roothide" : {
       "cats" : [
@@ -525,7 +527,9 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json"
     },
     "debs\/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
+      "description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
+      "rich_description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__\/depictions\/img\/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
     },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
