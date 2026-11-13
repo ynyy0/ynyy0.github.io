@@ -11,6 +11,12 @@ import subprocess
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CLEAN_NAME = re.compile(r'[（(]\s*免授权\s*[)）]')
+BTN_TOKEN = re.compile(r'@@RCBTN\{.*?\}@@')
+
+
+def strip_btn_tokens(s):
+    """纯文本描述里不能出现 @@RCBTN{...}@@ 标记（列表页会原样显示）。"""
+    return BTN_TOKEN.sub('', str(s or '')).strip()
 ICON_BASE = 'https://ynyy.xbcxbc.cn/icons/'
 DEFAULT_ICON = 'https://ynyy.xbcxbc.cn/CydiaIcon.png'
 META_FILE = ROOT / 'repo-meta.json'
@@ -268,7 +274,7 @@ def main():
             lines.append('Name: ' + str(ov['name']))
         if ov.get('description'):
             lines = [line for line in lines if not line.startswith('Description: ')]
-            lines.append('Description: ' + str(ov['description']))
+            lines.append('Description: ' + strip_btn_tokens(ov['description']))
         if ov.get('author'):
             lines = [line for line in lines if not line.startswith('Author: ')]
             lines.append('Author: ' + str(ov['author']))
