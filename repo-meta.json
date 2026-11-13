@@ -121,6 +121,12 @@
       ],
       "section" : "美化"
     },
+    "com.cydiabbc.airdrop-roothide" : {
+      "cats" : [
+        "Hello系列"
+      ],
+      "section" : "Hello系列"
+    },
     "com.eswick.harbor16" : {
       "cats" : [
         "关于美化"
@@ -259,6 +265,12 @@
       ],
       "name" : "88液态玻璃 隐根版",
       "section" : "关于美化"
+    },
+    "debs\/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "Hello系列"
+      ],
+      "section" : "Hello系列"
     },
     "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb" : {
       "cats" : [

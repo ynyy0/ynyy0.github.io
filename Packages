@@ -518,7 +518,7 @@ Size: 7312
 MD5sum: a9089eb86807e8f40fccd41e42ab8e4a
 SHA1: 30f35765cf2d695cf6c5f830c844cba12bd93997
 SHA256: a4ea309c17280290b82c2f3ea03548e36b9755614efd77b94285571326b86ec3
-Section: Roothide
+Section: Hello系列
 Description: 移除隔空投送十分钟限制，支持iOS16+，支持设置自定义关闭时间，4 秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗
 A12: 1
 Author: iosdump
@@ -910,4 +910,3 @@ Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
-
