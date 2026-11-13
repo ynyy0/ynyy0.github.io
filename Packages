@@ -316,7 +316,7 @@ Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.orzfolder.png?v=e6d7fc44
 Description: 网格布局 测试 * 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。 透明背景 * 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。 边框背景图片 * 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。 15.0~17.3.1
 Author: 小菜
 Section: Hello系列
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.orzfolder.json?v=3fa83c0ar2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.orzfolder.json?v=17f16938r2
 
 Package: com.Axs.kongzhidiy
 Version: 2.3.3-end
@@ -536,7 +536,7 @@ Author: 一刀
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
 Section: 关于美化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=338c5560r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=b0ef8bc1r2
 
 Package: com.cydiabbc.airdrop-roothide
 Version: 0.0.2
