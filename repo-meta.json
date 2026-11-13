@@ -544,6 +544,8 @@
         "Tweaks"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
+      "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
       "section" : "Tweaks"
     },
     "debs\/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb" : {
@@ -570,7 +572,9 @@
       "description" : "设置分类收纳、"
     },
     "fanqiefn" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
+      "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。"
     },
     "fanqiefn.roothide" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json"
