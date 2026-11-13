@@ -10,6 +10,14 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/cn-zqbb-orzfolder-btn-1794582932-576.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/cn-zqbb-orzfolder-btn-1794582932-576.png",
+          "width": 402,
+          "height": 96,
+          "cornerRadius": 0
+        },
+        {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 14,
           "itemSize": "{370, 456}",
