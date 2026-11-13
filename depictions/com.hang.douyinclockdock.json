@@ -1,6 +1,6 @@
 {
   "class": "DepictionTabView",
-  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
+  "headerImage": "https://ynyy0.github.io/depiction-bg.jpg?v=1",
   "minVersion": "0.3",
   "tabs": [
     {
@@ -18,31 +18,14 @@
           "itemSize": "{160, 315}",
           "screenshots": [
             {
-              "accessibilityText": "图 2",
-              "url": "https://ynyy.xbcxbc.cn/screenshots/com.hang.douyinclockdock_2.jpg"
+              "accessibilityText": "图 1",
+              "url": "https://ynyy0.github.io/screenshots/com.hang.douyinclockdock_2.jpg"
             },
             {
-              "accessibilityText": "图 3",
-              "url": "https://ynyy.xbcxbc.cn/screenshots/com.hang.douyinclockdock_3.jpg"
+              "accessibilityText": "图 2",
+              "url": "https://ynyy0.github.io/screenshots/com.hang.douyinclockdock_3.jpg"
             }
           ]
-        }
-      ]
-    },
-    {
-      "class": "DepictionStackView",
-      "tabname": "更新日志",
-      "views": [
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "暂无更新日志",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSpacerView"
-        },
-        {
-          "class": "DepictionSeparatorView"
         }
       ]
     }
