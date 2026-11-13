@@ -772,11 +772,11 @@ MD5sum: 557cf40277104de011fb729f45380a66
 SHA1: 8f7ed16dc8bb9472035a3f7acadeb17931c3c653
 SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
 Section: 抖音插件
-Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
 Author: siwenjiajia
 Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
 Name: 抖音优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json?v=a5de44fer2
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json?v=12937d84r2
 
 Package: com.trollopenjb.patched.roothide
 Version: 2.0.2
@@ -960,3 +960,4 @@ Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=5edc9d1er2
+
