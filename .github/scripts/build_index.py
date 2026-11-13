@@ -14,6 +14,8 @@ CLEAN_NAME = re.compile(r'[（(]\s*免授权\s*[)）]')
 ICON_BASE = 'https://ynyy.xbcxbc.cn/icons/'
 DEFAULT_ICON = 'https://ynyy.xbcxbc.cn/CydiaIcon.png'
 META_FILE = ROOT / 'repo-meta.json'
+SITE_BASE = ICON_BASE[:-len('/icons/')] if ICON_BASE.endswith('/icons/') else ICON_BASE
+
 def load_meta():
     """完整读取管理台写入的元数据（plugins 覆盖 + 全局设置）。"""
     if not META_FILE.exists():
@@ -151,18 +153,38 @@ def main():
             lines.append('Section: ' + str(ov['section']))
 
         # 拉取时本地化的详情页（含截图）：Sileo 详情页直接显示截图
-        if ov.get('depiction'):
-            dep_url = str(ov['depiction'])
-            # 版本参数取 depiction 内容哈希：内容一变，Sileo 就会重新拉取详情页
-            dep_name = dep_url.rsplit('/', 1)[-1].split('?')[0]
-            dep_file = ROOT / 'depictions' / dep_name
-            if dep_file.is_file():
-                dep_url += '?v=' + hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8]
-            # 大小写不敏感清除：deb control 里可能带 Sileodepiction / Depiction 变体，
-            # 不清干净会和本源详情页并存，Sileo 读了外源那行
-            lines = [line for line in lines
-                     if not line.lower().startswith(('sileodepiction: ', 'depiction: '))]
-            lines.append('SileoDepiction: ' + dep_url)
+        # 本地详情页：不存在时自动生成（白菜背景头图 + 描述），任何方式进来的包全覆盖。
+        # meta 里有 depiction（App 拉取的截图版）时使用已有文件，不覆盖。
+        dep_name = package + '.json'
+        dep_dir = ROOT / 'depictions'
+        dep_dir.mkdir(exist_ok=True)
+        dep_file = dep_dir / dep_name
+        if not dep_file.is_file():
+            desc_line = next((l.split(':', 1)[1].strip() for l in lines
+                              if l.lower().startswith('description: ')), '')
+            bg = SITE_BASE + '/depiction-bg.jpg' if (ROOT / 'depiction-bg.jpg').is_file() \
+                else ICON_BASE + 'CydiaIcon.png'
+            auto = {
+                "class": "DepictionTabView",
+                "headerImage": bg,
+                "minVersion": "0.3",
+                "tabs": [{
+                    "class": "DepictionStackView",
+                    "tabname": "描述",
+                    "views": [
+                        {"class": "DepictionMarkdownView", "markdown": desc_line or package,
+                         "useSpacing": True},
+                        {"class": "DepictionSpacerView"},
+                        {"class": "DepictionSeparatorView"}
+                    ]
+                }]
+            }
+            dep_file.write_text(json.dumps(auto, ensure_ascii=False, indent=2), encoding='utf-8')
+        dep_url = SITE_BASE + '/depictions/' + dep_name + '?v=' + \
+            hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8]
+        lines = [line for line in lines
+                 if not line.lower().startswith(('sileodepiction: ', 'depiction: '))]
+        lines.append('SileoDepiction: ' + dep_url)
         # 单插件「使用源图标」：只把这一个插件的 Icon 换成源图标
         if ov.get('icon'):
             icon_url = str(ov['icon'])
