@@ -507,6 +507,26 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
 Section: 美化
 
+Package: com.cydiabbc.airdrop-roothide
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb
+Size: 11892
+MD5sum: d9ec99a00e6df067589e70f20d122054
+SHA1: 6ffa4ac76ae05c4ae6161641ab126f6a3d19e3b7
+SHA256: 297e98cfda98a940c627a2048357c288a7beef2e7a925bdc7ac637b2144ccb41
+Description: 移除隔空投送十分钟限制，支持iOS16+，支持设置自定义关闭时间，4 秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗
+A12: 1
+Author: iosdump
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 17.png
+Name: AirDrop解除隔空投送限制-Roothide
+Sponsor: Ai-小苹果™
+Section: Hello系列
+
 Package: com.cydiabc.hbwechathelper-rootless
 Version: 2.1.9
 Architecture: iphoneos-arm64
@@ -891,3 +911,4 @@ Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
+
