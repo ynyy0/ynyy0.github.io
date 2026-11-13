@@ -507,6 +507,25 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
 Section: 美化
 
+Package: com.cydiabbc.airdrop-roothide
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb
+Size: 7312
+MD5sum: a9089eb86807e8f40fccd41e42ab8e4a
+SHA1: 30f35765cf2d695cf6c5f830c844cba12bd93997
+SHA256: a4ea309c17280290b82c2f3ea03548e36b9755614efd77b94285571326b86ec3
+Section: Roothide
+Description: 移除隔空投送十分钟限制，支持iOS16+，支持设置自定义关闭时间，4 秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗
+A12: 1
+Author: iosdump
+Name: AirDrop解除隔空投送限制-Roothide
+Sponsor: Ai-小苹果™
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
 Architecture: iphoneos-arm64
