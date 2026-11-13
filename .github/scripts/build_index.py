@@ -15,8 +15,14 @@ BTN_TOKEN = re.compile(r'@@RCBTN\{.*?\}@@')
 
 
 def strip_btn_tokens(s):
-    """纯文本描述里不能出现 @@RCBTN{...}@@ 标记（列表页会原样显示）。"""
-    return BTN_TOKEN.sub('', str(s or '')).strip()
+    """纯文本描述里不能出现 @@RCBTN{...}@@ 标记（列表页会原样显示）。
+    摘要按 160 字截断时会把标记截成半截（没有结尾的 }@@），
+    所以先删完整标记，再从残留的 @@RCBTN 处直接截断到行尾。"""
+    t = BTN_TOKEN.sub('', str(s or '')).strip()
+    cut = t.find('@@RCBTN')
+    if cut >= 0:
+        t = t[:cut].strip()
+    return t
 ICON_BASE = 'https://ynyy.xbcxbc.cn/icons/'
 DEFAULT_ICON = 'https://ynyy.xbcxbc.cn/CydiaIcon.png'
 META_FILE = ROOT / 'repo-meta.json'
