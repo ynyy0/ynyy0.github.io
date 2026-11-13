@@ -12,7 +12,7 @@
           "markdown": "dyyy魔改版",
           "useRawFormat": true
         },
-                        {
+        {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
           "itemSize": "{160, 315}",
@@ -28,6 +28,10 @@
           ]
         }
       ]
+    },
+    {
+      "class": "DepictionChangelogView",
+      "changelog": []
     }
   ]
 }
