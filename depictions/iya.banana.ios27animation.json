@@ -14,8 +14,8 @@
         },
         {
           "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 12,
-          "itemSize": "{120, 240}",
+          "itemCornerRadius": 14,
+          "itemSize": "{370, 456}",
           "screenshots": [
             {
               "url": "https://ynyy.xbcxbc.cn/depictions/img/iya-banana-ios27animation-1794567981-0.jpg",
