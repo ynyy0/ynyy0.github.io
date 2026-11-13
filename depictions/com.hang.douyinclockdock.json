@@ -1,0 +1,33 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://https://ynyy0.github.io//screenshots/com.hang.douyinclockdock_1.jpg",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "dyyy魔改版",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 315}",
+          "screenshots": [
+            {
+              "accessibilityText": "图 1",
+              "url": "https://https://ynyy0.github.io//screenshots/com.hang.douyinclockdock_2.jpg"
+            },
+            {
+              "accessibilityText": "图 2",
+              "url": "https://https://ynyy0.github.io//screenshots/com.hang.douyinclockdock_3.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

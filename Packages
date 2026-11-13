@@ -610,7 +610,7 @@ Description: dyyy魔改版
 Author: 航
 Name: 抖音Pro
 Icon: https://ynyy.xbcxbc.cn/icons/com.hang.douyinclockdock.png?v=1e9f7a01
-Section: Hello系列
+Section: 抖音插件
 
 Package: com.mallin.tunnelsharevpn
 Version: 1.2.6
@@ -928,4 +928,3 @@ Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
-

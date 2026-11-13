@@ -140,6 +140,13 @@
       ],
       "section" : "测试"
     },
+    "com.hang.douyinclockdock" : {
+      "cats" : [
+        "抖音插件"
+      ],
+      "depiction" : "https:\/\/https:\/\/ynyy0.github.io\/\/depictions\/com.hang.douyinclockdock.json",
+      "section" : "抖音插件"
+    },
     "com.muzi.mutool" : {
       "cats" : [
         "工具"
@@ -293,9 +300,10 @@
     },
     "debs\/com.hang.douyinclockdock_1.2_iphoneos-arm64.deb" : {
       "cats" : [
-        "Hello系列"
+        "抖音插件"
       ],
-      "section" : "Hello系列"
+      "depiction" : "https:\/\/https:\/\/ynyy0.github.io\/\/depictions\/com.hang.douyinclockdock.json",
+      "section" : "抖音插件"
     },
     "debs\/com.mlgm.actra_1.2_iphoneos-arm64e.deb" : {
       "cats" : [
