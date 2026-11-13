@@ -106,8 +106,9 @@ def image_size(path):
 
 def desc_views(md):
     """把含 ![alt](url) 的 Markdown 拆成 Sileo 视图列表：
-    正文 -> DepictionMarkdownView；单图 -> DepictionImageView（整宽）；
-    两张及以上 -> 一个 DepictionScreenshotsView 横向从左到右排列，不再上下堆叠。
+    正文 -> DepictionMarkdownView；图片 -> 统一按 {370,456} 的卡片尺寸显示。
+    单图用 DepictionImageView（同样 370×456），两张及以上用 DepictionScreenshotsView
+    横向从左到右排列，不再上下堆叠。
     Sileo 的 DepictionMarkdownView 不渲染图片，也没有 DepictionScreenshotView 这个类。"""
     segs = re.split(r'(!\[[^\]]*\]\([^)]*\))', md or '')
     parts = []  # [(kind, value)]，kind = 'text' | 'img'
@@ -124,37 +125,17 @@ def desc_views(md):
             parts.append(('text', seg))
     imgs = [v for k, v in parts if k == 'img']
 
-    def repo_rel(url):
-        rel = url
-        if SITE_BASE and rel.startswith(SITE_BASE + '/'):
-            rel = rel[len(SITE_BASE) + 1:]
-        return rel if rel and '://' not in rel else ''
+    # 统一卡片尺寸：与拉取的 Hello Folder 详情页一致（itemSize {370,456}，圆角 14）
+    CARD_W, CARD_H, CARD_R = 370, 456, 14
 
     def one_image(url):
-        rel = repo_rel(url)
-        sz = image_size(ROOT / rel) if rel else None
-        if sz and sz[0] > 0 and sz[1] > 0:
-            w, h = sz
-            disp_w = min(343, w)
-            disp_h = max(1, int(round(disp_w * h / w)))
-        else:
-            disp_w, disp_h = 343, 228
         return {"class": "DepictionImageView",
                 "URL": url, "url": url,
-                "width": disp_w, "height": disp_h, "cornerRadius": 12}
+                "width": CARD_W, "height": CARD_H, "cornerRadius": CARD_R}
 
-    # 多图：按第一张的宽高比定 itemSize，横向一排从左到右
-    item_w, item_h = 200, 260
-    if len(imgs) >= 2:
-        rel = repo_rel(imgs[0])
-        sz = image_size(ROOT / rel) if rel else None
-        if sz and sz[0] > 0 and sz[1] > 0:
-            w, h = sz
-            item_h = 240
-            item_w = max(120, min(300, int(round(item_h * w / h))))
     carousel = {"class": "DepictionScreenshotsView",
-                "itemCornerRadius": 12,
-                "itemSize": "{%d, %d}" % (item_w, item_h),
+                "itemCornerRadius": CARD_R,
+                "itemSize": "{%d, %d}" % (CARD_W, CARD_H),
                 "screenshots": [{"url": u, "accessibilityText": "配图"}
                                 for u in imgs]}
 
