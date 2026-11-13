@@ -1,2 +1,893 @@
+Package: axssb666
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: JJ
+Installed-Size: 296
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/axssb666_1.0.0_iphoneos-arm64.deb
+Size: 40690
+MD5sum: 1fec19e11cec7ac8e1211e8d0d2a2f90
+SHA1: 0627c90e13be282a80f745d2309f458ea57819c1
+SHA256: 493879b30298a28541b9b6d2b9eee2b8838a7f2ee4ef7097787c8c91fe3dc232
+Section: 微信插件
+Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
+Author: JJ
+Name: 微信全局圆角
+Icon: https://ynyy.xbcxbc.cn/icons/axssb666.png?v=97056edd
 
+Package: byg.iosios.net.autotouch
+Version: 8.0.11
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e.deb
+Size: 23805646
+MD5sum: b48aa7ae9cd55698e001d80d702fb48d
+SHA1: 274d227c23b815dc90f1a4c62c40373d2b5be568
+SHA256: 7d8adc79ce59f35cd3792ac15eca87b17d1ce0d3215915fba7711a6abc702333
+Section: 杂七杂八
+Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
+Author: Kent Krantz
+Sponsor: 搬运工
+Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.autotouch.png?v=aa4b33be
+Name: 按键精灵
 
+Package: byg.iosios.net.mango
+Version: 1.0-Beta4-2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 3548
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb
+Size: 904652
+MD5sum: dc6b62ce6af67123b6f45db3cf894052
+SHA1: 8e1d7c19d02ab3061960e78e68322b0b99cd4a0b
+SHA256: fbea8ead09d1ec02991d9ba004aa85d8c55f8ef1d5a12b73940fd0c8003aacee
+Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
+Author: go
+Name: 芒果分屏1.0-Beta4-2
+Sponsor: 搬运工
+Icon: https://ynyy.xbcxbc.cn/icons/byg.iosios.net.mango.png?v=aa4b33be
+Section: 杂七杂八
+
+Package: cn.octoforce.copyvault
+Version: 1.9.0-1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6868
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb
+Size: 1852780
+MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
+SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
+SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
+Description: 正版乌贼剪贴板
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+Section: 公益插件
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4-2
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb
+Size: 2622882
+MD5sum: 966635cde69eafc3fa151aab3dcdf1ad
+SHA1: 2ecc398fa4808de6a23491e8126f1e49f1cab286
+SHA256: a6cd045958efc12418df9ec1a5b009e1444839f69713698bb65a754ac16d9c3b
+Section: 手势键盘
+Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
+Author: SquidForce, Backup
+Name: 乌贼键盘无根
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.png?v=97056edd
+
+Package: cn.octoforce.squidextender.roothide
+Version: 3.7.4+offline.1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 10254
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb
+Size: 2306812
+MD5sum: c0538acf10927677f2cc2d48ca02ac97
+SHA1: 9e35a4fc272e42d2ba6ff17772e2143e9fc02a8b
+SHA256: 6eb6ce1c198d556894a19cea02977269a4bdeb6bc35b9167c11640e828134599
+Section: 手势键盘
+Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
+Author: SquidForce, Backup
+Name: 乌贼键盘隐根
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-2
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7347
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb
+Size: 1930346
+MD5sum: 9703d9d208b4cc3b8a789d6e32cdaf20
+SHA1: ed4eeaaed72349402a289407e9879add5e938051
+SHA256: f0cd8203a86bf0b22a62ba719764cce115a65aacc42a7a02e3f9da69f0df0041
+Section: 手势键盘
+Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
+Author: SquidForce, Backup
+Name: 乌贼手势无根
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.png?v=3de88819
+
+Package: cn.octoforce.squidgesturepro.roothide
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: 刀哥
+Installed-Size: 6762
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb
+Size: 1795550
+MD5sum: 5d6527bd945e2f170e73db037852ea7e
+SHA1: 095879de267251b99d34cf3d5d6dac9753c5ff8b
+SHA256: 24c6797b59235393b85713338b1364595f95c49d14de713343a0c1bc5a26850a
+Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
+Author: 刀哥
+Name: 乌贼手势隐根
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
+Section: 杂七杂八
+
+Package: cn.zqbb.fix120hz
+Version: 3.3.3-3
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 44096
+MD5sum: 5007a856a3ae908531c271c629e380ca
+SHA1: a910279f68472ef29d919aff50706dcb48c1093e
+SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Author: zqbb
+Name: Hello 120Hz
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.png?v=97056edd
+Section: 工具
+
+Package: cn.zqbb.fix120hz.obf
+Version: 3.3.3-3
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb
+Size: 413006
+MD5sum: 07c4b1dcb8857c8ecb4e3eb375c40b2a
+SHA1: 8e82bf5f92d983762673e3ebc7a7bc21f7ed5d71
+SHA256: a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Author: zqbb
+Name: Hello 120Hz
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
+Section: 工具
+
+Package: cn.zqbb.hello.bundleid
+Version: 1.6.1-5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb
+Size: 2961700
+MD5sum: 1f5e8449cbff8fdd0c590ab44f4b10fd
+SHA1: 9490ff94b3ac41ba64cd97d852200cb0265b0b43
+SHA256: 5820fd3fe6014fe73e814b13797c71934bab3164b73059cdb14d4953b4e41792
+Section: zqbb Tweaks
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Author: zqbb
+Name: Hello BundleID
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.bundleid.png?v=42e601bb
+
+Package: cn.zqbb.hello.keyboard.ai
+Version: 6.6.6-3
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 2811520
+MD5sum: cc726eded2c84cf5d0ef7809d2b9a926
+SHA1: 50a4cb6801dbd77c832c89750fa454c4d74829a7
+SHA256: 10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507
+Description: Quickly activate AI mode.
+Author: zqbb
+Name: Hello 键盘侠
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
+Section: zqbb Tweaks
+
+Package: cn.zqbb.hello.memorystatus
+Version: 3.9.0-6
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3066828
+MD5sum: 016394ecd99a940c0f5303c2097deae0
+SHA1: e94c6f899e18bbd266a8ede68192ca065cf77c1c
+SHA256: 0fe9dde077b63f01f8d8eed5178ad8a167330e3791539edd5e2fdefae90e223e
+Section: zqbb Tweaks
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.memorystatus.png?v=f143008a
+
+Package: cn.zqbb.hello.qactions
+Version: 1.3.0-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb
+Size: 667242
+MD5sum: d1c2eed2cf3ade05ff843098f4c4083b
+SHA1: c982092856fc14b17c174e7eb522322979baac6c
+SHA256: 89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Author: zqbb
+Name: Hello QActions
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
+Section: Hello系列
+
+Package: cn.zqbb.hello.quick.panel
+Version: 1.0.0-5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 5488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Size: 1498378
+MD5sum: cc5516f764f067f89e9112e4ec73c075
+SHA1: dd1510cf7350561120519321710400d932b02e43
+SHA256: 2ea05f0bcfd5ac568b68fa84a3024ebe62b96dfe9ca739ffc9d516473f0f34bc
+Section: zqbb Tweaks
+Description: 快捷面板~
+Author: zqbb
+Name: Hello QuickPanel
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.quick.panel.png?v=458e9f59
+
+Package: cn.zqbb.holdcpu
+Version: 2.3.5-5.mg1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 3672
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e.deb
+Size: 1304438
+MD5sum: a46a3eeb1cd5ceb851525e740fddf1bf
+SHA1: ec63c40312f2dcac43a6b3461c0ff868bbcb1a73
+SHA256: 668cdd1e686feed82c9e871fb72c4431bc0ca502a07f7e0d1f7743acb00f654f
+Section: zqbb Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Name: Hello CPU
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.holdcpu.png?v=c03024ac
+
+Package: com.Axs.kongzhidiy
+Version: 2.3.3-end
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 3028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb
+Size: 674340
+MD5sum: 666e7676fdc00eb84385165fde65a776
+SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
+SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
+Description: 这是一个简单的控制中心美化插件。
+Author: binglan
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.kongzhidiy.png?v=99a28125
+Name: 冰蓝控制中心2.3.3-en
+Section: 关于美化
+
+Package: com.Axs.qjsy
+Version: 4.1.6
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb
+Size: 336980
+MD5sum: 165846e289de27614390df65340d308f
+SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
+SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
+Description: 让简单截图，拥有更多可能。
+Author: 冰蓝
+Name: 全局水印Pro
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.qjsy.png?v=fa359a98
+Section: 杂七杂八
+
+Package: com.Axs.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1273734
+MD5sum: 89a03ecc73f5f60700b7c9fdd7fe37d4
+SHA1: 8894d787688d29e65fc07f0bdf0144796c64fa9e
+SHA256: 1fa090a837b2c4d059e4e8136275bbfeaafd66d58c981e320ed7893e4ddd2d5d
+Section: Tweaks
+Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
+Author: Jonathan Winger-lang
+Name: snapper3
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
+Icon: https://ynyy.xbcxbc.cn/icons/com.axs.snapper3.png?v=97056edd
+
+Package: com.Axs.xmzs
+Version: 1.1-4C
+Architecture: iphoneos-arm64
+Maintainer: xmmm
+Installed-Size: 3728
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
+Size: 1091608
+MD5sum: 8349817d3f3e4a0d935c64405f66b67c
+SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
+SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
+Section: 微信插件
+Priority: optional
+Description: 微信功能扩展
+Author: xmmm
+Name: 熊猫助手
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
+
+Package: com.Axs.yuanjiao
+Version: 1.8.6
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb
+Size: 634908
+MD5sum: bf9bed1ad5d4b4e6be4a36259084b00c
+SHA1: af49e9e108361c8f1d7eb2c8d4772b2058b20f61
+SHA256: 08363d1172528f11b9050d61492715b0878d1f3c6578abc542101b5587345330
+Section: 微信插件
+Description: A狗的微信全局圆角插件原版 1.8.6-END 下载源里全局圆角（免授权）插件即可解锁授权
+Author: A
+Name: 微信全局圆角
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.yuanjiao.png?v=97056edd
+
+Package: com.binglan.dynamicfx
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb
+Size: 115776
+MD5sum: 0da67c62ffd42d0b476436f7415b419a
+SHA1: 5ebb648d4dd7e0f49e5de4139b97c74268cdd8d2
+SHA256: 61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1
+Description: 灵动岛背景？
+Author: 冰蓝
+Name: 冰蓝灵动岛背景
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.dynamicfx.png?v=97056edd
+Section: 杂七杂八
+
+Package: com.binglan.kongzhidiy
+Version: 2.3.6-end
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
+Size: 3740156
+MD5sum: d013692bdeedab422b38ad5d1a373149
+SHA1: daef32141d5e97102fdb5d9ffd65a4ad3ef5f756
+SHA256: 0707fdaf56ccdfe284afcfdd5f9bafab6726d0dd1f32bf99a06a3e8b52d2744e
+Description: 控制中心中心美化？
+Author: binglan
+Name: 冰蓝控制中心2.3.6-end
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.kongzhidiy.png?v=e808b5b3
+Section: 杂七杂八
+
+Package: com.binglanqjsy.deb
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb
+Size: 164700
+MD5sum: 7b8c58cb8a72be2619d24206150ec195
+SHA1: 906f4452fecc7b97c088a4dab5badde54635ae75
+SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Author: 冰蓝
+Name: 冰蓝全局水印套壳
+Icon: https://ynyy.xbcxbc.cn/icons/com.binglanqjsy.deb.png?v=97056edd
+Section: 美化
+
+Package: com.bvm.wuzeililiang
+Version: 1.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb
+Size: 38092
+MD5sum: edbdb03513b16f3880b7acd7cd0554d9
+SHA1: c5f46ce1816793ee2fc7ca995cb98b92e6e61289
+SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Author: BVN
+Name: 乌贼本地离线授权
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvm.wuzeililiang.png?v=88b7b536
+Section: 杂七杂八
+
+Package: com.bvn.copyvault.rl
+Version: 1.9.0k
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.copyvault
+Filename: debs/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb
+Size: 1640920
+MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
+SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
+SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
+Description: 乌贼剪贴板
+ 先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
+Author: SquidForce, Backup
+Name: CopyVault
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
+Section: Hello系列
+
+Package: com.bvn.squidforcecrack.rl
+Version: 1.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: BVN
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
+Size: 36936
+MD5sum: 3a817babf0231da296be4d9ae76b6573
+SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
+SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
+Author: BVN
+Name: SquidForce VIP
+Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
+Section: 公益插件
+
+Package: com.charlieleung.liquidify
+Version: 1.3.7-4+dao88.1
+Architecture: iphoneos-arm64
+Maintainer: 一刀
+Installed-Size: 40597
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb
+Size: 10756068
+MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
+SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
+SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
+Description: 液态玻璃
+Author: 一刀
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Name: 88液态
+Section: 美化
+
+Package: com.cydiabc.hbwechathelper-rootless
+Version: 2.1.9
+Architecture: iphoneos-arm64
+Maintainer: HuangBai
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: debs/com.cydiabc.hbwechathelper-rootless_2.1.9_iphoneos-arm64.deb
+Size: 7206116
+MD5sum: 0ddff9324610b06577f7bc838a63a4c1
+SHA1: 153c1db75a9e74981e9d92e1748ee53e430173ae
+SHA256: ed7c64a325513a31813890b0caf6078e2a21ee90b3e40cb815f2fcc7b19b16ff
+Section: 微信
+Description: 黄白助手-微信插件 ，一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+A12: 1
+Author: HuangBai
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Icon2: 10.png
+Name: 黄白助手-Rootless
+Sponsor: Ai-小苹果™
+
+Package: com.eswick.harbor16
+Version: 2.0.0-alpha100+ci.8
+Architecture: iphoneos-arm64
+Maintainer: 小菜
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit (>= 1.0), preferenceloader
+Filename: debs/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb
+Size: 154784
+MD5sum: c40c41b741a02da32b5b498f1c2ab3e9
+SHA1: 467957805e553bdcea540ba190b3461b911ff3ce
+SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
+Description: 已汉化
+Author: 小菜
+Name: MaxDock已汉化 无根
+Section: 关于美化
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+
+Package: com.eswick.harbor16.roothide
+Version: 2.0.0-alpha100+ci.8
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Depends: firmware (>= 15.0), firmware (<< 27.0), ellekit (>= 1.0), preferenceloader
+Filename: debs/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb
+Size: 117556
+MD5sum: 6ddd46499948471027c2c54cc420bb12
+SHA1: 7713c6dced795588fe4a3a67671bb4b5256e6f17
+SHA256: e23c71b79c0515600a0d94b66cef8d13cbee9187033fb05f3b80179f38953320
+Author: 小菜
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Name: MacDock 已汉化 隐根
+Description: 已汉化
+Section: 测试
+
+Package: com.go.mango
+Version: 1.0-Beta7-6
+Architecture: iphoneos-arm64
+Maintainer: go
+Installed-Size: 3284
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb
+Size: 845284
+MD5sum: fe55bfd09a850c363052c192ef1fea16
+SHA1: 7501163aa4d4a048b46c7caaacc413b91e7451c8
+SHA256: 5877d8f7d34816534d619cd2207b01bf5ce8a7b6312447ce0d3c82c2777b0621
+Section: 分屏插件
+Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
+Author: go
+Name: 芒果分屏1.0-Beta7-6
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+
+Package: com.mallin.tunnelsharevpn
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: Mallin
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/com.mallin.tunnelsharevpn_1.2.6-1_iphoneos-arm64.deb
+Size: 170246
+MD5sum: a3aa6695d7f137887fe7bd29702fbe4e
+SHA1: b5b511352270d093c136b82fa329f3b357707172
+SHA256: 99ba4789ff482d88bce531904d54e6cc8881199eddeb02b46fa1b56e084c881e
+Section: Tweaks
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Author: Mallin
+Name: VPN 共享
+Icon: https://ynyy.xbcxbc.cn/icons/com.mallin.tunnelsharevpn.png?v=e462c325
+
+Package: com.mlgm.actra
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.2_iphoneos-arm64e.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+Description: 手势与事件自动化工具
+Author: mlgm
+Name: Actra
+Icon: https://ynyy.xbcxbc.cn/icons/com.mlgm.actra.png?v=529a4c55
+Section: 公益插件
+
+Package: com.muzi.mutool
+Version: 2.2.59
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 5196
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb
+Size: 829800
+MD5sum: 11600e679a3d6cd08c03258f73a25a92
+SHA1: f8d8f33aa6619ddd455e9e0c5a5077d520cd443d
+SHA256: 38c4d5b16a152dbcdc555092ce8a35d383357ce2c4a25b0d80c58a8ba3cae535
+Description: 已公益
+Author: 小菜
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+Name: MUtool
+Sileodepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Section: 工具
+
+Package: com.rain.120hzstable
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Filename: debs/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb
+Size: 69954
+MD5sum: 910949d1355f856f05ede306965f4f61
+SHA1: a9a765a8c0773fb009afed7fed8acee2c62881fe
+SHA256: fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba
+Section: Tweaks
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Author: Rain
+Name: RainFlow 120Hz
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.120hzstable.png?v=97056edd
+
+Package: com.rain.dock
+Version: 3.6.2-1
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 732
+Depends: preferenceloader
+Filename: debs/com.rain.dock_3.6.2-1_iphoneos-arm64.deb
+Size: 140182
+MD5sum: a210c48270c6a8852efb1c1a174a38d8
+SHA1: cb3430d6067bd3280142ea003ad184cc42ba7db4
+SHA256: 17b35d6136e02c957788eae1f0d3746aef9da360df536d3cbd29d10159786b3b
+Section: Tweaks
+Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
+Author: Rain
+Name: Rain 的 Dock
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.dock.png?v=97056edd
+
+Package: com.rain.processmonitor
+Version: 1.1.1-14+unlocked
+Architecture: iphoneos-arm64e
+Maintainer: Rain
+Installed-Size: 1624
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e.deb
+Size: 311952
+MD5sum: 8cff2f4ab5515c1f014d29529aea7553
+SHA1: ceec9ccdbe08320f3ce02c7e4c82ef6fc04585d2
+SHA256: c35d6c607463c03c119153578bfdb336b58693e218ce531486751a33e3181f61
+Section: Tweaks
+Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知、应用冷冻、依赖关系分析、进程关系图谱、应用DNA分析、网络流量监控、A/B对比测试、Tweak热加载、剪贴板监控、发热追踪、沙盒检查、Hook探测、进程快照对比等。
+Author: Rain
+Name: Rain 的应用
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.processmonitor.png?v=97056edd
+
+Package: com.rain.rainmhz
+Version: 6.14.1-1
+Architecture: iphoneos-arm64
+Maintainer: Rain
+Installed-Size: 1320
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb
+Size: 183964
+MD5sum: 9c68928e2cab4229298e2de640cf1884
+SHA1: 0e4b192db287d928a787a19fe8fb9731877dafd3
+SHA256: 936598e512411a685da8ec0d623fdbeda410c0aa68d2ace876088e4e28ddf4e5
+Section: Tweaks
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Tag: role::hacker, purpose::extension
+Author: Rain
+Name: Rain 的 Mhz
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.rainmhz.png?v=97056edd
+
+Package: com.siwenjiajia.tweak.comm
+Version: 28.35
+Architecture: iphoneos-arm64
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.free
+Filename: debs/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb
+Size: 3587956
+MD5sum: 557cf40277104de011fb729f45380a66
+SHA1: 8f7ed16dc8bb9472035a3f7acadeb17931c3c653
+SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
+Section: 抖音插件
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Author: siwenjiajia
+Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
+Name: 抖音优化
+
+Package: com.trollopenjb.patched.roothide
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: 小菜 <xiaocai@local>
+Installed-Size: 2141
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/TrollOpenJB_v2.0.2_小菜 (1).deb
+Size: 793082
+MD5sum: 33057ba194f977e02ca597d01834222e
+SHA1: 0e189cc1ead590454e4ca5b2fb6b0313b710faec
+SHA256: 4e86c509aea1467105165595bb6003ce62ea73e4a0a428b2f5eaac9bcfa3ec30
+Description: TrollOpenJB 破解版（授权校验已绕过，恒为已授权）。含完整设置面板。
+Author: 小菜
+Name: TrollOpenJB最新破解版
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: 分屏插件
+
+Package: com.unknown.wuzeililiang
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Unknown <unknown@none.local>
+Installed-Size: 822
+Filename: debs/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb
+Size: 165460
+MD5sum: 5de2a2be3032a85da4055fd3e6082472
+SHA1: de86786f7ca88cddc7841bbdd112883e66d658af
+SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
+Priority: optional
+Description: 鱿鱼三件套通杀插件
+ 下载鱿鱼三件套再安装这个插件即可本地激活授权。
+Name: 鱿鱼三件套通杀
+Icon: https://ynyy.xbcxbc.cn/icons/com.unknown.wuzeililiang.png?v=b88616e2
+Section: 工具
+
+Package: com.wcliquidglass.free
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: TLzypjy
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Filename: debs/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb
+Size: 731228
+MD5sum: 65ca2e958bb6ff1f440839fe48634dfa
+SHA1: f35a2baf73b052d224984cf929a668c6c2a3de24
+SHA256: f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281
+Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
+Author: TLzypjy
+Name: 58微信液态玻璃
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: 公益插件
+
+Package: com.wkk.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Depends: com.creaturecoding.libcspreferences
+Filename: debs/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 261260
+MD5sum: 5e1c035c03255f86c182e9576376e060
+SHA1: a0f8ad934d0386a8fa9cb097876aeef100209065
+SHA256: dca28e9effe883f855ce29eec297d0cb1f63aaa1d3967ba27da822c7da1a9551
+Description: 插件设置归类，已汉化。
+Name: Shuffle
+Icon: https://ynyy.xbcxbc.cn/icons/com.wkk.shuffle.png?v=eb4862dd
+Author: 小菜
+Section: 工具
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 538
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb
+Size: 96606
+MD5sum: 4d624e3366d7668d8fd1ac693d62a53e
+SHA1: 3ebf3f7d1e23633d191bcf79a5e8c3d1e7d5e103
+SHA256: 0d8a31c95909ac1ac86c9328d9ebe9758bcbe60f44b3bb4814bf0ef99bc35ee8
+ 【插件介绍】
+ 将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+ 【主要功能】
+ • 分类管理：手动调整分类，长按条目修改显示名称。
+ • 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+ • 导航文字：自定义首页标题与左上角返回文字。
+ • 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+ 【0.0.9 更新】
+ 1. 新增首页布局
+ 支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。
+ 九宫格默认三列，首页八个分类入口占八格。
+ .
+ 2. 新增二级菜单布局
+ 收纳分类列表支持六种样式，可独立选择或跟随首页。
+ 支持多行名称和大字号适配，保留条目跳转与长按改名。
+ .
+ 3. 调整选项位置
+ 以下四项集中放在「壁纸无遮罩」下方：
+ • 左上角返回文字
+ • 首页左上角标题
+ • 首页布局
+ • 二级菜单布局
+ .
+ 【使用方法】
+ 设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+ 选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+ 【适用范围】
+ 二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+ 壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Name: 设置插件
+Description: 设置分类收纳、
+Author: 小菜
+Section: 工具
+
+Package: fanqiefn
+Version: 3.5.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 4804
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Filename: debs/fanqiefn_3.5.0_iphoneos-arm64e.deb
+Size: 2112228
+MD5sum: 72bdd4beb464ce6a8c6c842cb74f9016
+SHA1: 13f95db0beb6e22387c220f33a69c06329594b6c
+SHA256: 3de01a27cb7671aef35bf7f91995f64494ffae7fd432a1e447e457fae4c1f9fb
+Homepage: https://fanqie.goforit.si
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
+Author: junhong
+Name: 番茄净化
+Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=f910fa33
+Section: Tweaks
+
+Package: fanqiefn.roothide
+Version: 3.5.0
+Architecture: iphoneos-arm64e
+Maintainer: junhong
+Installed-Size: 4804
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Filename: debs/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb
+Size: 2111426
+MD5sum: ddd6425e3509908ebba2a93a804f69de
+SHA1: 2d5bc27e1360bd862d6d275b98e0709545db11de
+SHA256: 0c99c2063168507c77f02fb88148810288ef33b06e4686e7123137624b2dc202
+Homepage: https://fanqie.goforit.si
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
+Author: junhong
+Name: 番茄净化 (Roothide)
+Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
+Section: Tweaks
+
+Package: iya.banana.ios27animation
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 3208
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Filename: debs/27 动画破解+优化.deb
+Size: 1251268
+MD5sum: 9e65b18fedf16391eb2b3e61f46c0a4d
+SHA1: c07425366446db604988f02eb42c8d01fc4438a3
+SHA256: ef6fa79a7b3ca94c990fbe8d6943d45d478d56d06afadb5b878a00d787f5da88
+Description: 于你有源 / 已公益
+Author: 小菜
+Name: iOS27 Animation
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: Hello系列
