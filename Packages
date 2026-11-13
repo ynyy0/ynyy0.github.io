@@ -531,7 +531,7 @@ Size: 10756068
 MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
 SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
 SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
-Description: 液态玻璃
+Description: @@RCBTN{"text":"参加","w":330.270751953125,"img":"depictions\/img\/com-charlieleung-liquidify-btn-1794572161-0.png","color":"#6366F1","r":50.56410217285156,"url":
 Author: 一刀
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
@@ -1001,4 +1001,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=d420c15cr2
-

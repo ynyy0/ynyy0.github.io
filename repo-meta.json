@@ -176,6 +176,8 @@
         "关于美化"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "description" : "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":",
+      "rich_description" : "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
       "section" : "关于美化"
     },
     "com.charlieleung.liquidify.roothide" : {
@@ -441,7 +443,9 @@
         "关于美化"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "description" : "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":",
       "name" : "88液态",
+      "rich_description" : "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
       "section" : "关于美化"
     },
     "debs\/com.charlieleung.liquidify_1.4.1_iphoneos-arm64.deb" : {
