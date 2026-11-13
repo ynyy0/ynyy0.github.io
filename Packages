@@ -515,7 +515,7 @@ Description: 液态玻璃
 Author: 一刀
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Name: 88液态
-Section: 美化
+Section: 关于美化
 SileoDepiction: https://ynyy0.github.io/depictions/com.charlieleung.liquidify.json?v=8d95eb00r2
 
 Package: com.cydiabbc.airdrop-roothide
@@ -960,4 +960,3 @@ Name: iOS27 Animation
 Icon: https://ynyy0.github.io/CydiaIcon.png?v=5e7b01ab
 Section: Hello系列
 SileoDepiction: https://ynyy0.github.io/depictions/iya.banana.ios27animation.json?v=5edc9d1er2
-

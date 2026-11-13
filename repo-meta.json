@@ -175,10 +175,10 @@
     },
     "com.charlieleung.liquidify" : {
       "cats" : [
-        "美化"
+        "关于美化"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
-      "section" : "美化"
+      "section" : "关于美化"
     },
     "com.charlieleung.liquidify.roothide" : {
       "cats" : [
@@ -430,8 +430,12 @@
       "section" : "公益插件"
     },
     "debs\/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb" : {
+      "cats" : [
+        "关于美化"
+      ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
-      "name" : "88液态"
+      "name" : "88液态",
+      "section" : "关于美化"
     },
     "debs\/com.charlieleung.liquidify_1.4.1_iphoneos-arm64.deb" : {
       "cats" : [
