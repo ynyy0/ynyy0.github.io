@@ -8,14 +8,14 @@
           "class": "DepictionButtonView",
           "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735",
           "openExternal": true,
-          "tintColor": "#6366F1",
-          "yPadding": 10,
+          "tintColor": "#F7F7FA",
+          "yPadding": 8,
           "view": {
             "class": "DepictionImageView",
-            "URL": "https://ynyy.xbcxbc.cn/depictions/img/hello-folder-btn-full.png",
+            "URL": "https://ynyy.xbcxbc.cn/depictions/img/hello-folder-card.png",
             "width": 402,
-            "height": 76,
-            "cornerRadius": 38
+            "height": 112,
+            "cornerRadius": 20
           }
         },
         {
