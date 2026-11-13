@@ -580,26 +580,6 @@ Icon: https://ynyy.xbcxbc.cn/icons/com.cydiabc.appdata-rootless.png?v=12e0c9e6
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabc.appdata-rootless.json?v=e761f7acr2
 
-Package: com.cydiabc.hbwechathelper-rootless
-Version: 2.1.9
-Architecture: iphoneos-arm64
-Maintainer: HuangBai
-Depends: firmware (>= 7.0), mobilesubstrate
-Filename: debs/com.cydiabc.hbwechathelper-rootless_2.1.9_iphoneos-arm64.deb
-Size: 7206116
-MD5sum: 0ddff9324610b06577f7bc838a63a4c1
-SHA1: 153c1db75a9e74981e9d92e1748ee53e430173ae
-SHA256: ed7c64a325513a31813890b0caf6078e2a21ee90b3e40cb815f2fcc7b19b16ff
-Section: 微信
-Description: 黄白助手-微信插件 ，一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-A12: 1
-Author: HuangBai
-Icon: file:///Applications/Cydia.app/Sections/Messaging.png
-Icon2: 10.png
-Name: 黄白助手-Rootless
-Sponsor: Ai-小苹果™
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.cydiabc.hbwechathelper-rootless.json?v=418d6e20r2
-
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
 Architecture: iphoneos-arm64
