@@ -158,7 +158,10 @@ def main():
             dep_file = ROOT / 'depictions' / dep_name
             if dep_file.is_file():
                 dep_url += '?v=' + hashlib.sha256(dep_file.read_bytes()).hexdigest()[:8]
-            lines = [line for line in lines if not line.startswith('SileoDepiction: ')]
+            # 大小写不敏感清除：deb control 里可能带 Sileodepiction / Depiction 变体，
+            # 不清干净会和本源详情页并存，Sileo 读了外源那行
+            lines = [line for line in lines
+                     if not line.lower().startswith(('sileodepiction: ', 'depiction: '))]
             lines.append('SileoDepiction: ' + dep_url)
         # 单插件「使用源图标」：只把这一个插件的 Icon 换成源图标
         if ov.get('icon'):
