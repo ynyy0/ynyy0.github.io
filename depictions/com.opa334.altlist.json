@@ -1,0 +1,313 @@
+                      
+
+
+{
+  "minVersion": "0.1",
+  "headerImage": "https://ynyy0.github.io/depiction-bg.jpg?v=1"",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "views": [
+        {              
+            "text" : "☹ 您的系统: iOS17.2.1 ✋不兼容该软件包",
+            "action" :"",     
+            "tintColor" : "#f15a22", 
+            "class" : "DepictionButtonView"
+        },
+               {
+            "text" : "2026-四大流量卡-套餐便宜",
+            "action" : "https://haoka.iosios.net",
+            "tintColor" : "#ff0000",
+            "class" : "DepictionButtonView"
+        },
+{
+            "text" : "点击添加主题源-字体、主题、遮罩免费下！",
+            "action" : "https://zhuti.iosios.net",
+            "tintColor" : "#15C377",
+            "class" : "DepictionButtonView"
+        },
+        {
+         "class": "DepictionLabelView",
+          "text": "插件介绍",
+          "fontWeight": "bold",
+          "fontSize": 19,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },                                    
+        {
+           "markdown":"A modern AppList alternative必备的插件依赖，考虑到xina2.0大多用户缺这个依赖特上架搬运工源，供用户使用，已降低版本号！就算被人喷劫持依赖，我也愿意承受这舆论，只为狱友提供方便！",
+           "useSpacing":false,
+           "class":"DepictionMarkdownView"
+        },
+		{
+            "spacing": 20,
+			"class": "DepictionSpacerView"
+		},
+        {
+          "class":"DepictionSeparatorView"
+        },
+        {
+         "class": "DepictionLabelView",
+          "text": "插件截图预览",
+          "fontWeight": "semibold",
+          "fontSize": 17,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },				{
+			"itemCornerRadius": true,
+			"itemSize": "{127, 275}",
+			"screenshots": [
+			  {"accessibilityText": "Screenshot","url": "https://ynyy0.github.io/screenshots/com.opa334.altlist_2.png"}
+			],
+			"class": "DepictionScreenshotsView"
+		}, {
+			"class": "DepictionSeparatorView"
+		},
+        {
+         "class": "DepictionLabelView",
+          "text": "版本详细说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },               
+        {
+         "class": "DepictionStackView",
+         "orientation": "landscape",
+         "views": [
+          {
+           "class": "DepictionStackView",
+           "views": [
+            {
+             "class": "DepictionLabelView",
+             "text": "插件版本",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "1.0.9",
+             "fontWeight": "semibold",
+             "fontSize": 16,
+             "usePadding": false
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "插件大小",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "45 KB",
+             "fontWeight": "semibold",
+             "fontSize": 16,
+             "usePadding": false
+            }
+           ]
+          },
+          {
+           "class": "DepictionStackView",
+           "views": [
+            {
+             "class": "DepictionLabelView",
+             "text": "插件更新时间",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "2023-12-05 10:51:21",
+             "fontWeight": "semibold",
+             "fontSize": 16,
+             "usePadding": false
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "插件系统兼容",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+                           "text": "15 ~ 15.4.1",
+             "fontWeight": "semibold",
+             "fontSize": 17,
+             "usePadding": false
+            }
+           ]
+          },
+         ]
+        },
+               {
+         "class": "DepictionStackView",
+         "orientation": "landscape",
+         "views": [
+          {
+           "class": "DepictionStackView",
+           "views": [
+            {
+             "class": "DepictionLabelView",
+             "text": "下载次数",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "6238",
+             "fontWeight": "semibold",
+             "fontSize": 16,
+             "usePadding": false
+            }
+           ]
+          },
+          {
+           "class": "DepictionStackView",
+           "views": [
+            {
+             "class": "DepictionLabelView",
+             "text": "上个用户下载时间",
+             "textColor": "#777",
+             "margins": "{16,0,8,0}"
+            },
+            {
+             "class": "DepictionLabelView",
+             "text": "2026-11-13 13:31:46",
+             "fontWeight": "semibold",
+             "fontSize": 16,
+             "usePadding": false
+            }
+           ]
+          },
+         ]
+        },
+        {
+            "spacing": 25,
+			"class": "DepictionSpacerView"
+		},
+		{
+            "title":"免费中国GPT",
+            "action":"https://iosios.net",
+            "class":"DepictionTableButtonView"
+        },
+        {
+            "title":"搬运工源Q群",
+            "action":"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=soILsnP4PEFAD06pAgauxLqg8FgelY_7&authKey=4Be2UlXxifW%2BgltS5YNB18iCzgzEh%2FKAzeNhZSjvcOcf30d2aowkbDjYz2vKzX65&noverify=0&group_code=695317971",
+            "class":"DepictionTableButtonView"
+        },
+        {
+          "class":"DepictionSeparatorView"
+        },
+		{
+          "useSpacing": true,
+          "class": "DepictionMarkdownView",
+		  "useRawFormat": true,
+		   "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">搬运工源<BR />搬运工源专注于收集精品插件分享，我们不生产插件，只做插件的搬运工，不添加任何广告，只为用户提供便捷！<BR />嘀哩科技©2018 - 2024</small><style>body { text-align: center; }</style>"
+        },
+        ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "联系我们",
+      "views": [
+        {              
+            "text" : "☹ 您的系统: iOS17.2.1 ✋不兼容该软件包",
+            "action" :"",     
+            "tintColor" : "#f15a22", 
+            "class" : "DepictionButtonView"
+        },
+        {
+            "text" : "2026-四大流量卡-套餐便宜",
+            "action" : "https://haoka.iosios.net",
+            "tintColor" : "#ff0000",
+            "class" : "DepictionButtonView"
+        },
+        {
+         "class": "DepictionLabelView",
+          "text": "本源公告（本源永久免费，永不会员制）",
+          "fontWeight": "semibold",
+          "fontSize": 19,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+           "markdown":"本站只搬运网上作者分享的插件，未做任何修改，所以部分插件标识符和作者插件一致导致部分用户认为我们做了劫持，这里我想澄清一下，我们并没有这样做，本来做搬运工源就是为了给大家提供免费的插件可用。我解释一下，这是因为Cydia和Sileo的规则导致的，先添加谁的源，标识符一致就会一直显示谁的源，希望大家能够理解！",
+           "useSpacing":false,
+           "class":"DepictionMarkdownView"
+        },
+        {
+                    "orientation":"landscape",
+                    "views":[
+                        {
+                            "class":"DepictionStackView",
+                            "views":[
+                                {
+                                    "text":"◉搬运工源Q群",
+                                    "action":"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=soILsnP4PEFAD06pAgauxLqg8FgelY_7&authKey=4Be2UlXxifW%2BgltS5YNB18iCzgzEh%2FKAzeNhZSjvcOcf30d2aowkbDjYz2vKzX65&noverify=0&group_code=695317971",
+                                    "openExternal":false,
+                                    "tintColor":"#f58220",
+                                    "class":"DepictionButtonView"
+                                }
+                            ]
+                        },
+                        {
+                            "class":"DepictionStackView",
+                            "views":[
+                                {
+                                    "text":"◉免费中国GPT",
+                                    "action":"https://iosios.net",
+                                    "openExternal":false,
+                                    "tintColor":"#f58220",
+                                    "class":"DepictionButtonView"
+                                }
+                            ]
+                        }
+                    ],
+                    "class":"DepictionStackView"
+                },
+                {
+          "class":"DepictionSeparatorView"
+        },
+		{
+          "useSpacing": true,
+          "class": "DepictionMarkdownView",
+		  "useRawFormat": true,
+		   "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">搬运工源<BR />搬运工源专注于收集精品插件分享，我们不生产插件，只做插件的搬运工，不添加任何广告，只为用户提供便捷！<BR />嘀哩科技©2018 - 2024</small><style>body { text-align: center; }</style>"
+        },
+        ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "更新日志",
+      "views": [
+         {              
+            "text" : "☹ 您的系统: iOS17.2.1 ✋不兼容该软件包",
+            "action" :"",     
+            "tintColor" : "#f15a22", 
+            "class" : "DepictionButtonView"
+        },
+        {
+			"class": "DepictionSeparatorView"
+		},
+		{
+            "text" : "2026-四大流量卡-套餐便宜",
+            "action" : "https://haoka.iosios.net",
+            "tintColor" : "#ff0000",
+            "class" : "DepictionButtonView"
+        },
+      {
+          "useSpacing": true,
+          "class": "DepictionMarkdownView",
+		  "useRawFormat": true,
+		  "markdown": "<small style=\"color: #aaa; font-size: 10pt;\">搬运工源<BR />搬运工源专注于收集精品插件分享，我们不生产插件，只做插件的搬运工，不添加任何广告，只为用户提供便捷！<BR />嘀哩科技©2018 - 2024</small><style>body { text-align: center; }</style>"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
