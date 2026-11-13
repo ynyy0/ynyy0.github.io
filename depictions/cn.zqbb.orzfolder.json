@@ -5,9 +5,12 @@
       "tabname": "插件简介",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "<div style=\"padding:6px 4px 10px 4px\"><a href=\"https://www.wcfaka.com/liebiao/F3B309AC3689A735\" style=\"display:block;box-sizing:border-box;padding:15px 20px;border-radius:18px;background:linear-gradient(135deg,#6366F1 0%,#8B5CF6 55%,#EC4899 100%);color:#ffffff;font-size:16px;font-weight:600;letter-spacing:.3px;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(99,102,241,.35)\">我直接看这个插件显示效果</a></div>",
-          "useRawFormat": true
+          "class": "DepictionButtonView",
+          "text": "我直接看这个插件显示效果",
+          "action": "https://www.wcfaka.com/liebiao/F3B309AC3689A735",
+          "openExternal": true,
+          "tintColor": "#6366F1",
+          "yPadding": 12
         },
         {
           "class": "DepictionMarkdownView",
