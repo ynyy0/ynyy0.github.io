@@ -162,10 +162,14 @@ def main():
         # App 改过的描述（富文本优先，其次普通描述）必须同步进详情页正文：
         # 列表页读 Packages 的 Description，详情页读这里的 markdown，是两份副本。
         rich = str(ov.get('rich_description') or '')
-        if rich:
-            rich = rich.replace('__RC_SITE__', SITE_BASE)
-        desc_line = rich or next((l.split(':', 1)[1].strip() for l in lines
-                                  if l.lower().startswith('description: ')), '')
+        plain = str(ov.get('description') or '')
+        # 只有 App 里明确改过描述的包才同步详情页正文；
+        # 否则 desc_line 会回退成索引里的一行摘要，把原有长介绍覆盖掉。
+        override_desc = rich or plain
+        if override_desc:
+            override_desc = override_desc.replace('__RC_SITE__', SITE_BASE)
+        desc_line = override_desc or next((l.split(':', 1)[1].strip() for l in lines
+                                           if l.lower().startswith('description: ')), '')
         if dep_file.is_file():
             try:
                 cur = json.loads(dep_file.read_text(encoding='utf-8'))
@@ -175,7 +179,7 @@ def main():
                         if tab['tabname'] != '详情':
                             tab['tabname'] = '详情'
                             changed = True
-                        if desc_line:
+                        if override_desc:
                             for v in tab.get('views', []):
                                 if v.get('class') == 'DepictionMarkdownView':
                                     if v.get('markdown') != desc_line:
