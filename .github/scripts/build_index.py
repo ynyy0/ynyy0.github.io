@@ -236,6 +236,35 @@ def desc_views(md):
     if not views:
         views.append({"class": "DepictionMarkdownView",
                       "markdown": sileo_text(md or ''), "useSpacing": True})
+    # 连续的小按钮（长度 <=160）合并成横向一行，每行最多 3 个，与 App 面板一致。
+    # 注意要在插 spacer 之前合并，否则连续的按钮会被 spacer 隔开。
+    def btn_w(v):
+        if not isinstance(v, dict) or not v.get('rcButton'):
+            return None
+        try:
+            return float((json.loads(v['rcButton']) or {}).get('w') or 402)
+        except Exception:
+            return None
+
+    merged = []
+    k = 0
+    while k < len(views):
+        if (btn_w(views[k]) or 402) > 160:
+            merged.append(views[k]); k += 1; continue
+        group = []
+        while k < len(views) and len(group) < 3:
+            w = btn_w(views[k])
+            if w is None or w > 160:
+                break
+            group.append(views[k]); k += 1
+        if len(group) > 1:
+            merged.append({"class": "DepictionStackView",
+                           "orientation": "landscape",
+                           "views": group})
+        else:
+            merged.extend(group)
+    views = merged
+
     # DepictionTabView 的内容从 y=40 起画，StackView 子视图紧挨排列，没有顶部内边距。
     # 统一按 App 面板 body.spacing = 12pt：页签与第一个块、块与块之间都是 12pt，
     # 只加一层不叠加，否则按钮会离页签太远。spacer 必须带 spacing，Sileo 才真正创建。
