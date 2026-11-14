@@ -26,18 +26,26 @@ jobs:
           SITE_URL: https://ynyy.xbcxbc.cn/
         run: |
           python3 - <<'PY'
-          import json, os, re, urllib.request, datetime, pathlib
-          req = urllib.request.Request(
-              'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb',
-              headers={'User-Agent': 'Mozilla/5.0', 'Referer': os.environ['SITE_URL']})
-          txt = urllib.request.urlopen(req, timeout=20).read().decode('utf-8', 'replace')
-          m = re.search(r'\{.*\}', txt)
-          d = json.loads(m.group(0)) if m else {}
-          uv = int(d.get('site_uv', 0))
-          pv = int(d.get('site_pv', 0))
+          import json, os, urllib.request, datetime, pathlib
           p = pathlib.Path('stats.json')
           old = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-          # Beijing time for "today"
+          try:
+              req = urllib.request.Request(
+                  'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb',
+                  headers={'User-Agent': 'Mozilla/5.0', 'Referer': os.environ['SITE_URL']})
+              txt = urllib.request.urlopen(req, timeout=20).read().decode('utf-8', 'replace')
+              # JSONP is like try{cb({"site_uv":1,...});}catch(e){}
+              # slice the object directly; never use a greedy {.*} regex here
+              s = txt.find('{"')
+              e = txt.find('}', s)
+              if s < 0 or e <= s:
+                  raise ValueError('unexpected response: ' + txt[:200])
+              d = json.loads(txt[s:e + 1])
+              uv, pv = int(d.get('site_uv', 0)), int(d.get('site_pv', 0))
+          except Exception as ex:
+              print('counter unavailable, keeping previous values:', ex)
+              uv = int(old.get('site_uv', 0))
+              pv = int(old.get('site_pv', 0))
           today = datetime.datetime.now(
               datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y-%m-%d')
           base = pv if old.get('date') != today else int(old.get('base_pv', pv))
