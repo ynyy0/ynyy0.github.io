@@ -65,20 +65,20 @@
     },
     "cn.zqbb.fix120hz.obf" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "cn.zqbb.hello.bundleid" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json"
     },
     "cn.zqbb.hello.keyboard.ai" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "cn.zqbb.hello.memorystatus" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
@@ -114,10 +114,10 @@
     },
     "com.Axs.qjsy" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.axs.screenrecording" : {
       "cats" : [
@@ -163,10 +163,10 @@
     },
     "com.bvm.wuzeililiang" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.bvn.copyvault.rl" : {
       "cats" : [
@@ -242,10 +242,10 @@
     },
     "com.muzi.mutool" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.muzi.mutool.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.rain.120hzstable" : {
       "cats" : [
@@ -290,10 +290,10 @@
     },
     "com.unknown.wuzeililiang" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.unknown.wuzeililiang.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.wcliquidglass.free" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.wcliquidglass.free.json"
@@ -361,20 +361,20 @@
     },
     "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json"
     },
     "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
@@ -412,10 +412,10 @@
     },
     "debs\/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -453,10 +453,10 @@
     },
     "debs\/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -559,10 +559,10 @@
     },
     "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.muzi.mutool.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.muzi.mutool_2.2.59_arm64e_roothide (6).deb" : {
       "cats" : [
@@ -605,10 +605,10 @@
     },
     "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.unknown.wuzeililiang.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb" : {
       "cats" : [
