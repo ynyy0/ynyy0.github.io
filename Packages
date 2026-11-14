@@ -481,24 +481,6 @@ Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.squidforcecrack.rl.json?v=c6057349r2
 
-Package: com.charlieleung.liquidify
-Version: 1.3.7-4+dao88.1
-Architecture: iphoneos-arm64
-Maintainer: 一刀
-Installed-Size: 40597
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb
-Size: 10756068
-MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
-SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
-SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
-Description: 液态玻璃
-Author: 一刀
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Name: 88液态
-Section: 关于美化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=b0ef8bc1r2
-
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
 Architecture: iphoneos-arm64
