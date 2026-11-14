@@ -531,7 +531,7 @@ SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
 Description: 已汉化
 Author: 小菜
 Name: MaxDock已汉化 无根
-Section: 关于美化
+Section: 汉化插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.json?v=1020589cr2
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
@@ -549,7 +549,7 @@ Author: 小菜
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 隐根
 Description: 已汉化
-Section: 工具
+Section: 汉化插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=1020589cr2
 
 Package: com.go.mango
@@ -919,4 +919,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=7f597ff3r2
-

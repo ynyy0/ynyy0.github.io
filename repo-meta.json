@@ -208,18 +208,18 @@
     },
     "com.eswick.harbor16" : {
       "cats" : [
-        "关于美化"
+        "汉化插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.json",
       "name" : "MaxDock已汉化 无根",
-      "section" : "关于美化"
+      "section" : "汉化插件"
     },
     "com.eswick.harbor16.roothide" : {
       "cats" : [
-        "工具"
+        "汉化插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
-      "section" : "工具"
+      "section" : "汉化插件"
     },
     "com.go.mango" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json"
@@ -517,21 +517,21 @@
     },
     "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb" : {
       "cats" : [
-        "关于美化"
+        "汉化插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.json",
       "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
       "name" : "MaxDock 无根 汉化版",
-      "section" : "关于美化"
+      "section" : "汉化插件"
     },
     "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "汉化插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
       "description" : "已汉化",
       "name" : "MacDock 已汉化 隐根",
-      "section" : "工具"
+      "section" : "汉化插件"
     },
     "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json",
