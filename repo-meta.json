@@ -164,7 +164,9 @@
       "section" : "公益插件"
     },
     "com.Axs.xmzs" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json",
+      "description" : "微信功能扩展",
+      "rich_description" : "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
     },
     "com.Axs.yuanjiao" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.yuanjiao.json"
@@ -495,7 +497,9 @@
       "section" : "公益插件"
     },
     "debs\/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json",
+      "description" : "微信功能扩展",
+      "rich_description" : "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
     },
     "debs\/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.yuanjiao.json"
