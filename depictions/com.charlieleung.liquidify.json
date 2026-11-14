@@ -17,13 +17,13 @@
           "views": [
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672229-415.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672229-415.png",
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686594-807.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686594-807.png",
               "width": 131.08184814453125,
               "height": 96.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"h\":96,\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"fs\":16,\"alpha\":0.721352310180664,\"r\":24,\"w\":131.08184814453125,\"url\":\"\"}"
+              "rcButton": "{\"w\":131.08184814453125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794686594-807.png\",\"url\":\"\",\"fs\":16,\"r\":24,\"textColor\":\"\",\"dx\":1.6666717529296875,\"cw\":197,\"h\":96,\"color\":\"#6366F1\",\"alpha\":0.721352310180664,\"text\":\"我直接看这个插件显示效果\"}"
             },
             {
               "class": "DepictionImageView",
@@ -33,7 +33,7 @@
               "height": 70.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"h\":70.69039154052734,\"r\":42.50953674316406,\"w\":156.2490997314453,\"textColor\":\"\",\"text\":\"参加\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794673894-199.png\",\"dx\":-45,\"color\":\"#6366F1\",\"fs\":17.66666603088379,\"url\":\"\",\"alpha\":1}"
+              "rcButton": "{\"r\":42.50953674316406,\"textColor\":\"\",\"dx\":-45,\"h\":70.69039154052734,\"text\":\"参加\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794673894-199.png\",\"cw\":0,\"w\":156.2490997314453,\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"url\":\"\",\"alpha\":1}"
             }
           ]
         },
