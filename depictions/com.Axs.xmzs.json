@@ -8,6 +8,15 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-Axs-xmzs-btn-1794664225-344.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-Axs-xmzs-btn-1794664225-344.png",
+          "width": 390,
+          "height": 79.55,
+          "cornerRadius": 0,
+          "alignment": 1
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "微信功能扩展",
           "useSpacing": true
