@@ -40,13 +40,25 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.copyvault.json"
     },
     "cn.octoforce.squidextender" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "section" : "公益插件"
     },
     "cn.octoforce.squidextender.roothide" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "section" : "公益插件"
     },
     "cn.octoforce.squidgesturepro" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "section" : "公益插件"
     },
     "cn.octoforce.squidgesturepro.roothide" : {
       "cats" : [
@@ -336,13 +348,25 @@
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json"
+      "cats" : [
+        "公益插件"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
       "cats" : [

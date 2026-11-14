@@ -46,7 +46,7 @@ Size: 2622882
 MD5sum: 966635cde69eafc3fa151aab3dcdf1ad
 SHA1: 2ecc398fa4808de6a23491e8126f1e49f1cab286
 SHA256: a6cd045958efc12418df9ec1a5b009e1444839f69713698bb65a754ac16d9c3b
-Section: 手势键盘
+Section: 公益插件
 Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
 Author: SquidForce, Backup
 Name: 乌贼键盘无根
@@ -65,7 +65,7 @@ Size: 2306812
 MD5sum: c0538acf10927677f2cc2d48ca02ac97
 SHA1: 9e35a4fc272e42d2ba6ff17772e2143e9fc02a8b
 SHA256: 6eb6ce1c198d556894a19cea02977269a4bdeb6bc35b9167c11640e828134599
-Section: 手势键盘
+Section: 公益插件
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Author: SquidForce, Backup
 Name: 乌贼键盘隐根
@@ -84,7 +84,7 @@ Size: 1930346
 MD5sum: 9703d9d208b4cc3b8a789d6e32cdaf20
 SHA1: ed4eeaaed72349402a289407e9879add5e938051
 SHA256: f0cd8203a86bf0b22a62ba719764cce115a65aacc42a7a02e3f9da69f0df0041
-Section: 手势键盘
+Section: 公益插件
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
 Name: 乌贼手势无根
@@ -832,4 +832,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=7f597ff3r2
-
