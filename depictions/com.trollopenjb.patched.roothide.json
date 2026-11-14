@@ -8,8 +8,22 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionButtonView",
+          "action": "https://qm.qq.com/q/d1ElAi8ra8",
+          "openExternal": true,
+          "tintColor": "#FFFFFF",
+          "yPadding": 6,
+          "view": {
+            "class": "DepictionImageView",
+            "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-trollopenjb-patched-roothide-btn-1794660232-798.png",
+            "width": 402,
+            "height": 63,
+            "cornerRadius": 0
+          }
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "TrollOpenJB 破解版（授权校验已绕过，恒为已授权）。含完整设置面板。",
+          "markdown": "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
           "useSpacing": true
         },
         {
