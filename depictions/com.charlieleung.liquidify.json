@@ -17,23 +17,23 @@
           "views": [
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686747-586.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686747-586.png",
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-e8b87115.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-e8b87115.png",
               "width": 197.0,
               "height": 96.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"w\":131.08184814453125,\"r\":24,\"alpha\":0.721352310180664,\"text\":\"我直接看这个插件显示效果\",\"textColor\":\"\",\"cw\":197,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794686747-586.png\",\"fs\":16,\"url\":\"\",\"color\":\"#6366F1\",\"dx\":32,\"h\":96}"
+              "rcButton": "{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}"
             },
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686743-641.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794686743-641.png",
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a9e2b604.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a9e2b604.png",
               "width": 197.0,
               "height": 70.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"h\":70.69039154052734,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794686743-641.png\",\"alpha\":1,\"cw\":197,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"textColor\":\"\",\"w\":156.2490997314453,\"dx\":-8,\"url\":\"\",\"color\":\"#6366F1\",\"text\":\"参加\"}"
+              "rcButton": "{\"cw\":197,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}"
             }
           ]
         },
