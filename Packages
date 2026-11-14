@@ -442,7 +442,7 @@ Author: 小菜
 Name: 88液态玻璃插件 1.3.8
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=8788195dr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=6c7afb98r2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -741,6 +741,26 @@ Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=07f86f55r2
 
+Package: im.mjh.alipay2nfc.roothide
+Version: 3.5.0
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 364
+Depends: firmware (>=14.0), preferenceloader
+Conflicts: com.yourname.alipaynfcredirect
+Replaces: com.yourname.alipaynfcredirect
+Filename: debs/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb
+Size: 31876
+MD5sum: 69958be12ef1b9782f33ddffe04a9ca5
+SHA1: 4a1f5d680f5522dcc07c6068f18e9d78e59d6adf
+SHA256: 6f68783ef1b98c56339c39e3eed3a7dc0be29c95ab43e6b8a815efc5a6958a48
+Description: 让支付宝「碰一碰」唤起你指定的第二个支付宝客户端 — 多开账号也能用 NFC 付款。开源：https://github.com/5hux1n/Alipay2NFC
+Author: Junhong
+Name: Alipay2NFC · 碰一碰转接 (Roothide)
+Icon: https://ynyy.xbcxbc.cn/icons/im.mjh.alipay2nfc.roothide.png?v=9554d8f2
+Section: 软件优化
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/im.mjh.alipay2nfc.roothide.json?v=4ad96887r2
+
 Package: iya.banana.ios27animation
 Version: 2.2
 Architecture: iphoneos-arm64e
@@ -758,3 +778,4 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
+

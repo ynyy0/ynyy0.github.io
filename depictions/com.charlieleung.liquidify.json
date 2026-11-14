@@ -13,13 +13,13 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794572161-0.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794572161-0.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794669775-369.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794669775-369.png",
           "width": 390,
-          "height": 66.94,
+          "height": 54.33,
           "cornerRadius": 0,
           "alignment": 1,
-          "rcButton": "{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}"
+          "rcButton": "{\"h\":56,\"fs\":17.66666603088379,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794669775-369.png\",\"text\":\"参加\",\"url\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"r\":42.50953674316406,\"w\":120}"
         },
         {
           "class": "DepictionSpacerView",
