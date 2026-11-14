@@ -337,6 +337,12 @@
       "rich_description" : "# 于你有源 \/ 已公益",
       "section" : "公益插件"
     },
+    "debs\/88液态玻璃插件_1.3.8_thanks3_rootless.deb" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
     },
