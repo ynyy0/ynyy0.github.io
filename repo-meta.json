@@ -195,12 +195,12 @@
     },
     "com.bvn.copyvault.rl" : {
       "cats" : [
-        "Hello系列"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
       "description" : "你好",
       "rich_description" : "**你好**",
-      "section" : "Hello系列"
+      "section" : "公益插件"
     },
     "com.bvn.squidforcecrack.rl" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.squidforcecrack.rl.json"
@@ -521,12 +521,12 @@
     },
     "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
       "cats" : [
-        "zqbb Tweaks"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
       "description" : "你好",
       "rich_description" : "**你好**",
-      "section" : "zqbb Tweaks"
+      "section" : "公益插件"
     },
     "debs\/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb" : {
       "cats" : [
