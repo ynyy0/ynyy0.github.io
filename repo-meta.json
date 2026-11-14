@@ -216,6 +216,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "rich_description" : "![图片](https:\/\/ynyy.xbcxbc.cn\/depictions\/img\/com-charlieleung-liquidify-btn-1794572161-0.png)",
       "section" : "公益插件"
     },
     "com.charlieleung.liquidify.roothide" : {
@@ -349,6 +350,9 @@
         "公益插件"
       ],
       "section" : "公益插件"
+    },
+    "debs\/88液态玻璃插件_1.3.8_thanks3(1).deb" : {
+      "rich_description" : "![图片](https:\/\/ynyy.xbcxbc.cn\/depictions\/img\/com-charlieleung-liquidify-btn-1794572161-0.png)"
     },
     "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
