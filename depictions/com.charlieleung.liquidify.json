@@ -23,7 +23,7 @@
               "height": 31.04,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"url\":\"\",\"h\":32,\"text\":\"参加\",\"alpha\":1,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672116-625.png\",\"w\":90}"
+              "rcButton": "{\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"alpha\":1,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672116-625.png\",\"url\":\"\",\"text\":\"参加\",\"h\":32,\"w\":90,\"r\":42.50953674316406}"
             },
             {
               "class": "DepictionImageView",
@@ -33,7 +33,7 @@
               "height": 93.13,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"r\":24,\"url\":\"\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"h\":96}"
+              "rcButton": "{\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96,\"r\":24,\"fs\":16}"
             }
           ]
         },
@@ -51,12 +51,17 @@
       "tabname": "更新日志",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "暂无更新日志",
           "useSpacing": true
         },
         {
-          "class": "DepictionSpacerView"
+          "class": "DepictionSpacerView",
+          "spacing": 12
         },
         {
           "class": "DepictionSeparatorView"
