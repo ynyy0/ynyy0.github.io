@@ -128,10 +128,10 @@
     },
     "com.Axs.snapper3" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "com.Axs.xmzs" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
@@ -248,31 +248,31 @@
     },
     "com.rain.120hzstable" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "com.rain.dock" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "com.rain.processmonitor" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "com.rain.rainmhz" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "com.siwenjiajia.tweak.comm" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
@@ -418,10 +418,10 @@
     },
     "debs\/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "debs\/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
@@ -578,24 +578,24 @@
     },
     "debs\/com.rain.dock_3.6.2-1_iphoneos-arm64.deb" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "debs\/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e.deb" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "debs\/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "debs\/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
@@ -663,10 +663,10 @@
     },
     "debs\/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb" : {
       "cats" : [
-        "软件优化"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
-      "section" : "软件优化"
+      "section" : "公益插件"
     },
     "debs\/TrollOpenJB_v2.0.2_小菜 (1).deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json"
