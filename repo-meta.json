@@ -51,17 +51,17 @@
     },
     "cn.octoforce.squidgesturepro.roothide" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "cn.zqbb.fix120hz" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "cn.zqbb.fix120hz.obf" : {
       "cats" : [
@@ -142,24 +142,24 @@
     },
     "com.binglan.dynamicfx" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.binglan.kongzhidiy" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.binglanqjsy.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "com.bvm.wuzeililiang" : {
       "cats" : [
@@ -347,17 +347,17 @@
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -432,24 +432,24 @@
     },
     "debs\/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb" : {
       "cats" : [
-        "工具"
+        "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
-      "section" : "工具"
+      "section" : "公益插件"
     },
     "debs\/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb" : {
       "cats" : [
