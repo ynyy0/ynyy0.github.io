@@ -1,5 +1,5 @@
 {
-  "categories": [
+  "categories" : [
     "Hello系列",
     "公益插件",
     "分屏插件",
@@ -8,785 +8,792 @@
     "汉化插件",
     "软件优化"
   ],
-  "plugins": {
-    "27 动画破解+优化": {
-      "cats": [
+  "plugins" : {
+    "27 动画破解+优化" : {
+      "cats" : [
         "分屏插件"
       ],
-      "section": "分屏插件"
+      "section" : "分屏插件"
     },
-    "axssb666": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/axssb666.json"
+    "axssb666" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
     },
-    "byg.iosios.net.autotouch": {
-      "cats": [
+    "byg.iosios.net.autotouch" : {
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.autotouch.json",
-      "name": "按键精灵",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.autotouch.json",
+      "name" : "按键精灵",
+      "section" : "工具"
     },
-    "byg.iosios.net.mango": {
-      "cats": [
+    "byg.iosios.net.mango" : {
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.mango.json",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.mango.json",
+      "section" : "工具"
     },
-    "cn.octoforce.copyvault": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.copyvault.json"
+    "cn.octoforce.copyvault" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.copyvault.json"
     },
-    "cn.octoforce.squidextender": {
-      "cats": [
+    "cn.octoforce.squidextender" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.json",
-      "name": "乌贼键盘",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "name" : "乌贼键盘",
+      "section" : "公益插件"
     },
-    "cn.octoforce.squidextender.roothide": {
-      "cats": [
+    "cn.octoforce.squidextender.roothide" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.roothide.json",
-      "name": "乌贼键盘 Roothide",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "name" : "乌贼键盘 Roothide",
+      "section" : "公益插件"
     },
-    "cn.octoforce.squidgesturepro": {
-      "cats": [
+    "cn.octoforce.squidgesturepro" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "name": "乌贼手势",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "name" : "乌贼手势",
+      "section" : "公益插件"
     },
-    "cn.octoforce.squidgesturepro.roothide": {
-      "cats": [
+    "cn.octoforce.squidgesturepro.roothide" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json",
-      "name": "乌贼手势 Roothide",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
+      "name" : "乌贼手势 Roothide",
+      "section" : "公益插件"
     },
-    "cn.zqbb.fix120hz": {
-      "cats": [
+    "cn.zqbb.fix120hz" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
+      "section" : "公益插件"
     },
-    "cn.zqbb.fix120hz.obf": {
-      "cats": [
+    "cn.zqbb.fix120hz.obf" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.obf.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
+      "section" : "公益插件"
     },
-    "cn.zqbb.hello.bundleid": {
-      "cats": [
+    "cn.zqbb.hello.bundleid" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.bundleid.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json",
+      "section" : "Hello系列"
     },
-    "cn.zqbb.hello.keyboard.ai": {
-      "cats": [
+    "cn.zqbb.hello.keyboard.ai" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.keyboard.ai.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
+      "section" : "公益插件"
     },
-    "cn.zqbb.hello.memorystatus": {
-      "cats": [
+    "cn.zqbb.hello.memorystatus" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.memorystatus.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json",
+      "section" : "Hello系列"
     },
-    "cn.zqbb.hello.qactions": {
-      "cats": [
+    "cn.zqbb.hello.qactions" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.qactions.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.qactions.json",
+      "section" : "Hello系列"
     },
-    "cn.zqbb.hello.quick.panel": {
-      "cats": [
+    "cn.zqbb.hello.quick.panel" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.quick.panel.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json",
+      "section" : "Hello系列"
     },
-    "cn.zqbb.holdcpu": {
-      "cats": [
+    "cn.zqbb.holdcpu" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.holdcpu.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json",
+      "section" : "Hello系列"
     },
-    "cn.zqbb.orzfolder": {
-      "author": "小菜",
-      "description": "网格布局 测试 * 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。 透明背景 * 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。 边框背景图片 * 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。 15.0~17.3.1",
-      "rich_description": "网格布局\n测试\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n@@RCBTN{\"alpha\":1,\"r\":24,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"w\":310.0071105957031,\"url\":\"\",\"img\":\"depictions\\/img\\/cn-zqbb-orzfolder-btn-1794656579-783.png\",\"h\":96}@@\n\n![图片](__RC_SITE__/depictions/img/cn-zqbb-orzfolder-1794582794-589.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_1.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_2.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_3.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_4.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_5.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_6.png)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_7.jpg)\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。\n\n# 15.0~17.3.1所有设备，所有越狱工具均可使用\n\n*感谢QQ491419215(J.z)制作的图标\n\n© 2023-2026 zqbb"
+    "cn.zqbb.orzfolder" : {
+      "author" : "小菜",
+      "description" : "网格布局 测试 * 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。 透明背景 * 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。 边框背景图片 * 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。 15.0~17.3.1",
+      "rich_description" : "网格布局\n测试\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n@@RCBTN{\"alpha\":1,\"r\":24,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"w\":310.0071105957031,\"url\":\"\",\"img\":\"depictions\\\/img\\\/cn-zqbb-orzfolder-btn-1794656579-783.png\",\"h\":96}@@\n\n![图片](__RC_SITE__\/depictions\/img\/cn-zqbb-orzfolder-1794582794-589.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_1.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_2.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_3.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_4.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_5.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_6.png)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_7.jpg)\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。\n\n# 15.0~17.3.1所有设备，所有越狱工具均可使用\n\n*感谢QQ491419215(J.z)制作的图标\n\n© 2023-2026 zqbb"
     },
-    "com.axs.ios16dao": {
-      "cats": [
+    "com.axs.ios16dao" : {
+      "cats" : [
         "美化",
         "杂七杂八"
       ],
-      "section": "美化"
+      "section" : "美化"
     },
-    "com.Axs.kongzhidiy": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.kongzhidiy.json",
-      "name": "冰蓝控制中心2.3.3-en"
+    "com.Axs.kongzhidiy" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.kongzhidiy.json",
+      "name" : "冰蓝控制中心2.3.3-en"
     },
-    "com.Axs.qjsy": {
-      "cats": [
+    "com.Axs.qjsy" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.qjsy.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
+      "section" : "公益插件"
     },
-    "com.axs.screenrecording": {
-      "cats": [
+    "com.axs.screenrecording" : {
+      "cats" : [
         "美化",
         "杂七杂八"
       ],
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png",
-      "section": "美化"
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png",
+      "section" : "美化"
     },
-    "com.Axs.snapper3": {
-      "cats": [
+    "com.Axs.snapper3" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.snapper3.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
+      "section" : "公益插件"
     },
-    "com.Axs.xmzs": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json",
-      "description": "微信功能扩展",
-      "rich_description": "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\/img\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
+    "com.Axs.xmzs" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json",
+      "description" : "微信功能扩展",
+      "rich_description" : "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
     },
-    "com.Axs.yuanjiao": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.yuanjiao.json"
+    "com.Axs.yuanjiao" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.yuanjiao.json"
     },
-    "com.binglan.dynamicfx": {
-      "cats": [
+    "com.binglan.dynamicfx" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglan.dynamicfx.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
+      "section" : "公益插件"
     },
-    "com.binglan.kongzhidiy": {
-      "cats": [
+    "com.binglan.kongzhidiy" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglan.kongzhidiy.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
+      "section" : "公益插件"
     },
-    "com.binglanqjsy.deb": {
-      "cats": [
+    "com.binglanqjsy.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglanqjsy.deb.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
+      "section" : "公益插件"
     },
-    "com.bvm.wuzeililiang": {
-      "cats": [
+    "com.bvm.wuzeililiang" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvm.wuzeililiang.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
+      "section" : "公益插件"
     },
-    "com.bvn.copyvault.rl": {
-      "cats": [
+    "com.bvn.copyvault.rl" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json",
-      "description": "使用源里免授权激活组件",
-      "rich_description": "**使用源里免授权激活组件**",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
+      "description" : "使用源里免授权激活组件",
+      "rich_description" : "**使用源里免授权激活组件**",
+      "section" : "公益插件"
     },
-    "com.bvn.squidforcecrack.rl": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvn.squidforcecrack.rl.json"
+    "com.bvn.squidforcecrack.rl" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.squidforcecrack.rl.json"
     },
-    "com.charlieleung.liquidify": {
-      "cats": [
+    "com.charlieleung.liquidify" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json",
-      "rich_description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "rich_description" : "@@RCBTN{\"h\":56,\"fs\":17.66666603088379,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794669775-369.png\",\"text\":\"参加\",\"url\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"r\":42.50953674316406,\"w\":120}@@",
+      "section" : "公益插件"
     },
-    "com.charlieleung.liquidify.roothide": {
-      "cats": [
+    "com.charlieleung.liquidify.roothide" : {
+      "cats" : [
         "美化"
       ],
-      "section": "美化"
+      "section" : "美化"
     },
-    "com.cydiabbc.airdrop-roothide": {
-      "cats": [
+    "com.cydiabbc.airdrop-roothide" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.cydiabbc.airdrop-roothide.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabbc.airdrop-roothide.json",
+      "section" : "Hello系列"
     },
-    "com.cydiabc.hbwechathelper-rootless": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.cydiabc.hbwechathelper-rootless.json"
+    "com.cydiabc.hbwechathelper-rootless" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabc.hbwechathelper-rootless.json"
     },
-    "com.eswick.harbor16": {
-      "cats": [
+    "com.eswick.harbor16" : {
+      "cats" : [
         "汉化插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.json",
-      "name": "MaxDock已汉化",
-      "section": "汉化插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.json",
+      "name" : "MaxDock已汉化",
+      "section" : "汉化插件"
     },
-    "com.eswick.harbor16.roothide": {
-      "cats": [
+    "com.eswick.harbor16.roothide" : {
+      "cats" : [
         "汉化插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json",
-      "name": "MacDock 已汉化 Roothide",
-      "section": "汉化插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
+      "name" : "MacDock 已汉化 Roothide",
+      "section" : "汉化插件"
     },
-    "com.go.mango": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.go.mango.json"
+    "com.go.mango" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json"
     },
-    "com.hang.douyinclockdock": {
-      "cats": [
+    "com.hang.douyinclockdock" : {
+      "cats" : [
         "抖音插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.hang.douyinclockdock.json",
-      "section": "抖音插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.hang.douyinclockdock.json",
+      "section" : "抖音插件"
     },
-    "com.mallin.tunnelsharevpn": {
-      "cats": [
+    "com.mallin.tunnelsharevpn" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.mallin.tunnelsharevpn.json",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json",
+      "section" : "软件优化"
     },
-    "com.mlgm.actra": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.mlgm.actra.json"
+    "com.mlgm.actra" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mlgm.actra.json"
     },
-    "com.muzi.mutool": {
-      "cats": [
+    "com.muzi.mutool" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.muzi.mutool.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.muzi.mutool.json",
+      "section" : "公益插件"
     },
-    "com.rain.120hzstable": {
-      "cats": [
+    "com.rain.120hzstable" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.120hzstable.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
+      "section" : "公益插件"
     },
-    "com.rain.dock": {
-      "cats": [
+    "com.rain.dock" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.dock.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
+      "section" : "公益插件"
     },
-    "com.rain.processmonitor": {
-      "cats": [
+    "com.rain.processmonitor" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.processmonitor.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
+      "section" : "公益插件"
     },
-    "com.rain.rainmhz": {
-      "cats": [
+    "com.rain.rainmhz" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.rainmhz.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
+      "section" : "公益插件"
     },
-    "com.siwenjiajia.tweak.comm": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json",
-      "description": "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
-      "name": "抖音优化",
-      "rich_description": "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__/depictions/img/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
+    "com.siwenjiajia.tweak.comm" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
+      "description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
+      "name" : "抖音优化",
+      "rich_description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__\/depictions\/img\/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
     },
-    "com.trollopenjb.patched.roothide": {
-      "cats": [
+    "com.trollopenjb.patched.roothide" : {
+      "cats" : [
         "分屏插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json",
-      "description": "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
-      "rich_description": "@@RCBTN{\"img\":\"depictions\\/img\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\/\\/qm.qq.com\\/q\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
-      "section": "分屏插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json",
+      "description" : "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
+      "rich_description" : "@@RCBTN{\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
+      "section" : "分屏插件"
     },
-    "com.unknown.wuzeililiang": {
-      "cats": [
+    "com.unknown.wuzeililiang" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.unknown.wuzeililiang.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.unknown.wuzeililiang.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "section" : "公益插件"
     },
-    "com.wcliquidglass.free": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.wcliquidglass.free.json"
+    "com.wcliquidglass.free" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.wcliquidglass.free.json"
     },
-    "com.wkk.shuffle": {
-      "author": "小菜",
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.wkk.shuffle.json"
+    "com.wkk.shuffle" : {
+      "author" : "小菜",
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.wkk.shuffle.json"
     },
-    "debs/27 动画破解+优化.deb": {
-      "cats": [
+    "debs\/27 动画破解+优化.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json",
-      "description": "于你有源 / 已公益",
-      "rich_description": "# 于你有源 / 已公益",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/iya.banana.ios27animation.json",
+      "description" : "于你有源 \/ 已公益",
+      "rich_description" : "# 于你有源 \/ 已公益",
+      "section" : "公益插件"
     },
-    "debs/88液态玻璃插件_1.3.8_thanks3_rootless.deb": {
-      "cats": [
+    "debs\/88液态玻璃插件_1.3.8_thanks3_rootless.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "section": "公益插件"
+      "section" : "公益插件"
     },
-    "debs/88液态玻璃插件_1.3.8_thanks3(1).deb": {
-      "rich_description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@"
+    "debs\/88液态玻璃插件_1.3.8_thanks3(1).deb" : {
+      "rich_description" : "@@RCBTN{\"h\":56,\"fs\":17.66666603088379,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794669775-369.png\",\"text\":\"参加\",\"url\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"r\":42.50953674316406,\"w\":120}@@"
     },
-    "debs/axssb666_1.0.0_iphoneos-arm64.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/axssb666.json"
+    "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
     },
-    "debs/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e.deb" : {
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.autotouch.json",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.autotouch.json",
+      "section" : "工具"
     },
-    "debs/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb" : {
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/byg.iosios.net.mango.json",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/byg.iosios.net.mango.json",
+      "section" : "工具"
     },
-    "debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.copyvault.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.copyvault.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "section" : "公益插件"
     },
-    "debs/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.json",
-      "name": "乌贼键盘",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "name" : "乌贼键盘",
+      "section" : "公益插件"
     },
-    "debs/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.roothide.json",
-      "name": "乌贼键盘 Roothide",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "name" : "乌贼键盘 Roothide",
+      "section" : "公益插件"
     },
-    "debs/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "name": "乌贼手势",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "name" : "乌贼手势",
+      "section" : "公益插件"
     },
-    "debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json",
-      "name": "乌贼手势 Roothide",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
+      "name" : "乌贼手势 Roothide",
+      "section" : "公益插件"
     },
-    "debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
+      "section" : "公益插件"
     },
-    "debs/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.obf.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
+      "section" : "公益插件"
     },
-    "debs/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.bundleid.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json",
+      "section" : "Hello系列"
     },
-    "debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.keyboard.ai.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
+      "section" : "公益插件"
     },
-    "debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.memorystatus.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json",
+      "section" : "Hello系列"
     },
-    "debs/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "zqbb Tweaks"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.qactions.json",
-      "section": "zqbb Tweaks"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.qactions.json",
+      "section" : "zqbb Tweaks"
     },
-    "debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.quick.panel.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json",
+      "section" : "Hello系列"
     },
-    "debs/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/cn.zqbb.holdcpu.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json",
+      "section" : "Hello系列"
     },
-    "debs/cn.zqbb.orzfolder_1.3.3-2_iphoneos-arm64e.deb": {
-      "author": "小菜",
-      "cats": [
+    "debs\/cn.zqbb.orzfolder_1.3.3-2_iphoneos-arm64e.deb" : {
+      "author" : "小菜",
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy0.github.io/depictions/cn.zqbb.orzfolder.json",
-      "description": "网格布局 测试 * 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。 透明背景 * 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。 边框背景图片 * 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。 15.0~17.3.1",
-      "rich_description": "网格布局\n测试\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n@@RCBTN{\"alpha\":1,\"r\":24,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"w\":310.0071105957031,\"url\":\"\",\"img\":\"depictions\\/img\\/cn-zqbb-orzfolder-btn-1794656579-783.png\",\"h\":96}@@\n\n![图片](__RC_SITE__/depictions/img/cn-zqbb-orzfolder-1794582794-589.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_1.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_2.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_3.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_4.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_5.jpg)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_6.png)\n\n![图片](https://ynyy0.github.io///screenshots/cn.zqbb.orzfolder_7.jpg)\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。\n\n# 15.0~17.3.1所有设备，所有越狱工具均可使用\n\n*感谢QQ491419215(J.z)制作的图标\n\n© 2023-2026 zqbb",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/cn.zqbb.orzfolder.json",
+      "description" : "网格布局 测试 * 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。 透明背景 * 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。 边框背景图片 * 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。 15.0~17.3.1",
+      "rich_description" : "网格布局\n测试\n* 图标将以网格格式显示文件夹内容，您可以自定义行数和列数（N）。\n\n透明背景\n* 文件夹的背景将是透明的，允许设备的壁纸或模糊图标显示出来。\n\n@@RCBTN{\"alpha\":1,\"r\":24,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"w\":310.0071105957031,\"url\":\"\",\"img\":\"depictions\\\/img\\\/cn-zqbb-orzfolder-btn-1794656579-783.png\",\"h\":96}@@\n\n![图片](__RC_SITE__\/depictions\/img\/cn-zqbb-orzfolder-1794582794-589.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_1.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_2.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_3.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_4.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_5.jpg)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_6.png)\n\n![图片](https:\/\/ynyy0.github.io\/\/\/screenshots\/cn.zqbb.orzfolder_7.jpg)\n\n边框背景图片\n* 为了在透明背景下实现阴影效果，您可以使用专用的背景图片作为边框。这张图片可以是渐变或细腻的纹理，使边框看起来有三维效果。\n\n# 15.0~17.3.1所有设备，所有越狱工具均可使用\n\n*感谢QQ491419215(J.z)制作的图标\n\n© 2023-2026 zqbb",
+      "section" : "Hello系列"
     },
-    "debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb" : {
+      "cats" : [
         "关于美化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.kongzhidiy.json",
-      "name": "冰蓝控制中心2.3.3-en",
-      "section": "关于美化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.kongzhidiy.json",
+      "name" : "冰蓝控制中心2.3.3-en",
+      "section" : "关于美化"
     },
-    "debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.qjsy.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.qjsy.json",
+      "section" : "公益插件"
     },
-    "debs/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.snapper3.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
+      "section" : "公益插件"
     },
-    "debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json",
-      "description": "微信功能扩展",
-      "rich_description": "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\/img\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
+    "debs\/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json",
+      "description" : "微信功能扩展",
+      "rich_description" : "@@RCBTN{\"color\":\"#6366F1\",\"h\":82.74732971191406,\"w\":324.05694580078125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-Axs-xmzs-btn-1794664225-344.png\",\"r\":24}@@\n\n微信功能扩展"
     },
-    "debs/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.Axs.yuanjiao.json"
+    "debs\/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.yuanjiao.json"
     },
-    "debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglan.dynamicfx.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.dynamicfx.json",
+      "section" : "公益插件"
     },
-    "debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglan.kongzhidiy.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglan.kongzhidiy.json",
+      "section" : "公益插件"
     },
-    "debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.binglanqjsy.deb.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.binglanqjsy.deb.json",
+      "section" : "公益插件"
     },
-    "debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvm.wuzeililiang.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvm.wuzeililiang.json",
+      "section" : "公益插件"
     },
-    "debs/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json",
-      "description": "使用源里免授权激活组件",
-      "rich_description": "**使用源里免授权激活组件**",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
+      "description" : "使用源里免授权激活组件",
+      "rich_description" : "**使用源里免授权激活组件**",
+      "section" : "公益插件"
     },
-    "debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.bvn.squidforcecrack.rl.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.squidforcecrack.rl.json",
+      "section" : "公益插件"
     },
-    "debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb" : {
+      "cats" : [
         "关于美化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json",
-      "description": null,
-      "name": "88液态",
-      "rich_description": "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
-      "section": "关于美化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "description" : null,
+      "name" : "88液态",
+      "rich_description" : "@@RCBTN{\"text\":\"参加\",\"w\":330.270751953125,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794572161-0.png\",\"color\":\"#6366F1\",\"r\":50.56410217285156,\"url\":\"\",\"h\":69.46461486816406,\"fs\":17.66666603088379}@@",
+      "section" : "关于美化"
     },
-    "debs/com.charlieleung.liquidify_1.4.1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.charlieleung.liquidify_1.4.1_iphoneos-arm64.deb" : {
+      "cats" : [
         "工具"
       ],
-      "section": "工具"
+      "section" : "工具"
     },
-    "debs/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb" : {
+      "cats" : [
         "关于美化"
       ],
-      "name": "88液态玻璃 隐根版",
-      "section": "关于美化"
+      "name" : "88液态玻璃 隐根版",
+      "section" : "关于美化"
     },
-    "debs/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.cydiabbc.airdrop-roothide_0.0.2_iphoneos-arm64e.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.cydiabbc.airdrop-roothide.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabbc.airdrop-roothide.json",
+      "section" : "Hello系列"
     },
-    "debs/com.cydiabc.appdata-rootless_1.4.7_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.cydiabc.appdata-rootless_1.4.7_iphoneos-arm64.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy0.github.io/depictions/com.cydiabc.appdata-rootless.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/com.cydiabc.appdata-rootless.json",
+      "section" : "Hello系列"
     },
-    "debs/com.cydiabc.hbwechathelper-rootless_2.1.9_iphoneos-arm64.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.cydiabc.hbwechathelper-rootless.json"
+    "debs\/com.cydiabc.hbwechathelper-rootless_2.1.9_iphoneos-arm64.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.cydiabc.hbwechathelper-rootless.json"
     },
-    "debs/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb": {
-      "cats": [
+    "debs\/com.eswick.harbor16_2.0.0-alpha100+ci.8_iphoneos-arm64_双切片_已汉化.deb" : {
+      "cats" : [
         "汉化插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "name": "MaxDock已汉化",
-      "section": "汉化插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "name" : "MaxDock已汉化",
+      "section" : "汉化插件"
     },
-    "debs/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.eswick.harbor16.roothide_2.0.0-alpha100+ci.8_iphoneos-arm64e.deb" : {
+      "cats" : [
         "汉化插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json",
-      "description": "已汉化",
-      "name": "MacDock 已汉化 Roothide",
-      "section": "汉化插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.eswick.harbor16.roothide.json",
+      "description" : "已汉化",
+      "name" : "MacDock 已汉化 Roothide",
+      "section" : "汉化插件"
     },
-    "debs/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.go.mango.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827"
+    "debs\/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.go.mango.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827"
     },
-    "debs/com.hang.douyinclockdock_1.2_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.hang.douyinclockdock_1.2_iphoneos-arm64.deb" : {
+      "cats" : [
         "抖音插件"
       ],
-      "depiction": "https://ynyy0.github.io/depictions/com.hang.douyinclockdock.json",
-      "section": "抖音插件"
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/com.hang.douyinclockdock.json",
+      "section" : "抖音插件"
     },
-    "debs/com.mallin.tunnelsharevpn_1.2.6-1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.mallin.tunnelsharevpn_1.2.6-1_iphoneos-arm64.deb" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.mallin.tunnelsharevpn.json",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json",
+      "section" : "软件优化"
     },
-    "debs/com.mlgm.actra_1.2_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.mlgm.actra_1.2_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.mlgm.actra.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mlgm.actra.json",
+      "section" : "公益插件"
     },
-    "debs/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb": {
-      "cats": [
+    "debs\/com.muzi.mutool_2.2.59_arm64e_preactivated (1).deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.muzi.mutool.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.muzi.mutool.json",
+      "section" : "公益插件"
     },
-    "debs/com.muzi.mutool_2.2.59_arm64e_roothide (6).deb": {
-      "cats": [
+    "debs\/com.muzi.mutool_2.2.59_arm64e_roothide (6).deb" : {
+      "cats" : [
         "关于美化"
       ],
-      "section": "关于美化"
+      "section" : "关于美化"
     },
-    "debs/com.opa334.altlist_1.0.9_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.opa334.altlist_1.0.9_iphoneos-arm64.deb" : {
+      "cats" : [
         "Hello系列"
       ],
-      "depiction": "https://ynyy0.github.io/depictions/com.opa334.altlist.json",
-      "section": "Hello系列"
+      "depiction" : "https:\/\/ynyy0.github.io\/depictions\/com.opa334.altlist.json",
+      "section" : "Hello系列"
     },
-    "debs/com.rain.dock_3.6.2-1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.rain.dock_3.6.2-1_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.dock.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
+      "section" : "公益插件"
     },
-    "debs/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.processmonitor.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
+      "section" : "公益插件"
     },
-    "debs/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.rainmhz.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
+      "section" : "公益插件"
     },
-    "debs/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json",
-      "description": "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
-      "rich_description": "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__/depictions/img/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
+    "debs\/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
+      "description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
+      "rich_description" : "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。\n\n![图片](__RC_SITE__\/depictions\/img\/com-siwenjiajia-tweak-comm-1794564051-0.jpg)"
     },
-    "debs/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.unknown.wuzeililiang.json",
-      "icon": "https://ynyy.xbcxbc.cn/CydiaIcon.png?v=cfa5c827",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.unknown.wuzeililiang.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "section" : "公益插件"
     },
-    "debs/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.wcliquidglass.free.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.wcliquidglass.free.json",
+      "section" : "公益插件"
     },
-    "debs/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/com.wkk.shuffle_1.6.2_iphoneos-arm64.deb" : {
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.wkk.shuffle.json",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.wkk.shuffle.json",
+      "section" : "工具"
     },
-    "debs/com.xybp888.callassist16.dopamine.roothide_3.4.3_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/com.xybp888.callassist16.dopamine.roothide_3.4.3_iphoneos-arm64e.deb" : {
+      "cats" : [
         "工具"
       ],
-      "section": "工具"
+      "section" : "工具"
     },
-    "debs/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb": {
-      "author": "小菜",
-      "cats": [
+    "debs\/dev.owngoal.settingsorganizer_0.0.9_iphoneos-arm64.deb" : {
+      "author" : "小菜",
+      "cats" : [
         "工具"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/dev.owngoal.settingsorganizer.json",
-      "description": "设置分类收纳、",
-      "name": "设置插件",
-      "section": "工具"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/dev.owngoal.settingsorganizer.json",
+      "description" : "设置分类收纳、",
+      "name" : "设置插件",
+      "section" : "工具"
     },
-    "debs/fanqiefn_3.5.0_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/fanqiefn_3.5.0_iphoneos-arm64e.deb" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/fanqiefn.json",
-      "description": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "rich_description": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
+      "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "section" : "软件优化"
     },
-    "debs/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb": {
-      "cats": [
+    "debs\/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
+      "section" : "软件优化"
     },
-    "debs/iOS27Animation_2.0_arm64e_公益.deb": {
-      "cats": [
+    "debs\/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/im.mjh.alipay2nfc.roothide.json",
+      "section" : "软件优化"
+    },
+    "debs\/iOS27Animation_2.0_arm64e_公益.deb" : {
+      "cats" : [
         "关于美化"
       ],
-      "section": "关于美化"
+      "section" : "关于美化"
     },
-    "debs/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb": {
-      "cats": [
+    "debs\/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.rain.120hzstable.json",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
+      "section" : "公益插件"
     },
-    "debs/TrollOpenJB_v2.0.2_小菜 (1).deb": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json",
-      "description": "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
-      "rich_description": "@@RCBTN{\"img\":\"depictions\\/img\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\/\\/qm.qq.com\\/q\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。"
+    "debs\/TrollOpenJB_v2.0.2_小菜 (1).deb" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json",
+      "description" : "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
+      "rich_description" : "@@RCBTN{\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。"
     },
-    "dev.owngoal.settingsorganizer": {
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/dev.owngoal.settingsorganizer.json",
-      "description": "设置分类收纳、"
+    "dev.owngoal.settingsorganizer" : {
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/dev.owngoal.settingsorganizer.json",
+      "description" : "设置分类收纳、"
     },
-    "fanqiefn": {
-      "cats": [
+    "fanqiefn" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/fanqiefn.json",
-      "description": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "rich_description": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
+      "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "section" : "软件优化"
     },
-    "fanqiefn.roothide": {
-      "cats": [
+    "fanqiefn.roothide" : {
+      "cats" : [
         "软件优化"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json",
-      "section": "软件优化"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
+      "section" : "软件优化"
     },
-    "iya.banana.ios27animation": {
-      "cats": [
+    "iya.banana.ios27animation" : {
+      "cats" : [
         "公益插件"
       ],
-      "depiction": "https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json",
-      "description": "于你有源 / 已公益",
-      "rich_description": "# 于你有源 / 已公益",
-      "section": "公益插件"
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/iya.banana.ios27animation.json",
+      "description" : "于你有源 \/ 已公益",
+      "rich_description" : "# 于你有源 \/ 已公益",
+      "section" : "公益插件"
     },
-    "TrollOpenJB_v2.0.2": {
-      "cats": [
+    "TrollOpenJB_v2.0.2" : {
+      "cats" : [
         "分屏插件"
       ],
-      "section": "分屏插件"
+      "section" : "分屏插件"
     }
   }
 }
