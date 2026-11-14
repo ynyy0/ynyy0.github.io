@@ -217,10 +217,11 @@
       ],
       "changelog" : "暂无更新日志",
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
+      "description" : "去除 tg 验证",
       "panel_tabs" : [
         {
           "color" : "#EF4444",
-          "content" : "@@RCBTN{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}@@\n\n@@RCBTN{\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}@@",
+          "content" : "去除 tg 验证\n\n@@RCBTN{\"cw\":0,\"text\":\"测试\",\"r\":24,\"textColor\":\"\",\"alpha\":1,\"dx\":0,\"w\":151.8078155517578,\"h\":53.466190338134766,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\"}@@\n\n@@RCBTN{\"url\":\"\",\"alpha\":1,\"text\":\"测试\",\"r\":24,\"h\":53.466190338134766,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"dx\":0,\"fs\":16,\"textColor\":\"\",\"w\":151.8078155517578,\"cw\":0}@@",
           "title" : "插件简介"
         },
         {
@@ -234,7 +235,7 @@
           "title" : "测试"
         }
       ],
-      "rich_description" : "@@RCBTN{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}@@\n\n@@RCBTN{\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}@@",
+      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"cw\":0,\"text\":\"测试\",\"r\":24,\"textColor\":\"\",\"alpha\":1,\"dx\":0,\"w\":151.8078155517578,\"h\":53.466190338134766,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\"}@@\n\n@@RCBTN{\"url\":\"\",\"alpha\":1,\"text\":\"测试\",\"r\":24,\"h\":53.466190338134766,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"dx\":0,\"fs\":16,\"textColor\":\"\",\"w\":151.8078155517578,\"cw\":0}@@",
       "section" : "公益插件"
     },
     "com.charlieleung.liquidify.roothide" : {
@@ -371,10 +372,11 @@
     },
     "debs\/88液态玻璃插件_1.3.8_thanks3(1).deb" : {
       "changelog" : "暂无更新日志",
+      "description" : "去除 tg 验证",
       "panel_tabs" : [
         {
           "color" : "#EF4444",
-          "content" : "@@RCBTN{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}@@\n\n@@RCBTN{\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}@@",
+          "content" : "去除 tg 验证\n\n@@RCBTN{\"cw\":0,\"text\":\"测试\",\"r\":24,\"textColor\":\"\",\"alpha\":1,\"dx\":0,\"w\":151.8078155517578,\"h\":53.466190338134766,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\"}@@\n\n@@RCBTN{\"url\":\"\",\"alpha\":1,\"text\":\"测试\",\"r\":24,\"h\":53.466190338134766,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"dx\":0,\"fs\":16,\"textColor\":\"\",\"w\":151.8078155517578,\"cw\":0}@@",
           "title" : "插件简介"
         },
         {
@@ -388,7 +390,7 @@
           "title" : "测试"
         }
       ],
-      "rich_description" : "@@RCBTN{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}@@\n\n@@RCBTN{\"cw\":197,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}@@"
+      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"cw\":0,\"text\":\"测试\",\"r\":24,\"textColor\":\"\",\"alpha\":1,\"dx\":0,\"w\":151.8078155517578,\"h\":53.466190338134766,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\"}@@\n\n@@RCBTN{\"url\":\"\",\"alpha\":1,\"text\":\"测试\",\"r\":24,\"h\":53.466190338134766,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"dx\":0,\"fs\":16,\"textColor\":\"\",\"w\":151.8078155517578,\"cw\":0}@@"
     },
     "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
