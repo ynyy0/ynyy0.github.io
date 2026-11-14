@@ -230,7 +230,7 @@
         },
         {
           "color" : "#0A84FF",
-          "content" : "@@RCBTN{\"h\":49.62277603149414,\"fs\":16,\"color\":\"#6366F1\",\"w\":151.067626953125,\"r\":24,\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"alpha\":1}@@\n\n你好",
+          "content" : "@@RCBTN{\"w\":151.067626953125,\"color\":\"#6366F1\",\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"h\":49.62277603149414,\"r\":24}@@\n\n你好\n\n@@RCBTN{\"h\":53.08185577392578,\"fs\":13.71767520904541,\"color\":\"#6366F1\",\"w\":145.8861083984375,\"r\":11.378409385681152,\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794676112-332.png\",\"alpha\":0.5259786605834961}@@",
           "title" : "测试"
         }
       ],
@@ -384,7 +384,7 @@
         },
         {
           "color" : "#0A84FF",
-          "content" : "@@RCBTN{\"h\":49.62277603149414,\"fs\":16,\"color\":\"#6366F1\",\"w\":151.067626953125,\"r\":24,\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"alpha\":1}@@\n\n你好",
+          "content" : "@@RCBTN{\"w\":151.067626953125,\"color\":\"#6366F1\",\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"alpha\":1,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"h\":49.62277603149414,\"r\":24}@@\n\n你好\n\n@@RCBTN{\"h\":53.08185577392578,\"fs\":13.71767520904541,\"color\":\"#6366F1\",\"w\":145.8861083984375,\"r\":11.378409385681152,\"url\":\"\",\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794676112-332.png\",\"alpha\":0.5259786605834961}@@",
           "title" : "测试"
         }
       ],
