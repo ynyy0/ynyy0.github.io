@@ -719,28 +719,6 @@ Description: 净化阅读、听书及页面推广内容；支持章末入口管�
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=bf82445er2
 
-Package: fanqiefn.roothide
-Version: 3.5.0
-Architecture: iphoneos-arm64e
-Maintainer: junhong
-Installed-Size: 4804
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: fanqiefn
-Replaces: fanqiefn
-Provides: fanqiefn
-Filename: debs/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb
-Size: 2111426
-MD5sum: ddd6425e3509908ebba2a93a804f69de
-SHA1: 2d5bc27e1360bd862d6d275b98e0709545db11de
-SHA256: 0c99c2063168507c77f02fb88148810288ef33b06e4686e7123137624b2dc202
-Homepage: https://fanqie.goforit.si
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
-Author: junhong
-Name: 番茄净化 (Roothide)
-Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
-Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=07f86f55r2
-
 Package: im.mjh.alipay2nfc.roothide
 Version: 3.5.0
 Architecture: iphoneos-arm64e
@@ -778,4 +756,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
-

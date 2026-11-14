@@ -735,6 +735,13 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
       "section" : "软件优化"
     },
+    "debs\/fanqiefn.roothide_3.5.3_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
+      "section" : "软件优化"
+    },
     "debs\/im.mjh.alipay2nfc.roothide_3.5.0_iphoneos-arm64e.deb" : {
       "cats" : [
         "软件优化"

@@ -1,41 +1,360 @@
 {
-  "class": "DepictionTabView",
-  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
-  "minVersion": "0.3",
-  "tabs": [
+ "minVersion": "0.4",
+ "class": "DepictionTabView",
+ "tintColor": "#27BEF5",
+ "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
+ "tabs": [
+  {
+   "tabname": "详情",
+   "class": "DepictionStackView",
+   "views": [
     {
-      "class": "DepictionStackView",
-      "tabname": "插件简介",
-      "views": [
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSpacerView"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        }
-      ]
+     "class": "DepictionStackView",
+     "orientation": "landscape",
+     "xPadding": 8,
+     "views": [
+      {
+       "class": "DepictionButtonView",
+       "action": "https://fanqie.goforit.si/",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "插件官网",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://pingme.pm/fanqie",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "提交反馈",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://qr.alipay.com/fkx180736inoxop5mkbqh83?_s=web-other",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "赏杯咖啡",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      }
+     ]
     },
     {
-      "class": "DepictionStackView",
-      "tabname": "更新日志",
-      "views": [
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "暂无更新日志",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSpacerView"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        }
-      ]
+     "class": "DepictionStackView",
+     "orientation": "landscape",
+     "xPadding": 8,
+     "views": [
+      {
+       "class": "DepictionButtonView",
+       "action": "https://t.me/junhongdev",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "加入 TG 频道",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://t.me/junhongdevchat",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "加入 TG 群组",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      }
+     ]
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+     "useSpacing": true,
+     "useMargins": true
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "## 阅读与广告净化\n\n- 过滤阅读、听书、短篇及页面中的广告和推广内容\n- 可隐藏章末讨论、送礼物、作者的话等入口，以及看书页改编剧场入口\n- 可关闭评价邀请、听读赚钱挂件等干扰内容\n\n## 底部导航\n\n- 支持原生液态玻璃与仿液态毛玻璃效果，按系统能力呈现\n- iOS 26 及以上可调折射、模糊与底色透明度；旧系统可调仿玻璃灰度与透度\n- 可管理底部导航入口，底栏宽度随保留的入口调整\n- 支持双指长按底栏打开插件设置\n\n## 其他功能\n\n- 可设置默认启动页，管理书架、我的页面及福利模块入口\n- 提供通知与小组件状态伪装、会员状态显示等选项\n- 支持导入、导出与清除插件配置；各功能可在插件设置中单独调整",
+     "useSpacing": true,
+     "useMargins": true
     }
-  ]
+   ]
+  },
+  {
+   "tabname": "更新日志",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionStackView",
+     "orientation": "landscape",
+     "xPadding": 8,
+     "views": [
+      {
+       "class": "DepictionButtonView",
+       "action": "https://fanqie.goforit.si/",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "插件官网",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://pingme.pm/fanqie",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "提交反馈",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://qr.alipay.com/fkx180736inoxop5mkbqh83?_s=web-other",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "赏杯咖啡",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      }
+     ]
+    },
+    {
+     "class": "DepictionStackView",
+     "orientation": "landscape",
+     "xPadding": 8,
+     "views": [
+      {
+       "class": "DepictionButtonView",
+       "action": "https://t.me/junhongdev",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "加入 TG 频道",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      },
+      {
+       "class": "DepictionButtonView",
+       "action": "https://t.me/junhongdevchat",
+       "openExternal": true,
+       "tintColor": "#e9f3ff",
+       "yPadding": 4,
+       "view": {
+        "class": "DepictionLabelView",
+        "text": "加入 TG 群组",
+        "fontSize": 13,
+        "fontWeight": "medium",
+        "textColor": "#335d86",
+        "alignment": 1,
+        "useMargins": false,
+        "usePadding": false
+       }
+      }
+     ]
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.5.3",
+     "text": "2026-11-15"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增小说导出功能\n- 移除我的页面顶部插件入口"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.5.2",
+     "text": "2026-11-14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复深色模式下底栏文字颜色为白色"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.5.1",
+     "text": "2026-11-14"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 优化 iPad 液态玻璃效果  \n- 优化仿液态玻璃效果  \n- 优化底栏字号调节效果  \n- 优化原生玻璃着色调节效果  \n- 优化深色模式底栏文字显示效果"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.5.0",
+     "text": "2026-11-12"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增底部导航玻璃效果（iOS 26+）  \n- 新增底部导航玻璃参数调节（iOS 26+）  \n- 新增仿液态玻璃（iOS 26 以下）  \n- 新增双指长按底部导航菜单手势  \n- 新增隐藏看书页改编剧场入口  \n- 新增导入导出、清除插件配置  \n- 优化全局广告过滤  \n- 修复章末评论隐藏失效的问题"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.3.0",
+     "text": "2026-10-26"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增书城顶部列表自定义隐藏  \n- 优化短篇去广告  \n- 优化短篇自动解锁并展开全文  \n- 新增屏蔽系统通知红点提醒  \n- 新增屏蔽内容小组件添加提醒"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.1.2",
+     "text": "2026-10-22"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复状态栏显示时双击开始自动阅读失效的问题。  \n- 适配番茄小说 7.4.1。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.1.1",
+     "text": "2026-10-19"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复听书播放一直加载的问题。  \n- 优化双击切换自动阅读的首次启动。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.1.0",
+     "text": "2026-10-18"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增自动领福利，支持签到、宝箱、存钱罐、视频任务、红包十连开及预约任务。  \n- 新增福利任务静默模式，减少到账提示、音效和推荐弹窗。  \n- 激励广告支持自动跳过，增加直播与备用广告处理。  \n- 新增完整金币显示，金币不再缩写为“万”。  \n- 新增短篇广告净化，过滤正文插页广告及激励广告卡片。  \n- 新增书摘小组件提醒、章末“开启评论”按钮的独立隐藏开关。  \n- 新增我的页搜索框、阅读页“去赚更多”和听书悬浮按钮的独立隐藏开关。  \n- 新增双击正文切换自动阅读。  \n- 会员状态展示补充出版物 VIP 卡片。  \n- 设置项分组管理，支持展开和收起。  \n- 新增我的页设置快捷入口、反馈及自愿赞助入口。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.5",
+     "text": "2026-10-11"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增屏蔽热启动广告开关，减少回到前台时的广告打扰。  \n- 新增解除自动阅读广告时长限制开关，保留手动暂停与后台暂停。  \n- 两项新开关默认关闭，可在插件设置中按需开启。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.4",
+     "text": "2026-10-08"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增书架漫剧推荐、今日听读时长和导入本地书入口的独立隐藏开关。  \n- 修复会员类型被统一显示为出版 VIP 的问题，保留各卡片的原生类型。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.3",
+     "text": "2026-10-07"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 新增书城与我的页发帖悬浮按钮的独立隐藏开关。  \n- 新增底部短剧导航隐藏开关。  \n- 新增关闭短剧进入自动播放开关，保留手动播放。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.2",
+     "text": "2026-10-06"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复退出阅读及章末的自动评分邀请屏蔽。  \n- 改善最新章节底部留白，避免催更与更新时间被阅读底栏遮挡。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.1",
+     "text": "2026-10-06"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- 修复番茄小说 7.3.9 中“隐藏本章讨论”开关失效的问题。  \n- 改善最新章节末尾布局：隐藏圈子或快捷按钮时，增加避开阅读底栏的自适应留白。"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本 3.0.0",
+     "text": "2026-10-05"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "1、新增阅读与听书广告净化、推广入口清理。  \n2、新增章末内容、福利导航及个人页卡片的独立开关。  \n3、新增原生二级设置、插件总开关、版本及作者和插件源链接。  \n4、新增书架与“我的”默认启动选项，以及章节名返回标题。  \n5、新增自动评价邀请、听读赚钱挂件控制与激励广告快速关闭选项。  \n6、新增会员状态显示选项，保留原有通知与小组件权限伪装。  \n7、新增 RootHide 安装包与官网下载安装入口。"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "#### 版本 2.0.0\n\n新增小组件权限伪装，去除添加小组件的弹窗提醒；优化通知权限伪装逻辑"
+    }
+   ]
+  }
+ ]
 }
