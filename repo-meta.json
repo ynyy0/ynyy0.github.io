@@ -317,7 +317,7 @@
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json",
       "description" : "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
-      "rich_description" : "@@RCBTN{\"r\":24,\"w\":296.2917785644531,\"h\":63.01778793334961,\"text\":\"加入群聊\",\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794660232-798.png\",\"color\":\"#10B981\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
+      "rich_description" : "@@RCBTN{\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
       "section" : "分屏插件"
     },
     "com.unknown.wuzeililiang" : {
@@ -747,7 +747,7 @@
     "debs\/TrollOpenJB_v2.0.2_小菜 (1).deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json",
       "description" : "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
-      "rich_description" : "@@RCBTN{\"r\":24,\"w\":296.2917785644531,\"h\":63.01778793334961,\"text\":\"加入群聊\",\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794660232-798.png\",\"color\":\"#10B981\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。"
+      "rich_description" : "@@RCBTN{\"img\":\"depictions\\\/img\\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\\/\\\/qm.qq.com\\\/q\\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}@@\n\nTrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。"
     },
     "dev.owngoal.settingsorganizer" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/dev.owngoal.settingsorganizer.json",
