@@ -415,6 +415,32 @@ def main():
                             if tab.get('views') != new_views:
                                 tab['views'] = new_views
                                 changed = True
+                # 面板里增删/改名/改色后的页签结构：整份替换 tabs。
+                # Sileo 的 DepictionTabControl 高亮色由根 tintColor 控制（全局），
+                # 逐页签不同颜色原生不支持，这里取第一个自定义色作为整页高亮色。
+                tabs_override = ov.get('panel_tabs') or []
+                if isinstance(tabs_override, list) and tabs_override:
+                    new_tabs = []
+                    for j, t in enumerate(tabs_override):
+                        title = str(t.get('title') or ('插件简介' if j == 0 else '第%d页' % (j + 1)))
+                        content = str(t.get('content') or '').replace('__RC_SITE__', SITE_BASE)
+                        new_tabs.append({
+                            "class": "DepictionStackView",
+                            "tabname": title,
+                            "views": desc_views(content or name) + [
+                                {"class": "DepictionSpacerView", "spacing": 12},
+                                {"class": "DepictionSeparatorView"}]
+                        })
+                    if cur.get('tabs') != new_tabs:
+                        cur['tabs'] = new_tabs
+                        changed = True
+                    for t in tabs_override:
+                        c = str(t.get('color') or '')
+                        if c:
+                            if cur.get('tintColor') != c:
+                                cur['tintColor'] = c
+                                changed = True
+                            break
                 if changed:
                     dep_file.write_text(json.dumps(cur, ensure_ascii=False, indent=2), encoding='utf-8')
             except Exception:
