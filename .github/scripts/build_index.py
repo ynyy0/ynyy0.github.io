@@ -192,6 +192,7 @@ def desc_views(md):
                         "tintColor": str(sp.get('color') or '#6366F1'),
                         "yPadding": 6,
                         "text": str(sp.get('text') or '按钮'),
+                        "rcButton": val,
                     })
                 else:
                     views.append({
@@ -199,6 +200,7 @@ def desc_views(md):
                         "tintColor": str(sp.get('color') or '#6366F1'),
                         "yPadding": 6,
                         "text": str(sp.get('text') or '按钮'),
+                        "rcButton": val,
                     })
                 continue
             img_url = SITE_BASE + '/' + img_rel
