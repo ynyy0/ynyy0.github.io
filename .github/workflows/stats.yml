@@ -1,0 +1,58 @@
+name: Refresh source visit stats
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull counter and write stats.json
+        env:
+          SITE_URL: https://ynyy.xbcxbc.cn/
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request, datetime, pathlib
+          req = urllib.request.Request(
+              'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb',
+              headers={'User-Agent': 'Mozilla/5.0', 'Referer': os.environ['SITE_URL']})
+          txt = urllib.request.urlopen(req, timeout=20).read().decode('utf-8', 'replace')
+          m = re.search(r'\{.*\}', txt)
+          d = json.loads(m.group(0)) if m else {}
+          uv = int(d.get('site_uv', 0))
+          pv = int(d.get('site_pv', 0))
+          p = pathlib.Path('stats.json')
+          old = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+          # Beijing time for "today"
+          today = datetime.datetime.now(
+              datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y-%m-%d')
+          base = pv if old.get('date') != today else int(old.get('base_pv', pv))
+          out = {'site_uv': uv, 'site_pv': pv, 'date': today,
+                 'base_pv': base, 'today_pv': max(0, pv - base)}
+          p.write_text(json.dumps(out, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(out)
+          PY
+      - name: Commit stats.json
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+users.noreply.github.com'
+          git add stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh source visit stats'
+            git pull --rebase origin main || git pull --rebase origin main
+            git push
+          fi

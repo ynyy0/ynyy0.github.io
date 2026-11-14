@@ -85,5 +85,9 @@
     if(!document.body.classList.contains('fresh')) startSnow();
     copyButton.addEventListener('click',async()=>{const url=document.getElementById('source-url').textContent;try{await navigator.clipboard.writeText(url);toast.textContent='源地址已复制'}catch{const field=document.createElement('textarea');field.value=url;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();const copied=document.execCommand('copy');field.remove();toast.textContent=copied?'源地址已复制':'请长按地址手动复制'}toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)});
   </script>
+<!-- source visit stats: same Referer key as the scheduled stats workflow -->
+<span id="busuanzi_container_site_uv" hidden><span id="busuanzi_value_site_uv">0</span></span>
+<span id="busuanzi_container_site_pv" hidden><span id="busuanzi_value_site_pv">0</span></span>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
