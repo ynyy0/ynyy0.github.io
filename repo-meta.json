@@ -216,7 +216,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.charlieleung.liquidify.json",
-      "rich_description" : "@@RCBTN{\"h\":56,\"fs\":17.66666603088379,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794669775-369.png\",\"text\":\"参加\",\"url\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"r\":42.50953674316406,\"w\":120}@@",
+      "rich_description" : "@@RCBTN{\"url\":\"\",\"h\":32,\"text\":\"参加\",\"alpha\":1,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794672116-625.png\",\"w\":90}@@\n\n@@RCBTN{\"r\":24,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"h\":96}@@",
       "section" : "公益插件"
     },
     "com.charlieleung.liquidify.roothide" : {
@@ -352,7 +352,7 @@
       "section" : "公益插件"
     },
     "debs\/88液态玻璃插件_1.3.8_thanks3(1).deb" : {
-      "rich_description" : "@@RCBTN{\"h\":56,\"fs\":17.66666603088379,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794669775-369.png\",\"text\":\"参加\",\"url\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"r\":42.50953674316406,\"w\":120}@@"
+      "rich_description" : "@@RCBTN{\"url\":\"\",\"h\":32,\"text\":\"参加\",\"alpha\":1,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794672116-625.png\",\"w\":90}@@\n\n@@RCBTN{\"r\":24,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"h\":96}@@"
     },
     "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
