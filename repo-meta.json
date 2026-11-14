@@ -55,6 +55,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
       "section" : "公益插件"
     },
     "cn.octoforce.squidgesturepro.roothide" : {
@@ -381,6 +382,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
+      "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
