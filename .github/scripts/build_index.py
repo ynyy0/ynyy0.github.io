@@ -184,24 +184,28 @@ def desc_views(md):
             h = int(sp.get('h', 96) or 96)
             if not img_rel:
                 # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
+                txt = str(sp.get('text') or '按钮')
+                tcolor = str(sp.get('textColor') or '')
+                btn = {
+                    "class": "DepictionButtonView",
+                    "tintColor": str(sp.get('color') or '#6366F1'),
+                    "yPadding": 6,
+                    "rcButton": val,
+                }
                 if link:
-                    views.append({
-                        "class": "DepictionButtonView",
-                        "action": link,
-                        "openExternal": True,
-                        "tintColor": str(sp.get('color') or '#6366F1'),
-                        "yPadding": 6,
-                        "text": str(sp.get('text') or '按钮'),
-                        "rcButton": val,
-                    })
+                    btn["action"] = link
+                    btn["openExternal"] = True
+                if tcolor:
+                    # Sileo 原生按钮的文字色只能靠内嵌 DepictionLabelView 指定
+                    btn["view"] = {
+                        "class": "DepictionLabelView", "text": txt,
+                        "fontSize": 14, "fontWeight": "medium",
+                        "textColor": tcolor, "alignment": 1,
+                        "useMargins": False, "usePadding": False,
+                    }
                 else:
-                    views.append({
-                        "class": "DepictionButtonView",
-                        "tintColor": str(sp.get('color') or '#6366F1'),
-                        "yPadding": 6,
-                        "text": str(sp.get('text') or '按钮'),
-                        "rcButton": val,
-                    })
+                    btn["text"] = txt
+                views.append(btn)
                 continue
             img_url = SITE_BASE + '/' + img_rel
             if link:
