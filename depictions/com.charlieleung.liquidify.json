@@ -17,23 +17,23 @@
           "views": [
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672116-625.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672116-625.png",
-              "width": 390,
-              "height": 31.04,
-              "cornerRadius": 0,
-              "alignment": 1,
-              "rcButton": "{\"fs\":17.66666603088379,\"color\":\"#6366F1\",\"alpha\":1,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672116-625.png\",\"url\":\"\",\"text\":\"参加\",\"h\":32,\"w\":90,\"r\":42.50953674316406}"
-            },
-            {
-              "class": "DepictionImageView",
               "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672229-415.png",
               "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794672229-415.png",
               "width": 390,
               "height": 93.13,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96,\"r\":24,\"fs\":16}"
+              "rcButton": "{\"color\":\"#6366F1\",\"alpha\":0.721352310180664,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"url\":\"\",\"r\":24,\"h\":96,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"w\":131.08184814453125}"
+            },
+            {
+              "class": "DepictionImageView",
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794673894-199.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794673894-199.png",
+              "width": 390,
+              "height": 67.91,
+              "cornerRadius": 0,
+              "alignment": 1,
+              "rcButton": "{\"r\":42.50953674316406,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794673894-199.png\",\"text\":\"参加\",\"w\":156.2490997314453,\"alpha\":1,\"h\":70.69039154052734,\"fs\":17.66666603088379,\"url\":\"\",\"color\":\"#6366F1\"}"
             }
           ]
         },
@@ -67,6 +67,34 @@
           "class": "DepictionSeparatorView"
         }
       ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "测试",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794674174-55.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1794674174-55.png",
+          "width": 390,
+          "height": 93.13,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcButton": "{\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"w\":402,\"r\":24,\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794674174-55.png\",\"alpha\":1,\"h\":96}"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
     }
-  ]
+  ],
+  "tintColor": "#EF4444"
 }
