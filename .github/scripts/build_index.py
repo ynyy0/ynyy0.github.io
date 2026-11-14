@@ -208,6 +208,13 @@ def desc_views(md):
                 views.append(btn)
                 continue
             img_url = SITE_BASE + '/' + img_rel
+            # 按钮 PNG 是 402pt 画布、按钮内容宽 sp.w 居中。Sileo 的
+            # DepictionImageView 在「声明宽 > 可用宽」时把高度等比缩掉；
+            # 声明 390 宽时 landscape 均分约 131pt，32pt 高会被压成约 10pt 细条。
+            # 改为声明真实 w×h：scaleAspectFill 居中裁掉两侧透明区，只保留
+            # 中间按钮内容，圆角完整，与 App 面板一比一。
+            bw = min(402.0, max(60.0, float(sp.get('w') or 402)))
+            bh = float(h)
             if link:
                 # 带链接：用原生按钮包住按钮图（图片本身不透明，整宽 402）
                 views.append({
@@ -218,7 +225,7 @@ def desc_views(md):
                     "yPadding": 6,
                     "rcButton": val,
                     "view": {"class": "DepictionImageView", "URL": img_url,
-                             "width": 402, "height": h, "cornerRadius": 0},
+                             "width": bw, "height": bh, "cornerRadius": 0},
                 })
             else:
                 # Sileo 的 DepictionImageView 默认 alignment=0 / xPadding=0（左对齐），
@@ -226,8 +233,7 @@ def desc_views(md):
                 # 它又是 scaleAspectFill + clipsToBounds，按钮 PNG 自带圆角，
                 # 渲染框宽高比一变就会把左右圆角裁掉（「边缘缺少」）。
                 # 收窄到 390 并居中（430pt 屏左右各 20pt），高度按同一比例缩放，保证不裁角。
-                bw = 390
-                bh = round(h * bw / 402, 2)
+                # bw/bh 用按钮真实 w×h（见上方）；不再按 390 画布等比缩高。
                 views.append({"class": "DepictionImageView",
                               "URL": img_url, "url": img_url,
                               "width": bw, "height": bh,
