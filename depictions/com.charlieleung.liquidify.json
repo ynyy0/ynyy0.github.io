@@ -12,28 +12,37 @@
           "spacing": 12
         },
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "去除 tg 验证",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionStackView",
           "orientation": "landscape",
           "views": [
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-e8b87115.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-e8b87115.png",
-              "width": 197.0,
-              "height": 96.0,
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-227215ba.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-227215ba.png",
+              "width": 151.8078155517578,
+              "height": 53.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"fs\":16,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"color\":\"#6366F1\",\"textColor\":\"\",\"dx\":0,\"r\":24,\"cw\":197,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-e8b87115.png\",\"alpha\":0.721352310180664,\"w\":131.08184814453125,\"h\":96}"
+              "rcButton": "{\"cw\":0,\"text\":\"测试\",\"r\":24,\"textColor\":\"\",\"alpha\":1,\"dx\":0,\"w\":151.8078155517578,\"h\":53.466190338134766,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-227215ba.png\"}"
             },
             {
               "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a9e2b604.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a9e2b604.png",
-              "width": 197.0,
-              "height": 70.0,
+              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-227215ba.png",
+              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-227215ba.png",
+              "width": 151.8078155517578,
+              "height": 53.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"cw\":197,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-a9e2b604.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":70.69039154052734,\"alpha\":1,\"dx\":0,\"r\":42.50953674316406,\"fs\":17.66666603088379,\"text\":\"参加\",\"url\":\"\",\"w\":156.2490997314453}"
+              "rcButton": "{\"url\":\"\",\"alpha\":1,\"text\":\"测试\",\"r\":24,\"h\":53.466190338134766,\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-227215ba.png\",\"dx\":0,\"fs\":16,\"textColor\":\"\",\"w\":151.8078155517578,\"cw\":0}"
             }
           ]
         },
