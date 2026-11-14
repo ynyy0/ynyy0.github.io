@@ -182,6 +182,9 @@ def desc_views(md):
             img_rel = str(sp.get('img') or '')
             link = str(sp.get('url') or '').strip()
             h = int(sp.get('h', 96) or 96)
+            # App 面板的块间距是 12pt；Sileo 的 StackView 是 y += height 紧挨排布，
+            # 不给按钮前面留白就会贴着上一块（页签 / 正文）。
+            views.append({"class": "DepictionSpacerView", "spacing": 12})
             if not img_rel:
                 # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
                 if link:
@@ -210,6 +213,7 @@ def desc_views(md):
                     "openExternal": True,
                     "tintColor": "#FFFFFF",
                     "yPadding": 6,
+                    "rcButton": val,
                     "view": {"class": "DepictionImageView", "URL": img_url,
                              "width": 402, "height": h, "cornerRadius": 0},
                 })
@@ -224,7 +228,8 @@ def desc_views(md):
                 views.append({"class": "DepictionImageView",
                               "URL": img_url, "url": img_url,
                               "width": bw, "height": bh,
-                              "cornerRadius": 0, "alignment": 1})
+                              "cornerRadius": 0, "alignment": 1,
+                              "rcButton": val})
         elif len(imgs) >= 2:
             if not placed:
                 views.append(carousel)
@@ -234,7 +239,9 @@ def desc_views(md):
     if not views:
         views.append({"class": "DepictionMarkdownView",
                       "markdown": sileo_text(md or ''), "useSpacing": True})
-    return views
+    # DepictionTabView 的内容从 y=40 起画，StackView 子视图紧挨排列，没有顶部内边距；
+    # App 面板页签与正文之间有留白，这里补一段，按钮/文字才不会顶在页签下。
+    return [{"class": "DepictionSpacerView", "spacing": 16}] + views
 
 def main():
     meta = load_meta()
@@ -370,7 +377,7 @@ def main():
                             changed = True
                         if override_desc:
                             new_views = desc_views(desc_line) + \
-                                [{"class": "DepictionSpacerView"},
+                                [{"class": "DepictionSpacerView", "spacing": 16},
                                  {"class": "DepictionSeparatorView"}]
                             if tab.get('views') != new_views:
                                 tab['views'] = new_views
@@ -390,7 +397,7 @@ def main():
                     "class": "DepictionStackView",
                     "tabname": "详情",
                     "views": desc_views(desc_line or name) + [
-                        {"class": "DepictionSpacerView"},
+                        {"class": "DepictionSpacerView", "spacing": 16},
                         {"class": "DepictionSeparatorView"}
                     ]
                 }, {
@@ -399,7 +406,7 @@ def main():
                     "views": [
                         {"class": "DepictionMarkdownView", "markdown": "暂无更新日志",
                          "useSpacing": True},
-                        {"class": "DepictionSpacerView"},
+                        {"class": "DepictionSpacerView", "spacing": 16},
                         {"class": "DepictionSeparatorView"}
                     ]
                 }]
