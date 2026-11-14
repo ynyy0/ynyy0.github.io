@@ -13,21 +13,6 @@
           "useSpacing": true
         },
         {
-          "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 14,
-          "itemSize": "{370, 456}",
-          "screenshots": [
-            {
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/iya-banana-ios27animation-1794567981-0.jpg",
-              "accessibilityText": "配图"
-            },
-            {
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/iya-banana-ios27animation-1794567981-1.jpg",
-              "accessibilityText": "配图"
-            }
-          ]
-        },
-        {
           "class": "DepictionSpacerView"
         },
         {
