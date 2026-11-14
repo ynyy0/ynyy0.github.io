@@ -221,7 +221,7 @@
       "panel_tabs" : [
         {
           "color" : "#EF4444",
-          "content" : "去除 tg 验证\n\n@@RCBTN{\"text\":\"测试\",\"cw\":0,\"w\":98.51244354248047,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"dx\":0,\"fs\":16,\"alpha\":1,\"textColor\":\"\",\"r\":24,\"h\":41.42348861694336,\"color\":\"#6366F1\"}@@\n\n@@RCBTN{\"textColor\":\"\",\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"h\":53.466190338134766,\"alpha\":1,\"text\":\"测试\",\"dx\":0,\"cw\":0,\"fs\":16,\"r\":24,\"w\":151.8078155517578}@@",
+          "content" : "去除 tg 验证\n\n@@RCBTN{\"textColor\":\"\",\"dx\":0,\"cw\":0,\"h\":41.42348861694336,\"color\":\"#6366F1\",\"fs\":16,\"w\":98.51244354248047,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"text\":\"测试\",\"r\":24}@@",
           "title" : "插件简介"
         },
         {
@@ -235,7 +235,7 @@
           "title" : "测试"
         }
       ],
-      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"text\":\"测试\",\"cw\":0,\"w\":98.51244354248047,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"dx\":0,\"fs\":16,\"alpha\":1,\"textColor\":\"\",\"r\":24,\"h\":41.42348861694336,\"color\":\"#6366F1\"}@@\n\n@@RCBTN{\"textColor\":\"\",\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"h\":53.466190338134766,\"alpha\":1,\"text\":\"测试\",\"dx\":0,\"cw\":0,\"fs\":16,\"r\":24,\"w\":151.8078155517578}@@",
+      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"textColor\":\"\",\"dx\":0,\"cw\":0,\"h\":41.42348861694336,\"color\":\"#6366F1\",\"fs\":16,\"w\":98.51244354248047,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"text\":\"测试\",\"r\":24}@@",
       "section" : "公益插件"
     },
     "com.charlieleung.liquidify.roothide" : {
@@ -376,7 +376,7 @@
       "panel_tabs" : [
         {
           "color" : "#EF4444",
-          "content" : "去除 tg 验证\n\n@@RCBTN{\"text\":\"测试\",\"cw\":0,\"w\":98.51244354248047,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"dx\":0,\"fs\":16,\"alpha\":1,\"textColor\":\"\",\"r\":24,\"h\":41.42348861694336,\"color\":\"#6366F1\"}@@\n\n@@RCBTN{\"textColor\":\"\",\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"h\":53.466190338134766,\"alpha\":1,\"text\":\"测试\",\"dx\":0,\"cw\":0,\"fs\":16,\"r\":24,\"w\":151.8078155517578}@@",
+          "content" : "去除 tg 验证\n\n@@RCBTN{\"textColor\":\"\",\"dx\":0,\"cw\":0,\"h\":41.42348861694336,\"color\":\"#6366F1\",\"fs\":16,\"w\":98.51244354248047,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"text\":\"测试\",\"r\":24}@@",
           "title" : "插件简介"
         },
         {
@@ -390,7 +390,7 @@
           "title" : "测试"
         }
       ],
-      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"text\":\"测试\",\"cw\":0,\"w\":98.51244354248047,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"dx\":0,\"fs\":16,\"alpha\":1,\"textColor\":\"\",\"r\":24,\"h\":41.42348861694336,\"color\":\"#6366F1\"}@@\n\n@@RCBTN{\"textColor\":\"\",\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-227215ba.png\",\"h\":53.466190338134766,\"alpha\":1,\"text\":\"测试\",\"dx\":0,\"cw\":0,\"fs\":16,\"r\":24,\"w\":151.8078155517578}@@"
+      "rich_description" : "去除 tg 验证\n\n@@RCBTN{\"textColor\":\"\",\"dx\":0,\"cw\":0,\"h\":41.42348861694336,\"color\":\"#6366F1\",\"fs\":16,\"w\":98.51244354248047,\"alpha\":1,\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-37f312dc.png\",\"text\":\"测试\",\"r\":24}@@"
     },
     "debs\/axssb666_1.0.0_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/axssb666.json"
