@@ -1,7 +1,7 @@
 {
   "categories" : [
     "Hello系列",
-    "Tweaks",
+    "软件优化",
     "zqbb Tweaks",
     "公益插件",
     "关于美化",
@@ -127,7 +127,11 @@
       "section" : "美化"
     },
     "com.Axs.snapper3" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
+      "section" : "软件优化"
     },
     "com.Axs.xmzs" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
@@ -226,7 +230,11 @@
       "section" : "抖音插件"
     },
     "com.mallin.tunnelsharevpn" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json",
+      "section" : "软件优化"
     },
     "com.mlgm.actra" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mlgm.actra.json"
@@ -239,16 +247,32 @@
       "section" : "工具"
     },
     "com.rain.120hzstable" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
+      "section" : "软件优化"
     },
     "com.rain.dock" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
+      "section" : "软件优化"
     },
     "com.rain.processmonitor" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
+      "section" : "软件优化"
     },
     "com.rain.rainmhz" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
+      "section" : "软件优化"
     },
     "com.siwenjiajia.tweak.comm" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
@@ -393,7 +417,11 @@
       "section" : "工具"
     },
     "debs\/com.axs.snapper3_1.2.1_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.snapper3.json",
+      "section" : "软件优化"
     },
     "debs\/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.Axs.xmzs.json"
@@ -515,7 +543,11 @@
       "section" : "抖音插件"
     },
     "debs\/com.mallin.tunnelsharevpn_1.2.6-1_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json",
+      "section" : "软件优化"
     },
     "debs\/com.mlgm.actra_1.2_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -545,13 +577,25 @@
       "section" : "Hello系列"
     },
     "debs\/com.rain.dock_3.6.2-1_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.dock.json",
+      "section" : "软件优化"
     },
     "debs\/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.processmonitor.json",
+      "section" : "软件优化"
     },
     "debs\/com.rain.rainmhz_6.14.1-1_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.rainmhz.json",
+      "section" : "软件优化"
     },
     "debs\/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.siwenjiajia.tweak.comm.json",
@@ -597,19 +641,19 @@
     },
     "debs\/fanqiefn_3.5.0_iphoneos-arm64e.deb" : {
       "cats" : [
-        "Tweaks"
+        "软件优化"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
       "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
       "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "section" : "Tweaks"
+      "section" : "软件优化"
     },
     "debs\/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb" : {
       "cats" : [
-        "Tweaks"
+        "软件优化"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
-      "section" : "Tweaks"
+      "section" : "软件优化"
     },
     "debs\/iOS27Animation_2.0_arm64e_公益.deb" : {
       "cats" : [
@@ -618,7 +662,11 @@
       "section" : "关于美化"
     },
     "debs\/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.rain.120hzstable.json",
+      "section" : "软件优化"
     },
     "debs\/TrollOpenJB_v2.0.2_小菜 (1).deb" : {
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.trollopenjb.patched.roothide.json"
@@ -628,12 +676,20 @@
       "description" : "设置分类收纳、"
     },
     "fanqiefn" : {
+      "cats" : [
+        "软件优化"
+      ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
       "description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
-      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。"
+      "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
+      "section" : "软件优化"
     },
     "fanqiefn.roothide" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json"
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.roothide.json",
+      "section" : "软件优化"
     },
     "iya.banana.ios27animation" : {
       "cats" : [
