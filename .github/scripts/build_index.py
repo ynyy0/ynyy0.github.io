@@ -182,9 +182,6 @@ def desc_views(md):
             img_rel = str(sp.get('img') or '')
             link = str(sp.get('url') or '').strip()
             h = int(sp.get('h', 96) or 96)
-            # App 面板的块间距是 12pt；Sileo 的 StackView 是 y += height 紧挨排布，
-            # 不给按钮前面留白就会贴着上一块（页签 / 正文）。
-            views.append({"class": "DepictionSpacerView", "spacing": 12})
             if not img_rel:
                 # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
                 if link:
@@ -239,9 +236,14 @@ def desc_views(md):
     if not views:
         views.append({"class": "DepictionMarkdownView",
                       "markdown": sileo_text(md or ''), "useSpacing": True})
-    # DepictionTabView 的内容从 y=40 起画，StackView 子视图紧挨排列，没有顶部内边距；
-    # App 面板页签与正文之间有留白，这里补一段，按钮/文字才不会顶在页签下。
-    return [{"class": "DepictionSpacerView", "spacing": 16}] + views
+    # DepictionTabView 的内容从 y=40 起画，StackView 子视图紧挨排列，没有顶部内边距。
+    # 统一按 App 面板 body.spacing = 12pt：页签与第一个块、块与块之间都是 12pt，
+    # 只加一层不叠加，否则按钮会离页签太远。spacer 必须带 spacing，Sileo 才真正创建。
+    spaced = []
+    for v in views:
+        spaced.append({"class": "DepictionSpacerView", "spacing": 12})
+        spaced.append(v)
+    return spaced
 
 def main():
     meta = load_meta()
@@ -377,7 +379,7 @@ def main():
                             changed = True
                         if override_desc:
                             new_views = desc_views(desc_line) + \
-                                [{"class": "DepictionSpacerView", "spacing": 16},
+                                [{"class": "DepictionSpacerView", "spacing": 12},
                                  {"class": "DepictionSeparatorView"}]
                             if tab.get('views') != new_views:
                                 tab['views'] = new_views
@@ -397,7 +399,7 @@ def main():
                     "class": "DepictionStackView",
                     "tabname": "详情",
                     "views": desc_views(desc_line or name) + [
-                        {"class": "DepictionSpacerView", "spacing": 16},
+                        {"class": "DepictionSpacerView", "spacing": 12},
                         {"class": "DepictionSeparatorView"}
                     ]
                 }, {
@@ -406,7 +408,7 @@ def main():
                     "views": [
                         {"class": "DepictionMarkdownView", "markdown": "暂无更新日志",
                          "useSpacing": True},
-                        {"class": "DepictionSpacerView", "spacing": 16},
+                        {"class": "DepictionSpacerView", "spacing": 12},
                         {"class": "DepictionSeparatorView"}
                     ]
                 }]
