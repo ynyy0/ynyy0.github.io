@@ -444,6 +444,25 @@ Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.squidforcecrack.rl.json?v=c6057349r2
 
+Package: com.charlieleung.liquidify
+Version: 1.3.8+repair.test3.thanks3
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 41477
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/88液态玻璃插件_1.3.8_thanks3(1).deb
+Size: 16823032
+MD5sum: 9afe07ce86fd38045ba679fbe145eee4
+SHA1: 457cf87dc3de7a27d1c35496f87d74c9d690b6af
+SHA256: 0ef02bc4c0a40e578979007d840ff6420773b2bc644523c6eb5cbd44897cfd1e
+Description: 去除 tg 验证
+Author: 小菜
+Name: 88液态玻璃插件 1.3.8
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: 公益插件
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=b0ef8bc1r2
+
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
 Architecture: iphoneos-arm64
@@ -777,3 +796,4 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=9ec1549fr2
+
