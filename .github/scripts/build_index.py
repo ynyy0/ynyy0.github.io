@@ -248,17 +248,25 @@ def desc_views(md):
         except Exception:
             return None
 
+    # 与 App 面板一致：按按钮 spec.w 累计宽度分组，放得下就同一行，
+    # 放不下自动换行，不再写死一行 3 个。
+    avail = 394.0        # 430pt 屏 - 36pt 左右边距
     merged = []
     k = 0
     while k < len(views):
-        if (btn_w(views[k]) or 402) > 160:
+        w0 = btn_w(views[k])
+        if w0 is None or w0 > 160:
             merged.append(views[k]); k += 1; continue
         group = []
-        while k < len(views) and len(group) < 3:
+        used = 0.0
+        while k < len(views):
             w = btn_w(views[k])
             if w is None or w > 160:
                 break
-            group.append(views[k]); k += 1
+            need = max(60.0, float(w)) + (8.0 if group else 0.0)
+            if group and used + need > avail:
+                break
+            group.append(views[k]); k += 1; used += need
         if len(group) > 1:
             merged.append({"class": "DepictionStackView",
                            "orientation": "landscape",
