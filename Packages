@@ -294,7 +294,7 @@ Author: xmmm
 Name: 熊猫助手
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
 Description: 微信功能扩展
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=8aebc6f5r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=f795a03ar2
 
 Package: com.Axs.yuanjiao
 Version: 1.8.6
@@ -404,7 +404,7 @@ Name: CopyVault
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
 Description: 使用源里免授权激活组件
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json?v=1e9714e4r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json?v=cbee3e29r2
 
 Package: com.bvn.squidforcecrack.rl
 Version: 1.0.1-1
@@ -442,7 +442,7 @@ Author: 小菜
 Name: 88液态玻璃插件 1.3.8
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=b0ef8bc1r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=8788195dr2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -476,7 +476,7 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Name: MacDock 已汉化 Roothide
 Description: 已汉化
 Section: 汉化插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=1020589cr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=00eed355r2
 
 Package: com.go.mango
 Version: 1.0-Beta7-6
@@ -642,7 +642,7 @@ Author: siwenjiajia
 Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
 Name: 抖音优化
 Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json?v=94b6c62fr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json?v=b7f57a76r2
 
 Package: com.trollopenjb.patched.roothide
 Version: 2.0.2
@@ -660,7 +660,7 @@ Name: TrollOpenJB最新破解版
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。
 Section: 分屏插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=dd434c94r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=52808933r2
 
 Package: com.unknown.wuzeililiang
 Version: 1.0
@@ -717,7 +717,7 @@ Name: 番茄净化
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=f910fa33
 Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=07f86f55r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=bf82445er2
 
 Package: fanqiefn.roothide
 Version: 3.5.0
@@ -757,5 +757,5 @@ Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=9ec1549fr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
 

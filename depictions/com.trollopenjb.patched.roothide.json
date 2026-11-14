@@ -8,11 +8,16 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionButtonView",
           "action": "https://qm.qq.com/q/d1ElAi8ra8",
           "openExternal": true,
           "tintColor": "#FFFFFF",
           "yPadding": 6,
+          "rcButton": "{\"img\":\"depictions\\/img\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\/\\/qm.qq.com\\/q\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}",
           "view": {
             "class": "DepictionImageView",
             "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-trollopenjb-patched-roothide-btn-1794665754-22.png",
@@ -22,12 +27,17 @@
           }
         },
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。",
           "useSpacing": true
         },
         {
-          "class": "DepictionSpacerView"
+          "class": "DepictionSpacerView",
+          "spacing": 12
         },
         {
           "class": "DepictionSeparatorView"

@@ -8,9 +8,17 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
         },
         {
           "class": "DepictionImageView",
@@ -21,7 +29,8 @@
           "cornerRadius": 14
         },
         {
-          "class": "DepictionSpacerView"
+          "class": "DepictionSpacerView",
+          "spacing": 12
         },
         {
           "class": "DepictionSeparatorView"

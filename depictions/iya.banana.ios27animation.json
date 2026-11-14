@@ -8,12 +8,17 @@
       "tabname": "插件简介",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "# 于你有源 / 已公益",
           "useSpacing": true
         },
         {
-          "class": "DepictionSpacerView"
+          "class": "DepictionSpacerView",
+          "spacing": 12
         },
         {
           "class": "DepictionSeparatorView"
