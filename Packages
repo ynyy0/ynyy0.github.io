@@ -260,24 +260,6 @@ Name: Hello CPU
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.holdcpu.png?v=c03024ac
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.holdcpu.json?v=76fea3dar2
 
-Package: com.Axs.kongzhidiy
-Version: 2.3.3-end
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 3028
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb
-Size: 674340
-MD5sum: 666e7676fdc00eb84385165fde65a776
-SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
-SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
-Description: 这是一个简单的控制中心美化插件。
-Author: binglan
-Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.kongzhidiy.png?v=99a28125
-Name: 冰蓝控制中心2.3.3-en
-Section: 关于美化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.kongzhidiy.json?v=9fe7575cr2
-
 Package: com.Axs.qjsy
 Version: 4.1.6
 Architecture: iphoneos-arm64
@@ -832,4 +814,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=7f597ff3r2
-
