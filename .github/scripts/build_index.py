@@ -267,7 +267,8 @@ def desc_views(md):
             w = btn_w(views[k])
             if w is None or w > 160:
                 break
-            need = max(60.0, float(w)) + (8.0 if group else 0.0)
+            # 与 App 面板一致：窄按钮按 120 计，Sileo 里 3 个一行在重新生成后仍是 3 个
+            need = min(120.0, max(80.0, float(w))) + (8.0 if group else 0.0)
             if group and used + need > avail:
                 break
             group.append(views[k]); k += 1; used += need
