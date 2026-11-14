@@ -294,7 +294,7 @@ Author: xmmm
 Name: 熊猫助手
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
 Description: 微信功能扩展
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=f795a03ar2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=8b818cbdr2
 
 Package: com.Axs.yuanjiao
 Version: 1.8.6
@@ -442,7 +442,7 @@ Author: 小菜
 Name: 88液态玻璃插件 1.3.8
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=93a68b5ar2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=850f6afar2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -660,7 +660,7 @@ Name: TrollOpenJB最新破解版
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。
 Section: 分屏插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=52808933r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=5c16449er2
 
 Package: com.unknown.wuzeililiang
 Version: 1.0
