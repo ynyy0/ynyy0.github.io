@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**你好**",
+          "markdown": "**使用源里免授权激活组件**",
           "useSpacing": true
         },
         {
