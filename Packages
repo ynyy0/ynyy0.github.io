@@ -16,25 +16,6 @@ Name: 微信全局圆角
 Icon: https://ynyy.xbcxbc.cn/icons/axssb666.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/axssb666.json?v=c80a14aar2
 
-Package: cn.octoforce.copyvault
-Version: 1.9.0-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6868
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb
-Size: 1852780
-MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
-SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
-SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
-Description: 正版乌贼剪贴板
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.copyvault.json?v=e9276b6dr2
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-
 Package: cn.octoforce.squidextender
 Version: 3.7.4-2
 Architecture: iphoneos-arm64
@@ -48,7 +29,7 @@ SHA1: 2ecc398fa4808de6a23491e8126f1e49f1cab286
 SHA256: a6cd045958efc12418df9ec1a5b009e1444839f69713698bb65a754ac16d9c3b
 Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
 Author: SquidForce, Backup
-Name: 乌贼键盘无根
+Name: 乌贼键盘
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.png?v=97056edd
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.json?v=7980e240r2
@@ -67,7 +48,7 @@ SHA1: 9e35a4fc272e42d2ba6ff17772e2143e9fc02a8b
 SHA256: 6eb6ce1c198d556894a19cea02977269a4bdeb6bc35b9167c11640e828134599
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Author: SquidForce, Backup
-Name: 乌贼键盘隐根
+Name: 乌贼键盘 roohide
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.roothide.json?v=83e55068r2
@@ -86,7 +67,7 @@ SHA1: ed4eeaaed72349402a289407e9879add5e938051
 SHA256: f0cd8203a86bf0b22a62ba719764cce115a65aacc42a7a02e3f9da69f0df0041
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
-Name: 乌贼手势无根
+Name: 乌贼手势
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.json?v=67681c58r2
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
@@ -105,7 +86,7 @@ SHA1: 095879de267251b99d34cf3d5d6dac9753c5ff8b
 SHA256: 24c6797b59235393b85713338b1364595f95c49d14de713343a0c1bc5a26850a
 Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
 Author: 刀哥
-Name: 乌贼手势隐根
+Name: 乌贼手势 roothide
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json?v=fdc9022ar2
@@ -421,7 +402,7 @@ SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
 Author: SquidForce, Backup
 Name: CopyVault
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
-Description: 你好
+Description: 使用源里免授权激活组件
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json?v=52752342r2
 
@@ -796,4 +777,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=9ec1549fr2
-

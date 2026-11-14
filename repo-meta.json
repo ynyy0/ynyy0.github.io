@@ -41,6 +41,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "name" : "乌贼键盘",
       "section" : "公益插件"
     },
     "cn.octoforce.squidextender.roothide" : {
@@ -48,6 +49,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "name" : "乌贼键盘 roohide",
       "section" : "公益插件"
     },
     "cn.octoforce.squidgesturepro" : {
@@ -56,6 +58,7 @@
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
       "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "name" : "乌贼手势",
       "section" : "公益插件"
     },
     "cn.octoforce.squidgesturepro.roothide" : {
@@ -63,6 +66,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
+      "name" : "乌贼手势 roothide",
       "section" : "公益插件"
     },
     "cn.zqbb.fix120hz" : {
@@ -198,8 +202,8 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
-      "description" : "你好",
-      "rich_description" : "**你好**",
+      "description" : "使用源里免授权激活组件",
+      "rich_description" : "**使用源里免授权激活组件**",
       "section" : "公益插件"
     },
     "com.bvn.squidforcecrack.rl" : {
@@ -373,6 +377,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.json",
+      "name" : "乌贼键盘",
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb" : {
@@ -380,6 +385,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidextender.roothide.json",
+      "name" : "乌贼键盘 roohide",
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb" : {
@@ -388,6 +394,7 @@
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.json",
       "icon" : "https:\/\/ynyy.xbcxbc.cn\/CydiaIcon.png?v=cfa5c827",
+      "name" : "乌贼手势",
       "section" : "公益插件"
     },
     "debs\/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb" : {
@@ -395,6 +402,7 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.octoforce.squidgesturepro.roothide.json",
+      "name" : "乌贼手势 roothide",
       "section" : "公益插件"
     },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
@@ -524,8 +532,8 @@
         "公益插件"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.bvn.copyvault.rl.json",
-      "description" : "你好",
-      "rich_description" : "**你好**",
+      "description" : "使用源里免授权激活组件",
+      "rich_description" : "**使用源里免授权激活组件**",
       "section" : "公益插件"
     },
     "debs\/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb" : {
