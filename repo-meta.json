@@ -80,7 +80,11 @@
       "section" : "公益插件"
     },
     "cn.zqbb.hello.bundleid" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json",
+      "section" : "Hello系列"
     },
     "cn.zqbb.hello.keyboard.ai" : {
       "cats" : [
@@ -90,7 +94,11 @@
       "section" : "公益插件"
     },
     "cn.zqbb.hello.memorystatus" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json",
+      "section" : "Hello系列"
     },
     "cn.zqbb.hello.qactions" : {
       "cats" : [
@@ -100,10 +108,18 @@
       "section" : "Hello系列"
     },
     "cn.zqbb.hello.quick.panel" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json",
+      "section" : "Hello系列"
     },
     "cn.zqbb.holdcpu" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json",
+      "section" : "Hello系列"
     },
     "cn.zqbb.orzfolder" : {
       "author" : "小菜",
@@ -388,7 +404,11 @@
       "section" : "公益插件"
     },
     "debs\/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.bundleid.json",
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -398,7 +418,11 @@
       "section" : "公益插件"
     },
     "debs\/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.memorystatus.json",
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -408,10 +432,18 @@
       "section" : "zqbb Tweaks"
     },
     "debs\/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.quick.panel.json",
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e.deb" : {
-      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json"
+      "cats" : [
+        "Hello系列"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.holdcpu.json",
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.orzfolder_1.3.3-2_iphoneos-arm64e.deb" : {
       "author" : "小菜",

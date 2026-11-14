@@ -161,7 +161,7 @@ Size: 2961700
 MD5sum: 1f5e8449cbff8fdd0c590ab44f4b10fd
 SHA1: 9490ff94b3ac41ba64cd97d852200cb0265b0b43
 SHA256: 5820fd3fe6014fe73e814b13797c71934bab3164b73059cdb14d4953b4e41792
-Section: zqbb Tweaks
+Section: Hello系列
 Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
 Author: zqbb
 Name: Hello BundleID
@@ -198,7 +198,7 @@ Size: 3066828
 MD5sum: 016394ecd99a940c0f5303c2097deae0
 SHA1: e94c6f899e18bbd266a8ede68192ca065cf77c1c
 SHA256: 0fe9dde077b63f01f8d8eed5178ad8a167330e3791539edd5e2fdefae90e223e
-Section: zqbb Tweaks
+Section: Hello系列
 Description: Set memorystatus to avoid being killed by the system
 Author: zqbb
 Name: Hello Memory Status
@@ -234,7 +234,7 @@ Size: 1498378
 MD5sum: cc5516f764f067f89e9112e4ec73c075
 SHA1: dd1510cf7350561120519321710400d932b02e43
 SHA256: 2ea05f0bcfd5ac568b68fa84a3024ebe62b96dfe9ca739ffc9d516473f0f34bc
-Section: zqbb Tweaks
+Section: Hello系列
 Description: 快捷面板~
 Author: zqbb
 Name: Hello QuickPanel
@@ -253,7 +253,7 @@ Size: 1304438
 MD5sum: a46a3eeb1cd5ceb851525e740fddf1bf
 SHA1: ec63c40312f2dcac43a6b3461c0ff868bbcb1a73
 SHA256: 668cdd1e686feed82c9e871fb72c4431bc0ca502a07f7e0d1f7743acb00f654f
-Section: zqbb Tweaks
+Section: Hello系列
 Description: (解除温控) (锁定低电量CPU频率)
 Author: zqbb
 Name: Hello CPU
@@ -814,4 +814,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=7f597ff3r2
-
