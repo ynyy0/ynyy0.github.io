@@ -230,7 +230,7 @@
         },
         {
           "color" : "#EF4444",
-          "content" : "@@RCBTN{\"w\":91.11032104492188,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794678008-961.png\",\"h\":32,\"text\":\"我直接看这个插件显示效果\",\"alpha\":1,\"textColor\":\"\",\"r\":24}@@\n\n@@RCBTN{\"h\":53.08185577392578,\"r\":11.378409385681152,\"fs\":13.71767520904541,\"url\":\"\",\"alpha\":0.5259786605834961,\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794676112-332.png\",\"color\":\"#6366F1\",\"w\":145.8861083984375,\"textColor\":\"\"}@@\n\n@@RCBTN{\"alpha\":1,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"url\":\"\",\"h\":49.62277603149414,\"textColor\":\"\",\"w\":151.067626953125,\"r\":24,\"fs\":16,\"color\":\"#6366F1\",\"text\":\"我直接看这个插件显示效果\"}@@\n\n你好",
+          "content" : "你好\n\n@@RCBTN{\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794680280-374.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":54.36299133300781,\"url\":\"\",\"r\":14.450769424438477,\"alpha\":1,\"w\":185.487548828125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16}@@",
           "title" : "测试"
         }
       ],
@@ -384,7 +384,7 @@
         },
         {
           "color" : "#EF4444",
-          "content" : "@@RCBTN{\"w\":91.11032104492188,\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794678008-961.png\",\"h\":32,\"text\":\"我直接看这个插件显示效果\",\"alpha\":1,\"textColor\":\"\",\"r\":24}@@\n\n@@RCBTN{\"h\":53.08185577392578,\"r\":11.378409385681152,\"fs\":13.71767520904541,\"url\":\"\",\"alpha\":0.5259786605834961,\"text\":\"我直接看这个插件显示效果\",\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794676112-332.png\",\"color\":\"#6366F1\",\"w\":145.8861083984375,\"textColor\":\"\"}@@\n\n@@RCBTN{\"alpha\":1,\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794675025-406.png\",\"url\":\"\",\"h\":49.62277603149414,\"textColor\":\"\",\"w\":151.067626953125,\"r\":24,\"fs\":16,\"color\":\"#6366F1\",\"text\":\"我直接看这个插件显示效果\"}@@\n\n你好",
+          "content" : "你好\n\n@@RCBTN{\"img\":\"depictions\\\/img\\\/com-charlieleung-liquidify-btn-1794680280-374.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":54.36299133300781,\"url\":\"\",\"r\":14.450769424438477,\"alpha\":1,\"w\":185.487548828125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16}@@",
           "title" : "测试"
         }
       ],
