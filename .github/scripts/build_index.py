@@ -215,6 +215,11 @@ def desc_views(md):
             # 中间按钮内容，圆角完整，与 App 面板一比一。
             bw = min(402.0, max(60.0, float(sp.get('w') or 402)))
             bh = float(h)
+            # 并排行里的按钮：图片是按【格子宽】出的画布，格内自由偏移已画进图里，
+            # 所以声明宽度必须等于画布宽 cw，Sileo 的均分格子才会 1:1 还原位置。
+            cw = float(sp.get('cw') or 0)
+            if cw > 0:
+                bw = cw
             if link:
                 # 带链接：用原生按钮包住按钮图（图片本身不透明，整宽 402）
                 views.append({
