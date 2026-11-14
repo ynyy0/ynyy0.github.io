@@ -23,7 +23,7 @@
               "height": 96.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"url\":\"\",\"textColor\":\"\",\"w\":131.08184814453125,\"h\":96,\"r\":24,\"fs\":16,\"color\":\"#6366F1\",\"alpha\":0.721352310180664,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"text\":\"我直接看这个插件显示效果\"}"
+              "rcButton": "{\"dx\":0,\"alpha\":0.721352310180664,\"r\":24,\"color\":\"#6366F1\",\"text\":\"我直接看这个插件显示效果\",\"w\":131.08184814453125,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794672229-415.png\",\"textColor\":\"\",\"url\":\"\",\"h\":96,\"fs\":16}"
             },
             {
               "class": "DepictionImageView",
@@ -33,7 +33,7 @@
               "height": 70.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"fs\":17.66666603088379,\"url\":\"\",\"alpha\":1,\"r\":42.50953674316406,\"h\":70.69039154052734,\"textColor\":\"\",\"w\":156.2490997314453,\"text\":\"参加\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794673894-199.png\",\"color\":\"#6366F1\"}"
+              "rcButton": "{\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1794673894-199.png\",\"fs\":17.66666603088379,\"alpha\":1,\"r\":42.50953674316406,\"text\":\"参加\",\"h\":70.69039154052734,\"w\":156.2490997314453,\"url\":\"\",\"textColor\":\"\",\"dx\":-42.66667175292969}"
             }
           ]
         },
