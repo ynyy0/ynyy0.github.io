@@ -267,7 +267,7 @@ def desc_views(md):
     # 构造器丢弃（用户截图里「3 个按钮全没了 + 1 个被裁成半个」就是这两条）。
     # App 端为每个按钮行生成 rowimg，脚本端只声明这一张图 —— 两端必然同一份像素。
     ROW_W = 398.0
-    avail = 394.0        # 430pt 屏 - 36pt 左右边距，与 App rebuild() 分组口径一致
+    avail = 398.0        # 整行画布宽，与 App rebuild() / rowFrames 完全一致
 
     def btn_spec(v):
         if not isinstance(v, dict) or not v.get('rcButton'):
@@ -363,7 +363,7 @@ def desc_views(md):
             w = btn_w(views[k])
             if w is None or w > 160:
                 break
-            need = max(120.0, float(w)) + (8.0 if group else 0.0)
+            need = max(72.0, float(w)) + (8.0 if group else 0.0)
             if group and used + need > avail:
                 break
             group.append(views[k]); k += 1; used += need
