@@ -32,7 +32,7 @@
               "height": 41.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"url\":\"\",\"dx\":0,\"r\":24,\"fs\":16,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-3a47e076.png\",\"h\":41.42348861694336,\"text\":\"测试\",\"w\":98.51244354248047,\"alpha\":1,\"color\":\"#6366F1\",\"textColor\":\"\",\"cw\":122}"
+              "rcButton": "{\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-3a47e076.png\",\"h\":41.42348861694336,\"r\":24,\"text\":\"测试\",\"textColor\":\"\",\"dx\":0,\"cw\":122,\"url\":\"\",\"w\":98.51244354248047,\"alpha\":1,\"fs\":16}"
             },
             {
               "class": "DepictionImageView",
@@ -42,7 +42,7 @@
               "height": 41.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"h\":41.42348861694336,\"dx\":-30.666671752929688,\"url\":\"\",\"r\":24,\"fs\":16,\"text\":\"测试 4\",\"color\":\"#6366F1\",\"alpha\":1,\"w\":90,\"textColor\":\"\",\"cw\":122,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-0e01bbff.png\"}"
+              "rcButton": "{\"textColor\":\"\",\"cw\":122,\"url\":\"\",\"r\":24,\"dx\":-30.666671752929688,\"text\":\"测试 4\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-0e01bbff.png\",\"alpha\":1,\"color\":\"#6366F1\",\"w\":90,\"h\":41.42348861694336,\"fs\":16}"
             },
             {
               "class": "DepictionImageView",
@@ -52,7 +52,7 @@
               "height": 41.0,
               "cornerRadius": 0,
               "alignment": 1,
-              "rcButton": "{\"w\":90,\"alpha\":1,\"cw\":122,\"text\":\"测试 1\",\"url\":\"\",\"r\":24,\"color\":\"#6366F1\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-a04d3264.png\",\"textColor\":\"\",\"fs\":16,\"h\":41.42348861694336,\"dx\":-64.66667175292969}"
+              "rcButton": "{\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-a04d3264.png\",\"dx\":-51.333343505859375,\"url\":\"\",\"cw\":122,\"h\":41.42348861694336,\"alpha\":1,\"r\":24,\"w\":90,\"color\":\"#6366F1\",\"textColor\":\"\",\"text\":\"测试 1\",\"fs\":16}"
             }
           ]
         },
