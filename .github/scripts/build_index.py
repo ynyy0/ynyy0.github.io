@@ -300,9 +300,9 @@ def desc_views(md):
         # App 面板也按同样方式画，两端本来就一致，不要动。
         if any(is_native(sp) for sp in specs):
             return None
-        # 行图路径由这一行按钮内容推导，与 App 面板 / 部署补传用同一算法。
-        # 不再读 token 里的 rowimg —— 那个字段一旦和补传的图对不上，
-        # 商店就会显示另一张（少按钮 / 位置不同）的图。
+        # 路径由 App 随正文一起写进第一个 token，脚本读同一份 token。
+        # 以前脚本自己按内容推导，本地 meta 与线上 meta 版本一差就找不到图，
+        # 降级出的原生按钮 Sileo 又不渲染 —— 商店里整行按钮直接消失。
         parts = []
         for sp in specs:
             nums = [int(float(sp.get(k) or 0) * 100 + 0.5)
@@ -314,7 +314,8 @@ def desc_views(md):
         hh = 2166136261
         for b in key.encode('utf-8'):
             hh = ((hh ^ b) * 16777619) & 0xffffffff
-        rel = 'depictions/img/rc-row-v2-%08x.png' % hh
+        derived = 'depictions/img/rc-row-v2-%08x.png' % hh
+        rel = str(specs[0].get('rowimg') or '') or derived
         try:
             row_h = max(20.0, max(float(s.get('h') or 40) for s in specs))
         except Exception:
