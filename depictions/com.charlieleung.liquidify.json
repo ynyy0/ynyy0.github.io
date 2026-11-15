@@ -22,16 +22,16 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-8459e326.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-8459e326.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-c5d11e9d.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-c5d11e9d.png",
           "width": 398.0,
           "height": 20.0,
           "cornerRadius": 0,
           "alignment": 1,
           "rcRow": [
-            "{\"rowimg\":\"depictions/img/rc-row-v2-8459e326.png\",\"h\":20,\"url\":\"\",\"w\":90,\"dx\":0,\"img\":\"\",\"color\":\"#6366F1\",\"fs\":16,\"text\":\"测试\",\"alpha\":1,\"textColor\":\"\",\"r\":9.55160140991211,\"cw\":398}",
-            "{\"rowimg\":\"\",\"h\":20,\"url\":\"\",\"w\":90,\"dx\":2.3333282470703125,\"img\":\"\",\"color\":\"#F16262\",\"fs\":16,\"text\":\"测试 4\",\"alpha\":1,\"textColor\":\"\",\"r\":24,\"cw\":398}",
-            "{\"rowimg\":\"\",\"h\":20,\"url\":\"\",\"w\":90,\"dx\":-14.666671752929688,\"img\":\"\",\"color\":\"#6366F1\",\"fs\":16,\"text\":\"测试 1\",\"alpha\":1,\"textColor\":\"\",\"r\":24,\"cw\":398}"
+            "{\"url\":\"\",\"img\":\"\",\"w\":90,\"r\":9.55160140991211,\"dx\":-14,\"h\":20,\"cw\":398,\"fs\":16,\"textColor\":\"\",\"color\":\"#6366F1\",\"text\":\"测试\",\"alpha\":1,\"rowimg\":\"depictions/img/rc-row-v2-c5d11e9d.png\"}",
+            "{\"url\":\"\",\"img\":\"\",\"w\":90,\"r\":24,\"dx\":-56.66667175292969,\"h\":20,\"cw\":398,\"fs\":16,\"textColor\":\"\",\"color\":\"#6366F1\",\"text\":\"测试 1\",\"alpha\":1,\"rowimg\":\"\"}",
+            "{\"url\":\"\",\"img\":\"\",\"w\":90,\"r\":24,\"dx\":-98.00001525878906,\"h\":20,\"cw\":398,\"fs\":16,\"textColor\":\"\",\"color\":\"#6366F1\",\"text\":\"我直接看这个插件显示效果\",\"alpha\":1,\"rowimg\":\"\"}"
           ]
         },
         {
@@ -40,14 +40,14 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-3b053122.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-3b053122.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-f955b639.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-f955b639.png",
           "width": 398.0,
           "height": 20.0,
           "cornerRadius": 0,
           "alignment": 1,
           "rcRow": [
-            "{\"text\":\"我直接看这个插件显示效果\",\"w\":100.36298370361328,\"color\":\"#6366F1\",\"alpha\":1,\"fs\":16,\"textColor\":\"\",\"cw\":398,\"r\":24,\"rowimg\":\"depictions/img/rc-row-v2-3b053122.png\",\"img\":\"\",\"dx\":4.3333282470703125,\"url\":\"\",\"h\":20}"
+            "{\"url\":\"\",\"img\":\"\",\"w\":90,\"r\":24,\"dx\":152,\"h\":20,\"cw\":398,\"fs\":16,\"textColor\":\"\",\"color\":\"#6366F1\",\"text\":\"测试 2\",\"alpha\":1,\"rowimg\":\"depictions/img/rc-row-v2-f955b639.png\"}"
           ]
         },
         {
