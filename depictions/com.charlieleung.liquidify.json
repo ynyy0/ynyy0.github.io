@@ -28,21 +28,21 @@
               "class": "DepictionButtonView",
               "tintColor": "#6366F1",
               "yPadding": 6,
-              "rcButton": "{\"dx\":0,\"text\":\"测试\",\"textColor\":\"\",\"cw\":122,\"color\":\"#6366F1\",\"r\":9.55160140991211,\"alpha\":1,\"img\":\"\",\"url\":\"\",\"h\":32,\"fs\":16,\"rowimg\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-6bc6de14.png\",\"w\":112.94660949707031}",
+              "rcButton": "{\"cw\":398,\"color\":\"#6366F1\",\"img\":\"\",\"fs\":16,\"h\":32,\"text\":\"测试\",\"w\":112.94660949707031,\"textColor\":\"\",\"dx\":0,\"url\":\"\",\"rowimg\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-9025cbb0-row.png\",\"alpha\":1,\"r\":9.55160140991211}",
               "text": "测试"
             },
             {
               "class": "DepictionButtonView",
               "tintColor": "#6366F1",
               "yPadding": 6,
-              "rcButton": "{\"r\":24,\"url\":\"\",\"dx\":-34.66668701171875,\"textColor\":\"\",\"rowimg\":\"\",\"alpha\":1,\"text\":\"测试 1\",\"img\":\"\",\"fs\":16,\"color\":\"#6366F1\",\"h\":41.42348861694336,\"cw\":122,\"w\":90}",
+              "rcButton": "{\"rowimg\":\"\",\"r\":24,\"h\":41.42348861694336,\"cw\":398,\"w\":90,\"color\":\"#6366F1\",\"textColor\":\"\",\"text\":\"测试 1\",\"url\":\"\",\"alpha\":1,\"fs\":16,\"img\":\"\",\"dx\":13.666656494140625}",
               "text": "测试 1"
             },
             {
               "class": "DepictionButtonView",
               "tintColor": "#6366F1",
               "yPadding": 6,
-              "rcButton": "{\"r\":24,\"url\":\"\",\"dx\":-58.333343505859375,\"textColor\":\"\",\"rowimg\":\"\",\"alpha\":1,\"text\":\"测试 4\",\"img\":\"\",\"fs\":16,\"color\":\"#6366F1\",\"h\":41.42348861694336,\"cw\":122,\"w\":90}",
+              "rcButton": "{\"rowimg\":\"\",\"r\":24,\"h\":41.42348861694336,\"cw\":398,\"w\":90,\"color\":\"#6366F1\",\"textColor\":\"\",\"text\":\"测试 4\",\"url\":\"\",\"alpha\":1,\"fs\":16,\"img\":\"\",\"dx\":-3.0000152587890625}",
               "text": "测试 4"
             }
           ]
@@ -52,14 +52,11 @@
           "spacing": 12
         },
         {
-          "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1dcd52b2.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1dcd52b2.png",
-          "width": 398.0,
-          "height": 20.0,
-          "cornerRadius": 0,
-          "alignment": 1,
-          "rcButton": "{\"h\":20,\"cw\":398,\"r\":24,\"textColor\":\"\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1dcd52b2.png\",\"w\":100.36298370361328,\"text\":\"我直接看这个插件显示效果\",\"fs\":16,\"color\":\"#6366F1\",\"url\":\"\",\"alpha\":1,\"rowimg\":\"\",\"dx\":0}"
+          "class": "DepictionButtonView",
+          "tintColor": "#6366F1",
+          "yPadding": 6,
+          "rcButton": "{\"dx\":-50.33332824707031,\"rowimg\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-2edf9502-row.png\",\"textColor\":\"\",\"img\":\"\",\"w\":100.36298370361328,\"url\":\"\",\"h\":20,\"fs\":16,\"r\":24,\"color\":\"#6366F1\",\"alpha\":1,\"cw\":398,\"text\":\"我直接看这个插件显示效果\"}",
+          "text": "我直接看这个插件显示效果"
         },
         {
           "class": "DepictionSpacerView",
