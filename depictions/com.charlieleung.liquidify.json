@@ -21,69 +21,18 @@
           "spacing": 12
         },
         {
-          "class": "DepictionStackView",
-          "orientation": "landscape",
-          "views": [
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "yPadding": 6,
-              "view": {
-                "class": "DepictionLabelView",
-                "text": "测试",
-                "fontSize": 14,
-                "fontWeight": "medium",
-                "textColor": "#FFFFFF",
-                "alignment": 1,
-                "useMargins": false,
-                "usePadding": false
-              }
-            },
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "yPadding": 6,
-              "view": {
-                "class": "DepictionLabelView",
-                "text": "测试 1",
-                "fontSize": 14,
-                "fontWeight": "medium",
-                "textColor": "#FFFFFF",
-                "alignment": 1,
-                "useMargins": false,
-                "usePadding": false
-              }
-            },
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "yPadding": 6,
-              "view": {
-                "class": "DepictionLabelView",
-                "text": "测试 2",
-                "fontSize": 14,
-                "fontWeight": "medium",
-                "textColor": "#FFFFFF",
-                "alignment": 1,
-                "useMargins": false,
-                "usePadding": false
-              }
-            },
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "yPadding": 6,
-              "view": {
-                "class": "DepictionLabelView",
-                "text": "测试 5",
-                "fontSize": 14,
-                "fontWeight": "medium",
-                "textColor": "#FFFFFF",
-                "alignment": 1,
-                "useMargins": false,
-                "usePadding": false
-              }
-            }
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-3a2d12e8.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-3a2d12e8.png",
+          "width": 398.0,
+          "height": 20.0,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcRow": [
+            "{\"alpha\":1,\"r\":9.55160140991211,\"url\":\"\",\"rowimg\":\"depictions/img/rc-row-v2-3a2d12e8.png\",\"dx\":0,\"fs\":16,\"cw\":398,\"img\":\"\",\"text\":\"测试\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":20,\"w\":90}",
+            "{\"alpha\":1,\"r\":24,\"url\":\"\",\"rowimg\":\"\",\"dx\":0,\"fs\":16,\"cw\":398,\"img\":\"\",\"text\":\"测试 1\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":20,\"w\":90}",
+            "{\"alpha\":1,\"r\":24,\"url\":\"\",\"rowimg\":\"\",\"dx\":0,\"fs\":16,\"cw\":398,\"img\":\"\",\"text\":\"测试 2\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":20,\"w\":90}",
+            "{\"alpha\":1,\"r\":18.85171890258789,\"url\":\"\",\"rowimg\":\"\",\"dx\":0,\"fs\":16,\"cw\":398,\"img\":\"\",\"text\":\"测试 3\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":20,\"w\":90}"
           ]
         },
         {

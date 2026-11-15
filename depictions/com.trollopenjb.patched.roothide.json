@@ -12,21 +12,16 @@
           "spacing": 12
         },
         {
-          "class": "DepictionButtonView",
-          "tintColor": "#10B981",
-          "yPadding": 6,
-          "view": {
-            "class": "DepictionLabelView",
-            "text": "加入群聊",
-            "fontSize": 14,
-            "fontWeight": "medium",
-            "textColor": "#FFFFFF",
-            "alignment": 1,
-            "useMargins": false,
-            "usePadding": false
-          },
-          "action": "https://qm.qq.com/q/d1ElAi8ra8",
-          "openExternal": true
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-2148050e.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-2148050e.png",
+          "width": 398.0,
+          "height": 63.01778793334961,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcRow": [
+            "{\"img\":\"depictions/img/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https://qm.qq.com/q/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}"
+          ]
         },
         {
           "class": "DepictionSpacerView",
