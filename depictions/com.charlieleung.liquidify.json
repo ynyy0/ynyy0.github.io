@@ -57,7 +57,7 @@
           "cornerRadius": 0,
           "alignment": 1,
           "rcRow": [
-            "{\"w\":100.36298370361328,\"textColor\":\"\",\"dx\":0,\"h\":20,\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png\",\"url\":\"\",\"r\":24,\"cw\":398,\"text\":\"我直接看这个插件显示效果\",\"color\":\"#6366F1\",\"alpha\":1,\"fs\":16,\"img\":\"depictions/img/com-charlieleung-liquidify-btn-7746b735.png\"}"
+            "{\"text\":\"我直接看这个插件显示效果\",\"dx\":0,\"color\":\"#6366F1\",\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png\",\"fs\":16,\"w\":100.36298370361328,\"textColor\":\"\",\"img\":\"depictions/img/com-charlieleung-liquidify-btn-7746b735.png\",\"cw\":398,\"alpha\":1,\"r\":24,\"url\":\"\",\"h\":20}"
           ]
         },
         {
