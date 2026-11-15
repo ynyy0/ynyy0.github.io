@@ -950,6 +950,12 @@
       "rich_description" : "# 于你有源 \/ 已公益",
       "section" : "公益插件"
     },
+    "org.coolstar.sileo" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "section" : "软件优化"
+    },
     "TrollOpenJB_v2.0.2" : {
       "cats" : [
         "分屏插件"
