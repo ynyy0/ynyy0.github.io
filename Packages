@@ -734,7 +734,7 @@ MD5sum: f4942545ea2f090a178dfea29802c2c1
 SHA1: 12bb3a8cbcae288b5b409346ebde5e307c5d031f
 SHA256: fd818d647c6260ee3ba659f85ec43806994b3c8c54cc39bef59a69ed76b068f4
 Homepage: https://fanqie.goforit.si
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。 阅读与广告净化 - 过滤阅读、听书、短篇及页面中的广告和推广内容 - 可隐藏章末讨论、送礼物、作者的话等入口，以及看书页改编剧场入口 - 可关闭评价邀请、听读赚钱挂件等干扰内容 底部导航 - 支持原生液态玻璃与仿液态毛玻璃效果，按系统能力
 Author: junhong
 Name: 番茄净化 (Roothide)
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
@@ -758,4 +758,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
-
