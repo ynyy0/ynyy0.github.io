@@ -589,7 +589,7 @@ Author: 半生年华&karma
 Name: NotiflyX
 Icon: https://ynyy.xbcxbc.cn/icons/com.notiflyx.tweak.png?v=1ebd08cc
 Section: 实用插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.notiflyx.tweak.json?v=26605e19r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.notiflyx.tweak.json?v=8e5d3a0dr2
 
 Package: com.rain.120hzstable
 Version: 1.3.0
@@ -816,3 +816,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
