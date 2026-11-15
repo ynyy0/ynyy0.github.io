@@ -773,6 +773,12 @@
       ],
       "section" : "关于美化"
     },
+    "debs\/com.notiflyx.tweak_1.2.20_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "实用插件"
+      ],
+      "section" : "实用插件"
+    },
     "debs\/com.opa334.altlist_1.0.9_iphoneos-arm64.deb" : {
       "cats" : [
         "Hello系列"
