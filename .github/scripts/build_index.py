@@ -191,6 +191,7 @@ def desc_views(md):
             if not img_rel:
                 # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
                 txt = str(sp.get('text') or '按钮')
+                tcolor = str(sp.get('textColor') or '')
                 btn = {
                     "class": "DepictionButtonView",
                     "tintColor": str(sp.get('color') or '#6366F1'),
@@ -200,10 +201,18 @@ def desc_views(md):
                 if link:
                     btn["action"] = link
                     btn["openExternal"] = True
-                # Sileo 的 DepictionButtonView 带内嵌 view:(DepictionLabelView) 时
-                # 构造器会失败返回 nil，整行按钮被直接丢弃 —— 线上「3 个按钮一个都不显示」
-                # 就是这个分支造成的。一律只用 text：样式差一点，但按钮绝不消失。
-                btn["text"] = txt
+                # 源详情页还原的原生按钮带 textColor：原样保留内嵌 LabelView，
+                # 一个字段都不改（这类按钮不属于 App 自建按钮）。
+                # 自建按钮 img 缺失时只用 text：不内嵌 view，绝不出现整行按钮被丢弃。
+                if tcolor:
+                    btn["view"] = {
+                        "class": "DepictionLabelView", "text": txt,
+                        "fontSize": 14, "fontWeight": "medium",
+                        "textColor": tcolor, "alignment": 1,
+                        "useMargins": False, "usePadding": False,
+                    }
+                else:
+                    btn["text"] = txt
                 views.append(btn)
                 continue
             img_url = SITE_BASE + '/' + img_rel
@@ -277,9 +286,19 @@ def desc_views(md):
         except Exception:
             return None
 
+    def is_native(sp):
+        try:
+            return bool(sp.get('textColor')) and float(sp.get('fs') or 16) <= 14                 and 24 <= float(sp.get('h') or 96) <= 30
+        except Exception:
+            return False
+
     def row_view_of(group):
         specs = [btn_spec(v) for v in group]
         if any(sp is None for sp in specs):
+            return None
+        # 源原生按钮（碰一碰 3+2）不进整行图：它们由 Sileo 原生 landscape 渲染，
+        # App 面板也按同样方式画，两端本来就一致，不要动。
+        if any(is_native(sp) for sp in specs):
             return None
         rel = str(specs[0].get('rowimg') or '')
         try:
