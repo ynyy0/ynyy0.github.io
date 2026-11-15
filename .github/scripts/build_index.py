@@ -300,7 +300,21 @@ def desc_views(md):
         # App 面板也按同样方式画，两端本来就一致，不要动。
         if any(is_native(sp) for sp in specs):
             return None
-        rel = str(specs[0].get('rowimg') or '')
+        # 行图路径由这一行按钮内容推导，与 App 面板 / 部署补传用同一算法。
+        # 不再读 token 里的 rowimg —— 那个字段一旦和补传的图对不上，
+        # 商店就会显示另一张（少按钮 / 位置不同）的图。
+        parts = []
+        for sp in specs:
+            nums = [int(float(sp.get(k) or 0) * 100 + 0.5)
+                    for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx', 'cw')]
+            parts.append('|'.join([str(sp.get('text') or ''), str(sp.get('color') or ''),
+                                   str(sp.get('textColor') or ''), str(sp.get('url') or ''),
+                                   ','.join(str(n) for n in nums)]))
+        key = '//'.join(parts)
+        hh = 2166136261
+        for b in key.encode('utf-8'):
+            hh = ((hh ^ b) * 16777619) & 0xffffffff
+        rel = 'depictions/img/rc-row-v2-%08x.png' % hh
         try:
             row_h = max(20.0, max(float(s.get('h') or 40) for s in specs))
         except Exception:
