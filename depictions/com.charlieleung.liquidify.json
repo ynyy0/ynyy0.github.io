@@ -22,16 +22,16 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-be857903.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-be857903.png",
           "width": 398.0,
-          "height": 41.42348861694336,
+          "height": 50.81850814819336,
           "cornerRadius": 0,
           "alignment": 1,
           "rcRow": [
-            "{\"text\":\"测试\",\"textColor\":\"\",\"color\":\"#6366F1\",\"fs\":16,\"alpha\":1,\"r\":9.55160140991211,\"h\":32,\"dx\":0,\"img\":\"depictions/img/com-charlieleung-liquidify-btn-adc28cfe.png\",\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png\",\"w\":112.94660949707031,\"cw\":398,\"url\":\"\"}",
-            "{\"text\":\"测试 4\",\"textColor\":\"\",\"fs\":16,\"url\":\"\",\"h\":41.42348861694336,\"color\":\"#F16262\",\"img\":\"depictions/img/com-charlieleung-liquidify-btn-08cf08b8.png\",\"rowimg\":\"\",\"alpha\":1,\"w\":90,\"dx\":-29,\"r\":24,\"cw\":398}",
-            "{\"textColor\":\"\",\"w\":90,\"dx\":-63.66667175292969,\"h\":41.42348861694336,\"rowimg\":\"\",\"url\":\"\",\"r\":24,\"cw\":398,\"text\":\"测试 1\",\"color\":\"#6366F1\",\"fs\":16,\"alpha\":1,\"img\":\"depictions/img/com-charlieleung-liquidify-btn-4de15003.png\"}"
+            "{\"dx\":0,\"img\":\"\",\"cw\":398,\"url\":\"\",\"r\":9.55160140991211,\"h\":32,\"fs\":16,\"rowimg\":\"depictions/img/rc-row-v2-be857903.png\",\"color\":\"#6366F1\",\"alpha\":1,\"textColor\":\"\",\"text\":\"测试\",\"w\":112.94660949707031}",
+            "{\"dx\":-29,\"img\":\"\",\"cw\":398,\"url\":\"\",\"r\":24,\"h\":50.81850814819336,\"fs\":16,\"rowimg\":\"\",\"color\":\"#F16262\",\"alpha\":1,\"textColor\":\"\",\"text\":\"测试 4\",\"w\":90}",
+            "{\"dx\":-63.66667175292969,\"img\":\"\",\"cw\":398,\"url\":\"\",\"r\":24,\"h\":41.42348861694336,\"fs\":16,\"rowimg\":\"\",\"color\":\"#6366F1\",\"alpha\":1,\"textColor\":\"\",\"text\":\"测试 1\",\"w\":90}"
           ]
         },
         {
@@ -40,14 +40,14 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-aa726f24.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-aa726f24.png",
           "width": 398.0,
           "height": 20.0,
           "cornerRadius": 0,
           "alignment": 1,
           "rcRow": [
-            "{\"text\":\"我直接看这个插件显示效果\",\"dx\":0,\"color\":\"#6366F1\",\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png\",\"fs\":16,\"w\":100.36298370361328,\"textColor\":\"\",\"img\":\"depictions/img/com-charlieleung-liquidify-btn-7746b735.png\",\"cw\":398,\"alpha\":1,\"r\":24,\"url\":\"\",\"h\":20}"
+            "{\"textColor\":\"\",\"dx\":0,\"cw\":398,\"color\":\"#6366F1\",\"rowimg\":\"depictions/img/rc-row-v2-aa726f24.png\",\"h\":20,\"text\":\"我直接看这个插件显示效果\",\"alpha\":1,\"url\":\"\",\"fs\":16,\"r\":24,\"w\":100.36298370361328,\"img\":\"\"}"
           ]
         },
         {
