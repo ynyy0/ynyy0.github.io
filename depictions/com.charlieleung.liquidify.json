@@ -41,23 +41,13 @@
               "tintColor": "#6366F1",
               "text": "测试 2",
               "yPadding": 6
+            },
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#6366F1",
+              "text": "测试 5",
+              "yPadding": 6
             }
-          ]
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 12
-        },
-        {
-          "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-f44a7b51.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-f44a7b51.png",
-          "width": 398.0,
-          "height": 20.0,
-          "cornerRadius": 0,
-          "alignment": 1,
-          "rcRow": [
-            "{\"color\":\"#6366F1\",\"text\":\"我直接看这个插件显示效果\",\"r\":24,\"w\":90,\"img\":\"\",\"url\":\"\",\"dx\":0,\"fs\":16,\"cw\":398,\"textColor\":\"\",\"h\":20,\"rowimg\":\"\",\"alpha\":1}"
           ]
         },
         {
