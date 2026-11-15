@@ -180,12 +180,17 @@ def desc_views(md):
             except Exception:
                 continue
             img_rel = str(sp.get('img') or '')
+            # 兜底：按钮图必须真的在仓库里。以前只要上传失败/漏传，这里就会写进一个
+            # 404 的 URL —— Sileo 里那张图加载不出来，整行按钮直接「消失」，
+            # 只剩上面一段文字（用户看到的「为什么不显示」）。
+            # 宁可退回原生纯色按钮（样式差一点），也绝不允许按钮看不见。
+            if img_rel and not (ROOT / img_rel).is_file():
+                img_rel = ''
             link = str(sp.get('url') or '').strip()
             h = int(sp.get('h', 96) or 96)
             if not img_rel:
                 # 没有按钮图（多见于从源详情页还原的按钮）：直接用原生纯色按钮
                 txt = str(sp.get('text') or '按钮')
-                tcolor = str(sp.get('textColor') or '')
                 btn = {
                     "class": "DepictionButtonView",
                     "tintColor": str(sp.get('color') or '#6366F1'),
@@ -195,16 +200,10 @@ def desc_views(md):
                 if link:
                     btn["action"] = link
                     btn["openExternal"] = True
-                if tcolor:
-                    # Sileo 原生按钮的文字色只能靠内嵌 DepictionLabelView 指定
-                    btn["view"] = {
-                        "class": "DepictionLabelView", "text": txt,
-                        "fontSize": 14, "fontWeight": "medium",
-                        "textColor": tcolor, "alignment": 1,
-                        "useMargins": False, "usePadding": False,
-                    }
-                else:
-                    btn["text"] = txt
+                # Sileo 的 DepictionButtonView 带内嵌 view:(DepictionLabelView) 时
+                # 构造器会失败返回 nil，整行按钮被直接丢弃 —— 线上「3 个按钮一个都不显示」
+                # 就是这个分支造成的。一律只用 text：样式差一点，但按钮绝不消失。
+                btn["text"] = txt
                 views.append(btn)
                 continue
             img_url = SITE_BASE + '/' + img_rel
@@ -253,42 +252,91 @@ def desc_views(md):
     if not views:
         views.append({"class": "DepictionMarkdownView",
                       "markdown": sileo_text(md or ''), "useSpacing": True})
-    # 连续的小按钮（长度 <=160）合并成横向一行，每行最多 3 个，与 App 面板一致。
-    # 注意要在插 spacer 之前合并，否则连续的按钮会被 spacer 隔开。
-    def btn_w(v):
+    # ---- 按钮行：一行只输出【一张整行 PNG】----
+    # Sileo 的 DepictionStackView(landscape) 强制均分格子，一格一图表达不了自由间隙；
+    # 逐格 PNG 只要有一张 404 整行就消失，原生 DepictionButtonView 带 view 还会被
+    # 构造器丢弃（用户截图里「3 个按钮全没了 + 1 个被裁成半个」就是这两条）。
+    # App 端为每个按钮行生成 rowimg，脚本端只声明这一张图 —— 两端必然同一份像素。
+    ROW_W = 398.0
+    avail = 394.0        # 430pt 屏 - 36pt 左右边距，与 App rebuild() 分组口径一致
+
+    def btn_spec(v):
         if not isinstance(v, dict) or not v.get('rcButton'):
             return None
         try:
-            return float((json.loads(v['rcButton']) or {}).get('w') or 402)
+            return json.loads(v['rcButton']) or {}
         except Exception:
             return None
 
-    # 与 App 面板一致：按按钮 spec.w 累计宽度分组，放得下就同一行，
-    # 放不下自动换行，不再写死一行 3 个。
-    avail = 394.0        # 430pt 屏 - 36pt 左右边距
+    def btn_w(v):
+        sp = btn_spec(v)
+        if sp is None:
+            return None
+        try:
+            return float(sp.get('w') or 402)
+        except Exception:
+            return None
+
+    def row_view_of(group):
+        specs = [btn_spec(v) for v in group]
+        if any(sp is None for sp in specs):
+            return None
+        rel = str(specs[0].get('rowimg') or '')
+        try:
+            row_h = max(20.0, max(float(s.get('h') or 40) for s in specs))
+        except Exception:
+            row_h = 40.0
+        # ① 正常路径：整行一张图。声明宽高与 PNG 完全一致，Sileo 不会再裁字 / 缩放。
+        #    rcRow 保存每个按钮的完整 spec，App 回拉时还原成可编辑、可拖动的按钮。
+        if rel and (ROOT / rel).is_file():
+            url = SITE_BASE + '/' + rel
+            return {"class": "DepictionImageView", "URL": url, "url": url,
+                    "width": ROW_W, "height": row_h, "cornerRadius": 0, "alignment": 1,
+                    "rcRow": [json.dumps(sp, ensure_ascii=False, separators=(',', ':'))
+                              for sp in specs]}
+        # ② 图还没上传（刚从源详情页拉回 / 历史 token）：降级成原生按钮，
+        #    只用 text、不内嵌 view，至少按钮都在、文字完整，绝不会「一个都不显示」。
+        fallback = []
+        for sp in specs:
+            b = {"class": "DepictionButtonView",
+                 "tintColor": str(sp.get('color') or '#6366F1'),
+                 "text": str(sp.get('text') or '按钮'),
+                 "yPadding": 6}
+            link = str(sp.get('url') or '').strip()
+            if link:
+                b["action"] = link
+                b["openExternal"] = True
+            fallback.append(b)
+        if len(fallback) == 1:
+            return fallback[0]
+        return {"class": "DepictionStackView", "orientation": "landscape",
+                "views": fallback}
+
+    # 分组必须与 App 面板 rebuild() 逐字一致，否则 App 是 3+1、商店是 4：
+    #   need = max(120, w) + 8(非首个)，avail = 394，宽按钮(>160)独占一行。
     merged = []
     k = 0
     while k < len(views):
         w0 = btn_w(views[k])
-        if w0 is None or w0 > 160:
+        if w0 is None:
             merged.append(views[k]); k += 1; continue
+        if w0 > 160:
+            rv = row_view_of([views[k]])
+            merged.append(rv if rv is not None else views[k]); k += 1; continue
         group = []
         used = 0.0
         while k < len(views):
             w = btn_w(views[k])
             if w is None or w > 160:
                 break
-            # 与 App 面板一致：窄按钮按 120 计，Sileo 里 3 个一行在重新生成后仍是 3 个
-            need = min(120.0, max(80.0, float(w))) + (8.0 if group else 0.0)
+            need = max(120.0, float(w)) + (8.0 if group else 0.0)
             if group and used + need > avail:
                 break
             group.append(views[k]); k += 1; used += need
-        if len(group) > 1:
-            merged.append({"class": "DepictionStackView",
-                           "orientation": "landscape",
-                           "views": group})
-        else:
-            merged.extend(group)
+        rv = row_view_of(group)
+        merged.append(rv if rv is not None else {"class": "DepictionStackView",
+                                                 "orientation": "landscape",
+                                                 "views": group})
     views = merged
 
     # DepictionTabView 的内容从 y=40 起画，StackView 子视图紧挨排列，没有顶部内边距。
