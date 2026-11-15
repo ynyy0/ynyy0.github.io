@@ -901,6 +901,12 @@
       ],
       "section" : "关于美化"
     },
+    "debs\/org.coolstar.sileo_2.5.1-16_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "section" : "软件优化"
+    },
     "debs\/RainFlow_120Hz_1.3.0_unlocked_iphoneos-arm64.deb" : {
       "cats" : [
         "公益插件"
