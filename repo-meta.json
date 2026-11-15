@@ -154,6 +154,21 @@
       "cats" : [
         "分屏插件"
       ],
+      "changelog" : "暂无更新日志",
+      "description" : "作者已去除验证",
+      "panel_tabs" : [
+        {
+          "color" : "#B441B5",
+          "content" : "作者已去除验证",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "#B441B5",
+          "content" : "暂无更新日志",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "作者已去除验证",
       "section" : "分屏插件"
     },
     "com.axs.ios16dao" : {
@@ -558,6 +573,21 @@
       "cats" : [
         "分屏插件"
       ],
+      "changelog" : "暂无更新日志",
+      "description" : "作者已去除验证",
+      "panel_tabs" : [
+        {
+          "color" : "#B441B5",
+          "content" : "作者已去除验证",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "#B441B5",
+          "content" : "暂无更新日志",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "作者已去除验证",
       "section" : "分屏插件"
     },
     "debs\/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb" : {

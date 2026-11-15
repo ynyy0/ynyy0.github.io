@@ -252,7 +252,7 @@ Size: 662060
 MD5sum: 2d93b5f80cf17459ce0694019c46913b
 SHA1: e0b66fda2cf5b085ca1fa07eae655e7b98524a85
 SHA256: bd946dceb2a96391bccee15e8d93b256c689acedda9b103be50ccfd446f30d25
-Description: 温馨提示:
+Description: 作者已去除验证
   * 1、仅供个人备份与学习研究使用。
   * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
   * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
@@ -781,4 +781,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
-
