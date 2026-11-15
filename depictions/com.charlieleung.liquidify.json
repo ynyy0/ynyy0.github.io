@@ -49,10 +49,16 @@
           "spacing": 12
         },
         {
-          "class": "DepictionButtonView",
-          "tintColor": "#6366F1",
-          "text": "我直接看这个插件显示效果",
-          "yPadding": 6
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-9a5804e9.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-9a5804e9.png",
+          "width": 398.0,
+          "height": 20.0,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcRow": [
+            "{\"r\":24,\"url\":\"\",\"color\":\"#6366F1\",\"w\":100.36298370361328,\"alpha\":1,\"text\":\"我直接看这个插件显示效果\",\"img\":\"\",\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png\",\"h\":20,\"textColor\":\"\",\"cw\":398,\"dx\":67.33334350585938,\"fs\":16}"
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -103,10 +109,16 @@
           "spacing": 12
         },
         {
-          "class": "DepictionButtonView",
-          "tintColor": "#6366F1",
-          "text": "我直接看这个插件显示效果",
-          "yPadding": 6
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-2a0c7d1d.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-2a0c7d1d.png",
+          "width": 398.0,
+          "height": 54.36299133300781,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcRow": [
+            "{\"img\":\"depictions/img/com-charlieleung-liquidify-btn-1794680280-374.png\",\"color\":\"#6366F1\",\"textColor\":\"\",\"h\":54.36299133300781,\"url\":\"\",\"r\":14.450769424438477,\"alpha\":1,\"w\":185.487548828125,\"text\":\"我直接看这个插件显示效果\",\"fs\":16}"
+          ]
         },
         {
           "class": "DepictionSpacerView",
