@@ -13,18 +13,11 @@
         },
         {
           "class": "DepictionButtonView",
-          "action": "https://qm.qq.com/q/d1ElAi8ra8",
-          "openExternal": true,
-          "tintColor": "#FFFFFF",
+          "tintColor": "#10B981",
+          "text": "加入群聊",
           "yPadding": 6,
-          "rcButton": "{\"img\":\"depictions\\/img\\/com-trollopenjb-patched-roothide-btn-1794665754-22.png\",\"text\":\"加入群聊\",\"fs\":16,\"url\":\"https:\\/\\/qm.qq.com\\/q\\/d1ElAi8ra8\",\"r\":24,\"h\":63.01778793334961,\"color\":\"#10B981\",\"w\":296.2917785644531,\"alpha\":0.4117437744140625}",
-          "view": {
-            "class": "DepictionImageView",
-            "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-trollopenjb-patched-roothide-btn-1794665754-22.png",
-            "width": 296.2917785644531,
-            "height": 63.0,
-            "cornerRadius": 0
-          }
+          "action": "https://qm.qq.com/q/d1ElAi8ra8",
+          "openExternal": true
         },
         {
           "class": "DepictionSpacerView",
