@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "温馨提示:",
+          "markdown": "作者已去除验证",
           "useSpacing": true
         },
         {
@@ -30,6 +30,10 @@
       "tabname": "更新日志",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "暂无更新日志",
           "useSpacing": true
@@ -43,5 +47,6 @@
         }
       ]
     }
-  ]
+  ],
+  "tintColor": "#B441B5"
 }
