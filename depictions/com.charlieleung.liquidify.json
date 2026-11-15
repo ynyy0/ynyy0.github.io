@@ -25,36 +25,41 @@
           "orientation": "landscape",
           "views": [
             {
-              "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-0ffaacf4.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-0ffaacf4.png",
-              "width": 122.0,
-              "height": 32.0,
-              "cornerRadius": 0,
-              "alignment": 1,
-              "rcButton": "{\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-0ffaacf4.png\",\"cw\":122,\"fs\":16,\"alpha\":1,\"dx\":0,\"textColor\":\"\",\"h\":32,\"color\":\"#6366F1\",\"w\":112.94660949707031,\"text\":\"测试\",\"r\":9.55160140991211,\"url\":\"\"}"
+              "class": "DepictionButtonView",
+              "tintColor": "#6366F1",
+              "yPadding": 6,
+              "rcButton": "{\"text\":\"测试\",\"dx\":0,\"color\":\"#6366F1\",\"alpha\":1,\"cw\":122,\"r\":9.55160140991211,\"fs\":16,\"url\":\"\",\"rowimg\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-0949a407.png\",\"textColor\":\"\",\"h\":32,\"w\":112.94660949707031,\"img\":\"\"}",
+              "text": "测试"
             },
             {
-              "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-0e01bbff.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-0e01bbff.png",
-              "width": 122.0,
-              "height": 41.0,
-              "cornerRadius": 0,
-              "alignment": 1,
-              "rcButton": "{\"text\":\"测试 4\",\"textColor\":\"\",\"dx\":-30.666671752929688,\"alpha\":1,\"color\":\"#6366F1\",\"h\":41.42348861694336,\"url\":\"\",\"r\":24,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-0e01bbff.png\",\"fs\":16,\"cw\":122,\"w\":90}"
+              "class": "DepictionButtonView",
+              "tintColor": "#6366F1",
+              "yPadding": 6,
+              "rcButton": "{\"color\":\"#6366F1\",\"r\":24,\"dx\":-34.66668701171875,\"img\":\"\",\"cw\":122,\"rowimg\":\"\",\"fs\":16,\"text\":\"测试 1\",\"w\":90,\"textColor\":\"\",\"h\":41.42348861694336,\"alpha\":1,\"url\":\"\"}",
+              "text": "测试 1"
             },
             {
-              "class": "DepictionImageView",
-              "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a04d3264.png",
-              "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-a04d3264.png",
-              "width": 122.0,
-              "height": 41.0,
-              "cornerRadius": 0,
-              "alignment": 1,
-              "rcButton": "{\"cw\":122,\"fs\":16,\"color\":\"#6366F1\",\"h\":41.42348861694336,\"text\":\"测试 1\",\"r\":24,\"w\":90,\"url\":\"\",\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-a04d3264.png\",\"textColor\":\"\",\"alpha\":1,\"dx\":-51.333343505859375}"
+              "class": "DepictionButtonView",
+              "tintColor": "#6366F1",
+              "yPadding": 6,
+              "rcButton": "{\"color\":\"#6366F1\",\"r\":24,\"dx\":-62.333343505859375,\"img\":\"\",\"cw\":122,\"rowimg\":\"\",\"fs\":16,\"text\":\"测试 4\",\"w\":90,\"textColor\":\"\",\"h\":41.42348861694336,\"alpha\":1,\"url\":\"\"}",
+              "text": "测试 4"
             }
           ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1dcd52b2.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-1dcd52b2.png",
+          "width": 398.0,
+          "height": 20.0,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcButton": "{\"w\":100.36298370361328,\"alpha\":1,\"img\":\"depictions\\/img\\/com-charlieleung-liquidify-btn-1dcd52b2.png\",\"color\":\"#6366F1\",\"rowimg\":\"\",\"cw\":398,\"fs\":16,\"dx\":0,\"text\":\"我直接看这个插件显示效果\",\"url\":\"\",\"textColor\":\"\",\"r\":24,\"h\":20}"
         },
         {
           "class": "DepictionSpacerView",
