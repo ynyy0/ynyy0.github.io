@@ -107,7 +107,7 @@ Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.png?v=97056edd
-Section: 公益插件
+Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.json?v=57e72f79r2
 
 Package: cn.zqbb.fix120hz.obf
@@ -129,7 +129,7 @@ Description:
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
-Section: 公益插件
+Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.obf.json?v=ce967493r2
 
 Package: cn.zqbb.hello.bundleid
@@ -165,7 +165,7 @@ Description: Quickly activate AI mode.
 Author: zqbb
 Name: Hello 键盘侠
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
-Section: 公益插件
+Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.keyboard.ai.json?v=49ac1b9fr2
 
 Package: cn.zqbb.hello.memorystatus
@@ -758,4 +758,3 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 于你有源 / 已公益
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
-

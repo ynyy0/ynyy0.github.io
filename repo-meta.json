@@ -91,17 +91,17 @@
     },
     "cn.zqbb.fix120hz" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "cn.zqbb.fix120hz.obf" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "cn.zqbb.hello.bundleid" : {
       "cats" : [
@@ -112,10 +112,10 @@
     },
     "cn.zqbb.hello.keyboard.ai" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "cn.zqbb.hello.memorystatus" : {
       "cats" : [
@@ -472,17 +472,17 @@
     },
     "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.fix120hz.obf.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e.deb" : {
       "cats" : [
@@ -493,10 +493,10 @@
     },
     "debs\/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb" : {
       "cats" : [
-        "公益插件"
+        "Hello系列"
       ],
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/cn.zqbb.hello.keyboard.ai.json",
-      "section" : "公益插件"
+      "section" : "Hello系列"
     },
     "debs\/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb" : {
       "cats" : [
