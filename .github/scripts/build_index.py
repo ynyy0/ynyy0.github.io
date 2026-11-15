@@ -3,6 +3,7 @@
 Shared by .github/workflows/release.yml (commits the result back to the repo)
 and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
+import base64
 import hashlib
 import json
 import os
@@ -323,7 +324,18 @@ def desc_views(md):
             row_h = 40.0
         # ① 正常路径：整行一张图。声明宽高与 PNG 完全一致，Sileo 不会再裁字 / 缩放。
         #    rcRow 保存每个按钮的完整 spec，App 回拉时还原成可编辑、可拖动的按钮。
-        if rel and (ROOT / rel).is_file():
+        # 图文件缺失时，用 token 里随正文提交的 PNG 数据自己还原一份。
+        # 这样不论 App 有没有把图另传成功、什么时候传，详情页永远有图可显示。
+        path = ROOT / rel
+        if rel and not path.is_file():
+            raw = str(specs[0].get('rowdata') or '')
+            if raw:
+                try:
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes(base64.b64decode(raw))
+                except Exception as exc:
+                    print('row image restore failed:', rel, exc)
+        if rel and path.is_file():
             url = SITE_BASE + '/' + rel
             return {"class": "DepictionImageView", "URL": url, "url": url,
                     "width": ROW_W, "height": row_h, "cornerRadius": 0, "alignment": 1,
