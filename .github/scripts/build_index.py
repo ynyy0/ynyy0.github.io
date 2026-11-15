@@ -305,8 +305,9 @@ def desc_views(md):
         # 降级出的原生按钮 Sileo 又不渲染 —— 商店里整行按钮直接消失。
         parts = []
         for sp in specs:
+            # cw 由 App 写 token 时改写，进 key 会导致路径每次重建都变 -> 图 404
             nums = [int(float(sp.get(k) or 0) * 100 + 0.5)
-                    for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx', 'cw')]
+                    for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx')]
             parts.append('|'.join([str(sp.get('text') or ''), str(sp.get('color') or ''),
                                    str(sp.get('textColor') or ''), str(sp.get('url') or ''),
                                    ','.join(str(n) for n in nums)]))
@@ -330,12 +331,26 @@ def desc_views(md):
                               for sp in specs]}
         # ② 图还没上传（刚从源详情页拉回 / 历史 token）：降级成原生按钮，
         #    只用 text、不内嵌 view，至少按钮都在、文字完整，绝不会「一个都不显示」。
+        # 降级保底：图还没上传时也要看得见按钮。Sileo 的 DepictionButtonView
+        # 纯 text 会构造失败被丢弃（整行空白），必须用源详情页那种内嵌 LabelView。
         fallback = []
         for sp in specs:
+            try:
+                tc = str(sp.get('textColor') or '')
+                if not tc:
+                    col = str(sp.get('color') or '#6366F1').lstrip('#')
+                    r, g, b8 = (int(col[i:i + 2], 16) for i in (0, 2, 4))
+                    tc = '#000000' if (0.299 * r + 0.587 * g + 0.114 * b8) > 158 else '#FFFFFF'
+            except Exception:
+                tc = '#FFFFFF'
             b = {"class": "DepictionButtonView",
                  "tintColor": str(sp.get('color') or '#6366F1'),
-                 "text": str(sp.get('text') or '按钮'),
-                 "yPadding": 6}
+                 "yPadding": 6,
+                 "view": {"class": "DepictionLabelView",
+                          "text": str(sp.get('text') or '按钮'),
+                          "fontSize": 14, "fontWeight": "medium",
+                          "textColor": tc, "alignment": 1,
+                          "useMargins": False, "usePadding": False}}
             link = str(sp.get('url') or '').strip()
             if link:
                 b["action"] = link
