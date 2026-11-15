@@ -21,27 +21,17 @@
           "spacing": 12
         },
         {
-          "class": "DepictionStackView",
-          "orientation": "landscape",
-          "views": [
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "text": "测试",
-              "yPadding": 6
-            },
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#F16262",
-              "text": "测试 4",
-              "yPadding": 6
-            },
-            {
-              "class": "DepictionButtonView",
-              "tintColor": "#6366F1",
-              "text": "测试 1",
-              "yPadding": 6
-            }
+          "class": "DepictionImageView",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png",
+          "width": 398.0,
+          "height": 41.42348861694336,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "rcRow": [
+            "{\"text\":\"测试\",\"textColor\":\"\",\"color\":\"#6366F1\",\"fs\":16,\"alpha\":1,\"r\":9.55160140991211,\"h\":32,\"dx\":0,\"img\":\"depictions/img/com-charlieleung-liquidify-btn-adc28cfe.png\",\"rowimg\":\"depictions/img/com-charlieleung-liquidify-btn-fcc9a263-row.png\",\"w\":112.94660949707031,\"cw\":398,\"url\":\"\"}",
+            "{\"text\":\"测试 4\",\"textColor\":\"\",\"fs\":16,\"url\":\"\",\"h\":41.42348861694336,\"color\":\"#F16262\",\"img\":\"depictions/img/com-charlieleung-liquidify-btn-08cf08b8.png\",\"rowimg\":\"\",\"alpha\":1,\"w\":90,\"dx\":-29,\"r\":24,\"cw\":398}",
+            "{\"textColor\":\"\",\"w\":90,\"dx\":-63.66667175292969,\"h\":41.42348861694336,\"rowimg\":\"\",\"url\":\"\",\"r\":24,\"cw\":398,\"text\":\"测试 1\",\"color\":\"#6366F1\",\"fs\":16,\"alpha\":1,\"img\":\"depictions/img/com-charlieleung-liquidify-btn-4de15003.png\"}"
           ]
         },
         {
@@ -50,8 +40,8 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-aa726f24.png",
-          "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-row-v2-aa726f24.png",
+          "URL": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png",
+          "url": "https://ynyy.xbcxbc.cn/depictions/img/com-charlieleung-liquidify-btn-aea12212-row.png",
           "width": 398.0,
           "height": 20.0,
           "cornerRadius": 0,
