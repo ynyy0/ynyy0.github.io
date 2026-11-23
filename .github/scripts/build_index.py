@@ -340,6 +340,23 @@ def desc_views(md):
             ok = True
             for sp in specs:
                 irel = str(sp.get('img') or '')
+                if not irel:
+                    # 与 App / 部署补图同一算法：行内容 + 序号 + 格宽 + 行高
+                    parts = []
+                    for s2 in specs:
+                        nums = [int(float(s2.get(k) or 0) * 100 + 0.5)
+                                for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx', 'cw')]
+                        parts.append('|'.join([str(s2.get('text') or ''), str(s2.get('color') or ''),
+                                               str(s2.get('textColor') or ''), str(s2.get('url') or ''),
+                                               ','.join(str(n) for n in nums)]))
+                    cw0 = float(specs[0].get('cw') or 0) or float(sp.get('cw') or 0)
+                    key = '//'.join(parts) + '|cell|%d|%d|%d' % (
+                        specs.index(sp), int(round(cw0)),
+                        int(round(max(float(s2.get('h') or 40) for s2 in specs))))
+                    hh2 = 2166136261
+                    for b2 in key.encode('utf-8'):
+                        hh2 = ((hh2 ^ b2) * 16777619) & 0xffffffff
+                    irel = 'depictions/img/rc-cell-v2-%08x.png' % hh2
                 raw = str(sp.get('imgdata') or '')
                 p = ROOT / irel if irel else None
                 if irel and not p.is_file() and raw:
