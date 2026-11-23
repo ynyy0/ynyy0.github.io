@@ -356,7 +356,7 @@ def desc_views(md):
                     hh2 = 2166136261
                     for b2 in key.encode('utf-8'):
                         hh2 = ((hh2 ^ b2) * 16777619) & 0xffffffff
-                    irel = 'depictions/img/rc-cell-v2-%08x.png' % hh2
+                    irel = 'depictions/img/rc-cell-v3-%08x.png' % hh2
                 raw = str(sp.get('imgdata') or '')
                 p = ROOT / irel if irel else None
                 if irel and not p.is_file() and raw:
