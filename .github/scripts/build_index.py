@@ -4,6 +4,7 @@ Shared by .github/workflows/release.yml (commits the result back to the repo)
 and .github/workflows/deploy-pages.yml (deploys the freshly built site).
 """
 import base64
+import struct
 import hashlib
 import json
 import os
@@ -350,11 +351,21 @@ def desc_views(md):
                 if not irel or not p.is_file():
                     ok = False
                     break
-                cw = float(sp.get('cw') or 0)
-                w = int(round(cw)) if cw > 0 else int(round(float(sp.get('w') or 112)))
+                # 声明尺寸必须等于 PNG 的真实像素/3，否则 Sileo 会按声明比例拉伸，
+                # 图里的按钮就被拉高/压扁（上一版 32pt 的图按 48 声明，直接糊掉）。
+                try:
+                    raw_png = p.read_bytes()
+                    wpx = struct.unpack('>I', raw_png[16:20])[0]
+                    hpx = struct.unpack('>I', raw_png[20:24])[0]
+                    w = max(20, int(round(wpx / 3.0)))
+                    hh_pt = max(10, int(round(hpx / 3.0)))
+                except Exception:
+                    cw = float(sp.get('cw') or 0)
+                    w = int(round(cw)) if cw > 0 else int(round(float(sp.get('w') or 112)))
+                    hh_pt = cell_h
                 inner = {"class": "DepictionImageView",
                          "URL": SITE_BASE + '/' + irel, "url": SITE_BASE + '/' + irel,
-                         "width": w, "height": cell_h,
+                         "width": w, "height": hh_pt,
                          "cornerRadius": 0, "alignment": 1}
                 btn = {"class": "DepictionButtonView",
                        # 点击层底色用按钮自身的颜色：与图上的色块重合，肉眼看不到边缘
