@@ -12,6 +12,116 @@
           "spacing": 12
         },
         {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "views": [
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#e9f3ff",
+              "yPadding": 6,
+              "rcButton": "{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"插件官网\",\"textColor\":\"#335d86\",\"url\":\"https:\\/\\/fanqie.goforit.si\\/\",\"w\":112}",
+              "action": "https://fanqie.goforit.si/",
+              "openExternal": true,
+              "view": {
+                "class": "DepictionLabelView",
+                "text": "插件官网",
+                "fontSize": 14,
+                "fontWeight": "medium",
+                "textColor": "#335d86",
+                "alignment": 1,
+                "useMargins": false,
+                "usePadding": false
+              }
+            },
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#e9f3ff",
+              "yPadding": 6,
+              "rcButton": "{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"提交反馈\",\"textColor\":\"#335d86\",\"url\":\"https:\\/\\/pingme.pm\\/fanqie\",\"w\":112}",
+              "action": "https://pingme.pm/fanqie",
+              "openExternal": true,
+              "view": {
+                "class": "DepictionLabelView",
+                "text": "提交反馈",
+                "fontSize": 14,
+                "fontWeight": "medium",
+                "textColor": "#335d86",
+                "alignment": 1,
+                "useMargins": false,
+                "usePadding": false
+              }
+            },
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#e9f3ff",
+              "yPadding": 6,
+              "rcButton": "{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"赏杯咖啡\",\"textColor\":\"#335d86\",\"url\":\"https:\\/\\/qr.alipay.com\\/fkx180736inoxop5mkbqh83?_s=web-other\",\"w\":112}",
+              "action": "https://qr.alipay.com/fkx180736inoxop5mkbqh83?_s=web-other",
+              "openExternal": true,
+              "view": {
+                "class": "DepictionLabelView",
+                "text": "赏杯咖啡",
+                "fontSize": 14,
+                "fontWeight": "medium",
+                "textColor": "#335d86",
+                "alignment": 1,
+                "useMargins": false,
+                "usePadding": false
+              }
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "views": [
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#e9f3ff",
+              "yPadding": 6,
+              "rcButton": "{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 频道\",\"textColor\":\"#335d86\",\"url\":\"https:\\/\\/t.me\\/junhongdev\",\"w\":112}",
+              "action": "https://t.me/junhongdev",
+              "openExternal": true,
+              "view": {
+                "class": "DepictionLabelView",
+                "text": "加入 TG 频道",
+                "fontSize": 14,
+                "fontWeight": "medium",
+                "textColor": "#335d86",
+                "alignment": 1,
+                "useMargins": false,
+                "usePadding": false
+              }
+            },
+            {
+              "class": "DepictionButtonView",
+              "tintColor": "#e9f3ff",
+              "yPadding": 6,
+              "rcButton": "{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 群组\",\"textColor\":\"#335d86\",\"url\":\"https:\\/\\/t.me\\/junhongdevchat\",\"w\":112}",
+              "action": "https://t.me/junhongdevchat",
+              "openExternal": true,
+              "view": {
+                "class": "DepictionLabelView",
+                "text": "加入 TG 群组",
+                "fontSize": 14,
+                "fontWeight": "medium",
+                "textColor": "#335d86",
+                "alignment": 1,
+                "useMargins": false,
+                "usePadding": false
+              }
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
           "class": "DepictionMarkdownView",
           "markdown": "去除 tg 验证",
           "useSpacing": true
