@@ -433,6 +433,12 @@
       ],
       "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"插件官网\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/fanqie.goforit.si\\\/\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"提交反馈\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/pingme.pm\\\/fanqie\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"赏杯咖啡\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/qr.alipay.com\\\/fkx180736inoxop5mkbqh83?_s=web-other\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 频道\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/t.me\\\/junhongdev\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 群组\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/t.me\\\/junhongdevchat\",\"w\":112}@@\n\nA狗的微信全局圆角插件原版 1.8.6-END 下载源里全局圆角（免授权）插件即可解锁授权"
     },
+    "com.be-huge.bullet.roothide" : {
+      "cats" : [
+        "公益插件"
+      ],
+      "section" : "公益插件"
+    },
     "com.binglan.dynamicfx" : {
       "cats" : [
         "公益插件"
