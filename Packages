@@ -554,6 +554,23 @@ Icon: https://ynyy.xbcxbc.cn/icons/com.mallin.tunnelsharevpn.png?v=e462c325
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mallin.tunnelsharevpn.json?v=b73cf900r2
 
+Package: com.mg.adskip
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: debs/com.mg.adskip_1.3.1_iphoneos-arm64e.deb
+Size: 100508
+MD5sum: 2cb5e9698eea9787fea461429d943170
+SHA1: 1f01bfd94a0dd7d26f354b3ff29d9c5f0ab213f9
+SHA256: b1c1d32924ff72a19bd89d74d5c0e5d394a4e6e5f4fe44a58f91abb5e0659851
+Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
+Author: M哥
+Name: 广告跳过
+Icon: https://ynyy.xbcxbc.cn/icons/com.mg.adskip.png?v=3d3d7390
+Section: 软件优化
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mg.adskip.json?v=fe439607r2
+
 Package: com.muzi.mutool
 Version: 2.2.59
 Architecture: iphoneos-arm64e
@@ -816,3 +833,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
