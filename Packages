@@ -262,7 +262,7 @@ Name: FV分屏
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.floating-view.png?v=ca8a7cdb
 Description: 作者已去除验证
 Section: 分屏插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.floating-view.json?v=ea5730ddr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.floating-view.json?v=32a26820r2
 
 Package: com.Axs.qjsy
 Version: 4.1.6
@@ -483,7 +483,7 @@ Name: 88液态玻璃插件 1.3.8
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Description: 去除 tg 验证
 Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=2670eeebr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=18128865r2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -810,7 +810,7 @@ Name: 番茄净化
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=4f85a743
 Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=f837b4f9r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=b46d006dr2
 
 Package: fanqiefn.roothide
 Version: 3.5.3
@@ -832,7 +832,7 @@ Name: 番茄净化 (Roothide)
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
 Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。 阅读与广告净化 - 过滤阅读、听书、短篇及页面中的广告和推广内容 - 可隐藏章末讨论、送礼物、作者的话等入口，以及看书页改编剧场入口 - 可关闭评价邀请、听读赚钱挂件等干扰内容 底部导航 - 支持原生液态玻璃与仿液态毛玻璃效果，按系统能力
 Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=7f421b46r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=04aec0ccr2
 
 Package: iya.banana.ios27animation
 Version: 2.2
@@ -868,3 +868,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
