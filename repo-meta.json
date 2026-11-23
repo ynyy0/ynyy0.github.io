@@ -1570,6 +1570,13 @@
       ],
       "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"插件官网\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/fanqie.goforit.si\\\/\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"提交反馈\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/pingme.pm\\\/fanqie\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"赏杯咖啡\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/qr.alipay.com\\\/fkx180736inoxop5mkbqh83?_s=web-other\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 频道\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/t.me\\\/junhongdev\",\"w\":112}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#e9f3ff\",\"cw\":0,\"dx\":0,\"fs\":13,\"h\":25,\"img\":\"\",\"r\":9,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"加入 TG 群组\",\"textColor\":\"#335d86\",\"url\":\"https:\\\/\\\/t.me\\\/junhongdevchat\",\"w\":112}@@\n\nV6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist\/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。"
     },
+    "debs\/com.gtoks_1.7-1_iphoneos-arm64.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.gtoks.json",
+      "section" : "软件优化"
+    },
     "debs\/com.hang.douyinclockdock_1.2_iphoneos-arm64.deb" : {
       "cats" : [
         "抖音插件"
