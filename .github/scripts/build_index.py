@@ -571,13 +571,19 @@ def main():
                     if cur.get('tabs') != new_tabs:
                         cur['tabs'] = new_tabs
                         changed = True
+                    # 页签高亮色：有自定义色用自定义色，没有就统一用 Sileo 的标准蓝。
+                    # 以前没色时保留源详情页继承来的颜色，App 端只能猜，两端颜色对不上。
+                    tint = ''
                     for t in tabs_override:
                         c = str(t.get('color') or '')
                         if c:
-                            if cur.get('tintColor') != c:
-                                cur['tintColor'] = c
-                                changed = True
+                            tint = c
                             break
+                    if not tint:
+                        tint = '#27BEF5'
+                    if cur.get('tintColor') != tint:
+                        cur['tintColor'] = tint
+                        changed = True
                 if changed:
                     dep_file.write_text(json.dumps(cur, ensure_ascii=False, indent=2), encoding='utf-8')
             except Exception:
