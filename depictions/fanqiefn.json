@@ -13,26 +13,6 @@
           "spacing": 12
         },
         {
-          "class": "DepictionButtonView",
-          "tintColor": "#5CB83D",
-          "yPadding": 0,
-          "view": {
-            "class": "DepictionImageView",
-            "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-cell-v3-80d52580.png",
-            "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-cell-v3-80d52580.png",
-            "width": 398,
-            "height": 32,
-            "cornerRadius": 0,
-            "alignment": 1
-          },
-          "action": "https://qm.qq.com/q/Ipwse1kKse",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 12
-        },
-        {
           "class": "DepictionStackView",
           "orientation": "landscape",
           "views": [
