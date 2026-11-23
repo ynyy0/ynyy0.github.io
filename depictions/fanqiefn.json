@@ -15,16 +15,15 @@
         {
           "class": "DepictionButtonView",
           "tintColor": "#5CB83D",
-          "yPadding": 6,
+          "yPadding": 0,
           "view": {
-            "class": "DepictionLabelView",
-            "text": "官方QQ 群聊",
-            "fontSize": 14,
-            "fontWeight": "medium",
-            "textColor": "#000000",
-            "alignment": 1,
-            "useMargins": false,
-            "usePadding": false
+            "class": "DepictionImageView",
+            "URL": "https://ynyy.xbcxbc.cn/depictions/img/rc-cell-v1-80d52580.png",
+            "url": "https://ynyy.xbcxbc.cn/depictions/img/rc-cell-v1-80d52580.png",
+            "width": 398,
+            "height": 48,
+            "cornerRadius": 0,
+            "alignment": 1
           },
           "action": "https://qm.qq.com/q/Ipwse1kKse",
           "openExternal": true
