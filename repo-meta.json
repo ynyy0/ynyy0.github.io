@@ -753,6 +753,12 @@
       "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/com.mallin.tunnelsharevpn.json",
       "section" : "软件优化"
     },
+    "debs\/com.mg.adskip_1.3.1_iphoneos-arm64e.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "section" : "软件优化"
+    },
     "debs\/com.mlgm.actra_1.2_iphoneos-arm64e.deb" : {
       "cats" : [
         "公益插件"
