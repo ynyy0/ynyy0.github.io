@@ -330,6 +330,47 @@ def desc_views(md):
         # 这类行跳过整行图，直接走下面的原生按钮（每颗 DepictionButtonView 自带
         # action），App 面板同样不贴整行图、改用原生绘制，两端显示一致。
         has_link = any(str(sp.get('url') or '').strip() for sp in specs)
+        # 带链接的行：显示【每颗按钮自己的格子图】，外面套原生按钮只当点击层。
+        # 这样商店画的是我们的像素（和 App 面板同一份 drawButton 输出），
+        # 高度/圆角/颜色/行距不再由 Sileo 的按钮样式决定 —— 根治「两端不一样」。
+        if has_link:
+            cell_h = int(round(row_h))
+            cells = []
+            ok = True
+            for sp in specs:
+                irel = str(sp.get('img') or '')
+                raw = str(sp.get('imgdata') or '')
+                p = ROOT / irel if irel else None
+                if irel and not p.is_file() and raw:
+                    try:
+                        p.parent.mkdir(parents=True, exist_ok=True)
+                        p.write_bytes(base64.b64decode(raw))
+                    except Exception as exc:
+                        print('cell image restore failed:', irel, exc)
+                if not irel or not p.is_file():
+                    ok = False
+                    break
+                cw = float(sp.get('cw') or 0)
+                w = int(round(cw)) if cw > 0 else int(round(float(sp.get('w') or 112)))
+                inner = {"class": "DepictionImageView",
+                         "URL": SITE_BASE + '/' + irel, "url": SITE_BASE + '/' + irel,
+                         "width": w, "height": cell_h,
+                         "cornerRadius": 0, "alignment": 1}
+                btn = {"class": "DepictionButtonView",
+                       # 点击层底色用按钮自身的颜色：与图上的色块重合，肉眼看不到边缘
+                       "tintColor": str(sp.get('color') or '#FFFFFF'),
+                       "yPadding": 0,
+                       "view": inner}
+                link = str(sp.get('url') or '').strip()
+                if link:
+                    btn["action"] = link
+                    btn["openExternal"] = True
+                cells.append(btn)
+            if ok and cells:
+                if len(cells) == 1:
+                    return cells[0]
+                return {"class": "DepictionStackView", "orientation": "landscape",
+                        "views": cells}
         path = ROOT / rel
         if rel and not has_link and not path.is_file():
             raw = str(specs[0].get('rowdata') or '')
