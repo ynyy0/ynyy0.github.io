@@ -344,8 +344,9 @@ def desc_views(md):
                     # 与 App / 部署补图同一算法：行内容 + 序号 + 格宽 + 行高
                     parts = []
                     for s2 in specs:
+                        # 与 Swift 的 rowKey 逐字一致：只放影响像素的字段，cw 绝不进 key
                         nums = [int(float(s2.get(k) or 0) * 100 + 0.5)
-                                for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx', 'cw')]
+                                for k in ('w', 'h', 'r', 'fs', 'alpha', 'dx')]
                         parts.append('|'.join([str(s2.get('text') or ''), str(s2.get('color') or ''),
                                                str(s2.get('textColor') or ''), str(s2.get('url') or ''),
                                                ','.join(str(n) for n in nums)]))
