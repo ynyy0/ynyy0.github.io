@@ -336,6 +336,24 @@ Name: 微信全局圆角
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.yuanjiao.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.yuanjiao.json?v=0b42a3a4r2
 
+Package: com.be-huge.bullet.roothide
+Version: 1.0.10
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 1072
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.bullet.roothide_1.0.10_arm64e (1).deb
+Size: 347518
+MD5sum: 68e224dfd1b605cf7829f0f1c031f85b
+SHA1: ff363ba44db056826c1cf23675ab2b93317533e0
+SHA256: 94218d575b336574b097faaaaefe0e581fd1db38b40c1d813fa0d050e2133ec1
+Description: 已公益
+Author: 小菜
+Name: bullet(弹幕通知)-roothide
+Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Section: 公益插件
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.be-huge.bullet.roothide.json?v=ae0467b8r2
+
 Package: com.binglan.dynamicfx
 Version: 1.0.7
 Architecture: iphoneos-arm64
@@ -850,3 +868,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
