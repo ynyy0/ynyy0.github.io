@@ -326,8 +326,12 @@ def desc_views(md):
         #    rcRow 保存每个按钮的完整 spec，App 回拉时还原成可编辑、可拖动的按钮。
         # 图文件缺失时，用 token 里随正文提交的 PNG 数据自己还原一份。
         # 这样不论 App 有没有把图另传成功、什么时候传，详情页永远有图可显示。
+        # 带链接的按钮行：一张整行图在 Sileo 里点不动，链接会失效。
+        # 这类行跳过整行图，直接走下面的原生按钮（每颗 DepictionButtonView 自带
+        # action），App 面板同样不贴整行图、改用原生绘制，两端显示一致。
+        has_link = any(str(sp.get('url') or '').strip() for sp in specs)
         path = ROOT / rel
-        if rel and not path.is_file():
+        if rel and not has_link and not path.is_file():
             raw = str(specs[0].get('rowdata') or '')
             if raw:
                 try:
@@ -335,7 +339,7 @@ def desc_views(md):
                     path.write_bytes(base64.b64decode(raw))
                 except Exception as exc:
                     print('row image restore failed:', rel, exc)
-        if rel and path.is_file():
+        if rel and not has_link and path.is_file():
             url = SITE_BASE + '/' + rel
             return {"class": "DepictionImageView", "URL": url, "url": url,
                     "width": ROW_W, "height": row_h, "cornerRadius": 0, "alignment": 1,
