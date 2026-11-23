@@ -519,6 +519,26 @@ Name: 芒果分屏1.0-Beta7-6
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.go.mango.json?v=101974e4r2
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
+Package: com.gtoks
+Version: 1.7-1
+Architecture: iphoneos-arm64
+Maintainer: g_tweaks
+Depends: firmware (>= 14.0), mobilesubstrate | substitute | libhooker | ellekit
+Conflicts: com.gtokcom.gtok
+Filename: debs/com.gtoks_1.7-1_iphoneos-arm64.deb
+Size: 914228
+MD5sum: 04022ca1d66424f748057c3c23227675
+SHA1: ef4fa40eda96b45c9c8960b6ee77b9547d40c326
+SHA256: c1b736f2d0cd89d8ee2306909dfd827eb0fb67b2dfdf21da5faacdab3373287a
+Description: TikTok 增强插件
+ * 支持中文，需要在插件设置内手动云端翻译
+ * GTok for TikTok by t.me/g_tweaks
+Author: g_tweaks
+Name: GTok TikTok 增强
+Icon: https://ynyy.xbcxbc.cn/icons/com.gtoks.png?v=ce01394a
+Section: 软件优化
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.gtoks.json?v=8e3d022ar2
+
 Package: com.hang.douyinclockdock
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -830,3 +850,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
