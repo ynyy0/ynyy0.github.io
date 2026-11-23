@@ -792,7 +792,7 @@ Name: 番茄净化
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=4f85a743
 Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=f9f585fcr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=8de9d3bdr2
 
 Package: fanqiefn.roothide
 Version: 3.5.3
@@ -850,3 +850,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
