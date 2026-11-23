@@ -569,7 +569,7 @@ Author: M哥
 Name: 广告跳过
 Icon: https://ynyy.xbcxbc.cn/icons/com.mg.adskip.png?v=3d3d7390
 Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mg.adskip.json?v=fe439607r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mg.adskip.json?v=7361e63cr2
 
 Package: com.muzi.mutool
 Version: 2.2.59
@@ -755,6 +755,25 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.wcliquidglass.free.json?v=0084ab16r2
 
+Package: fanqiefn
+Version: 3.5.3
+Architecture: iphoneos-arm64
+Maintainer: junhong
+Installed-Size: 5656
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/fanqiefn_3.5.3_iphoneos-arm64.deb
+Size: 2453752
+MD5sum: 3b1ddb9a5b3aa1b13a0a53c88bd8bc24
+SHA1: 9b5a77f3d8ded354bd92f84a518e23b39bdada3a
+SHA256: 80bcffda22fbed65ad1061017aff06ba4dfe0411bff742cd526c9c8d00446f0b
+Homepage: https://fanqie.goforit.si
+Author: junhong
+Name: 番茄净化
+Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=4f85a743
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
+Section: 软件优化
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=f9f585fcr2
+
 Package: fanqiefn.roothide
 Version: 3.5.3
 Architecture: iphoneos-arm64e
@@ -811,3 +830,4 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
