@@ -298,9 +298,12 @@ def desc_views(md):
         specs = [btn_spec(v) for v in group]
         if any(sp is None for sp in specs):
             return None
-        # 源原生按钮（碰一碰 3+2）不进整行图：它们由 Sileo 原生 landscape 渲染，
-        # App 面板也按同样方式画，两端本来就一致，不要动。
-        if any(is_native(sp) for sp in specs):
+        # 带链接优先：自建按钮只要填了链接，就必须走下面的「格图 + 点击层」。
+        # 不能因为尺寸恰好落在 24~30 / 字号<=14 / 带 textColor 被 is_native 挡掉 ——
+        # 那会让商店退回 Sileo 原生按钮，和 App 面板永远不一样。
+        has_link = any(str(sp.get('url') or '').strip() for sp in specs)
+        # 源原生按钮（碰一碰 3+2，无链接）不进整行图：保持 Sileo 原生 landscape
+        if not has_link and any(is_native(sp) for sp in specs):
             return None
         # 路径由 App 随正文一起写进第一个 token，脚本读同一份 token。
         # 以前脚本自己按内容推导，本地 meta 与线上 meta 版本一差就找不到图，
