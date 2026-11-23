@@ -349,10 +349,12 @@ def desc_views(md):
                         parts.append('|'.join([str(s2.get('text') or ''), str(s2.get('color') or ''),
                                                str(s2.get('textColor') or ''), str(s2.get('url') or ''),
                                                ','.join(str(n) for n in nums)]))
-                    cw0 = float(specs[0].get('cw') or 0) or float(sp.get('cw') or 0)
+                    # 与 RCButtonRenderer.rowFrames / displaySpec 逐字一致：
+                    # cellW = max(60, (398 - 16*(n-1)) / n)；链接/原生按钮行高固定 32。
+                    n_cell = max(1, len(specs))
+                    cell_w = max(60.0, (398.0 - 16.0 * (n_cell - 1)) / n_cell)
                     key = '//'.join(parts) + '|cell|%d|%d|%d' % (
-                        specs.index(sp), int(round(cw0)),
-                        int(round(max(float(s2.get('h') or 40) for s2 in specs))))
+                        specs.index(sp), int(round(cell_w)), 32)
                     hh2 = 2166136261
                     for b2 in key.encode('utf-8'):
                         hh2 = ((hh2 ^ b2) * 16777619) & 0xffffffff
