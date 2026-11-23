@@ -755,28 +755,6 @@ Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.wcliquidglass.free.json?v=0084ab16r2
 
-Package: fanqiefn
-Version: 3.5.0
-Architecture: iphoneos-arm64e
-Maintainer: junhong
-Installed-Size: 4804
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: fanqiefn
-Replaces: fanqiefn
-Provides: fanqiefn
-Filename: debs/fanqiefn_3.5.0_iphoneos-arm64e.deb
-Size: 2112228
-MD5sum: 72bdd4beb464ce6a8c6c842cb74f9016
-SHA1: 13f95db0beb6e22387c220f33a69c06329594b6c
-SHA256: 3de01a27cb7671aef35bf7f91995f64494ffae7fd432a1e447e457fae4c1f9fb
-Homepage: https://fanqie.goforit.si
-Author: junhong
-Name: 番茄净化
-Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=f910fa33
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
-Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=bf82445er2
-
 Package: fanqiefn.roothide
 Version: 3.5.3
 Architecture: iphoneos-arm64e
@@ -833,4 +811,3 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
-

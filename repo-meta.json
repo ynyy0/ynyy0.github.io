@@ -865,6 +865,13 @@
       "rich_description" : "净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。",
       "section" : "软件优化"
     },
+    "debs\/fanqiefn_3.5.3_iphoneos-arm64.deb" : {
+      "cats" : [
+        "软件优化"
+      ],
+      "depiction" : "https:\/\/ynyy.xbcxbc.cn\/depictions\/fanqiefn.json",
+      "section" : "软件优化"
+    },
     "debs\/fanqiefn.roothide_3.5.0_iphoneos-arm64e.deb" : {
       "cats" : [
         "软件优化"
