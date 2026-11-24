@@ -886,22 +886,3 @@ Icon: https://axs66.github.io/pro/icon/huaban.png
 Name: Pulse
 Section: 实用插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/xiaocai.luping.json?v=1ee3688er2
-
-Package: xiaocai.luping.roothide
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: 小菜
-Installed-Size: 744
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), mobilesubstrate
-Filename: debs/xiaocai.luping.roothide_1.0.1_iphoneos-arm64e.deb
-Size: 341268
-MD5sum: fa6370c2c0d6e4191eaf56c3d045b0fe
-SHA1: a21e30e441ae416e74093cbe12e961158a284d23
-SHA256: c9bbb2e8d635f45e47351bf2707c0588c2018e60c1e011e95d54029e03ee50be
-Description: 基于花瓣录屏 增加设置项 可自定义素材 GIF PNG JPG
-Author: 小菜
-Icon: https://axs66.github.io/pro/icon/huaban.png
-Name: Pulse
-Section: 实用插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/xiaocai.luping.roothide.json?v=1ee3688er2
-
