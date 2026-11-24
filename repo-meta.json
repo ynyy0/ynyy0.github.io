@@ -18,6 +18,36 @@
       ],
       "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nSquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）"
     },
+    "cn.zqbb.fix120hz" : {
+      "panel_tabs" : [
+        {
+          "color" : "",
+          "content" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nUnlock dynamic refresh rate from 80Hz to 120Hz.",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "",
+          "content" : "",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nUnlock dynamic refresh rate from 80Hz to 120Hz."
+    },
+    "cn.zqbb.fix120hz.obf" : {
+      "panel_tabs" : [
+        {
+          "color" : "",
+          "content" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "",
+          "content" : "",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@"
+    },
     "com.Axs.yuanjiao" : {
       "panel_tabs" : [
         {
@@ -152,6 +182,36 @@
         }
       ],
       "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nSquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）"
+    },
+    "debs\/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb" : {
+      "panel_tabs" : [
+        {
+          "color" : "",
+          "content" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nUnlock dynamic refresh rate from 80Hz to 120Hz.",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "",
+          "content" : "",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\nUnlock dynamic refresh rate from 80Hz to 120Hz."
+    },
+    "debs\/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e.deb" : {
+      "panel_tabs" : [
+        {
+          "color" : "",
+          "content" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@",
+          "title" : "插件简介"
+        },
+        {
+          "color" : "",
+          "content" : "",
+          "title" : "更新日志"
+        }
+      ],
+      "rich_description" : "@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@\n\n@@RCBTN{\"alpha\":1,\"color\":\"#6366F1\",\"cw\":0,\"dx\":0,\"fs\":16,\"h\":37.50889587402344,\"img\":\"\",\"imgdata\":\"\",\"r\":9.55160140991211,\"rowdata\":\"\",\"rowimg\":\"\",\"text\":\"测试\",\"textColor\":\"\",\"url\":\"\",\"w\":143.29537963867188}@@"
     },
     "debs\/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb" : {
       "panel_tabs" : [
