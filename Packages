@@ -27,11 +27,11 @@ Size: 2622882
 MD5sum: 966635cde69eafc3fa151aab3dcdf1ad
 SHA1: 2ecc398fa4808de6a23491e8126f1e49f1cab286
 SHA256: a6cd045958efc12418df9ec1a5b009e1444839f69713698bb65a754ac16d9c3b
+Section: 手势键盘
 Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
 Author: SquidForce, Backup
+Name: 乌贼键盘无根
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.png?v=97056edd
-Name: 乌贼键盘
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.json?v=7980e240r2
 
 Package: cn.octoforce.squidextender.roothide
@@ -46,11 +46,11 @@ Size: 2306812
 MD5sum: c0538acf10927677f2cc2d48ca02ac97
 SHA1: 9e35a4fc272e42d2ba6ff17772e2143e9fc02a8b
 SHA256: 6eb6ce1c198d556894a19cea02977269a4bdeb6bc35b9167c11640e828134599
+Section: 手势键盘
 Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Author: SquidForce, Backup
+Name: 乌贼键盘隐根
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidextender.roothide.png?v=97056edd
-Name: 乌贼键盘 Roothide
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidextender.roothide.json?v=83e55068r2
 
 Package: cn.octoforce.squidgesturepro
@@ -65,12 +65,12 @@ Size: 1930346
 MD5sum: 9703d9d208b4cc3b8a789d6e32cdaf20
 SHA1: ed4eeaaed72349402a289407e9879add5e938051
 SHA256: f0cd8203a86bf0b22a62ba719764cce115a65aacc42a7a02e3f9da69f0df0041
+Section: 手势键盘
 Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
-Name: 乌贼手势
-Section: 公益插件
+Name: 乌贼手势无根
+Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.png?v=3de88819
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.json?v=67681c58r2
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: cn.octoforce.squidgesturepro.roothide
 Version: 2.7.6-1
@@ -84,11 +84,11 @@ Size: 1795550
 MD5sum: 5d6527bd945e2f170e73db037852ea7e
 SHA1: 095879de267251b99d34cf3d5d6dac9753c5ff8b
 SHA256: 24c6797b59235393b85713338b1364595f95c49d14de713343a0c1bc5a26850a
+Section: 手势键盘
 Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
 Author: 刀哥
+Name: 乌贼手势隐根
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
-Name: 乌贼手势 Roothide
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json?v=fdc9022ar2
 
 Package: cn.zqbb.fix120hz
@@ -103,11 +103,11 @@ Size: 44096
 MD5sum: 5007a856a3ae908531c271c629e380ca
 SHA1: a910279f68472ef29d919aff50706dcb48c1093e
 SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
+Section: Tweaks
 Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.png?v=97056edd
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.json?v=57e72f79r2
 
 Package: cn.zqbb.fix120hz.obf
@@ -122,6 +122,7 @@ Size: 413006
 MD5sum: 07c4b1dcb8857c8ecb4e3eb375c40b2a
 SHA1: 8e82bf5f92d983762673e3ebc7a7bc21f7ed5d71
 SHA256: a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b
+Section: Hello系列
 Description:
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -129,7 +130,6 @@ Description:
 Author: zqbb
 Name: Hello 120Hz
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.obf.png?v=97a61728
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.obf.json?v=ce967493r2
 
 Package: cn.zqbb.hello.bundleid
@@ -142,11 +142,11 @@ Size: 2961700
 MD5sum: 1f5e8449cbff8fdd0c590ab44f4b10fd
 SHA1: 9490ff94b3ac41ba64cd97d852200cb0265b0b43
 SHA256: 5820fd3fe6014fe73e814b13797c71934bab3164b73059cdb14d4953b4e41792
+Section: zqbb Tweaks
 Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
 Author: zqbb
 Name: Hello BundleID
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.bundleid.png?v=42e601bb
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.bundleid.json?v=63ac7c44r2
 
 Package: cn.zqbb.hello.keyboard.ai
@@ -161,11 +161,11 @@ Size: 2811520
 MD5sum: cc726eded2c84cf5d0ef7809d2b9a926
 SHA1: 50a4cb6801dbd77c832c89750fa454c4d74829a7
 SHA256: 10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507
+Section: zqbb Tweaks
 Description: Quickly activate AI mode.
 Author: zqbb
 Name: Hello 键盘侠
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.keyboard.ai.png?v=6ec288ba
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.keyboard.ai.json?v=49ac1b9fr2
 
 Package: cn.zqbb.hello.memorystatus
@@ -179,11 +179,11 @@ Size: 3066828
 MD5sum: 016394ecd99a940c0f5303c2097deae0
 SHA1: e94c6f899e18bbd266a8ede68192ca065cf77c1c
 SHA256: 0fe9dde077b63f01f8d8eed5178ad8a167330e3791539edd5e2fdefae90e223e
+Section: zqbb Tweaks
 Description: Set memorystatus to avoid being killed by the system
 Author: zqbb
 Name: Hello Memory Status
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.memorystatus.png?v=f143008a
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.memorystatus.json?v=a926d885r2
 
 Package: cn.zqbb.hello.qactions
@@ -197,11 +197,11 @@ Size: 667242
 MD5sum: d1c2eed2cf3ade05ff843098f4c4083b
 SHA1: c982092856fc14b17c174e7eb522322979baac6c
 SHA256: 89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f
+Section: Tweaks
 Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
 Author: zqbb
 Name: Hello QActions
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.qactions.png?v=4afc2b42
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.qactions.json?v=c187babbr2
 
 Package: cn.zqbb.hello.quick.panel
@@ -215,11 +215,11 @@ Size: 1498378
 MD5sum: cc5516f764f067f89e9112e4ec73c075
 SHA1: dd1510cf7350561120519321710400d932b02e43
 SHA256: 2ea05f0bcfd5ac568b68fa84a3024ebe62b96dfe9ca739ffc9d516473f0f34bc
+Section: zqbb Tweaks
 Description: 快捷面板~
 Author: zqbb
 Name: Hello QuickPanel
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.hello.quick.panel.png?v=458e9f59
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.hello.quick.panel.json?v=11c59d62r2
 
 Package: cn.zqbb.holdcpu
@@ -234,11 +234,11 @@ Size: 1304438
 MD5sum: a46a3eeb1cd5ceb851525e740fddf1bf
 SHA1: ec63c40312f2dcac43a6b3461c0ff868bbcb1a73
 SHA256: 668cdd1e686feed82c9e871fb72c4431bc0ca502a07f7e0d1f7743acb00f654f
+Section: zqbb Tweaks
 Description: (解除温控) (锁定低电量CPU频率)
 Author: zqbb
 Name: Hello CPU
 Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.holdcpu.png?v=c03024ac
-Section: Hello系列
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.holdcpu.json?v=76fea3dar2
 
 Package: com.Axs.floating-view
@@ -252,6 +252,8 @@ Size: 662060
 MD5sum: 2d93b5f80cf17459ce0694019c46913b
 SHA1: e0b66fda2cf5b085ca1fa07eae655e7b98524a85
 SHA256: bd946dceb2a96391bccee15e8d93b256c689acedda9b103be50ccfd446f30d25
+Section: 分屏插件
+Description: 温馨提示:
   * 1、仅供个人备份与学习研究使用。
   * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
   * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
@@ -260,9 +262,7 @@ SHA256: bd946dceb2a96391bccee15e8d93b256c689acedda9b103be50ccfd446f30d25
 Author: be-huge
 Name: FV分屏
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.floating-view.png?v=ca8a7cdb
-Description: 作者已去除验证
-Section: 分屏插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.floating-view.json?v=32a26820r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.floating-view.json?v=ea5730ddr2
 
 Package: com.Axs.qjsy
 Version: 4.1.6
@@ -275,11 +275,11 @@ Size: 336980
 MD5sum: 165846e289de27614390df65340d308f
 SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
 SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
+Section: 系统美化
 Description: 让简单截图，拥有更多可能。
 Author: 冰蓝
 Name: 全局水印Pro
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.qjsy.png?v=fa359a98
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.qjsy.json?v=b3091d74r2
 
 Package: com.Axs.snapper3
@@ -293,11 +293,11 @@ Size: 1273734
 MD5sum: 89a03ecc73f5f60700b7c9fdd7fe37d4
 SHA1: 8894d787688d29e65fc07f0bdf0144796c64fa9e
 SHA256: 1fa090a837b2c4d059e4e8136275bbfeaafd66d58c981e320ed7893e4ddd2d5d
+Section: Tweaks
 Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
 Author: Jonathan Winger-lang
 Name: snapper3
 Icon: https://ynyy.xbcxbc.cn/icons/com.axs.snapper3.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.snapper3.json?v=a9a215c3r2
 
 Package: com.Axs.xmzs
@@ -313,10 +313,10 @@ SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
 SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
 Section: 微信插件
 Priority: optional
+Description: 微信功能扩展
 Author: xmmm
 Name: 熊猫助手
 Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.xmzs.png?v=31a5701c
-Description: 微信功能扩展
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.xmzs.json?v=1737705er2
 
 Package: com.Axs.yuanjiao
@@ -347,12 +347,12 @@ Size: 347518
 MD5sum: 68e224dfd1b605cf7829f0f1c031f85b
 SHA1: ff363ba44db056826c1cf23675ab2b93317533e0
 SHA256: 94218d575b336574b097faaaaefe0e581fd1db38b40c1d813fa0d050e2133ec1
+Section: Tweaks
 Description: 已公益
 Author: 小菜
 Name: bullet(弹幕通知)-roothide
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.be-huge.bullet.roothide.json?v=ae0467b8r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.be-huge.bullet.roothide.json?v=77e70192r2
 
 Package: com.binglan.dynamicfx
 Version: 1.0.7
@@ -365,11 +365,11 @@ Size: 115776
 MD5sum: 0da67c62ffd42d0b476436f7415b419a
 SHA1: 5ebb648d4dd7e0f49e5de4139b97c74268cdd8d2
 SHA256: 61b88f7b7a80a55d778a4fda6ad72d169a9234180531d0d1bc4bc2b0b5d0adb1
+Section: 系统美化
 Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景
 Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.dynamicfx.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.binglan.dynamicfx.json?v=3789fe3cr2
 
 Package: com.binglan.kongzhidiy
@@ -383,11 +383,11 @@ Size: 3740156
 MD5sum: d013692bdeedab422b38ad5d1a373149
 SHA1: daef32141d5e97102fdb5d9ffd65a4ad3ef5f756
 SHA256: 0707fdaf56ccdfe284afcfdd5f9bafab6726d0dd1f32bf99a06a3e8b52d2744e
+Section: 控制中心
 Description: 控制中心中心美化？
 Author: binglan
 Name: 冰蓝控制中心2.3.6-end
 Icon: https://ynyy.xbcxbc.cn/icons/com.binglan.kongzhidiy.png?v=e808b5b3
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.binglan.kongzhidiy.json?v=3a946154r2
 
 Package: com.binglanqjsy.deb
@@ -401,11 +401,11 @@ Size: 164700
 MD5sum: 7b8c58cb8a72be2619d24206150ec195
 SHA1: 906f4452fecc7b97c088a4dab5badde54635ae75
 SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
+Section: 系统美化
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
 Author: 冰蓝
 Name: 冰蓝全局水印套壳
 Icon: https://ynyy.xbcxbc.cn/icons/com.binglanqjsy.deb.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.binglanqjsy.deb.json?v=da122368r2
 
 Package: com.bvm.wuzeililiang
@@ -419,11 +419,11 @@ Size: 38092
 MD5sum: edbdb03513b16f3880b7acd7cd0554d9
 SHA1: c5f46ce1816793ee2fc7ca995cb98b92e6e61289
 SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
+Section: 工具
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
 Author: BVN
 Name: 乌贼本地离线授权
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvm.wuzeililiang.png?v=88b7b536
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvm.wuzeililiang.json?v=ba24e394r2
 
 Package: com.bvn.copyvault.rl
@@ -439,12 +439,12 @@ Size: 1640920
 MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
 SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
 SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
+Section: 工具
+Description: 乌贼剪贴板
  先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
 Author: SquidForce, Backup
 Name: CopyVault
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.copyvault.rl.png?v=c9085c26
-Description: 使用源里免授权激活组件
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.copyvault.rl.json?v=cbee3e29r2
 
 Package: com.bvn.squidforcecrack.rl
@@ -459,11 +459,11 @@ Size: 36936
 MD5sum: 3a817babf0231da296be4d9ae76b6573
 SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
 SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+Section: 工具
 Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
 Author: BVN
 Name: SquidForce VIP
 Icon: https://ynyy.xbcxbc.cn/icons/com.bvn.squidforcecrack.rl.png?v=dbcc35ff
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.bvn.squidforcecrack.rl.json?v=c6057349r2
 
 Package: com.charlieleung.liquidify
@@ -478,12 +478,12 @@ Size: 16823032
 MD5sum: 9afe07ce86fd38045ba679fbe145eee4
 SHA1: 457cf87dc3de7a27d1c35496f87d74c9d690b6af
 SHA256: 0ef02bc4c0a40e578979007d840ff6420773b2bc644523c6eb5cbd44897cfd1e
+Section: Tweaks
+Description: 去除 tg 验证
 Author: 小菜
 Name: 88液态玻璃插件 1.3.8
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Description: 去除 tg 验证
-Section: 公益插件
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=18128865r2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.charlieleung.liquidify.json?v=2670eeebr2
 
 Package: com.eswick.harbor16
 Version: 2.0.0-alpha100+ci.8
@@ -495,12 +495,12 @@ Size: 154784
 MD5sum: c40c41b741a02da32b5b498f1c2ab3e9
 SHA1: 467957805e553bdcea540ba190b3461b911ff3ce
 SHA256: 6d1aefb68ac488ba020ad2d28323446b5988a129aedd00073479cf5686f470fe
+Section: Tweaks
 Description: 已汉化
 Author: 小菜
-Name: MaxDock已汉化
-Section: 汉化插件
+Name: MaxDock
+Icon: https://ynyy.xbcxbc.cn/icons/com.eswick.harbor16.png?v=b88616e2
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.json?v=1020589cr2
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: com.eswick.harbor16.roothide
 Version: 2.0.0-alpha100+ci.8
@@ -512,11 +512,11 @@ Size: 117556
 MD5sum: 6ddd46499948471027c2c54cc420bb12
 SHA1: 7713c6dced795588fe4a3a67671bb4b5256e6f17
 SHA256: e23c71b79c0515600a0d94b66cef8d13cbee9187033fb05f3b80179f38953320
+Section: Tweaks
+Description: 已公益
 Author: 小菜
+Name: MaxDock
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Name: MacDock 已汉化 Roothide
-Description: 已汉化
-Section: 汉化插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=00eed355r2
 
 Package: com.go.mango
@@ -534,8 +534,8 @@ Section: 分屏插件
 Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
 Author: go
 Name: 芒果分屏1.0-Beta7-6
+Icon: https://ynyy.xbcxbc.cn/icons/com.go.mango.png?v=b88616e2
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.go.mango.json?v=101974e4r2
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: com.gtoks
 Version: 1.7-1
@@ -548,14 +548,14 @@ Size: 914228
 MD5sum: 04022ca1d66424f748057c3c23227675
 SHA1: ef4fa40eda96b45c9c8960b6ee77b9547d40c326
 SHA256: c1b736f2d0cd89d8ee2306909dfd827eb0fb67b2dfdf21da5faacdab3373287a
+Section: TikTok
 Description: TikTok 增强插件
  * 支持中文，需要在插件设置内手动云端翻译
  * GTok for TikTok by t.me/g_tweaks
 Author: g_tweaks
 Name: GTok TikTok 增强
 Icon: https://ynyy.xbcxbc.cn/icons/com.gtoks.png?v=ce01394a
-Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.gtoks.json?v=edb4a95dr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.gtoks.json?v=8e3d022ar2
 
 Package: com.hang.douyinclockdock
 Version: 1.2
@@ -568,11 +568,11 @@ Size: 621716
 MD5sum: 924e03b0b78ce63bf43c5b7e3936958c
 SHA1: 59d36992f5490f91ca5b215dd77028aa0e858fb8
 SHA256: 5d16ea63ac06822c79b2f01915ef93f96780932f473c8d3dd0efa2077d2d2f18
+Section: Tweaks
 Description: dyyy魔改版
 Author: 航
 Name: 抖音Pro
 Icon: https://ynyy.xbcxbc.cn/icons/com.hang.douyinclockdock.png?v=1e9f7a01
-Section: 抖音插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.hang.douyinclockdock.json?v=71ca720br2
 
 Package: com.mallin.tunnelsharevpn
@@ -585,11 +585,11 @@ Size: 170246
 MD5sum: a3aa6695d7f137887fe7bd29702fbe4e
 SHA1: b5b511352270d093c136b82fa329f3b357707172
 SHA256: 99ba4789ff482d88bce531904d54e6cc8881199eddeb02b46fa1b56e084c881e
+Section: Tweaks
 Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
 Author: Mallin
 Name: VPN 共享
 Icon: https://ynyy.xbcxbc.cn/icons/com.mallin.tunnelsharevpn.png?v=e462c325
-Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mallin.tunnelsharevpn.json?v=b73cf900r2
 
 Package: com.mg.adskip
@@ -602,11 +602,11 @@ Size: 100508
 MD5sum: 2cb5e9698eea9787fea461429d943170
 SHA1: 1f01bfd94a0dd7d26f354b3ff29d9c5f0ab213f9
 SHA256: b1c1d32924ff72a19bd89d74d5c0e5d394a4e6e5f4fe44a58f91abb5e0659851
+Section: Tweaks
 Description: 在「设置 > 广告跳过」中为已安装的 App 单独开启，仅对开启的 App 生效，自动识别开屏广告跳过，系统应用不受影响；此为通用规则跳过，仅支持大多数应用跳过开屏广告，未支持跳过的等待适配。支持 rootless / RootHide
 Author: M哥
 Name: 广告跳过
 Icon: https://ynyy.xbcxbc.cn/icons/com.mg.adskip.png?v=3d3d7390
-Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.mg.adskip.json?v=7361e63cr2
 
 Package: com.muzi.mutool
@@ -621,11 +621,11 @@ Size: 829800
 MD5sum: 11600e679a3d6cd08c03258f73a25a92
 SHA1: f8d8f33aa6619ddd455e9e0c5a5077d520cd443d
 SHA256: 38c4d5b16a152dbcdc555092ce8a35d383357ce2c4a25b0d80c58a8ba3cae535
+Section: Tweaks
 Description: 已公益
 Author: 小菜
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 Name: MUtool
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.muzi.mutool.json?v=57f94019r2
 
 Package: com.notiflyx.tweak
@@ -639,11 +639,11 @@ Size: 81376
 MD5sum: 65aa1e665777a226ee128d86d0779ccb
 SHA1: 4efd09596c16103cafe8618f63d9dcc86e23588f
 SHA256: 7a087493d479f98b7db08f2a7b509d932a62da65dc51319b1d61cb62dcf8683f
+Section: Tweaks
 Description: 横屏弹幕通知，可用分屏打开，包含滑动动作以及消息气泡常驻
 Author: 半生年华&karma
 Name: NotiflyX
 Icon: https://ynyy.xbcxbc.cn/icons/com.notiflyx.tweak.png?v=1ebd08cc
-Section: 实用插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.notiflyx.tweak.json?v=8e5d3a0dr2
 
 Package: com.rain.120hzstable
@@ -658,11 +658,11 @@ Size: 69954
 MD5sum: 910949d1355f856f05ede306965f4f61
 SHA1: a9a765a8c0773fb009afed7fed8acee2c62881fe
 SHA256: fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba
+Section: Tweaks
 Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
 Author: Rain
 Name: RainFlow 120Hz
 Icon: https://ynyy.xbcxbc.cn/icons/com.rain.120hzstable.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.120hzstable.json?v=2b214bb1r2
 
 Package: com.rain.dock
@@ -676,11 +676,11 @@ Size: 140182
 MD5sum: a210c48270c6a8852efb1c1a174a38d8
 SHA1: cb3430d6067bd3280142ea003ad184cc42ba7db4
 SHA256: 17b35d6136e02c957788eae1f0d3746aef9da360df536d3cbd29d10159786b3b
+Section: Tweaks
 Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
 Author: Rain
 Name: Rain 的 Dock
 Icon: https://ynyy.xbcxbc.cn/icons/com.rain.dock.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.dock.json?v=67eb1492r2
 
 Package: com.rain.processmonitor
@@ -694,11 +694,11 @@ Size: 311952
 MD5sum: 8cff2f4ab5515c1f014d29529aea7553
 SHA1: ceec9ccdbe08320f3ce02c7e4c82ef6fc04585d2
 SHA256: c35d6c607463c03c119153578bfdb336b58693e218ce531486751a33e3181f61
+Section: Tweaks
 Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知、应用冷冻、依赖关系分析、进程关系图谱、应用DNA分析、网络流量监控、A/B对比测试、Tweak热加载、剪贴板监控、发热追踪、沙盒检查、Hook探测、进程快照对比等。
 Author: Rain
 Name: Rain 的应用
 Icon: https://ynyy.xbcxbc.cn/icons/com.rain.processmonitor.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.processmonitor.json?v=e6a569a9r2
 
 Package: com.rain.rainmhz
@@ -712,6 +712,7 @@ Size: 183964
 MD5sum: 9c68928e2cab4229298e2de640cf1884
 SHA1: 0e4b192db287d928a787a19fe8fb9731877dafd3
 SHA256: 936598e512411a685da8ec0d623fdbeda410c0aa68d2ace876088e4e28ddf4e5
+Section: Tweaks
 Description: Rain的CPU性能与稳帧控制插件
  通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
  包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
@@ -719,7 +720,6 @@ Tag: role::hacker, purpose::extension
 Author: Rain
 Name: Rain 的 Mhz
 Icon: https://ynyy.xbcxbc.cn/icons/com.rain.rainmhz.png?v=97056edd
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.rainmhz.json?v=db0db62br2
 
 Package: com.siwenjiajia.tweak.comm
@@ -734,10 +734,10 @@ MD5sum: 557cf40277104de011fb729f45380a66
 SHA1: 8f7ed16dc8bb9472035a3f7acadeb17931c3c653
 SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
 Section: 抖音插件
-Author: siwenjiajia
-Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
-Name: 抖音优化
 Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Author: siwenjiajia
+Name: 抖音优化
+Icon: https://ynyy.xbcxbc.cn/icons/com.siwenjiajia.tweak.comm.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.siwenjiajia.tweak.comm.json?v=b7f57a76r2
 
 Package: com.trollopenjb.patched.roothide
@@ -751,11 +751,11 @@ Size: 793082
 MD5sum: 33057ba194f977e02ca597d01834222e
 SHA1: 0e189cc1ead590454e4ca5b2fb6b0313b710faec
 SHA256: 4e86c509aea1467105165595bb6003ce62ea73e4a0a428b2f5eaac9bcfa3ec30
+Section: Tweaks
+Description: TrollOpenJB 破解版（授权校验已绕过，恒为已授权）。含完整设置面板。
 Author: 小菜
 Name: TrollOpenJB最新破解版
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Description: TrollOpenJB 破解版（授权校验已绕过，已授权）。含完整设置面板。
-Section: 分屏插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=3dbb39bfr2
 
 Package: com.unknown.wuzeililiang
@@ -768,13 +768,13 @@ Size: 165460
 MD5sum: 5de2a2be3032a85da4055fd3e6082472
 SHA1: de86786f7ca88cddc7841bbdd112883e66d658af
 SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
+Section: 工具
 Priority: optional
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀
-Section: 公益插件
+Icon: https://ynyy.xbcxbc.cn/icons/com.unknown.wuzeililiang.png?v=b88616e2
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.unknown.wuzeililiang.json?v=bc55f500r2
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
 
 Package: com.wcliquidglass.free
 Version: 2.0.3
@@ -786,11 +786,11 @@ Size: 731228
 MD5sum: 65ca2e958bb6ff1f440839fe48634dfa
 SHA1: f35a2baf73b052d224984cf929a668c6c2a3de24
 SHA256: f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281
+Section: 微信插件
 Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
 Author: TLzypjy
 Name: 58微信液态玻璃
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.wcliquidglass.free.json?v=0084ab16r2
 
 Package: fanqiefn
@@ -804,13 +804,13 @@ Size: 2453752
 MD5sum: 3b1ddb9a5b3aa1b13a0a53c88bd8bc24
 SHA1: 9b5a77f3d8ded354bd92f84a518e23b39bdada3a
 SHA256: 80bcffda22fbed65ad1061017aff06ba4dfe0411bff742cd526c9c8d00446f0b
+Section: Tweaks
 Homepage: https://fanqie.goforit.si
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Author: junhong
 Name: 番茄净化
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.png?v=4f85a743
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
-Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=b46d006dr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.json?v=f837b4f9r2
 
 Package: fanqiefn.roothide
 Version: 3.5.3
@@ -826,13 +826,13 @@ Size: 2463336
 MD5sum: f4942545ea2f090a178dfea29802c2c1
 SHA1: 12bb3a8cbcae288b5b409346ebde5e307c5d031f
 SHA256: fd818d647c6260ee3ba659f85ec43806994b3c8c54cc39bef59a69ed76b068f4
+Section: Tweaks
 Homepage: https://fanqie.goforit.si
+Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。
 Author: junhong
 Name: 番茄净化 (Roothide)
 Icon: https://ynyy.xbcxbc.cn/icons/fanqiefn.roothide.png?v=4f85a743
-Description: 净化阅读、听书及页面推广内容；支持章末入口管理、底部导航玻璃效果与插件配置备份。 阅读与广告净化 - 过滤阅读、听书、短篇及页面中的广告和推广内容 - 可隐藏章末讨论、送礼物、作者的话等入口，以及看书页改编剧场入口 - 可关闭评价邀请、听读赚钱挂件等干扰内容 底部导航 - 支持原生液态玻璃与仿液态毛玻璃效果，按系统能力
-Section: 软件优化
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=04aec0ccr2
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/fanqiefn.roothide.json?v=7f421b46r2
 
 Package: iya.banana.ios27animation
 Version: 2.2
@@ -845,11 +845,11 @@ Size: 1251268
 MD5sum: 9e65b18fedf16391eb2b3e61f46c0a4d
 SHA1: c07425366446db604988f02eb42c8d01fc4438a3
 SHA256: ef6fa79a7b3ca94c990fbe8d6943d45d478d56d06afadb5b878a00d787f5da88
+Section: 公益插件
+Description: 于你有源 / 已公益
 Author: 小菜
 Name: iOS27 Animation
 Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
-Description: 于你有源 / 已公益
-Section: 公益插件
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/iya.banana.ios27animation.json?v=030a6b40r2
 
 Package: org.coolstar.sileo
@@ -862,9 +862,46 @@ Size: 3320516
 MD5sum: 66a467e6bd7ab9849e0dc5f8ea7cddf5
 SHA1: 7b163f19b7219baf7de7aec24a3ff61b8b67fc47
 SHA256: 848e6985b14dcd6c063448d08a70abe9ca2f145f1e36f20d089cd6b92ed1e3c2
+Section: Packaging
 Description: A modern APT package manager frontend
 Author: wwg151 <wwg151@users.noreply.github.com>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
-Section: 软件优化
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/org.coolstar.sileo.json?v=f33a5c7ar2
+
+Package: xiaocai.luping
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 小菜
+Installed-Size: 744
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), mobilesubstrate
+Filename: debs/xiaocai.luping_1.0.1_iphoneos-arm64.deb
+Size: 350780
+MD5sum: f45d0ff16ef40ecdab3056950e2e2785
+SHA1: 9bda200a70b5444ff447c4791ae12edd6bb08d0e
+SHA256: 765904762d3a640508a9743bb6e12f8551889876bb642a4d28a7d787b8dc8520
+Description: 基于花瓣录屏 增加设置项 可自定义素材 GIF PNG JPG
+Author: 小菜
+Icon: https://axs66.github.io/pro/icon/huaban.png
+Name: Pulse
+Section: 实用插件
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/xiaocai.luping.json?v=bc7e2357r2
+
+Package: xiaocai.luping.roothide
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 小菜
+Installed-Size: 744
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), mobilesubstrate
+Filename: debs/xiaocai.luping.roothide_1.0.1_iphoneos-arm64e.deb
+Size: 341268
+MD5sum: fa6370c2c0d6e4191eaf56c3d045b0fe
+SHA1: a21e30e441ae416e74093cbe12e961158a284d23
+SHA256: c9bbb2e8d635f45e47351bf2707c0588c2018e60c1e011e95d54029e03ee50be
+Description: 基于花瓣录屏 增加设置项 可自定义素材 GIF PNG JPG
+Author: 小菜
+Icon: https://axs66.github.io/pro/icon/huaban.png
+Name: Pulse
+Section: 实用插件
+SileoDepiction: https://ynyy.xbcxbc.cn/depictions/xiaocai.luping.roothide.json?v=bc7e2357r2
+

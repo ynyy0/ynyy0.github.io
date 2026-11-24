@@ -1,101 +1,101 @@
 {
-    "class": "DepictionTabView",
-    "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
-    "tintColor": "",
-    "minVersion": "0.3",
-    "tabs": [
+  "class": "DepictionTabView",
+  "headerImage": "https://ynyy.xbcxbc.cn/depiction-bg.jpg?v=1",
+  "tintColor": "",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "插件简介",
+      "views": [
         {
-            "class": "DepictionStackView",
-            "tabname": "描述",
-            "views": [
-                {
-                    "text": "加入巨魔越狱交流群 Chat",
-                    "action": "https://t.me/TrollStorePro",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "markdown": "## TikTok 增强插件\n- 去除 TikTok 广告\n- 隐藏 AI 视频\n- 修改字体\n- 界面设置\n- 下载无水印视频\n- 切换国家/地区等等\n- 支持简体中文，在插件底部选择语言，添加中文翻译",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "预览",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 0,
-                    "itemSize": "{2000, 2000}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://ynyy.xbcxbc.cn/screenshots/com.gtoks_2.png"
-                        }
-                    ]
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详情",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.7-1",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 17.3.1",
-                    "title": "支持系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2026 年 08 月 17 日",
-                    "title": "最后更新"
-                },
-                {
-                    "title": "Telegram Gtweaksv",
-                    "action": "https://t.me/g_tweaks",
-                    "openExternal": 1,
-                    "class": "DepictionTableButtonView"
-                }
-            ]
+          "text": "加入巨魔越狱交流群 Chat",
+          "action": "https://t.me/TrollStorePro",
+          "openExternal": 1,
+          "class": "DepictionButtonView"
         },
         {
-            "class": "DepictionStackView",
-            "tabname": "更新",
-            "views": [
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "### 1.7-1\n- 解决 GTok 原插件会注入中国抖音导致抖音闪退问题"
-                }
-            ]
+          "markdown": "## TikTok 增强插件\n- 去除 TikTok 广告\n- 隐藏 AI 视频\n- 修改字体\n- 界面设置\n- 下载无水印视频\n- 切换国家/地区等等\n- 支持简体中文，在插件底部选择语言，添加中文翻译",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "预览",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 0,
+          "itemSize": "{2000, 2000}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://ynyy.xbcxbc.cn/screenshots/com.gtoks_2.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.7-1",
+          "title": "插件版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15 - iOS 17.3.1",
+          "title": "支持系统"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2026 年 08 月 17 日",
+          "title": "最后更新"
+        },
+        {
+          "title": "Telegram Gtweaksv",
+          "action": "https://t.me/g_tweaks",
+          "openExternal": 1,
+          "class": "DepictionTableButtonView"
         }
-    ]
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 1.7-1\n- 解决 GTok 原插件会注入中国抖音导致抖音闪退问题"
+        }
+      ]
+    }
+  ]
 }
