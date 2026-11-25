@@ -516,7 +516,7 @@ Section: Tweaks
 Description: 已公益
 Author: 小菜
 Name: MaxDock
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/icons/com.eswick.harbor16.roothide.png?v=40b9e679
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.eswick.harbor16.roothide.json?v=00eed355r2
 
 Package: com.go.mango
@@ -662,7 +662,7 @@ Section: Tweaks
 Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
 Author: Rain
 Name: RainFlow 120Hz
-Icon: https://ynyy.xbcxbc.cn/icons/com.rain.120hzstable.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.120hzstable.png?v=b3c77d0d
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.120hzstable.json?v=2b214bb1r2
 
 Package: com.rain.dock
@@ -680,7 +680,7 @@ Section: Tweaks
 Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
 Author: Rain
 Name: Rain 的 Dock
-Icon: https://ynyy.xbcxbc.cn/icons/com.rain.dock.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.dock.png?v=f2665264
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.dock.json?v=67eb1492r2
 
 Package: com.rain.processmonitor
@@ -719,7 +719,7 @@ Description: Rain的CPU性能与稳帧控制插件
 Tag: role::hacker, purpose::extension
 Author: Rain
 Name: Rain 的 Mhz
-Icon: https://ynyy.xbcxbc.cn/icons/com.rain.rainmhz.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.rain.rainmhz.png?v=f2665264
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.rain.rainmhz.json?v=db0db62br2
 
 Package: com.siwenjiajia.tweak.comm
@@ -755,7 +755,7 @@ Section: Tweaks
 Description: TrollOpenJB 破解版（授权校验已绕过，恒为已授权）。含完整设置面板。
 Author: 小菜
 Name: TrollOpenJB最新破解版
-Icon: https://ynyy.xbcxbc.cn/CydiaIcon.png?v=5e7b01ab
+Icon: https://ynyy.xbcxbc.cn/icons/com.trollopenjb.patched.roothide.png?v=cd91f4e1
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.trollopenjb.patched.roothide.json?v=3dbb39bfr2
 
 Package: com.unknown.wuzeililiang
