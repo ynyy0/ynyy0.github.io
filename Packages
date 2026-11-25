@@ -91,25 +91,6 @@ Name: 乌贼手势隐根
 Icon: https://ynyy.xbcxbc.cn/icons/cn.octoforce.squidgesturepro.roothide.png?v=97056edd
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.octoforce.squidgesturepro.roothide.json?v=fdc9022ar2
 
-Package: cn.zqbb.fix120hz
-Version: 3.3.3-3
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 240
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e.deb
-Size: 44096
-MD5sum: 5007a856a3ae908531c271c629e380ca
-SHA1: a910279f68472ef29d919aff50706dcb48c1093e
-SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
-Section: Tweaks
-Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
-Author: zqbb
-Name: Hello 120Hz
-Icon: https://ynyy.xbcxbc.cn/icons/cn.zqbb.fix120hz.png?v=97056edd
-SileoDepiction: https://ynyy.xbcxbc.cn/depictions/cn.zqbb.fix120hz.json?v=57e72f79r2
-
 Package: cn.zqbb.fix120hz.obf
 Version: 3.3.3-3
 Architecture: iphoneos-arm64e
