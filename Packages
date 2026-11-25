@@ -297,7 +297,7 @@ Section: Tweaks
 Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
 Author: Jonathan Winger-lang
 Name: snapper3
-Icon: https://ynyy.xbcxbc.cn/icons/com.axs.snapper3.png?v=97056edd
+Icon: https://ynyy.xbcxbc.cn/icons/com.Axs.snapper3.png?v=620e7b07
 SileoDepiction: https://ynyy.xbcxbc.cn/depictions/com.Axs.snapper3.json?v=a9a215c3r2
 
 Package: com.Axs.xmzs
